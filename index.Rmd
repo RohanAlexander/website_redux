@@ -1,0 +1,29 @@
+---
+title: "Home"
+site: distill::distill_website
+---
+
+Hi, I’m Rohan Alexander.
+
+```{r  out.width = "30%"}
+knitr::include_graphics("images/portrait_mask.jpeg") 
+```
+
+I am an Assistant Professor in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander) (jointly-appointed) at the University of Toronto, Canada. I am also a faculty affiliate at the [Schwartz Reisman Institute for Technology and Society](https://sr-institute.utoronto.ca/).
+
+My [academic work](https://rohanalexander.com/academic.html) typically involves first constructing new datasets in a reproducible way, drawing on methods including digitization, record matching, survey collection, and web-scraping. After constructing datasets, I then typically use quantitative methods to analyse the large amounts of information contained in them, drawing on techniques from natural language processing, machine learning, and Bayesian methods, as appropriate. As my work is focused on individuals, issues of privacy and consent are of critical importance, and exist within my broader research interests in the intersection of data and ethics. Additionally, I develop open science best practises that help enhance reproducibility and replicability, as well as understanding.
+
+The [Toronto Data Lab](https://rohanalexander.com/lab.html) exists to bring this all together and provide opportunities for the training of graduate students.
+
+I enjoy [teaching](https://rohanalexander.com/teaching.html) and aim to help students learn how to tell stories with data. In Fall 2020 I am teaching ['Surveys, Sampling and Observational Data'](https://rohanalexander.com/sta304.html) in Statistical Sciences; and in Winter 2021 I am teaching ['Experimental Design'](https://rohanalexander.com/inf2178.html) in Information and will also be leading a reading course ['Ethics and Data Science'](https://rohanalexander.com/inf2010.html).
+
+I co-founded the weekly [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html), which is more fun than it sounds. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+
+With [Lauren Kennedy](https://jazzystats.com/) at Monash University, I co-organize a weekly MRP Reading Group. Please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend.
+
+<!-- Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling. -->
+
+Finally, I probably spend too much money on books, and certainly too much time at libraries (in a pre-COVID world). You can see some of the books that I recommend [here](https://rohanalexander.com/bookshelf.html). If you have any book recommendations of your own, I've love to hear them.
+
+[Academic CV](pdfs/cv-academic-Rohan_Alexander.pdf)  
+<!-- [Professional CV](pdfs/cv-professional-RohanAlexander.pdf) -->
