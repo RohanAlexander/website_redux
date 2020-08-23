@@ -2,10 +2,14 @@
 title: "Toronto Data Workshop"
 description: |
   A weekly hour-long discussion about dealing with data in academia and industry. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1  
 ---
 
 ```{r, out.width= "35%"}
-knitr::include_graphics("images/toronto_data_workshop.png") 
+knitr::include_graphics(c("images/toronto_data_workshop.png")) 
 ```
 
 
@@ -15,6 +19,7 @@ knitr::include_graphics("images/toronto_data_workshop.png")
 Since Fall 2019, the Toronto Data Workshop (TDW) has brought together researchers from various academic disciplines as well as industry to collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps any data science project: collection; cleaning; storage; retrieval; dissemination; and protection. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. 
 
 We meet on Thursdays at 4-5pm (Toronto time) via Zoom. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
+We start at 4:01 with a brief welcome and then three minutes of break-out rooms to meet some of the other participants. At 4:05 we return to the main room and the speaker is introduced. Speakers typically speak for 30-40 minutes, during which participants are encouraged to add comments and questions to the chat, rather than verbally interrupt. We then have a chaired question period, in which those with questions are called on to introduce themselves and ask their question.
 
 The current organising committee is: Faria Khandaker, Kelly Lyons, and Rohan Alexander. The TDW is a joint initiative between the Faculty of Information and the Department of Statistical Sciences at the University of Toronto and we especially thank Dean Wendy Duff and Chair Radu Craiu for their support for this workshop.
 
@@ -22,10 +27,95 @@ The current organising committee is: Faria Khandaker, Kelly Lyons, and Rohan Ale
 
 # Fall 2020 speakers
 
-*Coming soon!*
+Date  | Speaker
+------------- | -------------
+Thursday, 3 Sep 2020, 4-5pm  |  Erik Drysdale
+Thursday, 10 Sep 2020, 4-5pm  |  A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu & Paul Hodgetts 
+Thursday, 17 Sep 2020, 4-5pm  |  Amber Simpson
+Thursday, 24 Sep 2020, 4-5pm  |  Chelsea Parlett-Pelleriti
+Thursday, 1 Oct 2020, 4-5pm  |  Irene Duah-Kessie
+Thursday, 8 Oct 2020, 4-5pm  |  Yim Register
+Thursday, 15 Oct 2020, 4-5pm  |  Andrew Miles
+Thursday, 22 Oct 2020, 4-5pm  |  Jeff Waldman, Leslie Barnes, Lisa Strug & Marcel Fortin
+Thursday, 29 Oct 2020, 4-5pm  |  Fei Chiang
+Thursday, 5 Nov 2020, 4-5pm  |  TBA
+Thursday, 12 Nov 2020, 4-5pm  |  Kevin Armstrong
+Thursday, 19 Nov 2020, 4-5pm  |  Michael Chong
+Thursday, 26 Nov 2020, 4-5pm  |  Garrick Aden-Buie
+Thursday, 3 Dec 2020, 10-11am  |  Jenny Cresswell
+Thursday, 10 Dec 2020, 4-5pm  |  Shabrina Mardevi & Romesh Silva
+Thursday, 17 Dec 2020, 4-5pm  |  Liza Bolton, Maria Tackett & Nathalie Moon
 
 
-# Summer 2020 Speakers
+
+* *Thursday, 3 September 2020, 4-5pm*  
+	**Erik Drysdale** (The Hospital for Sick Children)  
+	[Erik](erikdrysdale.com) works as a Machine Learning Specialist at the Hospital for Sick Children (SickKids) for the Goldenberg Lab and AI in Medicine (AIM) initiative. His professional responsibilities include the development and training of the machine learning models for various pediatric data science projects. His research interests are focused on the intersection of statistics and machine learning methods such as high-dimensional inference, survival analysis, and optimization methods. Erik will talk about the challenges of applying ML in hospital data and why statistics still matters in ML.
+* *Thursday, 10 September 2020, 4-5pm*  
+  *Toronto Data Lab launch event.*  
+	**A Mahfouz** (University of Toronto)  
+	**Diego Mamanche Castellanos** (University of Toronto)  
+	**Hidaya Ismail** (University of Toronto)  
+	**Ke-Li Chiu** (University of Toronto)  
+	**Paul Hodgetts** (University of Toronto)  
+	Various Toronto Data Lab projects will be presented including `aRXiv-dl`, `aRianna`, `cesR`, and more!
+* *Thursday, 17 September 2020, 4-5pm*  
+	**Amber Simpson** (Queen's University)  
+	[Dr. Simpson](http://simpsonlab.org/) is the Canada Research Chair in Biomedical Computing and Informatics and Associate Professor in the School of Computing (Faculty of Arts and Science) and Department of Biomedical and Molecular Sciences (Faculty of Health Sciences). She specializes in biomedical data science and computer-aided surgery. Her research group is focused on developing novel computational strategies for improving human health. Dr Simpson will discuss cancer and AI.	
+* *Thursday, 24 September 2020, 4-5pm*  
+	**Chelsea Parlett-Pelleriti** (Chapman University)  
+	[Chelsea](https://cmparlettpelleriti.github.io/) is a PhD candidate and full-time instructional faculty at Chapman University where her research focuses on using novel statistical and Machine Learning methods (mostly Bayesian statistics, IRT models, and clustering) to behavioral data. As an instructor she teaches Python, R and Data Science, and loves using novel technology (like TikTok, Twitch, and flipped classes) to better engage and inspire students. Chelsea will discuss talking to non-DS team members about DS topics.
+* *Thursday, 1 October 2020, 4-5pm*  
+	**Irene Duah-Kessie** (University of Toronto)  
+	[Irene Duah-Kessie](https://twitter.com/irenekessiee) completed her Bachelors of Science in Life Sciences at McMaster University and recently graduated from the University of Toronto's Master of Science in Sustainability Management program. Her research interests sit at the intersection of racial equity, health innovation and sustainable development as they relate to the social determinants of health. Her Master's thesis was focused on thriving income disparities faced by the Black population in Toronto. She was also a founding member of the Black Graduate Students Association and the Turtle Island Journal of Indigenous Health at the University of Toronto. After her Master's education, Irene founded a grassroots organization named Rise In STEM aiming to increase access to STEM learning opportunities and culturally relevant wellness workshops for young people in the Etobicoke area. Irene will discuss algorithmic bias and health inequalities faced by BIPOC.
+* *Thursday, 8 October 2020, 4-5pm*  
+	**Yim Register** (they/them) (University of Washington Data Lab)  
+	[Yim Register](https://medium.com/@yimregister) is a radical optimist, child advocate, and PhD student at the University of Washington Data Lab exploring what self-advocacy looks like within machine learning systems. They study how empowering novices with Data Science knowledge can impact their participation and joy in an AI-driven world! Their passion project right now is writing a book called Life Lessons from Algorithms, a book that  teaches how machine learning algorithms work through trauma recovery skills. They will discuss self-advocacy within machine learning systems.
+* *Thursday, 15 October 2020, 4-5pm*  
+	*Jointly hosted with Elizabeth Parke and the UTM Collaborative and Digital Research Space.*  
+	**Andrew Miles** (University of Toronto)  
+	[Andrew Miles](http://www.andrewamiles.com/) is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab. His research is animated by two complementary aims. First, he examines how work in cultural sociology, social psychology, and cognitive psychology can be synthesized to develop better models of human action, focusing particularly on values, identities, and dual-process cognition. Second, he explores the sources and behavioral consequences of different moral cultures.  
+* *Thursday, 22 October 2020, 4-5pm*  
+  *Panel discussion on resources for data-focused work at the University of Toronto and future plans.*  
+  **Jeff Waldman** (University of Toronto)  
+	**Leslie Barnes** (University of Toronto)  
+	**Lisa Strug** (University of Toronto)  
+	**Marcel Fortin** (University of Toronto)  
+	Jeff Waldman is the Manager, Institutional Data Governance; Leslie Barnes is the Digital Scholarship Librarian at UTL; Lisa Strug is a Senior Scientist in the Program of Genetics and Genome Biology, Associate Director of The Centre for Applied Genomics, Professor of Statistical Sciences and Biostatistics at the University of Toronto, and Director of CANSSI Ontario; Marcel Fortin is the Head of the Map and Data Library. 
+* *Thursday, 29 October 2020, 4-5pm*  
+	**Fei Chiang** (McMaster University)  
+	[Fei Chiang](http://www.cas.mcmaster.ca/~fchiang/) is an Associate Professor in the Department of Computing and Software (Faculty of Engineering), the Director of the Data Science Research Group, and a Faculty Fellow at the IBM Centre for Advanced Studies. She served as an inaugural Associate Director of the MacData Institute. Her research interests and industrial experience is in data management, spanning data cleaning, data quality, data privacy, data fusion, and database systems. Professor Chiang will discuss data Currency and its applications.
+* *Thursday, 5 November 2020, 4-5pm*  
+  *Panel discussion on elections and data.*  
+	Panelists to be announced.  
+* *Thursday, 12 November 2020, 4-5pm*  
+	**Kevin Armstrong** (University of Toronto)  
+	Kevin Armstrong is a Masters of Information student at the University of Toronto, and a data consultant for 'Women's Integrated Sexual Health' ([WISH](https://www.ippf.org/our-approach/programmes/womens-integrated-sexual-health-wish)) - a three-year program delivering integrated health care in 16 countries in Africa and South Asia. Kevin will discuss methods for measuring poverty and use cases for NGOs.
+* *Thursday, 19 November 2020, 4-5pm*  
+	**Michael Chong** (University of Toronto)  
+	[Michael](https://michael-chong.github.io/) is a PhD student in the Department of Statistical Sciences at the University of Toronto building models for demographic estimation. Previously, he completed his BSc in Integrated Science at McMaster University. Michael will discuss lessons from a high-throughput Bayesian modelling workflow
+* *Thursday, 26 November 2020, 4-5pm*  
+	**Garrick Aden-Buie** (Moffitt Cancer Center)  
+	[Garrick](https://www.garrickadenbuie.com/) is an RStudio Education Certified Trainer and a data scientist at the Moffitt Cancer Center where he works in the Collaborative Data Services Core using R, Shiny, and the tools of data science to accelerate research towards the prevention and cure of cancer.
+* *Thursday, 3 December 2020, 10-11am*  
+	**Jenny Cresswell** (World Health Organization)  
+	[Jenny Cresswell](https://twitter.com/jennycresswell) is in the measurement & monitoring team in the Department of Sexual and Reproductive Health & Research at the World Health Organization. She leads a portfolio of work on maternal mortality and morbidity, and the development of indicators for global and national reproductive health monitoring. Part of this portfolio involves providing technical support to Member States in strengthening their maternal mortality data collection and reporting. Previously, Jenny training in epidemiology and demography, and was an Assistant Professor at the London School of Hygiene & Tropical Medicine, UK. Jenny will discuss underreporting and misclassification in maternal mortality data.
+* *Thursday, 10 December 2020, 4-5pm*  
+	**Shabrina Mardevi** (United Nations Population Fund and University of Toronto)  
+	**Romesh Silva** (United Nations Population Fund)  
+	Shabrina is a Masters of Information student at the University of Toronto and a Population Data Estimation and Analysis Intern at the United Nations Population Fund. Romesh holds a PhD in Demography from the University of California, Berkeley, and is a Technical Specialist, Health & Social Inequalities, at the United Nations Population Fund.  
+* *Thursday, 17 December 2020, 4-5pm*  
+	*Panel discussion on teaching data-focused topics.*  
+	**Liza Bolton** (University of Toronto)  
+	**Maria Tackett** (Duke University)  
+	**Nathalie Moon** (University of Toronto)  
+	[Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) is an Assistant Professor, Teaching Stream, at the University of Toronto. [Maria Tackett](https://www.mariatackett.net/) is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. And [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) is an Assistant Professor, Teaching Stream, University of Toronto.  
+
+
+
+
+
+# Summer 2020 speakers
 
 * *Thursday, 21 May 2020, 4-5pm*  
 	**Rohan Alexander** (University of Toronto, Information)  
@@ -83,7 +173,7 @@ The current organising committee is: Faria Khandaker, Kelly Lyons, and Rohan Ale
 
 
 
-# Winter 2020 Term Speakers
+# Winter 2020 speakers
 
 * *Noon, Friday, 24 January 2020*  
     [Steven Pimentel](https://www.linkedin.com/in/steve-pimentel-3610a11/) (U of T, business intelligence) 
@@ -100,7 +190,7 @@ The current organising committee is: Faria Khandaker, Kelly Lyons, and Rohan Ale
 
 
 
-# Fall 2019 Term Speakers
+# Fall 2019 speakers
  
 * *Noon, Thursday, 26 September 2019*  
     [Periklis Andritsos](http://www.cs.toronto.edu/~periklis/) (ODAIA & U of T, Information)  
