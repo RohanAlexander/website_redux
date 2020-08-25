@@ -2,6 +2,14 @@
 title: "Toronto Data Lab"
 ---
 
+
+
+```{r}
+knitr::include_graphics(c("images/datalab dnd_1350x900.png")) 
+```
+[*Thanks to Paul Hodgetts for the fantastic logo.*]{style="float:right"}
+
+
 The Toronto Data Lab exists to:
 
 1. conduct research at the intersection of information and statistical sciences; 
