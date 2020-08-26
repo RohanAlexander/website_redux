@@ -34,10 +34,14 @@ The lab organises the Toronto Data Workshop, which everyone is welcome to attend
 
 Graduate students are equal partners, have considerable autonomy, are given co-authorship, and are paid. Graduate students take ownership of their project and contribute critically to its success.
 
+```{r, out.width= "30%"}
+knitr::include_graphics(c("images/cesR_hex.png")) 
+```
+
 ### Current
 
 - **A Mahfouz**
-    - `dlarXiv`: This R package makes it easier to responsibly download papers from arXiv.
+    - `arxivdl`: This R package makes it easier to responsibly download papers from arXiv.
     - 'Discussions of bias in AI/ML research': In this paper we gather a sample of recent AI/ML research and use natural language processing to understand the extent to which bias, in an ethical rather than statistical sense, is considered.
     - 'Communicating geographically-based Bayesian models': In this paper we introduce a method to communicate the geographic results of Bayesian models. 
 - **Diego Mamanche Castellanos**
