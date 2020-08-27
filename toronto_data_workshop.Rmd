@@ -8,10 +8,10 @@ output:
     toc_depth: 1  
 ---
 
-```{r, out.width= "30%"}
-knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_maple_leaf.png", "images/tdw_moose.png")) 
+```{r, out.width= "25%"}
+knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_maple_leaf.png", "images/tdw_moose.png", "images/tdw_dino.png")) 
 ```
-[*Thanks to Hidaya Ismail for the brilliant maple leaf hex sticker.*]{style="float:right"}
+[*Thanks to Hidaya Ismail for the brilliant maple leaf and dinosaur hex stickers.*]{style="float:right"}
 
 
 
