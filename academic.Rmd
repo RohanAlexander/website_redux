@@ -20,9 +20,7 @@ My work is arranged around three tranches:
 
 # Working papers
 * [Monica Alexander](monicaalexander.com) and Rohan Alexander, '[The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)](pdfs/AlexanderAlexander-EffectofElectionsandPrimeMinisters.pdf)'.  
-* Rohan Alexander and Tim Hatton, 'The Making of a Nation: Who Voted for Australian Federation?'.
-* Rohan Alexander and Patrick Leslie, 'The Effect of State on Senators’ Speeches in the Australian Federal Parliament (1901–2018)'
-* Rohan Alexander, Patrick Dumond, Lauren Kennedy, and Patrick Leslie, ‘Forecasting Parliamentary Elections’.
+* [Paul A. Hodgetts](http://www.hodgettsp.com/) and Rohan Alexander, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
 
 
 # Datasets

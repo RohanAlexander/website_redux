@@ -51,7 +51,9 @@ knitr::include_graphics(c("images/cesR_hex.png"))
 - **Ke-Li Chiu**
     - 'Consistency scores in text data': In this paper we introduce a process to clean the text extracted from PDFs using various methods from natural language processing.
 - **Paul Hodgetts**
-    - `cesR`: This R package makes it easier to gather and use the Canadian Election Study surveys from 1965 through to 2019.
+    - `cesR`: This R package makes it easier to gather and use the Canadian Election Study surveys from 1965 through to 2019.  
+    Pre-print: https://osf.io/preprints/socarxiv/a29h8/.  
+    GitHub: https://github.com/hodgettsp/cesR.
 
 If you are a U of T student and would like to join the lab then we advertise for positions from time to time and you should keep an eye out for those. Impressive applicants have GitHub repos that show off their best work.
 

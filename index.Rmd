@@ -3,6 +3,8 @@ title: "Home"
 site: distill::distill_website
 ---
 
+*3 September 2020: Thrilled to have a pre-print of ['cesR: An R package for the Canadian Election Study'](https://osf.io/preprints/socarxiv/a29h8/) up on SocArXiv. Please try out the package here: https://github.com/hodgettsp/cesR. All feedback appreciated!*
+
 Hi, I’m Rohan Alexander.
 
 ```{r  out.width = "30%"}
