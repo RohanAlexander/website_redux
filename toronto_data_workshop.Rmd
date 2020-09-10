@@ -37,7 +37,7 @@ Tue, 8 Sep, 3:30-4:30pm  |  Sophie Bennett *(Industry data scientist)* |  UK A l
 Thu, 10 Sep, 4-5pm  |  A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu & Paul Hodgetts *(University of Toronto)*  |  Various R packages and research developed by students
 Thu, 17 Sep, 4-5pm  |  Amber Simpson *(Queen's University)* |  Cancer and AI
 Thu, 24 Sep, 4-5pm  |  Chelsea Parlett-Pelleriti *(Chapman University)* |  Talking to non-statisticians about statistics
-Thu, 1 Oct, 4-5pm  |  TBA |  TBA
+Thu, 1 Oct, 4-5pm  |  Florence Vallée-Dubois *(Université de Montréal)* |  Canadian demographics by riding (1991-2015)
 Thu, 8 Oct, 4-5pm  |  Yim Register *(University of Washington Data Lab)* |  Self-advocacy within machine learning systems
 Thu, 15 Oct, 4-5pm  |  Andrew Miles *(University of Toronto)* |  Sociology and quantitative methods *(jointly hosted with the UTM Collaborative and Digital Research Space.)*
 Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leslie Barnes, Lisa Strug & Marcel Fortin *(University of Toronto)* |  Panel on data-focused resources at U of T
@@ -76,7 +76,8 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 	**Chelsea Parlett-Pelleriti** (Chapman University)  
 	[Chelsea](https://cmparlettpelleriti.github.io/) is a PhD candidate and full-time instructional faculty at Chapman University where her research focuses on using novel statistical and Machine Learning methods (mostly Bayesian statistics, IRT models, and clustering) to behavioral data. As an instructor she teaches Python, R and Data Science, and loves using novel technology (like TikTok, Twitch, and flipped classes) to better engage and inspire students. Chelsea will discuss talking to non-DS team members about DS topics.
 * Thursday, 1 October 2020, 4-5pm  
-	TBA  
+	**Florence Vallée-Dubois** (Université de Montréal)  
+	[Florence Vallée-Dubois](https://florencevdubois.github.io/) is a Ph.D. candidate at the department of political science of the University of Montreal. She is also a member of the Centre for the Study of Democratic Citizenship and Canada Research Chair in Electoral Democracy. Her research interests focus on Quebec and Canadian politics, political behaviour and quantitative methods. Her doctoral project focuses on the political behaviour and democratic representation of seniors in Canada. Florence will discuss Canadian Demographics by Electoral Riding (1991-2015).
 * Thursday, 8 October 2020, 4-5pm  
 	**Yim Register** (University of Washington Data Lab)  
 	[Yim Register](https://medium.com/@yimregister) (they/them) is a radical optimist, child advocate, and PhD student at the University of Washington Data Lab exploring what self-advocacy looks like within machine learning systems. They study how empowering novices with Data Science knowledge can impact their participation and joy in an AI-driven world! Their passion project right now is writing a book called Life Lessons from Algorithms, a book that  teaches how machine learning algorithms work through trauma recovery skills. Yim will discuss self-advocacy within machine learning systems.
