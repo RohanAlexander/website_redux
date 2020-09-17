@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Rohan Alexander: Toronto Data Workshop</title>
+  
+  <meta property="description" itemprop="description" content="A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8)."/>
+  
+  <link rel="icon" type="image/svg+xml" href="images/user-astronaut-solid.svg"/>
+  
+  
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Rohan Alexander: Toronto Data Workshop"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8)."/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Rohan Alexander"/>
+  
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Rohan Alexander: Toronto Data Workshop"/>
+  <meta property="twitter:description" content="A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8)."/>
+  <meta property="twitter:site" content="@RohanAlexander"/>
+  
+  <!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Toronto Data Workshop"]},{"type":"character","attributes":{},"value":["A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[1]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  
+  <script type="application/javascript">
+  
+    window.headroom_prevent_pin = false;
+  
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+  
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+  
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+  
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+  
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+  
+  <style type="text/css">
+  
+  /* Theme (user-documented overrideables for nav appearance) */
+  
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #455a64;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .distill-site-nav a:hover {
+    color: white;
+  }
+  
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+  
+  .distill-site-header {
+  
+  }
+  
+  .distill-site-footer {
+  
+  }
+  
+  
+  /* Site Header */
+  
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+  
+  
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+  
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+  
+  .distill-site-header .title {
+    font-size: 18px;
+  }
+  
+  .distill-site-header .logo {
+    padding: 0;
+  }
+  
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+  
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+  
+  
+  
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+  
+  
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+  
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+  
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-dropdown-active {
+    display: block;
+  }
+  
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+  
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+  
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative;}
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  /* Site Footer */
+  
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Headroom */
+  
+  d-title {
+    padding-top: 6rem;
+  }
+  
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+  
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+  
+  .headroom--unpinned {
+    top: -100px;
+  }
+  
+  .headroom--pinned {
+    top: 0;
+  }
+  
+  </style>
+  
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+  
+  <style type="text/css">
+  
+  body {
+    background-color: white;
+  }
+  
+  .pandoc-table {
+    width: 100%;
+  }
+  
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+  
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+  
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+  
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+  
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+  
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+  
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shaded .shaded-content {
+    background: white;
+  }
+  
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  d-article {
+    padding-bottom: 30px;
+  }
+  
+  d-appendix {
+    padding-top: 30px;
+  }
+  
+  d-article>p>img {
+    width: 100%;
+  }
+  
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+  
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+  
+  /* CSS for table of contents */
+  
+  .d-toc {
+    color: rgba(0,0,0,0.8);
+    font-size: 0.8em;
+    line-height: 1em;
+  }
+  
+  .d-toc-header {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.3em;
+  }
+  
+  .d-toc a {
+    border-bottom: none;
+  }
+  
+  .d-toc ul {
+    padding-left: 0;
+  }
+  
+  .d-toc li>ul {
+    padding-top: 0.8em;
+    padding-left: 16px;
+    margin-bottom: 0.6em;
+  }
+  
+  .d-toc ul,
+  .d-toc li {
+    list-style-type: none;
+  }
+  
+  .d-toc li {
+    margin-bottom: 0.9em;
+  }
+  
+  .d-toc-separator {
+    margin-top: 20px;
+    margin-bottom: 2em;
+  }
+  
+  .d-article-with-toc {
+    border-top: none;
+    padding-top: 0;
+  }
+  
+  
+  
+  /* Tweak code blocks (note that this CSS is repeated above in an injection
+     into the d-code shadow dom) */
+  
+  d-code {
+    overflow-x: auto !important;
+  }
+  
+  pre.d-code code.d-code {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+  
+  pre.text-output {
+  
+    font-size: 12px;
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  @media(min-width: 768px) {
+  
+  d-code {
+    overflow-x: visible !important;
+  }
+  
+  pre.d-code code.d-code  {
+      padding-left: 18px;
+      font-size: 14px;
+  }
+  pre.text-output {
+    font-size: 14px;
+  }
+  }
+  
+  /* Figure */
+  
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+  
+  .figure img {
+    width: 100%;
+  }
+  
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+  
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+  
+  
+  
+  /* Tweak 1000px media break to show more text */
+  
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+  
+    .grid {
+      grid-column-gap: 16px;
+    }
+  
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+  
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+  
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+  
+  
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+  
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  
+  /* Social footer */
+  
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+  
+  .disqus-comments {
+    margin-right: 30px;
+  }
+  
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  
+  #disqus_thread {
+    margin-top: 30px;
+  }
+  
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+  
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+  
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+  
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+  
+  
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+  
+  
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+  
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+  
+  
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+  
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+  
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+  
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+  
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+  
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+  
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+  
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+  
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  </style>
+  
+  <script type="application/javascript">
+  
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+  
+  // show body when load is complete
+  function on_load_complete() {
+  
+    // set body to visible
+    document.body.style.visibility = 'visible';
+  
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+  
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+  
+  function init_distill() {
+  
+    init_common();
+  
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+  
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+  
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+  
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+  
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+  
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+  
+    // create d-bibliography
+    var bibliography = $('<d-bibliography></d-bibliography>');
+    $('#distill-bibliography').wrap(bibliography);
+  
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+  
+    // replace citations with <d-cite>
+    $('.citation').each(function(i, val) {
+      appendix = true;
+      var cites = $(this).attr('data-cites').split(" ");
+      var dt_cite = $('<d-cite></d-cite>');
+      dt_cite.attr('key', cites.join());
+      $(this).replaceWith(dt_cite);
+    });
+    // remove refs
+    $('#refs').remove();
+  
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+  
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-toc a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+  
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+  
+    // replace code blocks with d-code
+    $('pre>code').each(function(i, val) {
+      var code = $(this);
+      var pre = code.parent();
+      var clz = "";
+      var language = pre.attr('class');
+      if (language) {
+        // map unknown languages to "clike" (without this they just dissapear)
+        if ($.inArray(language, ["bash", "clike", "css", "go", "html",
+                                 "javascript", "js", "julia", "lua", "markdown",
+                                 "markup", "mathml", "python", "svg", "xml"]) == -1)
+          language = "clike";
+        language = ' language="' + language + '"';
+        var dt_code = $('<d-code block' + language + clz + '></d-code>');
+        dt_code.text(code.text());
+        pre.replaceWith(dt_code);
+      } else {
+        code.addClass('text-output').unwrap().changeElementType('pre');
+      }
+    });
+  
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+  
+      // capture layout
+      var layout = $(this).attr('data-layout');
+  
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('d-code, pre.text-output, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+  
+  
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+  
+    // load distill framework
+    load_distill_framework();
+  
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+  
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+  
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+  
+      // table of contents
+      if (have_authors) // adjust border if we are in authors
+        $('.d-toc').parent().addClass('d-article-with-toc');
+  
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+  
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+  
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+  
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+  
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+  
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+  
+      // inject pre code styles (can't do this with a global stylesheet b/c a shadow root is used)
+      $('d-code').each(function(i, val) {
+        var style = document.createElement('style');
+        style.innerHTML = 'pre code { padding-left: 10px; font-size: 12px; border-left: 2px solid rgba(0,0,0,0.1); } ' +
+                          '@media(min-width: 768px) { pre code { padding-left: 18px; font-size: 14px; } }';
+        if (this.shadowRoot)
+          this.shadowRoot.appendChild(style);
+      });
+  
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+  
+      // clear polling timer
+      clearInterval(tid);
+  
+      // show body now that everything is ready
+      on_load_complete();
+    }
+  
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+  
+  }
+  
+  function init_downlevel() {
+  
+    init_common();
+  
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+  
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+  
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+  
+    // remove toc
+    $('.d-toc-header').remove();
+    $('.d-toc').remove();
+    $('.d-toc-separator').remove();
+  
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+  
+  
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+  
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+  
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+  
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+  
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+  
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+  
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+  
+    $('body').addClass('downlevel');
+  
+    on_load_complete();
+  }
+  
+  
+  function init_common() {
+  
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+  
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+  
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+  
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+  
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+  
+      }
+    });
+  
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+  
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+  
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+  
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+  
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+  
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+  
+  </script>
+  
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <style type="text/css">
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+  
+  
+  
+  .nav-dropdown-content {
+    color: #00f5d4;
+    background-color: #14213d;
+  }
+  
+  .nav-dropdown-content a:hover {
+    background-color: #14213d;
+  }
+  
+  .nav-dropdown-content a{
+    color: #00f5d4;
+  }
+  
+  .nav-dropdown .nav-dropbtn {
+    color: #283044;
+  }
+  
+  .distill-site-nav {
+    color: #283044;
+    background-color: #00f5d4;
+    font-weight: bold;
+  }
+  
+  .distill-site-nav a:hover {
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+  }
+  
+  h1 {
+    color: #283044;
+  }
+  
+  h2 {
+    color: #283044;
+  }
+  
+  d-article h2 {
+  	border-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  /* Use specific font in the body of the text */
+  html, body, p {
+    
+    font-family: 'Raleway', sans-serif;
+  
+    
+  }
+  
+  
+  </style>
+  <!--/radix_placeholder_site_in_header-->
+
+  <link rel="stylesheet" href="styles.css" type="text/css"/>
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Toronto Data Workshop","description":"A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).","authors":[]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Rohan Alexander</a>
+</div>
+<div class="nav-right">
+<a href="index.html">Home</a>
+<a href="academic.html">Academic</a>
+<a href="lab.html">Lab</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Teaching
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="teaching.html">Overview</a>
+<a href="inf2178.html">Experimental Design</a>
+<a href="inf2010.html">Ethics and Data Science</a>
+<a href="sta304.html">Surveys, Sampling and Observational Data</a>
+</div>
+</div>
+<a href="toronto_data_workshop.html">Toronto Data Workshop</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Other
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="blog.html">Blog</a>
+<a href="bookshelf.html">Bookshelf</a>
+<a href="bookshelf.html">Professional</a>
+</div>
+</div>
+<a href="https://twitter.com/RohanAlexander">
+<i class="fab fa-twitter" aria-hidden="true"></i>
+</a>
+<a href="https://github.com/RohanAlexander">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="mailto:rohan.alexander@utoronto.ca">
+<i class="far fa-paper-plane" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Toronto Data Workshop</h1>
+<p><p>A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up <a href="https://forms.gle/sXbEixoa1iJR4Q7A8">here</a>.</p></p>
+</div>
+
+
+<div class="d-article">
+<h3 class="d-toc-header">Table of Contents</h3>
+<nav class="d-toc" id="TOC">
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#fall-2020-speakers">Fall 2020 speakers</a></li>
+<li><a href="#summer-2020-speakers">Summer 2020 speakers</a></li>
+<li><a href="#winter-2020-speakers">Winter 2020 speakers</a></li>
+<li><a href="#fall-2019-speakers">Fall 2019 speakers</a></li>
+</ul>
+</nav>
+<hr class="d-toc-separator"/>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="images/tdw_cn_tower.png" width="30%" /><img src="images/tdw_maple_leaf.png" width="30%" /><img src="images/tdw_moose.png" width="30%" /></p>
+</div>
+<p><span style="float:right"><em>Thanks to Hidaya Ismail for the brilliant maple leaf hex sticker.</em></span></p>
+<h1 id="overview">Overview</h1>
+<p>Since Fall 2019, the Toronto Data Workshop (TDW) has brought together researchers from various academic disciplines as well as industry to collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps of any data science project: collection; cleaning; storage; retrieval; dissemination; and protection. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term.</p>
+<p>We meet on Thursdays at 4-5pm (Toronto time) via Zoom. For an invitation please sign up <a href="https://forms.gle/sXbEixoa1iJR4Q7A8">here</a>. Anyone is welcome to attend - you don’t need to be affiliated with the university. We start at 4:01 with a brief welcome and then three minutes of break-out rooms to meet some of the other participants. At 4:05 we return to the main room and the speaker is introduced. Speakers typically speak for 20-45 minutes, during which participants are encouraged to add comments and questions to the chat, rather than verbally interrupting. We then have a chaired question period, in which those with questions are asked to signal this in the chat, at which point they’ll be called on to introduce themselves and ask their question.</p>
+<p>The current organising committee is: Faria Khandaker, <a href="http://individual.utoronto.ca/klyons/">Kelly Lyons</a>, and Rohan Alexander. The TDW is a joint initiative between the Faculty of Information and the Department of Statistical Sciences at the University of Toronto and we especially thank Dean Wendy Duff and Chair Radu Craiu for their support.</p>
+<h1 id="fall-2020-speakers">Fall 2020 speakers</h1>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date (Toronto time)</th>
+<th>Speaker</th>
+<th>Topic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Thu, 3 Sep, 4-5pm</td>
+<td>Erik Drysdale <em>(The Hospital for Sick Children)</em></td>
+<td>Using hospital data</td>
+</tr>
+<tr class="even">
+<td>Tue, 8 Sep, 3:30-4:30pm</td>
+<td>Sophie Bennett <em>(Industry data scientist)</em></td>
+<td>UK A levels algorithm issues <em>(jointly hosted with <a href="https://sr-institute.utoronto.ca/">SRI</a>)</em></td>
+</tr>
+<tr class="odd">
+<td>Thu, 10 Sep, 4-5pm</td>
+<td>A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu &amp; Paul Hodgetts <em>(University of Toronto)</em></td>
+<td>Various R packages and research developed by students</td>
+</tr>
+<tr class="even">
+<td>Thu, 17 Sep, 4-5pm</td>
+<td>Amber Simpson <em>(Queen’s University)</em></td>
+<td>Cancer and AI</td>
+</tr>
+<tr class="odd">
+<td>Thu, 24 Sep, 4-5pm</td>
+<td>Chelsea Parlett-Pelleriti <em>(Chapman University)</em></td>
+<td>Talking to non-statisticians about statistics</td>
+</tr>
+<tr class="even">
+<td>Thu, 1 Oct, 4-5pm</td>
+<td>Irene Duah-Kessie <em>(University of Toronto)</em></td>
+<td>BIPOC algorithmic bias</td>
+</tr>
+<tr class="odd">
+<td>Thu, 8 Oct, 4-5pm</td>
+<td>Yim Register <em>(University of Washington Data Lab)</em></td>
+<td>Self-advocacy within machine learning systems</td>
+</tr>
+<tr class="even">
+<td>Thu, 15 Oct, 4-5pm</td>
+<td>Andrew Miles <em>(University of Toronto)</em></td>
+<td>Sociology and quantitative methods <em>(jointly hosted with the UTM Collaborative and Digital Research Space.)</em></td>
+</tr>
+<tr class="odd">
+<td>Thu, 22 Oct, 4-5pm</td>
+<td>Jeff Waldman, Leslie Barnes, Lisa Strug &amp; Marcel Fortin <em>(University of Toronto)</em></td>
+<td>Panel on data-focused resources at U of T</td>
+</tr>
+<tr class="even">
+<td>Thu, 29 Oct, 4-5pm</td>
+<td>Fei Chiang <em>(McMaster University)</em></td>
+<td>Data currency and applications</td>
+</tr>
+<tr class="odd">
+<td>Thu, 5 Nov, 4-5pm</td>
+<td>Andrew Whitby <em>(Industry data scientist)</em></td>
+<td>Censuses</td>
+</tr>
+<tr class="even">
+<td>Mon, 9 Nov, 4-5pm</td>
+<td>Panel TBA</td>
+<td>Elections and data</td>
+</tr>
+<tr class="odd">
+<td>Thu, 12 Nov, 4-5pm</td>
+<td>Kevin Armstrong <em>(University of Toronto)</em></td>
+<td>Measuring poverty for NGOs</td>
+</tr>
+<tr class="even">
+<td>Thu, 19 Nov, 4-5pm</td>
+<td>Michael Chong <em>(University of Toronto)</em></td>
+<td>High-throughput Bayesian modelling workflow</td>
+</tr>
+<tr class="odd">
+<td>Thu, 26 Nov, 4-5pm</td>
+<td>Garrick Aden-Buie <em>(Moffitt Cancer Center)</em></td>
+<td>Data science and health</td>
+</tr>
+<tr class="even">
+<td>Thu, 3 Dec, 10-11am</td>
+<td>Jenny Cresswell <em>(World Health Organization)</em></td>
+<td>Underreporting and misclassification in maternal mortality data</td>
+</tr>
+<tr class="odd">
+<td>Thu, 10 Dec, 4-5pm</td>
+<td>Shabrina Mardevi <em>(United Nations Population Fund &amp; University of Toronto)</em> &amp; Romesh Silva <em>(United Nations Population Fund)</em></td>
+<td>Population data estimation</td>
+</tr>
+<tr class="even">
+<td>Thu, 17 Dec, 4-5pm</td>
+<td>Liza Bolton <em>(University of Toronto)</em>, Maria Tackett <em>(Duke University)</em> &amp; Nathalie Moon <em>(University of Toronto)</em></td>
+<td>Panel on teaching data-focused topics</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Thursday, 3 September 2020, 4-5pm<br />
+<em>Special guests Dean Wendy Duff (Faculty of Information) and Department Chair Radu Craiu (Department of Statistical Sciences).</em><br />
+<strong>Erik Drysdale</strong> (The Hospital for Sick Children)<br />
+<a href="erikdrysdale.com">Erik</a> works as a Machine Learning Specialist at the Hospital for Sick Children (SickKids) for the Goldenberg Lab and AI in Medicine (AIM) initiative. His professional responsibilities include the development and training of the machine learning models for various pediatric data science projects. His research interests are focused on the intersection of statistics and machine learning methods such as high-dimensional inference, survival analysis, and optimization methods. Erik will talk about the challenges of applying ML in hospital data and why statistics still matters in ML.</li>
+<li>Tuesday, 8 September 2020, 3:30-4:30pm<br />
+<em>Jointly hosted with Gillian Hadfield and the <a href="https://sr-institute.utoronto.ca/">Schwartz Reisman Institute for Technology and Society</a>.</em><br />
+<strong>Sophie Bennett</strong><br />
+<a href="https://www.sophieheloisebennett.com/">Sophie</a> has a BA in Experimental Psychology from the University of Oxford, an MSc in Clinical Neuroscience and a PhD in Neuroscience from King’s College London. Sophie will discuss A Levels, Ofqual and algorithms.<br />
+</li>
+<li>Thursday, 10 September 2020, 4-5pm<br />
+<em>Toronto Data Lab launch event.</em><br />
+<strong>A Mahfouz</strong> (University of Toronto)<br />
+<strong>Diego Mamanche Castellanos</strong> (University of Toronto)<br />
+<strong>Hidaya Ismail</strong> (University of Toronto)<br />
+<strong>Ke-Li Chiu</strong> (University of Toronto)<br />
+<strong>Paul Hodgetts</strong> (University of Toronto)<br />
+Various Toronto Data Lab projects will be presented including <code>aRXivdl</code>, <code>aRianna</code>, <code>cesR</code>, and more!</li>
+<li>Thursday, 17 September 2020, 4-5pm<br />
+<strong>Amber Simpson</strong> (Queen’s University)<br />
+<a href="http://simpsonlab.org/">Dr. Simpson</a> is the Canada Research Chair in Biomedical Computing and Informatics and Associate Professor in the School of Computing (Faculty of Arts and Science) and Department of Biomedical and Molecular Sciences (Faculty of Health Sciences). She specializes in biomedical data science and computer-aided surgery. Her research group is focused on developing novel computational strategies for improving human health. Dr Simpson will discuss cancer and AI.<br />
+</li>
+<li>Thursday, 24 September 2020, 4-5pm<br />
+<strong>Chelsea Parlett-Pelleriti</strong> (Chapman University)<br />
+<a href="https://cmparlettpelleriti.github.io/">Chelsea</a> is a PhD candidate and full-time instructional faculty at Chapman University where her research focuses on using novel statistical and Machine Learning methods (mostly Bayesian statistics, IRT models, and clustering) to behavioral data. As an instructor she teaches Python, R and Data Science, and loves using novel technology (like TikTok, Twitch, and flipped classes) to better engage and inspire students. Chelsea will discuss talking to non-DS team members about DS topics.</li>
+<li>Thursday, 1 October 2020, 4-5pm<br />
+<strong>Irene Duah-Kessie</strong> (University of Toronto)<br />
+<a href="https://twitter.com/irenekessiee">Irene Duah-Kessie</a> completed her Bachelors of Science in Life Sciences at McMaster University and recently graduated from the University of Toronto’s Master of Science in Sustainability Management program. Her research interests sit at the intersection of racial equity, health innovation and sustainable development as they relate to the social determinants of health. Her Master’s thesis was focused on thriving income disparities faced by the Black population in Toronto. She was also a founding member of the Black Graduate Students Association and the Turtle Island Journal of Indigenous Health at the University of Toronto. After her Master’s education, Irene founded a grassroots organization named Rise In STEM aiming to increase access to STEM learning opportunities and culturally relevant wellness workshops for young people in the Etobicoke area. Irene will discuss algorithmic bias and health inequalities faced by BIPOC.</li>
+<li>Thursday, 8 October 2020, 4-5pm<br />
+<strong>Yim Register</strong> (University of Washington Data Lab)<br />
+<a href="https://medium.com/@yimregister">Yim Register</a> (they/them) is a radical optimist, child advocate, and PhD student at the University of Washington Data Lab exploring what self-advocacy looks like within machine learning systems. They study how empowering novices with Data Science knowledge can impact their participation and joy in an AI-driven world! Their passion project right now is writing a book called Life Lessons from Algorithms, a book that teaches how machine learning algorithms work through trauma recovery skills. Yim will discuss self-advocacy within machine learning systems.</li>
+<li>Thursday, 15 October 2020, 4-5pm<br />
+<em>Jointly hosted with Elizabeth Parke and the UTM Collaborative and Digital Research Space.</em><br />
+<strong>Andrew Miles</strong> (University of Toronto)<br />
+<a href="http://www.andrewamiles.com/">Andrew Miles</a> is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab. His research is animated by two complementary aims. First, he examines how work in cultural sociology, social psychology, and cognitive psychology can be synthesized to develop better models of human action, focusing particularly on values, identities, and dual-process cognition. Second, he explores the sources and behavioral consequences of different moral cultures.<br />
+</li>
+<li>Thursday, 22 October 2020, 4-5pm<br />
+<em>Panel discussion on data-focused resources at the University of Toronto.</em><br />
+<strong>Jeff Waldman</strong> (University of Toronto)<br />
+<strong>Leslie Barnes</strong> (University of Toronto)<br />
+<strong>Lisa Strug</strong> (University of Toronto)<br />
+<strong>Marcel Fortin</strong> (University of Toronto)<br />
+Jeff Waldman is the Manager, Institutional Data Governance; Leslie Barnes is the Digital Scholarship Librarian at UTL; Lisa Strug is a Senior Scientist in the Program of Genetics and Genome Biology, Associate Director of The Centre for Applied Genomics, Professor of Statistical Sciences and Biostatistics at the University of Toronto, and Director of CANSSI Ontario; Marcel Fortin is the Head of the Map and Data Library.</li>
+<li>Thursday, 29 October 2020, 4-5pm<br />
+<strong>Fei Chiang</strong> (McMaster University)<br />
+<a href="http://www.cas.mcmaster.ca/~fchiang/">Fei Chiang</a> is an Associate Professor in the Department of Computing and Software (Faculty of Engineering), the Director of the Data Science Research Group, and a Faculty Fellow at the IBM Centre for Advanced Studies. She served as an inaugural Associate Director of the MacData Institute. Her research interests and industrial experience is in data management, spanning data cleaning, data quality, data privacy, data fusion, and database systems. Professor Chiang will discuss data currency and its applications.</li>
+<li>Thursday, 5 November 2020, 4-5pm<br />
+<strong>Andrew Whitby (data scientist)</strong><br />
+<a href="https://andrewwhitby.com">Andrew</a> is a data scientist and economist currently looking for his next challenge. He is particularly interested in the economics of technology, creativity, innovation and growth. He wrote The Sum of the People: How the Census Has Shaped Nations from the Ancient World to the Modern Age which was published in March 2020. Previously, he worked as a Data Scientist at the World Bank, and at Nesta, the UK’s innovation think tank. His academic background combines economics, statistics and computer science. He completed his doctoral research in the Department of Economics at the University of Oxford. Andrew will discuss censuses.<br />
+</li>
+<li>Monday, 9 November 2020, 4-5pm<br />
+<em>Panel discussion on elections and data.</em><br />
+Panelists to be announced.<br />
+</li>
+<li>Thursday, 12 November 2020, 4-5pm<br />
+<strong>Kevin Armstrong</strong> (University of Toronto)<br />
+Kevin Armstrong is a Masters of Information student at the University of Toronto, and a data consultant for ‘Women’s Integrated Sexual Health’ (<a href="https://www.ippf.org/our-approach/programmes/womens-integrated-sexual-health-wish">WISH</a>) - a three-year program delivering integrated health care in 16 countries in Africa and South Asia. Kevin will discuss methods for measuring poverty and use cases for NGOs.</li>
+<li>Thursday, 19 November 2020, 4-5pm<br />
+<strong>Michael Chong</strong> (University of Toronto)<br />
+<a href="https://michael-chong.github.io/">Michael</a> is a PhD student in the Department of Statistical Sciences at the University of Toronto building models for demographic estimation. Previously, he completed his BSc in Integrated Science at McMaster University. Michael will discuss lessons from a high-throughput Bayesian modelling workflow</li>
+<li>Thursday, 26 November 2020, 4-5pm<br />
+<strong>Garrick Aden-Buie</strong> (Moffitt Cancer Center)<br />
+<a href="https://www.garrickadenbuie.com/">Garrick</a> is an RStudio Education Certified Trainer and a data scientist at the Moffitt Cancer Center where he works in the Collaborative Data Services Core using R, Shiny, and the tools of data science to accelerate research towards the prevention and cure of cancer.</li>
+<li>Thursday, 3 December 2020, 10-11am<br />
+<strong>Jenny Cresswell</strong> (World Health Organization)<br />
+<a href="https://twitter.com/jennycresswell">Jenny Cresswell</a> is in the measurement &amp; monitoring team in the Department of Sexual and Reproductive Health &amp; Research at the World Health Organization. She leads a portfolio of work on maternal mortality and morbidity, and the development of indicators for global and national reproductive health monitoring. Part of this portfolio involves providing technical support to Member States in strengthening their maternal mortality data collection and reporting. Previously, Jenny training in epidemiology and demography, and was an Assistant Professor at the London School of Hygiene &amp; Tropical Medicine, UK. Jenny will discuss underreporting and misclassification in maternal mortality data.</li>
+<li>Thursday, 10 December 2020, 4-5pm<br />
+<strong>Shabrina Mardevi</strong> (United Nations Population Fund and University of Toronto)<br />
+<strong>Romesh Silva</strong> (United Nations Population Fund)<br />
+Shabrina is a Masters of Information student at the University of Toronto and a Population Data Estimation and Analysis Intern at the United Nations Population Fund. Romesh holds a PhD in Demography from the University of California, Berkeley, and is a Technical Specialist, Health &amp; Social Inequalities, at the United Nations Population Fund.<br />
+</li>
+<li>Thursday, 17 December 2020, 4-5pm<br />
+<em>Panel discussion on teaching data-focused topics.</em><br />
+<strong>Liza Bolton</strong> (University of Toronto)<br />
+<strong>Maria Tackett</strong> (Duke University)<br />
+<strong>Nathalie Moon</strong> (University of Toronto)<br />
+<a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton">Liza Bolton</a> is an Assistant Professor, Teaching Stream, at the University of Toronto. <a href="https://www.mariatackett.net/">Maria Tackett</a> is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. And <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon">Nathalie Moon</a> is an Assistant Professor, Teaching Stream, University of Toronto.</li>
+</ul>
+<h1 id="summer-2020-speakers">Summer 2020 speakers</h1>
+<ul>
+<li><em>Thursday, 21 May 2020, 4-5pm</em><br />
+<strong>Rohan Alexander</strong> (University of Toronto, Information)<br />
+<a href="rohanalexander.com">Rohan</a> is a post-doctoral fellow at the Faculty of Information, University of Toronto. He holds a PhD in Economics from the Australian National University. He will talk about getting data from PDFs into R, with an application to the Kenyan census.</li>
+<li><em>Thursday, 28 May 2020, 4-5pm</em><br />
+<strong>Shiro Kuriwaki</strong> (Harvard University, Government)<br />
+<a href="https://www.shirokuriwaki.com/">Shiro</a> is a Ph.D. Candidate at the Department of Government, Harvard University. His research focuses on democratic representation in American Politics, for instance cast vote records, public opinion, survey methods, and applied statistics more generally. Shiro will bring together best practices for organizing data and code in the social sciences that experts have proposed with some of his own experience. He will propose a project-oriented workflow that adopts a minimal and consistent file organization structure within a single project, using RStudio Projects and GitHub. He will then discuss how to organize multiple projects that share common components, and propose the use of custom R packages to share code and Dataverse to share large datasets. He will use some of his own projects involving the Cooperative Congressional Election Study (CCES), one of the largest political surveys of American Politics, as a demonstration.<br />
+Recording available <a href="https://vimeo.com/424091492">here</a>.</li>
+<li><em>Thursday, 4 June 2020, 4-5pm</em><br />
+<strong>Marija Pejcinovska</strong> (University of Toronto, Statistical Sciences)<br />
+Marija is a second-year Ph.D. student in Statistics at the University of Toronto. Her research interests are in applied statistics, specifically the application of Bayesian methods to data and modeling challenges that arise in demography, public health, and certain areas of the social sciences. Marija will talk about a current project with the World Health Organization (WHO) focused on estimating global maternal mortality to share her R workflow and the different tools and packages she’s found helpful in the data processing stage. More specifically, she’ll be sharing a few ways of dealing with text and date data in R.</li>
+<li><em>Thursday, 11 June 2020, 4-5pm</em><br />
+<strong>Harrison Jones</strong> (Deloitte)<br />
+<a href="https://ca.linkedin.com/in/harrison-jones-a9947b60">Harrison</a> is a Manager at Deloitte in Toronto, where he focuses on data analytics and machine learning in the property &amp; casualty insurance, life insurance, health insurance, pensions, and the public sector. Harrison will talk about using R with actuarial data.</li>
+<li><em>Thursday, 18 June 2020</em><br />
+<strong>Cancelled</strong> in support of the Black Lives Matter movement and to provide an opportunity for reflection and learning. We also <a href="rohanalexander.com/toronto_data_workshop-stipends.html">announced stipends</a> in support of University of Toronto students or recent graduates who identify as a member of a visible minority group, racialized group, or as a person of colour.</li>
+<li><em>Thursday, 25 June 2020, 4-5pm</em><br />
+<strong>A Mahfouz</strong> (University of Toronto, Information)<br />
+A is a Master of Information student at the University of Toronto with a background in geography. Their prior work has been largely concerned with data pipelines. A will talk about geographic data cleaning, extracting mappable data from Google Directions API results in Python.<br />
+Slides available <a href="https://www.dropbox.com/s/ob1e7492180d6l0/amahfouz_toronto_data_workshop_deck.pdf?dl=0">here</a>.</li>
+<li><em>Thursday, 2 July 2020, 4-5pm</em><br />
+<strong>Heather McBrien</strong> (University of Toronto, Statistical Sciences)<br />
+Heather just graduated from the Statistics BSc program at the University of Toronto, and is interested in modelling in population health research, particularly using novel data sources to answer questions where traditional data is lacking. Heather will talk about how the data that we collect can bias the results that we obtain and our knowledge of the problem.<br />
+Slides available <a href="https://www.dropbox.com/s/59l1yeya8hz0iwp/heather_mcbrien-slides.pdf?dl=0">here</a>.</li>
+<li><em>Thursday, 9 July 2020, 4-5pm</em><br />
+<strong>Roxanne Chui</strong> (University of Toronto, Information)<br />
+Roxanne is an emerging anthropological data science professional. She did her BSc program in Forensic anthropology and worked in the pharmaceutical industry before doing her Masters in data science. She is passionate about excavating context from data for predicting future patterns of human behaviour. Roxanne will talk about an EDA approach to Tokyo AirBnB datasets and pattern discovery in listing prices using R - ‘What do we have here among millions of observations?’<br />
+Slides available <a href="https://www.dropbox.com/s/zx1dsx2fsm1hmya/roxanne_chui-TDW_presentation.pdf?dl=0">here</a>.</li>
+<li><em>Thursday, 16 July 2020, 4-5pm</em><br />
+<strong>Casey Breen</strong> (University of California, Berkeley, Demography)<br />
+Casey is a PhD student in the Demography Department at Berkeley. He previously worked at the Institute for Social Research and Data Innovation, home of IPUMS. Casey will talk about <a href="https://censoc.berkeley.edu/">CenSoc</a>, which is a project to link 1940 Census data with Social Security Administration mortality records in the US.</li>
+<li><em>Thursday, 23 July 2020, 11am-noon</em><br />
+<strong>Marta Kołczyńska</strong> (Institute of Political Studies of the Polish Academy of Sciences)<br />
+<a href="https://martakolczynska.com/">Marta</a> is an Assistant Professor at the Institute of Political Studies of the Polish Academy of Sciences and a visiting researcher in the Probabilistic Machine Learning Group, Department of Computer Science, Aalto University. Her research interests include comparative analyses of political attitudes and behavior across nations and over time, as well as the methodology of comparative research, in particular cross-national surveys. Marta will talk about cleaning survey data, in particular a project in which she gathers political trust items from different cross-national survey datasets to model time trends, and the tools she has developed to facilitate this work.</li>
+<li><em>Thursday, 30 July 2020, 4-5pm</em><br />
+<strong>Alex Luscombe</strong> (University of Toronto, Criminology and Sociolegal Studies)<br />
+<strong>Alexander McClelland</strong> (Carleton University, Criminology and Criminal Justice)<br />
+<a href="https://alexluscombe.ca/">Alex Luscombe</a> is a PhD student in the Centre for Criminology &amp; Sociolegal Studies at the University of Toronto and a Junior Fellow at Massey College. <a href="https://www.alexandermcclelland.ca/">Alexander McClelland</a> is an Assistant Professor at the Institute of Criminology and Criminal Justice, Carleton University. They will talk about <a href="https://www.policingthepandemic.ca/">Policing the Pandemic</a>, which is a project that was launched on 4 April, 2020, to track and visualize the massive and extraordinary expansions of police power in response to the COVID-19 Pandemic and the unequal patterns of enforcement that may arise as a result.<br />
+Slides available <a href="https://alexluscombe.ca/post/policing-the-pandemic/">here</a>.</li>
+<li><em>Thursday, 6 August 2020, 4-5pm</em><br />
+<strong>Sharla Gelfand</strong> (Freelance R Developer)<br />
+<a href="https://sharla.party/">Sharla</a> is a freelance R developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. They will talk about creativity in R. Slides available <a href="https://github.com/sharlagelfand/artstats">here</a>.</li>
+<li><em>Thursday, 13 August 2020, 4-5pm</em><br />
+<strong>Richard Iannone</strong> (R Studio)<br />
+<a href="https://randr.rocks/">Rich</a> is a Software Engineer at R Studio. Rich will talk about <a href="https://github.com/rich-iannone/pointblank"><code>pointblank</code></a>, which is an R package that allows workflows involving nice and easy data validation in reproducible documents.</li>
+<li><em>Thursday, 20 August 2020, 4-5pm</em><br />
+<strong>Aije Egwaikhide</strong> (IBM)<br />
+Aije Egwaikhide holds an undergraduate degree in Economics and Statistics from the University of Manitoba, and a post-graduate degree in Business Analytics from St. Lawrence College, Kingston. She works at IBM where she is a Lead Data Scientist on the System Enablement group. Aije will talk about preparing data for optical character recognition (OCR).</li>
+</ul>
+<h1 id="winter-2020-speakers">Winter 2020 speakers</h1>
+<ul>
+<li><em>Noon, Friday, 24 January 2020</em><br />
+<a href="https://www.linkedin.com/in/steve-pimentel-3610a11/">Steven Pimentel</a> (U of T, business intelligence)</li>
+<li><em>Noon, Friday, 31 January 2020</em><br />
+<a href="https://ischool.utoronto.ca/profile/arik-senderovich/">Arik Senderovich</a> (U of T, Information)<br />
+</li>
+<li><em>Noon, Friday, 7 February 2020</em><br />
+<a href="https://www.linkedin.com/in/kathy-k-y-chung-a5b46698/">Kathy Chung</a> (U of T, Records of Early English Drama)</li>
+<li><em>Noon, Friday, 14 February 2020</em><br />
+<a href="https://www.linkedin.com/in/josh-harris-86188983/">Josh Harris</a> (<a href="https://www.koho.ca/">KOHO</a>)</li>
+<li><em>Noon, Friday, 28 February 2020</em><br />
+<a href="https://www.linkedin.com/in/eugejoh/">Eugene Joh</a> (St. Michael’s Hospital)</li>
+<li><em>Noon, Friday, 6 March 2020</em><br />
+<a href="https://www.cs.rochester.edu/people/faculty/nargesian-fatemeh/index.html">Fatemeh Nargesian</a> (University of Rochester, Computer Science)</li>
+</ul>
+<h1 id="fall-2019-speakers">Fall 2019 speakers</h1>
+<ul>
+<li><em>Noon, Thursday, 26 September 2019</em><br />
+<a href="http://www.cs.toronto.edu/~periklis/">Periklis Andritsos</a> (ODAIA &amp; U of T, Information)<br />
+</li>
+<li><em>Noon, Thursday, 10 October 2019</em><br />
+<a href="https://ca.linkedin.com/in/hassan-teimoori">Hassan Teimoori</a> (Deloitte, Omnia AI)<br />
+<a href="https://ludovicrheault.weebly.com/">Ludovic Rheault</a> (U of T, Political Science)</li>
+<li><em>Noon, Wednesday, 16 October 2019</em><br />
+<a href="https://au.linkedin.com/in/lauren-kennedy-783864bb">Lauren Kennedy</a> (Columbia University)<br />
+</li>
+<li><em>Noon, Thursday, 24 October 2019</em><br />
+<a href="https://sharla.party/">Sharla Gelfand</a> (Freelance R and Shiny developer)<br />
+</li>
+<li><em>Noon, Thursday, 7 November 2019</em><br />
+<a href="https://ca.linkedin.com/in/mariacdangelo">Maria D’Angelo</a> (Delphia)<br />
+<a href="https://ca.linkedin.com/in/hareemnaveed">Hareem Naveed</a> (Munich Re)<br />
+</li>
+<li><em>Noon, Thursday, 21 November 2019</em><br />
+<a href="http://homes.chass.utoronto.ca/~malex/">Michelle Alexopoulos</a> (U of T, Economics)<br />
+<a href="https://ca.linkedin.com/in/paraskevi-massara-597326a0">Paraskevi Massara</a> (U of T, Medicine)</li>
+</ul>
+<p>If you would like to receive invitations to the series, then you can subscribe <a href="https://forms.gle/sXbEixoa1iJR4Q7A8">here</a>.</p>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom"></div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>

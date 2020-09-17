@@ -1,52 +1,89 @@
 ---
-title: "Surveys, Sampling and Observational Data"
+title: "Surveys, Sampling, and Observational Data"
 description: |
   STA304 is an upper-level undergraduate course at the University of Toronto's Department of Statistical Sciences.
 ---
 
-*Coming soon.*
+*9 September 2020: As we kick off a term that will be difficult for us all, a special message from my fellow Australian Chris Hemsworth: https://twitter.com/netflix/status/1302008281909661696*
+
+# Syllabus
+
+[Course syllabus](pdfs/STA304.pdf)
+
+# Assessment
+
+Item | Weight (%) | Due date
+------------ | ------------ | ----------
+[Problem Set 1](pdfs/STA304-ProblemSet1.pdf) | 10 | 27 September 2020
+Problem Set 2 | 15 | 7 October 2020
+Problem Set 3 | 15 | 16 October 2020
+Problem Set 4 | 20 | 2 November 2020
+Test | 10 | 19 November 2020
+Final Report | 30 | During Final Assessment Period
 
 
-<!-- [Course outline]() -->
+# Content
 
-<!-- # Lectures -->
+## Week 1
 
-<!-- - Week 1:   -->
-<!--   asdf   -->
-<!--   Videos, Notes. -->
-<!-- - Week 2: Videos, Notes. -->
-<!-- - Week 3: Videos, Notes. -->
-<!-- - Week 4: Videos, Notes. -->
-<!-- - Week 5: Videos, Notes. -->
-<!-- - Week 6: Videos, Notes. -->
-<!-- - Week 7: Videos, Notes. -->
-<!-- - Week 8: Videos, Notes. -->
-<!-- - Week 9: Videos, Notes. -->
-<!-- - Week 10: Videos, Notes. -->
-<!-- - Week 11: Videos, Notes. -->
-<!-- - Week 12: Videos, Notes. -->
+*10 September 2020, Establishing a foundation*
+
+This week I'll upload a few videos before-hand, to save us some time, but we'll also meet on Thursday morning to discuss a few aspects, meet the TAs, answer any of your questions, and run through some examples. A recording of that will be uploaded. I will run the lab (11am-noon), which will just focus on dealing with any installation issues. As that's more specific to individuals I won't record that.
+
+The core of the course is in the notes that I will provide links to. You should go through these in detail. Run the examples. Try to change them slightly and see what happens. Do the readings that you are interested in. Read the help docs for the functions. This is the core of your learning. Lectures mostly just exist for you to have a chance to discuss your thoughts with me.
+
+Read & write - that is the life that you have signed up for. When it comes to this course, if you are not reading or writing, then you are almost surely wasting your time.
+
+This week is about ensuring that you have an appropriate foundation on which we can build the rest of the course. You should already have covered much of this week’s content in previous courses - this week ensures that everyone has covered the basics. If you have gaps in your knowledge, then please address them.
 
 
-<!-- # Labs -->
+### Notes
 
-<!-- - Week 1: Videos, Notes. -->
-<!-- - Week 2: Videos, Notes. -->
-<!-- - Week 3: Videos, Notes. -->
-<!-- - Week 4: Videos, Notes. -->
-<!-- - Week 5: Videos, Notes. -->
-<!-- - Week 6: Videos, Notes. -->
-<!-- - Week 7: Videos, Notes. -->
-<!-- - Week 8: Videos, Notes. -->
-<!-- - Week 9: Videos, Notes. -->
-<!-- - Week 10: Videos, Notes. -->
-<!-- - Week 11: Videos, Notes. -->
-<!-- - Week 12: Videos, Notes. -->
+- R Studio Cloud, R essentials, ggplot, Stan: https://www.tellingstorieswithdata.com/01-03-r_essentials.html and https://www.tellingstorieswithdata.com/01-04-r_desirables.html 
+- R Markdown, getting help, developing research questions: https://www.tellingstorieswithdata.com/01-06-workflow.html 
+- GitHub: https://www.tellingstorieswithdata.com/01-05-reproducibility.html 
+- Writing: https://www.tellingstorieswithdata.com/02-02-writing.html  and  https://www.tellingstorieswithdata.com/02-01-graphs.html 
+- Blogdown: https://www.tellingstorieswithdata.com/02-04-websites.html 
 
-<!-- # Assessment -->
 
-<!-- - Problem Set 1. -->
-<!-- - Problem Set 2. -->
-<!-- - Problem Set 3.  -->
-<!-- - Problem Set 4. -->
-<!-- - Problem Set 5. -->
-<!-- - Problem Set 6. -->
+### Lecture
+
+1) Instructor introduction and course overview - [pre-recorded](https://youtu.be/Fu3rYD3Hbkk).
+2) TA introductions. 
+3) Take a [survey](https://www.surveymonkey.com/r/Y2PJP7X) and criticize survey in break-out rooms. 
+4) One person in each team to present pros/cons/interesting. 
+5) Break. 
+6) R Studio Cloud - [recorded](**TBA**).
+7) cesR - [recorded](**TBA**).
+8) R Markdown - [recorded](**TBA**).
+9) Then you try and we deal with installation issues.
+
+
+### Readings
+
+- Git/GitHub:
+  - Bryan, Jenny, the STAT 545 TAs, and Jim Hester, 2020, [Happy Git and GitHub for the useR](https://happygitwithr.com/). 
+- R/Visualisation:
+  - Healy, Kieran, 2019, [Data Visualization: A Practical Introduction](https://socviz.co/), Princeton University Press.
+  - Wickham, Hadley, and Garrett Grolemund, 2017, [R for Data Science](https://r4ds.had.co.nz/), O’Reilly.
+- Stats essentials/primers/helpers:
+  - Imai, Kosuke, 2017, Quantitative Social Science: An Introduction, Princeton University Press, Chs 1.3, 2.2, 3.3, 3.6, 6, and 7.
+  - Kunin, Daniel, Jingru Guo, Tyler Dae Devlin, Daniel Xiang, 2020, [Seeing Theory, Ch 5](https://seeing-theory.brown.edu/bayesian-inference/index.html#section3), Brown University.
+- What are we doing and why are we doing it?
+  - Keller, Sally A., Stephanie S. Shipp, Aaron D. Schroeder, and Gizem Korkmaz, 2020, ‘Doing Data Science: A Framework and Case Study’ *Harvard Data Science Review*, 2 (1), https://doi.org/10.1162/99608f92.2d83f7f5. 
+  - Nelder, John A., 1999, ‘From Statistics to Statistical Science’, *Journal of the Royal Statistical Society, Series D (The Statistician)*, 48 (2), pp. 257-269.
+  - Reid, Nancy, 1994, ‘A Conversation with Sir David Cox’, *Statistical Science*, 9 (3), pp. 439-455. doi:10.1214/ss/1177010394, https://projecteuclid.org/euclid.ss/1177010394.
+- Writing code:
+  - Lee, Benjamin D., 2018, ‘Ten simple rules for documenting scientific software’, *PLoS Computational Biology*, 14 (12), https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006561.
+  - Riederer, Emily, 2020, ‘Resource Round-Up: Latent and Lasting Documentation’, 3 July, https://emilyriederer.netlify.app/post/latent-lasting-documentation/. 
+  - Williams, Donald, and Paul-Christian Bürkner, 2020, ‘Coding Errors Lead to Unsupported Conclusions: A critique of Hofmann et al. (2015)’ *Meta-Psychology*, 4, https://doi.org/10.15626/MP.2018.872, https://open.lnu.se/index.php/metapsychology/article/view/872. 
+- Websites in R:
+  - Xie, Yihui, Amber Thomas, and Alison Presmanes Hill, 2020, [blogdown: Creating Websites with R Markdown](https://bookdown.org/yihui/blogdown/).
+
+
+### Toronto Data Workshop
+
+- Tuesday, 3:30-4:30pm - Sophie Bennett (industry data scientist) on UK A levels algorithm issues.
+- Thursday, 4:00-5:00pm - Various masters students on summer projects.
+
+
