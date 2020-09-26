@@ -49,7 +49,7 @@ Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughpu
 Thu, 26 Nov, 4-5pm  |  Garrick Aden-Buie *(Moffitt Cancer Center)* |  Data science and health 
 Thu, 3 Dec, 10-11am  |  Jenny Cresswell *(World Health Organization)* |  Underreporting and misclassification in maternal mortality data
 Thu, 10 Dec, 4-5pm  |  Shabrina Mardevi *(United Nations Population Fund & University of Toronto)* & Romesh Silva *(United Nations Population Fund)* |  Population data estimation
-Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Duke University)* & Nathalie Moon *(University of Toronto)* |  Panel on teaching data-focused topics
+Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Duke University)*, Nathalie Moon *(University of Toronto)*, Teon Brooks *(Mozilla Firefox)* |  Panel on teaching data-focused topics
 
 
 
@@ -122,7 +122,8 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 	**Liza Bolton** (University of Toronto)  
 	**Maria Tackett** (Duke University)  
 	**Nathalie Moon** (University of Toronto)  
-	[Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) is an Assistant Professor, Teaching Stream, at the University of Toronto. [Maria Tackett](https://www.mariatackett.net/) is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. And [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) is an Assistant Professor, Teaching Stream, University of Toronto.  
+	**Teon Brooks** (Mozilla Firefox)  
+	[Liza Bolton](https://www.statistics.utoronto.ca/people/directories/all-faculty/liza-bolton) is an Assistant Professor, Teaching Stream, at the University of Toronto. [Maria Tackett](https://www.mariatackett.net/) is an Assistant Professor of the Practice in the Department of Statistical Science at Duke University. [Nathalie Moon](https://www.statistics.utoronto.ca/people/directories/all-faculty/nathalie-moon) is an Assistant Professor, Teaching Stream, University of Toronto. [Teon L. Brooks](https://teonbrooks.com/), holds a PhD in experimental psychology from NYU, and now works as a data scientist for [Mozilla Firefox](https://mozilla.org). He also serves as the technical advisor and President of [BrainWaves](https://wp.nyu.edu/brainwaves), an NIH-funded project to teach experimentation and cognitive neuroscience to high school students in NYC, and has co-founded Computation in Education Labs ([CIEL](https://cielabs.org)), a nonprofit that aims to further the mission of the BrainWaves project while focusing on data science and computational thinking.
 
 
 
