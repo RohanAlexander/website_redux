@@ -9,7 +9,7 @@ description: |
 
 *10 October 2020*
 
-Are you an undergraduate or graduate student at the Univeristy of Toronto? Would you like to work with Sam-Jo Caetano and Rohan Alexander to help put together a toolkit for applied statistics? It’s focused on R essentials such as ggplot, select, and all their friends. 
+Are you an undergraduate or graduate student at the Univeristy of Toronto? Would you like to work with Sam-Jo Caetano and Rohan Alexander to help put together a toolkit for applied statistics? It’s focused on R essentials such as ggplot, tidyverse, GitHub, and all their friends. 
 
 If so, please send an email to rohan.alexander@utoronto.ca with the subject line ‘DoSS toolkit application’. Please attach one PDF that contains both a cover letter and a CV. As part of your cover letter, please include a link to a GitHub repo showing off some code that you’ve written, or if you don’t have that, a blogpost you’ve written that is of a statistical/quantitative/technical nature.
 
