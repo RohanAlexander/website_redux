@@ -39,8 +39,7 @@ Thu, 17 Sep, 4-5pm  |  Amber Simpson *(Queen's University)* |  Cancer and AI
 Thu, 24 Sep, 4-5pm  |  Chelsea Parlett-Pelleriti *(Chapman University)* |  Talking to non-statisticians about statistics
 Thu, 1 Oct, 4-5pm  |  Florence Vallée-Dubois *(Université de Montréal)* |  Canadian demographics by riding (1991-2015)
 Thu, 8 Oct, 4-5pm  |  Yim Register *(University of Washington Data Lab)* |  Self-advocacy within machine learning systems
-Thu, 15 Oct, 4-5pm  |  Andrew Miles *(University of Toronto)* |  Sociology and quantitative methods *(jointly hosted with the UTM Collaborative and Digital Research Space.)*
-Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leslie Barnes, Lisa Strug & Marcel Fortin *(University of Toronto)* |  Panel on data-focused resources at U of T
+Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leanne Trimble, Leslie Barnes, & Lisa Strug *(University of Toronto)* |  Panel on data-focused resources at U of T
 Thu, 29 Oct, 4-5pm  |  Fei Chiang *(McMaster University)* |  Data currency and applications
 Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses
 Mon, 9 Nov, 4-5pm  |  Panel TBA  |  Elections and data
@@ -81,17 +80,13 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 * Thursday, 8 October 2020, 4-5pm  
 	**Yim Register** (University of Washington Data Lab)  
 	[Yim Register](https://medium.com/@yimregister) (they/them) is a radical optimist, child advocate, and PhD student at the University of Washington Data Lab exploring what self-advocacy looks like within machine learning systems. They study how empowering novices with Data Science knowledge can impact their participation and joy in an AI-driven world! Their passion project right now is writing a book called Life Lessons from Algorithms, a book that  teaches how machine learning algorithms work through trauma recovery skills. Yim will discuss self-advocacy within machine learning systems.
-* Thursday, 15 October 2020, 4-5pm  
-	*Jointly hosted with Elizabeth Parke and the UTM Collaborative and Digital Research Space.*  
-	**Andrew Miles** (University of Toronto)  
-	[Andrew Miles](http://www.andrewamiles.com/) is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab. His research is animated by two complementary aims. First, he examines how work in cultural sociology, social psychology, and cognitive psychology can be synthesized to develop better models of human action, focusing particularly on values, identities, and dual-process cognition. Second, he explores the sources and behavioral consequences of different moral cultures.  
 * Thursday, 22 October 2020, 4-5pm  
   *Panel discussion on data-focused resources at the University of Toronto.*  
   **Jeff Waldman** (University of Toronto)  
+  **Leanne Trimble** (University of Toronto)  
 	**Leslie Barnes** (University of Toronto)  
 	**Lisa Strug** (University of Toronto)  
-	**Marcel Fortin** (University of Toronto)  
-	Jeff Waldman is the Manager, Institutional Data Governance; Leslie Barnes is the Digital Scholarship Librarian at UTL; Lisa Strug is a Senior Scientist in the Program of Genetics and Genome Biology, Associate Director of The Centre for Applied Genomics, Professor of Statistical Sciences and Biostatistics at the University of Toronto, and Director of CANSSI Ontario; Marcel Fortin is the Head of the Map and Data Library. 
+	Jeff Waldman is the Manager, Institutional Data Governance; Leslie Barnes is the Digital Scholarship Librarian at UTL; Leanne Trimble is the Data and Statistics Librarian at UTL; Lisa Strug is a Senior Scientist in the Program of Genetics and Genome Biology, Associate Director of The Centre for Applied Genomics, Professor of Statistical Sciences and Biostatistics at the University of Toronto, and Director of CANSSI Ontario. 
 * Thursday, 29 October 2020, 4-5pm  
 	**Fei Chiang** (McMaster University)  
 	[Fei Chiang](http://www.cas.mcmaster.ca/~fchiang/) is an Associate Professor in the Department of Computing and Software (Faculty of Engineering), the Director of the Data Science Research Group, and a Faculty Fellow at the IBM Centre for Advanced Studies. She served as an inaugural Associate Director of the MacData Institute. Her research interests and industrial experience is in data management, spanning data cleaning, data quality, data privacy, data fusion, and database systems. Professor Chiang will discuss data currency and its applications.
