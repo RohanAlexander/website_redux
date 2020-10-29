@@ -42,7 +42,7 @@ Thu, 8 Oct, 4-5pm  |  Yim Register *(University of Washington Data Lab)* |  Self
 Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leanne Trimble, Leslie Barnes, & Lisa Strug *(University of Toronto)* |  Panel on data-focused resources at U of T
 Thu, 29 Oct, 4-5pm  |  Fei Chiang *(McMaster University)* |  Data currency and applications
 Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses
-Mon, 9 Nov, 4-5pm  |  Panel TBA  |  Elections and data
+Mon, 9 Nov, 4-5pm  |  Tom Cardoso *(Globe and Mail)*  |  Bias Behind Bars
 Thu, 12 Nov, 4-5pm  |  Kevin Armstrong *(University of Toronto)* |  Measuring poverty for NGOs
 Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughput Bayesian modelling workflow
 Thu, 26 Nov, 4-5pm  |  Garrick Aden-Buie *(Moffitt Cancer Center)* |  Data science and health 
@@ -94,8 +94,8 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
   **Andrew Whitby** (Industry data scientist)  
 	[Andrew](https://andrewwhitby.com) is a data scientist and economist currently looking for his next challenge. He is particularly interested in the economics of technology, creativity, innovation and growth. He wrote The Sum of the People: How the Census Has Shaped Nations from the Ancient World to the Modern Age which was published in March 2020. Previously, he worked as a Data Scientist at the World Bank, and at Nesta, the UK's innovation think tank. His academic background combines economics, statistics and computer science. He completed his doctoral research in the Department of Economics at the University of Oxford. Andrew will discuss censuses.  
 * Monday, 9 November 2020, 4-5pm  
-  *Panel discussion on elections and data.*  
-	Panelists to be announced.  	
+  **Tom Cardoso** (Globe and Mail)  
+  [Tom Cardoso](https://www.theglobeandmail.com/authors/tom-cardoso/) is a crime and justice reporter and data journalist for The Globe and Mail. Tom will discuss his [Bias Behind Bars](https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prison-risk-assessments/) series of articles which show Black and Indigenous inmates in Canada are more likely to get worse scores than white inmates, based solely on their race.  
 * Thursday, 12 November 2020, 4-5pm  
 	**Kevin Armstrong** (University of Toronto)  
 	Kevin Armstrong is a Masters of Information student at the University of Toronto, and a data consultant for 'Women's Integrated Sexual Health' ([WISH](https://www.ippf.org/our-approach/programmes/womens-integrated-sexual-health-wish)) - a three-year program delivering integrated health care in 16 countries in Africa and South Asia. Kevin will discuss methods for measuring poverty and use cases for NGOs.
