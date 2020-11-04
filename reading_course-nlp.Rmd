@@ -1,0 +1,60 @@
+---
+title: "Reading Course: 'Natural Language Processing'"
+description: |
+  This is a reading course available to students at the Department of Statistical Sciences, University of Toronto.
+---
+
+# Overview
+
+The purpose of this reading course is to develop students who can:
+
+- engage in thoughtful, ethical, critique of natural language processing;
+- work productively to implement existing NLP methods; and
+- use NLP to contribute to our understanding of the world.
+
+Each week you will read relevant papers and books, engaging with them by writing notes and completing exercises. You will use GitHub to manage these notes and exercises and email a link to me each week. This will account for 10 per cent of your mark. You will also give two presentations, each worth 20 per cent, over the course of the term. These will occur during the regular monthly lab presentations. Finally, you will write a research paper, due at the end of the term (the last day of the exam period or earlier if mutually agreed). This will be worth 50 per cent and will be marked by me and reviewed by another DoSS professor.
+
+# Content
+
+- Week 1: *Essentials I*
+  - Silge, Julia & David Robinson, 2020, *Text Mining with R*, Chapters 1-4: https://www.tidytextmining.com.
+- Week 2: *Essentials II*
+  - Silge, Julia & David Robinson, 2020, *Text Mining with R*, Chapters 5-7: https://www.tidytextmining.com.
+- Week 3: *Essentials III*
+  - Silge, Julia & David Robinson, 2020, *Text Mining with R*, Chapters 8-9: https://www.tidytextmining.com.
+- Week 4: *Data gathering*
+  - Obtain, clean and prepare a scraped dataset of text that you are interested in analysing for you final paper. 
+- Week 5: *Ethics I*
+  - Hovy, Dirk and Shannon L. Spruit, 2016, 'The Social Impact of Natural Language Processing', *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics*, pp. 591–598,https://aclweb.org/anthology/P16-2096.pdf.
+  - Prabhumoye, Shrimai, Elijah Mayfield, and Alan W Black, 2019, 'Principled Frameworks for Evaluating Ethics in NLP Systems', *Proceedings of the 2019 Workshop on Widening NLP*, https://aclweb.org/anthology/W19-3637/.
+  - Bolukbasi, Tolga, Kai-Wei Chang, James Y. Zou, Venkatesh Saligrama and Adam T. Kalai, 2016, 'Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings', *Advances in Neural Information Processing Systems*, 29 (NIPS 2016), http://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-d.
+  - Chang, Kai-Wei, Vinod Prabhakaran, and Vicente Ordonez, 2019, 'Bias and Fairness in Natural Language Processing', *Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)*: Tutorial Abstracts, https://aclweb.org/anthology/D19-2004/.
+- Week 6: *Ethics II*
+  - Hutchinson, Ben, Vinodkumar Prabhakaran, Emily Denton, Kellie Webster, Yu Zhong, and Stephen Denuyl, 2020, 'Social Biases in NLP Models as Barriers forPersons with Disabilities', *arXiv*, https://arxiv.org/abs/2005.00813.
+  - Solaiman, Irene, Miles Brundage, Jack Clark, Amanda Askell, ArielHerbert-Voss, Jeff Wu, Alec Radford, Gretchen Krueger, Jong Wook Kim, SarahKreps, Miles McCain, Alex Newhouse, Jason Blazakis, Kris McGuffie, Jasmine Wang, 2019, 'Release Strategies and the Social Impacts of Language Models',*arXiv*, https://arxiv.org/abs/1908.09203.
+  - Tatman, Rachel, 2020, 'What I Won't Build', *Widening NLP Workshop 2020*, Keynote address, 5 July, https://slideslive.com/38929585/what-i-wont-build and http://www.rctatman.com/talks/what-i-wont-build.
+  - Zhao, Jieyu, Tianlu Wang, Mark Yatskar, Vicente Ordonez and Kai-Wei Chang,2017, 'Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints', *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*, pp. 2979–2989, https://aclweb.org/anthology/D17-1323.pdf.
+  - (Fun/horrifying) Hao, Karen, 2020, 'The messy, secretive reality behind OpenAI's bid to save the world', *MIT Review*, 17 February, https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/.
+- Week 7: *NLP intermediate* 
+  - Hvitfeldt, Emil & Julia Silge, 2020, *Supervised Machine Learning for Text Analysis in R*, Chapters 1-3.
+- Week 8: *NLP intermediate* 
+  - Hvitfeldt, Emil & Julia Silge, 2020, *Supervised Machine Learning for Text Analysis in R*, Chapters 4-5.
+- Week 9: *NLP intermediate* 
+  - Hvitfeldt, Emil & Julia Silge, 2020, *Supervised Machine Learning for Text Analysis in R*, Chapters 6-7.
+- Week 10: *NLP intermediate* 
+  - Hvitfeldt, Emil & Julia Silge, 2020, *Supervised Machine Learning for Text Analysis in R*, Chapters 8-9.
+- Week 11: *NLP and deep learning*
+  - François Chollet with J. J. Allaire, 2018, *Deep Learning with R*, Chapters 1-4.
+- Week 12: *NLP and deep learning*
+  - François Chollet with J. J. Allaire, 2018, *Deep Learning with R*, Chapter 5.
+
+
+# Assessment
+ 
+- Presentation I
+  - Date: Roughly end of Week 4 (exact date determined by lab presentation cycle - it'll be the end of a month and you'll have at least a month's notice)
+  - Requirement: 10 minute presentation on what you've learned from Silge & Robinson and 5 minute presentation on data gathering
+- Presentation II
+  - Date: Roughly end of Week 9, as above. 
+  - Requirement: 10 minute presentation on Hvitfeldt & Silge and 10 minute presentation NLP ethics and role in society.
+- Final Paper

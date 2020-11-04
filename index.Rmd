@@ -15,7 +15,7 @@ My [academic work](https://rohanalexander.com/academic.html) typically involves 
 
 The [Toronto Data Lab](https://rohanalexander.com/lab.html) exists to bring this all together and provide opportunities for the training of graduate students.
 
-I enjoy [teaching](https://rohanalexander.com/teaching.html) and aim to help students learn how to tell stories with data. In Fall 2020 I am teaching ['Surveys, Sampling and Observational Data'](https://rohanalexander.com/sta304.html) in Statistical Sciences; and in Winter 2021 I am teaching ['Experimental Design'](https://rohanalexander.com/inf2178.html) in Information and will also be leading a reading course ['Ethics and Data Science'](https://rohanalexander.com/inf2010.html).
+I enjoy [teaching](https://rohanalexander.com/teaching.html) and aim to help students learn how to tell stories with data. In Fall 2020 I am teaching ['Surveys, Sampling and Observational Data'](https://rohanalexander.com/sta304.html) in Statistical Sciences; and in Winter 2021 I am teaching ['Experimental Design'](https://rohanalexander.com/inf2178.html) in Information and will also be leading a reading course ['Ethics and Data Science'](https://rohanalexander.com/reading_course-ethics.html).
 
 I co-founded the weekly [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html), which is more fun than it sounds. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 
