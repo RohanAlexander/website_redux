@@ -10,7 +10,7 @@ output:
 
 # Overview 
 
-The Faculty of Information and the Department of Statistical Sciences at the University of Toronto are excited to host a two-day conference bringing together academic and industry participants on the critical issue of reproducibility in applied statistics (very broadly defined). Thursday and Friday 25-26 February 2021.
+The Faculty of Information and the Department of Statistical Sciences at the University of Toronto are excited to host a two-day conference bringing together academic and industry participants on the critical issue of reproducibility in applied statistics (very broadly defined). The conference will be hosted online on Thursday and Friday 25-26 February 2021. Everyone is welcome and you can register [here](https://forms.gle/txLw43Q7UsXjzQys8).
 
 Keynotes: 
 
@@ -34,11 +34,11 @@ Invited presentations:
 - [Shiro Kuriwaki](https://www.shirokuriwaki.com/) (Harvard University); and 
 - [Tyler Girard](https://www.tylergirard.com/) (Western University).
 
-If you would like to receive an invitation to attend, then please sign up [here](https://forms.gle/txLw43Q7UsXjzQys8).
+If you would like to attend, then please register [here](https://forms.gle/txLw43Q7UsXjzQys8).
 
 # Call for abstracts
 
-Call for abstracts now open: [here](https://forms.gle/txLw43Q7UsXjzQys8). Abstracts are due 15 December 2020. Notification of acceptance will occur a week or two after that. 
+If you would like to present a paper then please register and submit an abstract [here](https://forms.gle/txLw43Q7UsXjzQys8). Abstracts are due 15 December 2020. Notification of acceptance will occur a week or two after that. 
 
 Folks who have traditionally been under-represented in statistics are especially encouraged to apply.
 
@@ -55,7 +55,7 @@ Free and online via Zoom.
 
 Everyone is welcome. You don't need to be affiliated with a university.
 
-If you would like to receive an invitation to attend, then please sign up [here](https://forms.gle/txLw43Q7UsXjzQys8).
+If you would like to attend, then please sign up [here](https://forms.gle/txLw43Q7UsXjzQys8).
 
 ```{r, out.width= "95%"}
 knitr::include_graphics("images/IMG_0171.jpeg") 
