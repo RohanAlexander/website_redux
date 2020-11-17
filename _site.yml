@@ -8,6 +8,7 @@ description: |
   Welcome to Rohan Alexander's website.
 output_dir: "_site"
 navbar:
+  search: false
   right:
     - text: "Home"
       href: index.html

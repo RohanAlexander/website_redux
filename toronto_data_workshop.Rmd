@@ -8,12 +8,14 @@ output:
     toc_depth: 1  
 ---
 
+*17 November 2020: If you would like to participate in the Toronto Data Workshop on Reproducibility (25/26 February 2021) then please see [here](https://rohanalexander.com/reproducibility).*
+
+
+
 ```{r, out.width= "25%"}
 knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_maple_leaf.png", "images/tdw_moose.png", "images/tdw_dino.png")) 
 ```
 [*Thanks to Hidaya Ismail for the brilliant maple leaf and dinosaur hex stickers.*]{style="float:right"}
-
-
 
 
 
@@ -45,7 +47,7 @@ Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses
 Mon, 9 Nov, 4-5pm  |  Tom Cardoso *(Globe and Mail)*  |  Bias Behind Bars
 Thu, 12 Nov, 4-5pm  |  Kevin Armstrong *(University of Toronto)* |  Measuring poverty for NGOs
 Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughput Bayesian modelling workflow
-Thu, 26 Nov, 4-5pm  |  Garrick Aden-Buie *(Moffitt Cancer Center)* |  Data science and health 
+Thu, 26 Nov, 4-5pm  |  Postponed |
 Thu, 3 Dec, 10-11am  |  Jenny Cresswell *(World Health Organization)* |  Underreporting and misclassification in maternal mortality data
 Thu, 10 Dec, 4-5pm  |  Shabrina Mardevi *(United Nations Population Fund & University of Toronto)* & Romesh Silva *(United Nations Population Fund)* |  Population data estimation
 Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Duke University)*, Nathalie Moon *(University of Toronto)*, Teon Brooks *(Mozilla Firefox)* |  Panel on teaching data-focused topics
@@ -103,8 +105,7 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 	**Michael Chong** (University of Toronto)  
 	[Michael](https://michael-chong.github.io/) is a PhD student in the Department of Statistical Sciences at the University of Toronto building models for demographic estimation. Previously, he completed his BSc in Integrated Science at McMaster University. Michael will discuss lessons from a high-throughput Bayesian modelling workflow
 * Thursday, 26 November 2020, 4-5pm  
-	**Garrick Aden-Buie** (Moffitt Cancer Center)  
-	[Garrick](https://www.garrickadenbuie.com/) is an RStudio Education Certified Trainer and a data scientist at the Moffitt Cancer Center where he works in the Collaborative Data Services Core using R, Shiny, and the tools of data science to accelerate research towards the prevention and cure of cancer.
+	**Postponed**
 * Thursday, 3 December 2020, 10-11am  
 	**Jenny Cresswell** (World Health Organization)  
 	[Jenny Cresswell](https://twitter.com/jennycresswell) is in the measurement & monitoring team in the Department of Sexual and Reproductive Health & Research at the World Health Organization. She leads a portfolio of work on maternal mortality and morbidity, and the development of indicators for global and national reproductive health monitoring. Part of this portfolio involves providing technical support to Member States in strengthening their maternal mortality data collection and reporting. Previously, Jenny training in epidemiology and demography, and was an Assistant Professor at the London School of Hygiene & Tropical Medicine, UK. Jenny will discuss underreporting and misclassification in maternal mortality data.

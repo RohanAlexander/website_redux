@@ -78,6 +78,7 @@
   {"type":"character","attributes":{},"value":["bibliography.bib","topic_modelling-theory_files/figure-html5/topicsoverdocuments-1.png","topic_modelling-theory_files/figure-html5/topicsoverdocuments-2.png","topic_modelling-theory_files/figure-html5/topicsoverterms-1.png","topic_modelling-theory_files/figure-html5/topicsoverterms-2.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
+<meta name="distill:offset" content="../.."/>
 
 <script type="application/javascript">
 
@@ -137,7 +138,7 @@
 
 .distill-site-nav {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #455a64;
+  background-color: #0F2E3D;
   font-size: 15px;
   font-weight: 300;
 }
@@ -200,6 +201,7 @@
 
 .distill-site-header .title {
   font-size: 18px;
+  min-width: 150px;
 }
 
 .distill-site-header .logo {
@@ -341,7 +343,7 @@
 
 
 @media screen and (max-width: 768px) {
-  .distill-site-header.responsive {position: relative;}
+  .distill-site-header.responsive {position: relative; min-height: 500px; }
   .distill-site-header.responsive a.nav-toggle {
     position: absolute;
     right: 0;
@@ -440,6 +442,51 @@ body {
   font-size: 15px;
 }
 
+d-byline .byline {
+  grid-template-columns: 2fr 2fr;
+}
+
+d-byline .byline h3 {
+  margin-block-start: 1.5em;
+}
+
+d-byline .byline .authors-affiliations h3 {
+  margin-block-start: 0.5em;
+}
+
+.authors-affiliations .orcid-id {
+  width: 16px;
+  height:16px;
+  margin-left: 4px;
+  margin-right: 4px;
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+
+d-title .dt-tags {
+  margin-top: 1em;
+  grid-column: text;
+}
+
+.dt-tags .dt-tag {
+  text-decoration: none;
+  display: inline-block;
+  color: rgba(0,0,0,0.6);
+  padding: 0em 0.4em;
+  margin-right: 0.5em;
+  margin-bottom: 0.4em;
+  font-size: 70%;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+d-article table.gt_table td,
+d-article table.gt_table th {
+  border-bottom: none;
+}
+
 .html-widget {
   margin-bottom: 2.0em;
 }
@@ -479,6 +526,7 @@ body {
 }
 
 d-article {
+  padding-top: 2.5rem;
   padding-bottom: 30px;
 }
 
@@ -490,91 +538,48 @@ d-article>p>img {
   width: 100%;
 }
 
+d-article h2 {
+  margin: 1rem 0 1.5rem 0;
+}
+
+d-article h3 {
+  margin-top: 1.5rem;
+}
+
 d-article iframe {
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 2.0em;
   width: 100%;
 }
 
-figure img.external {
-  background: white;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
-  padding: 18px;
-  box-sizing: border-box;
+/* Tweak code blocks */
+
+d-article div.sourceCode code,
+d-article pre code {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
-/* CSS for table of contents */
-
-.d-toc {
-  color: rgba(0,0,0,0.8);
-  font-size: 0.8em;
-  line-height: 1em;
+d-article pre,
+d-article div.sourceCode,
+d-article div.sourceCode pre {
+  overflow: hidden;
 }
 
-.d-toc-header {
-  font-size: 0.6rem;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 1.3em;
+d-article div.sourceCode {
+  background-color: white;
 }
 
-.d-toc a {
-  border-bottom: none;
-}
-
-.d-toc ul {
-  padding-left: 0;
-}
-
-.d-toc li>ul {
-  padding-top: 0.8em;
-  padding-left: 16px;
-  margin-bottom: 0.6em;
-}
-
-.d-toc ul,
-.d-toc li {
-  list-style-type: none;
-}
-
-.d-toc li {
-  margin-bottom: 0.9em;
-}
-
-.d-toc-separator {
-  margin-top: 20px;
-  margin-bottom: 2em;
-}
-
-.d-article-with-toc {
-  border-top: none;
-  padding-top: 0;
-}
-
-
-
-/* Tweak code blocks (note that this CSS is repeated above in an injection
-   into the d-code shadow dom) */
-
-d-code {
-  overflow-x: auto !important;
-}
-
-pre.d-code code.d-code {
+d-article div.sourceCode pre {
   padding-left: 10px;
   font-size: 12px;
   border-left: 2px solid rgba(0,0,0,0.1);
 }
 
-pre.text-output {
-
+d-article pre {
   font-size: 12px;
   color: black;
   background: none;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  margin-top: 0;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -592,20 +597,123 @@ pre.text-output {
   hyphens: none;
 }
 
+d-article pre a {
+  border-bottom: none;
+}
+
+d-article pre a:hover {
+  border-bottom: none;
+  text-decoration: underline;
+}
+
 @media(min-width: 768px) {
 
-d-code {
-  overflow-x: visible !important;
+d-article pre,
+d-article div.sourceCode,
+d-article div.sourceCode pre {
+  overflow: visible !important;
 }
 
-pre.d-code code.d-code  {
-    padding-left: 18px;
-    font-size: 14px;
-}
-pre.text-output {
+d-article div.sourceCode pre {
+  padding-left: 18px;
   font-size: 14px;
 }
+
+d-article pre {
+  font-size: 14px;
 }
+
+}
+
+figure img.external {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+/* CSS for d-contents */
+
+.d-contents {
+  grid-column: text;
+  color: rgba(0,0,0,0.8);
+  font-size: 0.9em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  padding-left: 0.25em;
+  justify-self: start;
+}
+
+@media(min-width: 1000px) {
+  .d-contents.d-contents-float {
+    height: 0;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+    padding-right: 3em;
+    padding-left: 2em;
+  }
+}
+
+.d-contents nav h3 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.d-contents li {
+  list-style-type: none
+}
+
+.d-contents nav > ul {
+  padding-left: 0;
+}
+
+.d-contents ul {
+  padding-left: 1em
+}
+
+.d-contents nav ul li {
+  margin-top: 0.6em;
+  margin-bottom: 0.2em;
+}
+
+.d-contents nav a {
+  font-size: 13px;
+  border-bottom: none;
+  text-decoration: none
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.d-contents nav a:hover {
+  text-decoration: underline solid rgba(0, 0, 0, 0.6)
+}
+
+.d-contents nav > ul > li > a {
+  font-weight: 600;
+}
+
+.d-contents nav > ul > li > ul {
+  font-weight: inherit;
+}
+
+.d-contents nav > ul > li > ul > li {
+  margin-top: 0.2em;
+}
+
+
+.d-contents nav ul {
+  margin-top: 0;
+  margin-bottom: 0.25em;
+}
+
+.d-article-with-toc h2:nth-child(2) {
+  margin-top: 0;
+}
+
 
 /* Figure */
 
@@ -643,6 +751,16 @@ pre.text-output {
   color: rgba(0, 0, 0, 1.0);
 }
 
+/* Citations */
+
+d-article .citation {
+  color: inherit;
+  cursor: inherit;
+}
+
+div.hanging-indent{
+  margin-left: 1em; text-indent: -1em;
+}
 
 
 /* Tweak 1000px media break to show more text */
@@ -718,6 +836,91 @@ d-appendix .citation-appendix,
   word-wrap: break-word;
 }
 
+/* Include appendix styles here so they can be overridden */
+
+d-appendix {
+  contain: layout style;
+  font-size: 0.8em;
+  line-height: 1.7em;
+  margin-top: 60px;
+  margin-bottom: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0,0,0,0.5);
+  padding-top: 60px;
+  padding-bottom: 48px;
+}
+
+d-appendix h3 {
+  grid-column: page-start / text-start;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: rgba(0,0,0,0.65);
+}
+
+d-appendix h3 + * {
+  margin-top: 1em;
+}
+
+d-appendix ol {
+  padding: 0 0 0 15px;
+}
+
+@media (min-width: 768px) {
+  d-appendix ol {
+    padding: 0 0 0 30px;
+    margin-left: -30px;
+  }
+}
+
+d-appendix li {
+  margin-bottom: 1em;
+}
+
+d-appendix a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+d-appendix > * {
+  grid-column: text;
+}
+
+d-appendix > d-footnote-list,
+d-appendix > d-citation-list,
+d-appendix > distill-appendix {
+  grid-column: screen;
+}
+
+/* Include footnote styles here so they can be overridden */
+
+d-footnote-list {
+  contain: layout style;
+}
+
+d-footnote-list > * {
+  grid-column: text;
+}
+
+d-footnote-list a.footnote-backlink {
+  color: rgba(0,0,0,0.3);
+  padding-left: 0.5em;
+}
+
+
+
+/* Anchor.js */
+
+.anchorjs-link {
+  /*transition: all .25s linear; */
+  text-decoration: none;
+  border-bottom: none;
+}
+*:hover > .anchorjs-link {
+  margin-left: -1.125em !important;
+  text-decoration: none;
+  border-bottom: none;
+}
 
 /* Social footer */
 
@@ -772,6 +975,211 @@ d-appendix .citation-appendix,
 
 .custom p {
   margin-bottom: 0.5em;
+}
+
+/* Styles for listing layout (hide title) */
+.layout-listing d-title, .layout-listing .d-title {
+  display: none;
+}
+
+/* Styles for posts lists (not auto-injected) */
+
+
+.posts-with-sidebar {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.posts-list .description h2,
+.posts-list .description p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.posts-list .description h2 {
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.posts-list h2.post-tag {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 12px;
+}
+.posts-list {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.posts-list .post-preview {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px 0;
+}
+
+.post-preview-last {
+  border-bottom: none !important;
+}
+
+.posts-list .posts-list-caption {
+  grid-column: screen;
+  font-weight: 400;
+}
+
+.posts-list .post-preview h2 {
+  margin: 0 0 6px 0;
+  line-height: 1.2em;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.posts-list .post-preview p {
+  margin: 0 0 12px 0;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.posts-list .post-preview .thumbnail {
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  position: relative;
+  max-width: 500px;
+}
+.posts-list .post-preview img {
+  width: 100%;
+  display: block;
+}
+
+.posts-list .metadata {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom: 18px;
+}
+
+.posts-list .metadata > * {
+  display: inline-block;
+}
+
+.posts-list .metadata .publishedDate {
+  margin-right: 2em;
+}
+
+.posts-list .metadata .dt-authors {
+  display: block;
+  margin-top: 0.3em;
+  margin-right: 2em;
+}
+
+.posts-list .dt-tags {
+  display: block;
+  line-height: 1em;
+}
+
+.posts-list .dt-tags .dt-tag {
+  display: inline-block;
+  color: rgba(0,0,0,0.6);
+  padding: 0.3em 0.4em;
+  margin-right: 0.2em;
+  margin-bottom: 0.4em;
+  font-size: 60%;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.posts-list img {
+  opacity: 1;
+}
+
+.posts-list img[data-src] {
+  opacity: 0;
+}
+
+.posts-more {
+  clear: both;
+}
+
+
+.posts-sidebar {
+  font-size: 16px;
+}
+
+.posts-sidebar h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.categories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0;
+}
+
+.categories li>a {
+  border-bottom: none;
+}
+
+.categories li>a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.categories .active {
+  font-weight: 600;
+}
+
+.categories .category-count {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media(min-width: 768px) {
+  .posts-list .post-preview h2 {
+    font-size: 26px;
+  }
+  .posts-list .post-preview .thumbnail {
+    float: right;
+    width: 30%;
+    margin-bottom: 0;
+  }
+  .posts-list .post-preview .description {
+    float: left;
+    width: 45%;
+  }
+  .posts-list .post-preview .metadata {
+    float: left;
+    width: 20%;
+    margin-top: 8px;
+  }
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+  .posts-with-sidebar .posts-list {
+    float: left;
+    width: 75%;
+  }
+  .posts-with-sidebar .posts-sidebar {
+    float: right;
+    width: 20%;
+    margin-top: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }
 
 
@@ -903,6 +1311,12 @@ d-appendix .citation-appendix,
   hyphens: none;
 }
 
+.downlevel .posts-list .post-preview {
+  color: inherit;
+}
+
+
+
 </style>
 
 <script type="application/javascript">
@@ -918,6 +1332,13 @@ function is_downlevel_browser() {
 
 // show body when load is complete
 function on_load_complete() {
+
+  // add anchors
+  if (window.anchors) {
+    window.anchors.options.placement = 'left';
+    window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+  }
+
 
   // set body to visible
   document.body.style.visibility = 'visible';
@@ -964,23 +1385,8 @@ function init_distill() {
   // create d-appendix
   $('.d-appendix').changeElementType('d-appendix');
 
-  // create d-bibliography
-  var bibliography = $('<d-bibliography></d-bibliography>');
-  $('#distill-bibliography').wrap(bibliography);
-
   // flag indicating that we have appendix items
   var appendix = $('.appendix-bottom').children('h3').length > 0;
-
-  // replace citations with <d-cite>
-  $('.citation').each(function(i, val) {
-    appendix = true;
-    var cites = $(this).attr('data-cites').split(" ");
-    var dt_cite = $('<d-cite></d-cite>');
-    dt_cite.attr('key', cites.join());
-    $(this).replaceWith(dt_cite);
-  });
-  // remove refs
-  $('#refs').remove();
 
   // replace footnotes with <d-footnote>
   $('.footnote-ref').each(function(i, val) {
@@ -998,39 +1404,21 @@ function init_distill() {
   // remove footnotes
   $('.footnotes').remove();
 
+  // move refs into #references-listing
+  $('#references-listing').replaceWith($('#refs'));
+
   $('h1.appendix, h2.appendix').each(function(i, val) {
     $(this).changeElementType('h3');
   });
   $('h3.appendix').each(function(i, val) {
     var id = $(this).attr('id');
-    $('.d-toc a[href="#' + id + '"]').parent().remove();
+    $('.d-contents a[href="#' + id + '"]').parent().remove();
     appendix = true;
     $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
   });
 
   // show d-appendix if we have appendix content
   $("d-appendix").css('display', appendix ? 'grid' : 'none');
-
-  // replace code blocks with d-code
-  $('pre>code').each(function(i, val) {
-    var code = $(this);
-    var pre = code.parent();
-    var clz = "";
-    var language = pre.attr('class');
-    if (language) {
-      // map unknown languages to "clike" (without this they just dissapear)
-      if ($.inArray(language, ["bash", "clike", "css", "go", "html",
-                               "javascript", "js", "julia", "lua", "markdown",
-                               "markup", "mathml", "python", "svg", "xml"]) == -1)
-        language = "clike";
-      language = ' language="' + language + '"';
-      var dt_code = $('<d-code block' + language + clz + '></d-code>');
-      dt_code.text(code.text());
-      pre.replaceWith(dt_code);
-    } else {
-      code.addClass('text-output').unwrap().changeElementType('pre');
-    }
-  });
 
   // localize layout chunks to just output
   $('.layout-chunk').each(function(i, val) {
@@ -1039,7 +1427,7 @@ function init_distill() {
     var layout = $(this).attr('data-layout');
 
     // apply layout to markdown level block elements
-    var elements = $(this).children().not('d-code, pre.text-output, script');
+    var elements = $(this).children().not('div.sourceCode, pre, script');
     elements.each(function(i, el) {
       var layout_div = $('<div class="' + layout + '"></div>');
       if (layout_div.hasClass('shaded')) {
@@ -1056,6 +1444,13 @@ function init_distill() {
     $(this).children().unwrap();
   });
 
+  // remove code block used to force  highlighting css
+  $('.distill-force-highlighting-css').parent().remove();
+
+  // remove empty line numbers inserted by pandoc when using a
+  // custom syntax highlighting theme
+  $('code.sourceCode a:empty').remove();
+
   // load distill framework
   load_distill_framework();
 
@@ -1071,12 +1466,26 @@ function init_distill() {
     if (!have_authors)
       $('d-byline').addClass('hidden');
 
-    // table of contents
-    if (have_authors) // adjust border if we are in authors
-      $('.d-toc').parent().addClass('d-article-with-toc');
+    // article with toc class
+    $('.d-contents').parent().addClass('d-article-with-toc');
 
     // strip links that point to #
     $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+    // add orcid ids
+    $('.authors-affiliations').find('.author').each(function(i, el) {
+      var orcid_id = front_matter.authors[i].orcidID;
+      if (orcid_id) {
+        var a = $('<a></a>');
+        a.attr('href', 'https://orcid.org/' + orcid_id);
+        var img = $('<img></img>');
+        img.addClass('orcid-id');
+        img.attr('alt', 'ORCID ID');
+        img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+        a.append(img);
+        $(this).append(a);
+      }
+    });
 
     // hide elements of author/affiliations grid that have no value
     function hide_byline_column(caption) {
@@ -1126,14 +1535,9 @@ function init_distill() {
       grid.children('h3:contains("Affiliations")').text('Affiliation');
     }
 
-    // inject pre code styles (can't do this with a global stylesheet b/c a shadow root is used)
-    $('d-code').each(function(i, val) {
-      var style = document.createElement('style');
-      style.innerHTML = 'pre code { padding-left: 10px; font-size: 12px; border-left: 2px solid rgba(0,0,0,0.1); } ' +
-                        '@media(min-width: 768px) { pre code { padding-left: 18px; font-size: 14px; } }';
-      if (this.shadowRoot)
-        this.shadowRoot.appendChild(style);
-    });
+    // remove d-appendix and d-footnote-list local styles
+    $('d-appendix > style:first-child').remove();
+    $('d-footnote-list > style:first-child').remove();
 
     // move appendix-bottom entries to the bottom
     $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
@@ -1169,9 +1573,7 @@ function init_downlevel() {
   $('.d-byline a').remove();
 
   // remove toc
-  $('.d-toc-header').remove();
-  $('.d-toc').remove();
-  $('.d-toc-separator').remove();
+  $('.d-contents').remove();
 
   // move appendix elements
   $('h1.appendix, h2.appendix').each(function(i, val) {
@@ -1379,7 +1781,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Topic Modelling - Theory","description":"Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}],"publishedDate":"2018-06-29T00:00:00.000-04:00","citationText":"Alexander, 2018"}
+{"title":"Topic Modelling - Theory","description":"Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2018-06-29T00:00:00.000-04:00","citationText":"Alexander, 2018"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1545,6 +1947,8 @@ Figure 2: Probability distributions over terms
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
 <div class="appendix-bottom">
+  <h3 id="references">References</h3>
+  <div id="references-listing"></div>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
   <pre class="citation-appendix short">Alexander (2018, June 29). Rohan Alexander: Topic Modelling - Theory. Retrieved from https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/</pre>
@@ -1556,580 +1960,6 @@ Figure 2: Probability distributions over terms
   year = {2018}
 }</pre>
 </div>
-<script id="distill-bibliography" type="text/bibtex">
-@Incollection{AcemogluJohnsonRobinson2005,
-    author = {Daron Acemoglu and Simon Johnson and James A Robinson},
-    title = {Institutions as a Fundamental Cause of Long-Run Growth},
-    booktitle = {Handbook of Economic Growth},
-    publisher = {Elsevier},
-    editor = {Philippe Aghion and Steven N Durlauf},
-    year = {2005},
-    chapter = {6},
-    pages = {385--472},
-}
-
-@techreport{Alexander2018,
-    author = {Rohan Alexander},
-    title = {Slide Into My Mentions, Please: Who Gets Incumbancy Advantage in Australia?},
-    year = {2018},
-    institution = {Australian National University},
-    url = {http://rohanalexander.com/mentions},
-}
-
-@Article{BeelenEtc2017,
-    author = {Kaspar Beelen and Timothy Alberdingk Thim and Christopher Cochrane and Kees Halvemaan and Graeme Hirst and Michael Kimmins and Sander Lijbrink and Maarten Marx and Nona Naderi and Ludovic Rheault and Roman Polyanovsky and Tanya Whyte},
-    title = {Digitization of the Canadian Parliamentary Debates},
-    journal = {Canadian Journal of Political Science},
-    year={2017},
-    pages={1--16},
-}
-
-@Book{Benassy-Quere2010,
-    author = {Agnes Benassy-Quere and Benoit Coeure and Pierre Jacquet and Jean Pisani-Ferry},
-    year={2010},
-    title={Economic policy: theory and practice},
-    publisher={Oxford University Press},
-    address={New York},
-}
-
-@incollection{BleiLafferty2009,
-  title={Topic Models},
-  author={Blei, David M and Lafferty, John D},
-  booktitle={Text Mining},
-  pages={101--124},
-  year={2009},
-  publisher={Chapman and Hall/CRC},
-}
-
-@article{Blei2003latent,
-  title={Latent Dirichlet Allocation},
-  author={Blei, David M and Ng, Andrew Y and Jordan, Michael I},
-  journal={Journal of Machine Learning Research},
-  volume={3},
-  number={Jan},
-  pages={993--1022},
-  year={2003}
-}
-
-@article{blei2012,
-  title={Probabilistic Topic Models},
-  author={Blei, David M},
-  journal={Communications of the ACM},
-  volume={55},
-  number={4},
-  pages={77--84},
-  year={2012}
-}
-
-@Article{Boot1998,
-    author = {H M Boot},
-    title = {Government and the Colonial Economies},
-    journal = {Australian Economic History Review},
-    year={1998},
-    volume = {38},
-    number = {1},
-    pages={74--101},
-}
-
-@Article{Boot2000,
-    author = {H M Boot},
-    title = {Government and the Colonial Economies: A Reply to Frost},
-    journal = {Australian Economic History Review},
-    year={2000},
-    volume = {40},
-    number = {1},
-    pages={86--91},
-}
-
-@Book{ButlinBarnardPincus1982,
-    author = {N. G. Butlin and A Barnard and J. J. Pincus},
-    title = {Government and Capitalism: Public and Private Choice in Twentieth Century Australia},
-    publisher = {George Allen & Unwin},
-    place = {Sydney},
-    year = {1982},
-}
-
-@Book{CammMcQuiltonYorke1983,
-    author = {Jack Camm and John McQuilton and Steve Yorke},
-    title = {Australian Census Maps 1901 [cartographic material]},
-    publisher = {Historical Geography Monograph No. 1, Australia 1788-1988: A Bicentennial History},
-    place = "Kensington, NSW",
-    year = {1983},
-}
-
-@Manual{ChengKarambelkarXie2017,
-    title = {leaflet: Create Interactive Web Maps with the JavaScript 'Leaflet' Library},
-    author = {Joe Cheng and Bhaskar Karambelkar and Yihui Xie},
-    year = {2017},
-    note = {R package version 1.1.0},
-    url = {https://CRAN.R-project.org/package=leaflet},
-}
-
-@Article{Coulson2016,
-    author = {Kylie Coulson},
-    title = {Budget Scrutiny in Australian State Parliaments},
-    journal = {Australasian Parliamentary Review},
-    volume = {31},
-    number = {2},
-    pages = {103--116},
-    year = {2016},
-}
-
-@Article{Curran2017,
-   author = {{Curran}, B. and {Higham}, K. and {Ortiz}, E. and {Vasques Filho}, D.},
-    title = "{Look Who's Talking: Bipartite Networks as Representations of a Topic Model of New Zealand Parliamentary Speeches}",
-    journal = {ArXiv e-prints},
-    archivePrefix = "arXiv",
-    eprint = {1707.03095},
-    year = {2017},
-    month = {July},
-}
-
-@inproceedings{Darling2011,
-  title={A Theoretical and Practical Implementation Tutorial on Topic Modeling and Gibbs Sampling},
-  author={Darling, William M},
-  year={2011},
-  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
-  pages = {642--647},
-}
-
-@Article{DimarcoPirieAuyeung2009,
-  author = {Katrina Di Marco and Mitchell Pirie and Wilson Au-Yeung},
-  title = {A History of Public Debt in Australia},
-  journal = {Economic Roundup},
-  year = {2009},
-  number = {1},
-  pages = {1--15},
-  month = {March},
-}
-
-@Article{DiMatteoDiMatteo1998,
-    author = {Livio Di Matteo and Rosanna Di Matteo},
-    title = {Evidence on the Determinants of Canadian Provincial Government Health Expenditures: 1965 -- 1991},
-    journal = {Journal of Health Economics},
-    volume = {17},
-    pages = {211--228},
-    year = {1998},
-}
-
-@Inproceedings{Duthie2016,
-    author = {Rory Duthie and Katarzyna Budzynska and Chris Reed},
-    title = {Mining Ethos in Political Debate},
-    booktitle = {Computational Models of Argument},
-    editor = {P Baroni and TF Gordon and T Scheffler and M Stede},
-    year = {2016},
-    volume = {287},
-    pages = {299--310},
-}
-
-@Article{Edwards2016,
-      author = {Cecilia Edwards},
-      title = {The Political Consequences of Hansard Editorial Policies: The Case for Greater Transparency},
-      journal = {Australasian Parliamentary Review},
-      year={2016},
-      volume = {31},
-      number = {2},
-      pages={145--160},
-}
-
-
-@Manual{FeinererHornik2018,
-    title = {tm: Text Mining Package.},
-    author = {Ingo Feinerer and Kurt Hornik},
-    year = {2018},
-    note = {R package version 0.7-5},
-    url = {https://CRAN.R-project.org/package=tm},
-}
-
-@Book{Frey1978,
-    author = {Bruno Frey},
-    title = {Modern Political Economy},
-    publisher = {Martin Robertson and Company},
-    place = {Oxford},
-    year = {1978},
-}
-
-@Article{Frost2000,
-    author = {Lionel Frost},
-    title = {Government and the Colonial Economies: An Alternative View},
-    journal = {Australian Economic History Review},
-    year={2000},
-    volume = {40},
-    number = {1},
-    pages={71--85},
-}
-
-@Manual{Izrailev2014,
-    title = {tictoc: Functions for Timing R Scripts},
-    author = {Sergei Izrailev},
-    year = {2014},
-    note = {R package version 1.0},
-    url = {https://CRAN.R-project.org/package=tictoc},
-  }
-
-@Article{GansLeigh2012,
-    author = {Joshua Gans and Andrew Leigh},
-    title = {How Partisan is the Press? Multiple Measures of Media Slant},
-    journal = {The Economic Record},
-    year={2012},
-    volume = {88},
-    number = {280},
-    pages={127--147},
-}
-
-@techreport{GentzkowShapiroTaddy2018,
-    author = {Matthew Gentzkow and Jesse M. Shapiro and Matt Taddy},
-    title = {Measuring Group Differences in High-Dimensional Choices: Method and Application to Congressional Speech},
-    year = {2018},
-    institution = {Voldemort's University},
-    url = {http://web.stanford.edu/~gentzkow/research/politext.pdf},
-}
-
-@Article{Grun2011,
-    title = {{topicmodels}: An {R} Package for Fitting Topic Models},
-    author = {Bettina Gr\"un and Kurt Hornik},
-    journal = {Journal of Statistical Software},
-    year = {2011},
-    volume = {40},
-    number = {13},
-    pages = {1--30},
-    doi = {10.18637/jss.v040.i13},
-}
-
-@phdthesis{Graham2016,
-  author    = "Ruth Graham",
-  title   = "Withdraw and Apologise: A Diachronic Study of Unparliamentary Language in the New Zealand Parliament, 1890--1950",
-  institution    = "Victoria University of Wellington",
-  year    = "2016",
-}
-
-@Incollection{GrijzenhoutMarxJijkoun2014,
-    author = {Steven Grijzenhout and Maarten Marx and Valentin Jijkoun},
-    title = {Sentiment Analysis in Parliamentary Proceedings},
-    booktitle = {From Text to Political Positions: Text Analysis Across Disciplines},
-    publisher = {John Benjamins Publishing Company},
-    editor = {Bertie Kaal and Isa Maks and Annemarie van Elfrinkhof},
-    year = {2014},
-    chapter = {6},
-    pages = {117--134},
-}
-
-@Article{GrolemundWickham2011,
-    title = {Dates and Times Made Easy with {lubridate}},
-    author = {Garrett Grolemund and Hadley Wickham},
-    journal = {Journal of Statistical Software},
-    year = {2011},
-    volume = {40},
-    number = {3},
-    pages = {1--25},
-    url = {http://www.jstatsoft.org/v40/i03/},
-}
-
-
-  @Manual{Gagolewski2018,
-    title = {R Package stringi: Character String Processing Facilities},
-    author = {Marek Gagolewski},
-    year = {2018},
-    url = {http://www.gagolewski.com/software/stringi/},
-  }
-
-
-@Article{GriffithsSteyvers2004,
-    author = {Thomas Griffiths and Mark Steyvers},
-    title = {Finding Scientific Topics},
-    journal = {PNAS},
-    year = {2004},
-    volume = {101},
-    pages = {5228--5235},
-}
-
-@Manual{Hijmans2016,
-    title = {raster: Geographic Data Analysis and Modeling},
-    author = {Robert J. Hijmans},
-    year = {2016},
-    note = {R package version 2.5-8},
-    url = {https://CRAN.R-project.org/package=raster},
-}
-
-@Article{KahleWickham2013,
-    author = {David Kahle and Hadley Wickham},
-    title = {ggmap: Spatial Visualization with ggplot2},
-    journal = {The R Journal},
-    year = {2013},
-    volume = {5},
-    number = {1},
-    pages = {144--161},
-    url = {http://journal.r-project.org/archive/2013-1/kahle-wickham.pdf},
-}
-
-@Incollection{MarxSchuth2010,
-    author = {Maarten Marx and Anne Schuth},
-    title = {DutchParl: A Corpus of Parliamentary Documents in Dutch},
-    booktitle = {Proceedings of the Seventh conference on International Language Resources and Evaluation (LREC'10)},
-    publisher = {European Language Resources Association (ELRA)},
-    editor = {N Calzolari and K Choukri and B Maegaard and J Mariani and J Odijk and S Piperidis and M Rosner and D Tapias},
-    year = {2010},
-    pages = {3670--3677},
-}
-
-@article{Mauro1998,
-    title = "Corruption and the composition of government expenditure ",
-    journal = "Journal of Public Economics",
-    volume = "69",
-    number = "2",
-    pages = "263 - 279",
-    year = "1998",
-    author = "Paolo Mauro",
-}
-
-@article{Mollin2008,
-    title = "The Hansard hazard: Gauging the Accuracy of British Parliamentary Transcripts",
-    journal = "Corpora",
-    volume = "2",
-    number = "2",
-    pages = "187--210",
-    year = "2008",
-    author = "Sandra Mollin",
-}
-
-@article{MuellerRauh2018,
-    title = "Reading Between the Lines: Prediction of Political Violence Using Newspaper Text",
-    author = "Hannes Mueller and Christopher Rauh",
-    journal = "American Political Science Review",
-    year = "2018",
-    volume = "112",
-    number = "2",
-    pages = "358--375",
-}
-
-@article{North1985,
-    title = "The Growth of Government in the United States: An Economic Historian's Perspective",
-    journal = "Journal of Public Economics",
-    volume = "28",
-    pages = "383 - 399",
-    year = "1985",
-    author = "Douglass North",
-}
-
-@Manual{Ooms2017,
-    title = {hunspell: High-Performance Stemmer, Tokenizer, and Spell Checker},
-    author = {Jeroen Ooms},
-    year = {2017},
-    note = {R package version 2.9},
-    url = {https://CRAN.R-project.org/package=hunspell},
-}
-
- @Manual{Ooms2018pdftools,
-    title = {pdftools: Text Extraction, Rendering and Converting of PDF Documents},
-    author = {Jeroen Ooms},
-    year = {2018},
-    note = {R package version 1.8},
-    url = {https://CRAN.R-project.org/package=pdftools},
-}
-
- @Manual{Ooms2018tesseract,
-    title = {tesseract: Open Source OCR Engine},
-    author = {Jeroen Ooms},
-    year = {2018},
-    note = {R package version 2.3},
-    url = {https://CRAN.R-project.org/package=tesseract},
-  }
-
-@Article{PerssonRolandTabellini2007,
-    year = {2007},
-    volume = {2},
-    journal = {Quarterly Journal of Political Science},
-    title = {Electoral Rules and Government Spending in Parliamentary Democracies},
-    number = {2},
-    pages = {155-188},
-    author = {Torsten Persson and Gerard Roland and Guido Tabellini}
-}
-
-@Book{PerssonTabellini2010,
-    author = {Torsten Persson and Guido Tabellini},
-    title = {Political Economics Explaining Economic Policy},
-    publisher = {The MIT Press},
-    year = {2000},
-}
-
-@article{PetersonSpirling2018, 
-  title={Classification Accuracy as a Substantive Quantity of Interest: Measuring Polarization in Westminster Systems}, 
-  volume={26}, 
-  number={1}, 
-  journal={Political Analysis}, 
-  author={Peterson, Andrew and Spirling, Arthur}, 
-  year={2018}, 
-  pages={120–128}
-}
-
-@Article{Rasiah2010,
-    author = {Parameswary Rasiah},
-    title = {A framework for the systematic analysis of evasion in parliamentary discourse},
-    journal = {Journal of Pragmatics},
-    year = {2010},
-    volume = {42},
-    pages = {664--680},
-}
-
-@Article{ReinhardtLee2006,
-  author={Sam Reinhardt and Lee Steel},
-  title={A Brief History of Australia's Tax System},
-  journal={Economic Roundup},
-  year= {2006},
-  pages={1--26},
-  month={Winter},
-}
-
-@inproceedings{RheaultCochran2018,
-  author    = {Ludovic Rheault and Christopher Cochrane},
-  title     = {Word Embeddings for the Estimation of Ideological Placement in Parliamentary Corpora},
-  booktitle = {PolMeth 2018},
-  year      = {2018},
-  address   = {Provo, UT},
-  publisher = {Society for Political Methodology},
-}
-
-@Book{Rhodes2002,
-    author =  {Glenn Rhodes},
-    title =   {Votes for Australia: How colonials voted at the 1899-1900 Federation referendums},
-    publisher = "Centre for Australian Public Sector Management",
-    year = {2002},
-}
-
-@Manual{RobertsStewartAiroldiRPackage,
-    title = {stm: R Package for Structural Topic Models},
-    author = {Margaret E. Roberts and Brandon M. Stewart and Dustin Tingley},
-    year = {2018},
-    note = {R package version 1.3.3},
-    url = {http://www.structuraltopicmodel.com},
-}
-
-@Article{RobertsStewartAiroldi2016,
-    author = {Margaret E. Roberts and Brandon M. Stewart and Edoardo M. Airoldi},
-    title = {A Model of Text for Experimentation in the Social Sciences},
-    journal = {Journal of the American Statistical Association},
-    volume = {111},
-    number = {515},
-    pages = {988--1003},
-    year = {2016},
-}
-
-@Article{SealeyBates2016,
-    author = {Alison Sealey and Stephen Bates},
-    title = {Prime Ministerial Self-Reported Actions in Prime Minister's Questions 1979--2010: A Corpus-Assisted Analysis},
-    journal = {Journal of Pragmatics},
-    volume = {104},
-    pages = {18--31},
-    year = {2016},
-}
-
- @Article{SilgeRobinson2016,
-    title = {tidytext: Text Mining and Analysis Using Tidy Data Principles in R},
-    author = {Julia Silge and David Robinson},
-    doi = {10.21105/joss.00037},
-    url = {http://dx.doi.org/10.21105/joss.00037},
-    year = {2016},
-    publisher = {The Open Journal},
-    volume = {1},
-    number = {3},
-    journal = {JOSS},
-}
-
-@Article{Smith1999,
-  author={Julie P Smith},
-  title={Is the only good tax an old tax? A historical perspective on the GST debate},
-  journal={ANU Research School of Social Sciences, Discussion Paper No. 398},
-  year= {March 1999},
-}
-
-@Incollection{SteyversGriffiths2006,
-    author = {Steyvers, Mark and Griffiths, Tom},
-    title = {Probabilistic Topic Models},
-    booktitle = {Latent Semantic Analysis: A Road to Meaning},
-    editor = {T. Landauer and D McNamara and S. Dennis and W. Kintsch},
-    year = {2006}
-}
-
-@Article{Tabellini2000,
-  author={Guido Tabellini},
-  title={Constitutional Determinants of Government Spending},
-  journal={CESifo Working Paper Series},
-  year= {2000},
-}
-
-@Article{Topicmodels2011,
-    title = {{topicmodels}: An {R} Package for Fitting Topic Models},
-    author = {Bettina Gr\"un and Kurt Hornik},
-    journal = {Journal of Statistical Software},
-    year = {2011},
-    volume = {40},
-    number = {13},
-    pages = {1--30},
-    doi = {10.18637/jss.v040.i13},
-}
-
-@Manual{VaughanDancho2018,
-    title = {furrr: Apply Mapping Functions in Parallel using Futures},
-    author = {Davis Vaughan and Matt Dancho},
-    year = {2018},
-    note = {R package version 0.1.0.9002},
-    url = {https://github.com/DavisVaughan/furrr},
-}
-
-@Article{Whyte2014,
-    author = {Tanya Whyte},
-    title = {Some Honourable Members: A Quantitative Analysis of Parliamentary Decorum in Canada and the United Kingdom},
-    journal = {Paper presented to the 23rd World Congress of Political Science, 23 July 2014, Montreal Quebec, Canada},
-    year = {2014},
-}
-
-@Article{Whyte2017,
-    author = {Tanya Whyte},
-    title = {Oh, oh! Modeling Parliamentary Interruptions in Canada, 1926-2015},
-    journal = {Paper presented at Canadian Political Science Association Annual Conference, Ryerson University, Toronto, 27 May  -- 2 June, 2017},
-    year = {2017},
-}
-
-@Manual{Wickham2017,
-    title = {tidyverse: Easily Install and Load the 'Tidyverse'},
-    author = {Hadley Wickham},
-    year = {2017},
-    note = {R package version 1.2.1},
-    url = {https://CRAN.R-project.org/package=tidyverse},
-}
-
-@Article{WilkersonSmithStramp2015,
-    author = {John Wilkerson and David Smith and Nick Stramp},
-    title = {Tracing the Flow of Policy Ideas in Legislatures: A Text Reuse Approach},
-    journal = {American Journal of Political Science},
-    volume = {59},
-    number = {4},
-    pages = {943--956},
-    year = {2015},
-}
-
-@Article{Willis2017,
-    author = {Rebecca Willis},
-    title = {Taming the Climate? Corpus analysis of politicians' speech on climate change},
-    journal = {Environmental Politics},
-    volume = {26},
-    number = {2},
-    pages = {212--231},
-    year = {2017},
-}
-
-@Incollection{Wilson2015,
-    author = {John K Wilson},
-    title = {Government and the Evolution of Public Policy},
-    booktitle = {The Cambridge Economic History of Australia},
-    publisher = {Cambridge University Press},
-    editor = {Simon Wille and Glenn Withers},
-    year = {2015},
-    chapter = {15},
-    pages = {330--350},
-}
-
-</script>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

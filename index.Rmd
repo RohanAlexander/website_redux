@@ -3,6 +3,9 @@ title: "Home"
 site: distill::distill_website
 ---
 
+*17 November 2020: If you would like to participate in the Toronto Data Workshop on Reproducibility (25/26 February 2021) then please see [here](https://rohanalexander.com/reproducibility).*
+
+
 Hi, I’m Rohan Alexander.
 
 ```{r  out.width = "30%"}
