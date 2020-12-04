@@ -6,7 +6,7 @@ description: |
 
 # University of Toronto
 * *(Upcoming)* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2021
-* *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020
+* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020
 * Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf)
 
 

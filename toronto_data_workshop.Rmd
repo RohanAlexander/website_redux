@@ -32,23 +32,23 @@ The current organising committee is: Faria Khandaker, [Kelly Lyons](http://indiv
 
 # Fall 2020 speakers
 
-Date (Toronto time)  | Speaker | Topic
-------------- | ------------- | -------------
-Thu, 3 Sep, 4-5pm  |  Erik Drysdale *(The Hospital for Sick Children)* |  Using hospital data
-Tue, 8 Sep, 3:30-4:30pm  |  Sophie Bennett *(Industry data scientist)* |  UK A levels algorithm issues *(jointly hosted with [SRI](https://sr-institute.utoronto.ca/))*
-Thu, 10 Sep, 4-5pm  |  A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu & Paul Hodgetts *(University of Toronto)*  |  Various R packages and research developed by students
-Thu, 17 Sep, 4-5pm  |  Amber Simpson *(Queen's University)* |  Cancer and AI
-Thu, 24 Sep, 4-5pm  |  Chelsea Parlett-Pelleriti *(Chapman University)* |  Talking to non-statisticians about statistics
-Thu, 1 Oct, 4-5pm  |  Florence Vallée-Dubois *(Université de Montréal)* |  Canadian demographics by riding (1991-2015)
+Date (Toronto time)  | Speaker | Topic | 
+------------- | ------------- | ------------- 
+Thu, 3 Sep, 4-5pm  |  Erik Drysdale *(The Hospital for Sick Children)* |  Using hospital data 
+Tue, 8 Sep, 3:30-4:30pm  |  Sophie Bennett *(Industry data scientist)* |  UK A levels algorithm issues *(jointly hosted with [SRI](https://sr-institute.utoronto.ca/))* 
+Thu, 10 Sep, 4-5pm  |  A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu & Paul Hodgetts *(University of Toronto)*  |  Various R packages and research developed by students 
+Thu, 17 Sep, 4-5pm  |  Amber Simpson *(Queen's University)* |  Cancer and AI 
+Thu, 24 Sep, 4-5pm  |  Chelsea Parlett-Pelleriti *(Chapman University)* |  Talking to non-statisticians about statistics 
+Thu, 1 Oct, 4-5pm  |  Florence Vallée-Dubois *(Université de Montréal)* |  Canadian demographics by riding (1991-2015) 
 Thu, 8 Oct, 4-5pm  |  Yim Register *(University of Washington Data Lab)* |  Self-advocacy within machine learning systems
-Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leanne Trimble, Leslie Barnes, & Lisa Strug *(University of Toronto)* |  Panel on data-focused resources at U of T
-Thu, 29 Oct, 4-5pm  |  Fei Chiang *(McMaster University)* |  Data currency and applications
-Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses
-Mon, 9 Nov, 4-5pm  |  Tom Cardoso *(Globe and Mail)*  |  Bias Behind Bars
-Thu, 12 Nov, 4-5pm  |  Kevin Armstrong *(University of Toronto)* |  Measuring poverty for NGOs
-Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughput Bayesian modelling workflow
-Thu, 26 Nov, 4-5pm  |  Postponed |
-Thu, 3 Dec, 10-11am  |  Jenny Cresswell *(World Health Organization)* |  Underreporting and misclassification in maternal mortality data
+Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leanne Trimble, Leslie Barnes, & Lisa Strug *(University of Toronto)* |  Panel on data-focused resources at U of T 
+Thu, 29 Oct, 4-5pm  |  Fei Chiang *(McMaster University)* |  Data currency and applications 
+Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses 
+Mon, 9 Nov, 4-5pm  |  Tom Cardoso *(Globe and Mail)*  |  Bias Behind Bars 
+Thu, 12 Nov, 4-5pm  |  Kevin Armstrong *(University of Toronto)* |  Measuring poverty for NGOs 
+Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughput Bayesian modelling workflow 
+Thu, 26 Nov, 4-5pm  |  Postponed | 
+Thu, 3 Dec, 5-6pm  |  Monica Alexander *(University of Toronto)* |  [Using Facebook advertising data to estimate migration](https://youtu.be/xM1vf_KT76g) 
 Thu, 10 Dec, 4-5pm  |  Shabrina Mardevi *(United Nations Population Fund & University of Toronto)* & Romesh Silva *(United Nations Population Fund)* |  Population data estimation
 Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Duke University)*, Nathalie Moon *(University of Toronto)*, Teon Brooks *(Mozilla Firefox)* |  Panel on teaching data-focused topics
 
@@ -106,9 +106,9 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 	[Michael](https://michael-chong.github.io/) is a PhD student in the Department of Statistical Sciences at the University of Toronto building models for demographic estimation. Previously, he completed his BSc in Integrated Science at McMaster University. Michael will discuss lessons from a high-throughput Bayesian modelling workflow
 * Thursday, 26 November 2020, 4-5pm  
 	**Postponed**
-* Thursday, 3 December 2020, 10-11am  
-	**Jenny Cresswell** (World Health Organization)  
-	[Jenny Cresswell](https://twitter.com/jennycresswell) is in the measurement & monitoring team in the Department of Sexual and Reproductive Health & Research at the World Health Organization. She leads a portfolio of work on maternal mortality and morbidity, and the development of indicators for global and national reproductive health monitoring. Part of this portfolio involves providing technical support to Member States in strengthening their maternal mortality data collection and reporting. Previously, Jenny training in epidemiology and demography, and was an Assistant Professor at the London School of Hygiene & Tropical Medicine, UK. Jenny will discuss underreporting and misclassification in maternal mortality data.
+* Thursday, 3 December 2020, 5-6pm  
+	**Monica Alexander** (University of Toronto)  
+	[Monica Alexander](https://www.monicaalexander.com/about/) is an Assistant Professor in Statistical Sciences and Sociology at the University of Toronto. She received her PhD in Demography from the University of California, Berkeley. Her research interests include statistical demography, mortality and health inequalities, and computational social science. Monica will talk about using Facebook advertising data to estimate migration. A recording of the talk is available here: https://youtu.be/xM1vf_KT76g.
 * Thursday, 10 December 2020, 4-5pm  
 	**Shabrina Mardevi** (United Nations Population Fund and University of Toronto)  
 	**Romesh Silva** (United Nations Population Fund)  
