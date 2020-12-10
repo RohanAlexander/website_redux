@@ -1,5 +1,9 @@
 ---
 title: "Toronto Data Lab"
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 1  
 ---
 
 
