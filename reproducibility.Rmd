@@ -10,53 +10,108 @@ output:
 
 # Overview 
 
-The Faculty of Information and the Department of Statistical Sciences at the University of Toronto are excited to host a two-day conference bringing together academic and industry participants on the critical issue of reproducibility in applied statistics (very broadly defined). The conference will be hosted online on Thursday and Friday 25-26 February 2021. Everyone is welcome and you can register [here](https://forms.gle/txLw43Q7UsXjzQys8).
+The Faculty of Information and the Department of Statistical Sciences at the University of Toronto are excited to host a two-day conference bringing together academic and industry participants on the critical issue of reproducibility in applied statistics (very broadly defined). The conference will be hosted online on Thursday and Friday 25-26 February 2021. Everyone is welcome, you don't need to be affiliated with a university, and you can register [here](https://forms.gle/txLw43Q7UsXjzQys8).
 
-Keynotes: 
+The conference has three broad areas of focus:
 
-- [Eva Vivalt](http://evavivalt.com/) (University of Toronto);
-- [Mine Çetinkaya-Rundel](https://www2.stat.duke.edu/~mc301/) (University of Edinburgh); and
-- [Riana Minocher](https://www.eva.mpg.de/ecology/staff/riana-minocher.html) (Max Planck Institute for Evolutionary Anthropology).
-
-Invited presentations: 
-
-- [Amber Simpson](http://www2.cs.queensu.ca/people/profile.php?fname=Amber&lname=Simpson) (Queen's University);
-- [Florencia D'Andrea](https://florencia.netlify.app/) (Argentine National Institute of Agricultural Technology);
-- [Garret Christensen](https://www.ocf.berkeley.edu/~garret/) (Federal Deposit Insurance Corporation);
-- [Heidi Seibold](https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html) (Helmholtz AI);
-- [John McLevey](https://www.johnmclevey.com/) (University of Waterloo);
-- [Lauren Kennedy](https://jazzystats.com/) (Monash University);
-- [Monica Alexander](https://www.monicaalexander.com/) (University of Toronto);
-- [Nancy Reid](http://www.utstat.utoronto.ca/reid/) (University of Toronto);
-- [Ryan Briggs](https://www.ryancbriggs.net/) (University of Guelph);
-- [Sharla Gelfand](https://sharla.party/) (Freelance R Developer);
-- [Shemra Rizzo](https://www.linkedin.com/in/shemra) (Genentech); 
-- [Shiro Kuriwaki](https://www.shirokuriwaki.com/) (Harvard University); and 
-- [Tyler Girard](https://www.tylergirard.com/) (Western University).
-
-If you would like to attend, then please register [here](https://forms.gle/txLw43Q7UsXjzQys8).
-
-# Call for abstracts
-
-If you would like to present a paper then please register and submit an abstract [here](https://forms.gle/txLw43Q7UsXjzQys8). Abstracts are due 15 December 2020. Notification of acceptance will occur a week or two after that. 
-
-Folks who have traditionally been under-represented in statistics are especially encouraged to apply.
-
-We welcome anything to do with reproducibility, but the conference has four broad areas of focus:
-
-- **Applications of reproducibility:** Do you have an example and/or case studies of especially reproducible work? What are these gold standards, what makes them great, and how can we all achieve this standard?
-- **Evaluating reproducibility:** Have you tried to systematically look at the extent of reproducibility in a field? Does, say, economics fall flat while demography shines? How did you go about your study? What aspects contributed to your findings?
+- **Evaluating reproducibility:** Have you tried to systematically look at the extent of reproducibility of a paper or even in a whole field? Does, say, economics fall flat while demography shines? How did you go about your study? What aspects contributed to your findings?
 - **Practices of reproducibility:** Have you developed some tools and approaches that make reproducibility easier? 
 - **Teaching reproducibility:** How can we ensure that today's undergraduate and graduate students don't repeat the mistakes of earlier generations? What are some case studies that show promise?
 
-# Details
-
-Free and online via Zoom. 
+Free and online via Zoom. We intend to record the presentations and will add links here ex post.
 
 Everyone is welcome. You don't need to be affiliated with a university.
 
 If you would like to attend, then please sign up [here](https://forms.gle/txLw43Q7UsXjzQys8).
 
-```{r, out.width= "95%"}
-knitr::include_graphics("images/IMG_0171.jpeg") 
-```
+
+# Draft schedule
+
+(All times are Toronto - same as US east coast / New York.)
+
+## Thursday, 25 February, 2021
+
+| Date 								| Speaker				 | Area | 
+| -------- | ---------------------- | -------- |
+| 9:00-9:10am 	| Rohan Alexander, *University of Toronto* 											| Welcome and house-keeping|
+| 9:10-9:20am 	| Radu Craiu, *University of Toronto* 													| Introductory remarks|
+| 9:20-9:30am 	| Wendy Duff, *University of Toronto* 													| Introductory remarks|
+| 9:30-10:25am 	| Mine Çetinkaya-Rundel, *University of Edinburgh*              | Keynote - Teaching |
+| 10:30-10:55am | Tyler Girard, *University of Western Ontario*                 | Teaching |
+| 11:00-11:25am | Shiro Kuriwaki, *Harvard University* 							            | Teaching |
+| 11:30-11:55am | Tiffany Timbers, *University of British Columbia*             | Teaching |
+| Noon-12:55pm 	| Riana Minocher, *Max Planck Institute for Evolutionary Anthropology* | Keynote - Evaluating|
+| 1:00-1:25pm 	| Tom Barton, *Royal Holloway, University of London* 						| Evaluating |
+| 1:30-1:55pm 	| Amber Simpson, *Queens University* 													  | |
+| 2:00-2:25pm 	| Yanbo Tang, *University of Toronto* 													| Practices |
+| 2:30-2:55pm 	| Garret Christensen, *US Federal Deposit Insurance Corporation* | |
+| 3:00-3:25pm 	| Danielle Smalls-Perkins, *Google* 													  | |
+| 3:30-3:55pm 	| Ryan Briggs, *University of Guelph* 													| |
+| 4:00-4:25pm 	| Andrés Cruz, *Pontificia Universidad Católica de Chile* 			| Practices |
+| 4:30-4:55pm 	| Jake Bowers, *University of Illinois & The Policy Lab @ Brown* |  |
+| 5:00-5:25pm 	| Lauren Kennedy, *Monash University* 													| |
+
+
+
+
+
+## Friday, 26 February, 2021
+
+| Date 								| Speaker				 | Area | 
+| -------- | ---------------------- | -------- |
+| 9:00-9:55am 	| Eva Vivalt, *University of Toronto* 													| Keynote |
+| 10:00-10:25am | Heidi Seibold, *Helmholtz Artificial Intelligence Cooperation Unit* |  |
+| 10:30-10:55am | Mauricio Vargas, *Catholic University of Chile* 							|  |
+| 11:00-11:25am | Shemra Rizzo, *Genentech*                                     |  |
+| 11:30-11:55am | Julia Schulte-Cloos, *LMU Munich*, Paul C. Bauer, *MZES Mannheim* | Practices	|
+| Noon-12:25pm 	| Monica Alexander, *University of Toronto* 										| |
+| 12:30-12:55pm | John McLevey, *University of Waterloo* 												| |
+| 1:00-1:25pm 	| Florencia D'Andrea, *National Institute of Agricultural Technology* | |
+| 1:30-1:55pm 	| Sharla Gelfand, *Freelance R Developer* 											| |
+| 2:00-2:25pm 	| Emily Riederer, *Capital One* 														    | Practices	|
+| 2:30-2:55pm 	| John Blischak, *Freelance scientific software developer* 			| Practices	|
+| 3:00-3:25pm 	| Nancy Reid, *University of Toronto* 													|  |
+| 3:30-3:55pm 	| *TBA*	 																				                |  |
+| 4:00-4:25pm 	| *TBA*	 																				                |  |
+| 4:30-4:55pm 	| *TBA*	 																				                |  |
+| 5:00-5:25pm 	| Rohan Alexander, *University of Toronto* 											| Closing remarks |
+
+
+
+
+# Presenter biographies and abstracts
+
+Keynotes: 
+
+- [Eva Vivalt](http://evavivalt.com/) is an Assistant Professor in the Department of Economics at the University of Toronto. Her main research interests are in cash transfers, reducing barriers to evidence-based decision-making, and global priorities research.
+- [Mine Çetinkaya-Rundel](https://www2.stat.duke.edu/~mc301/) is a Senior Lecturer in Statistics and Data Science in the School of Maths at University of Edinburgh, and currently on leave as Associate Professor of the Practice in the Department of Statistical Science at Duke University as well as a Professional Educator and Data Scientist at RStudio. She is the author of three open source statistics textbooks and is an instructor for Coursera. She is the chair-elect of the Statistical Education Section of the American Statistical Association. Her work focuses on innovation in statistics pedagogy, with an emphasis on student-centered learning, computation, reproducible research, and open-source education.
+- [Riana Minocher](https://www.eva.mpg.de/ecology/staff/riana-minocher.html) is a doctoral student at the Max Planck Institute for Evolutionary Anthropology in Leipzig. She is an evolutionary biologist with broad interests. She has worked on a range of projects on human and non-human primate behaviour and ecology. She is particularly interested in the evolutionary processes that create and shape diversity between and within groups. Through her PhD research, she is keen on exploring the dynamics of cultural transmission and learning in human populations, to better understand the diverse patterns of behaviour we observe. 
+
+Invited presentations: 
+
+- [Amber Simpson](http://www2.cs.queensu.ca/people/profile.php?fname=Amber&lname=Simpson), is the Canada Research Chair in Biomedical Computing and Informatics and Associate Professor in the School of Computing (Faculty of Arts and Science) and Department of Biomedical and Molecular Sciences (Faculty of Health Sciences). She specializes in biomedical data science and computer-aided surgery. Her research group is focused on developing novel computational strategies for improving human health. She joined the Queen’s University faculty in 2019, after four years as faculty at Memorial Sloan Kettering Cancer Center in New York and three years as a Research Assistant Professor in Biomedical Engineering at Vanderbilt University in Nashville. She is an American Association of Cancer Research award winner and the holder of multiple National Institutes of Health grants. She received her PhD in Computer Science from Queen’s University. 
+- [Andrés Cruz](https://arcruz0.github.io/) is an adjunct instructor at Pontificia Universidad Católica de Chile, where he teaches computational social science. He holds a BA and MA in Political Science, and is the co-editor of “R for Political Data Science: A Practical Guide” (CRC Press, 2020), an R manual for social science students and practitioners.
+- [Danielle Smalls-Perkins](https://twitter.com/smallperks?lang=en) works at Google in Natural Language Processing. She is a co-founder of MiR, which exists to support and increase the underrepresented minority users in the R community. 
+- [Emily Riederer](https://emilyriederer.netlify.app) is a Senior Analytics Manager at Capital One. Her team focuses on reimagining our analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to our partner teams.
+- [Florencia D'Andrea](https://florencia.netlify.app/) is a post-doc at the Argentine National Institute of Agricultural Technology where she develops computer tools to assess the risk of pesticide applications for aquatic ecosystems. She holds a PhD in Biological Sciences from the University of Buenos Aires, Argentina.
+- [Garret Christensen](https://www.ocf.berkeley.edu/~garret/) received his economics PhD from UC Berkeley in 2011. He is an economist with the FDIC. Before that he worked for the Census Bureau, and he was a project scientist with the Berkeley Initiative for Transparency in the Social Sciences and a Data Science Fellow with the Berkeley Institute for Data Science.
+- [Heidi Seibold](https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html) is a Team leader at Helmholtz AI. Her group combines open science, AI and health research. It focuses on reproducible and open research, as well as on machine learning methods for personalized medicine that improve patient treatment.
+- [Jake Bowers](http://www.jakebowers.org), is a Senior Scientist at The Policy Lab and a member of the Lab's data science practice. Jake is Associate Professor of Political Science and Statistics at the University of Illinois Urbana-Champaign. He has served as a Fellow in the Office of Evaluation Sciences in the General Services Administration of the US Federal Government and is Methods Director for the Evidence in Governance and Politics network. Jake holds a PhD in Political Science from the University of California, Berkeley, and a BA in Ethics, Politics and Economics from Yale University.
+- [John Blischak](https://jdblischak.com/), is a freelance scientific software developer for the life sciences industry. He is the primary author of the R package workflowr and the co-maintainer of the CRAN Task View on Reproducible Research. He received his PhD in Genetics from the University of Chicago.
+- [John McLevey](https://www.johnmclevey.com/), University of Waterloo, is an Associate Professor in the Department of Knowledge Integration at University of Waterloo, and cross-appointed to Sociology & Legal Studies, the School of Environment, Resources, & Sustainability (SERS), and Geography & Environmental Management (GEM). He primarily works in the areas of social network analysis and computational social science, with substantive interests in the sociology of science, environmental sociology, political sociology, and cognitive sociology.
+- [Julia Schulte-Cloos](https://jschultecloos.github.io), LMU Munich, is a Marie Skłodowska-Curie funded LMU Research Fellow at the Geschwister Scholl Institute of Political Science at LMU Munich. Her research lies at the intersection of comparative politics, political sociology and socio-psychology.
+- [Paul C. Bauer](https://sites.google.com/view/paulcbauer), MZES Mannheim, is a research fellow & project director at the Mannheim Centre for European Social Research (MZES). Previously, he worked at the European University Institute and the University of Bern. He conducts research in the areas of political sociology, -behavior, -communication and methodology. 
+- [Lauren Kennedy](https://jazzystats.com/), Monash University, is a lecturer at Monash University (Melbourne, Australia), where she works creating survey weights and thinking about non-representative data, multilevel modelling, poststratification, causal inference, Bayesian inference and all manner of other related fields to making inference from the social sciences.
+- [Mauricio Vargas Sepúlveda](https://pacha.dev) loves working with data and statistical programming, and is constantly learning new skills and tooling in his spare time. He mostly works in R due to its huge number of libraries and emphasis on reproducible analysis.
+- [Monica Alexander](https://www.monicaalexander.com/) is an Assistant Professor in Statistical Sciences and Sociology at the University of Toronto. She received her PhD in Demography from the University of California, Berkeley. Her research interests include statistical demography, mortality and health inequalities, and computational social science.
+- [Nancy Reid](http://www.utstat.utoronto.ca/reid/) is Professor of Statistical Sciences at the University of Toronto and Canada Research Chair in Statistical Theory and Applications. Her main area of research is theoretical statistics. This treats the foundations and properties of methods of statistical inference. She is interested in how best to use information in the data to construct inferential statements about quantities of interest. A very simple example of this is the widely quoted 'margin of error' in the reporting of polls, another is the ubiquitous 'p-value' reported in medical and health studies. Much of her research considers how to ensure that these inferential statements are both accurate and effective at summarizing complex sets of data.
+- [Ryan Briggs](https://www.ryancbriggs.net/), University of Guelph, is a social scientist who studies the political economy of poverty alleviation. Most of my research focuses on Africa. He is also an Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph. Before that, he taught at Virginia Tech and American University.
+- [Sharla Gelfand](https://sharla.party/) is a freelance R and Shiny developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. They also co-organize R-Ladies Toronto and the Greater Toronto Area R User Group. They like R (of course), dogs, learning Spanish, playing bass, and punk.
+- [Shemra Rizzo](https://www.linkedin.com/in/shemra) is a Senior Data Scientist at Genentech and before that Proteus Digital Health. She was previously Assistant Professor in Statistics at the University of California, Riverside, and holds a PhD in Biostatistics from UCLA.
+- [Shiro Kuriwaki](https://www.shirokuriwaki.com/) is a PhD Candidate in the Department of Government at Harvard University. His research focuses on democratic representation in American Politics. In an ongoing project, he studies the structure of voter's choices across levels of government and the political economy of local elections, using cast vote records and surveys. His other projects also help understand the mechanics of representation, including: public opinion and Congress, modern survey statistics and causal inference, and election administration. Prior to and during graduate school, he worked at the Analyst Institute in Washington D.C.
+- [Tiffany Timbers](https://www.tiffanytimbers.com/) is an Assistant Professor of Teaching in the Department of Statistics and an Co-Director for the Master of Data Science program (Vancouver Option) at the University of British Columbia. In these roles she teaches and develops curriculum around the responsible application of Data Science to solve real-world problems. One of her favourite courses she teaches is a graduate course on collaborative software development, which focuses on teaching how to create R and Python packages using modern tools and workflows.
+- [Tom Barton](https://pure.royalholloway.ac.uk/portal/en/persons/thomas-barton(8a862a25-f335-4c52-9986-6c094b613b55).html) Tom Barton is a PhD student in Politics at Royal Holloway, University of London. His PhD focuses on the impact of Voter Identification laws on political participation and attitudes. More generally his interests include elections, public opinion (particularly social values) and quantitative research methods.
+- [Tyler Girard](https://www.tylergirard.com/) is a PhD Candidate in political science at the University of Western Ontario (London, Ontario, Canada). His dissertation research seeks to explain the origins and diffusion of the global financial inclusion agenda by focusing on the role of ambiguous ideas in mobilizing and consolidating transnational coalitions.
+- [Yanbo Tang](https://www.statistics.utoronto.ca/people/directories/graduate-students/yanbo-tang) is a PhD candidate at the University of Toronto in the Department of Statistical Sciences, under the joint supervision of Nancy Reid and Daniel Roy. He is interested in the study and application of methods in higher order asymptotics and statistical inference in the presence of many nuisance parameters. Nowadays, he works under the careful gaze of his pet parrot.
+  
+  

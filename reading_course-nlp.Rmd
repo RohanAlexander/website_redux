@@ -1,7 +1,5 @@
 ---
 title: "Reading Course: 'Natural Language Processing'"
-description: |
-  This is a reading course available to students at the Department of Statistical Sciences, University of Toronto.
 output:
   distill::distill_article:
     toc: true
@@ -62,8 +60,6 @@ The standard expected is much higher than normal courses. Please think very care
 
 
 # Assessment
-
-
  
 - Learning Diary (15 per cent)
   - Date: Each week you will read relevant papers and books, engaging with them by writing notes and completing exercises. You will use GitHub to manage these notes and exercises and email a link to me at the end of each week.

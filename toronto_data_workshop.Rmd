@@ -1,15 +1,124 @@
 ---
 title: "Toronto Data Workshop"
 description: |
-  A weekly hour-long discussion where industry and academic participants collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps in any data science project. Thursdays at 4-5pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+  A weekly hour-long discussion where academia and industry come together to share best practices for the initial data-centric steps in any applied statistics project. Thursdays at 4:30-5:30pm (Toronto time) via Zoom. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 output:
   distill::distill_article:
     toc: true
     toc_depth: 1  
 ---
 
-*17 November 2020: If you would like to participate in the Toronto Data Workshop on Reproducibility (25/26 February 2021) then please see [here](https://rohanalexander.com/reproducibility).*
 
+# Overview
+
+The Toronto Data Workshop (TDW) brings together academia and industry to consider, collate, share, and disseminate best practices in the initial data-centric steps of a data science project: collection; cleaning; storage; retrieval; dissemination; and protection. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
+
+The current organising committee is: Faria Khandaker, [Kelly Lyons](http://individual.utoronto.ca/klyons/), and Rohan Alexander. The TDW is a joint initiative between the Faculty of Information and the Department of Statistical Sciences at the University of Toronto and we especially thank Dean Wendy Duff and Chair Radu Craiu for their support.
+
+
+
+# Winter 2021 speakers
+
+
+```{r, out.width= "33%"}
+knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png", "images/tdw_bluejays_dataworkshop_hex.png")) 
+```
+[*Thanks to Paul Hodgetts for the Jays-inspired sticker.*]{style="float:right"}
+
+
+| Date 				| Speaker				| Topic | Recording |
+| ---------- | --------------- | ------------- | ----- |
+| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* 					| TBA | |
+| Thu 21 Jan, 4:30-5:30pm 	| *Cancelled*																			| - | - |
+| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			| TBA | |
+| Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																| TBA | |
+| Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									| TBA | |
+| Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| |
+| Thu 25 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
+| Fri 26 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
+| Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Marrying simulation modeling and retrospective data for health economic decision making.| |
+| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 											| TBA | |
+| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| TBA | |
+| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Royal Canadian Mint* 													| TBA | |
+| Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 													| Integrating science & policy through DS & AI | |
+| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 											| TBA | |
+| Thu 15 Apr, 4:30-5:30pm 	| *TBA* 																				| TBA | |
+| Thu 22 Apr, 4:30-5:30pm 	| Sam-Jo Caetano, *University of Toronto*, Aimee Schwab-McCoy, *Creighton University* 	| Panel on teaching data-focused topics. | |
+
+
+
+
+* Thursday, 14 January, 4:30-5:30pm  
+	**Andrew Miles**, University of Toronto  
+	Andrew Miles is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.  
+	*Topic TBA* 
+* Thursday, 21 January, 4:30-5:30pm  
+	*Cancelled*
+* Thursday, 28 January, 4:30-5:30pm  
+	**Irene Duah-Kessie**, University of Toronto  
+	Irene completed an Honours Bachelors of Science Degree at the McMaster University and is now pursuing a Master of Science in Sustainability Management at the University of Toronto, with a collaborative specialization in Environmental Studies.  
+	*Topic TBA* 
+* Thursday, 4 February, 4:30-5:30pm  
+	**Kathy Ge**, Uber  
+	Kathy Ge is a Data Scientist at Uber. Previously she worked at Shopify. She holds a masters in Computer Science and a bachelors in CS and statistics all from the University of Toronto.  
+	*Topic TBA* 
+* Thursday, 11 February, 4:30-5:30pm  
+	**Garrick Aden-Buie**, R Studio  
+	[Garrick](https://www.garrickadenbuie.com) is a Data Science Educator at RStudio who lives in sunny St. Petersburg, Florida. His passion is combining creative coding with programming education, using code to build tools that teach coding to new and advanced R users alike. Like tidyexplain: a project that used ggplot2 and gganimate to reimagine database operations as colorful flying boxes instead of the typical Venn diagrams. Garrick has developed a number of open source addins and packages for RStudio—such regexplain, shrtcts and rsthemes—and is always easily distracted by projects that combine R Markdown and online learning or teaching.   
+	*Topic TBA* 
+* Thursday, 18 February, 4:30-5:30pm  
+	**Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo**, University of Toronto  
+	DoSS toolkit launch.  
+	The DoSS toolkit is a series of self-paced lessons that students can go through ahead of class, to achieve badges for various levels of accomplishment with R. Instructors can use the badges to work out the level of the class and either direct students to the toolkit to address deficiencies or cover missing aspects themselves.
+* Thursday, 25 February, 9:00-5:30pm  
+	**Various**  
+	[*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility)
+* Friday, 26 February, 9:00-5:30pm  
+	**Various**  
+	[*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility)
+* Thursday, 4 March, 4:30-5:30pm  
+	**Petros Pechlivanoglou**, The Hospital for Sick Children (SickKids) Research Institute  
+	Petros Pechlivanoglou, PhD, is a Scientist at The Hospital for Sick Children (SickKids) Research Institute and an Assistant Professor at the University of Toronto, Institute of Health Policy Management and Evaluation. He studied economics in his native country, Greece, econometrics at the University of Groningen, the Netherlands and obtained a PhD in health econometrics from the same university. He completed a post-doctoral fellowship at the University of Toronto, within the Toronto Health Economics and Technology Assessment (THETA) Collaborative where he focused on methodological aspects around the application of decision analysis in health-care policy.  
+	Petros will talk about marrying simulation modeling and retrospective data for health economic decision making. 
+* Thursday, 11 March, 4:30-5:30pm  
+	**Lucas Cherkewski**, Canadian Digital Service  
+	Bio  
+	*Topic TBA* 
+* Thursday, 18 March, 4:30-5:30pm  
+	**Sofia Ruiz Suarez**, National University of Comahue  
+	Bio  
+	*Topic TBA* 
+* Thursday, 25 March, 4:30-5:30pm  
+	**Alex Cookson**, Royal Canadian Mint  
+	[Alex](https://www.alexcookson.com/) loves data science, cycling, and cats. He works at the Royal Canadian Mint, where he helps the marketing team make the most of their data. He's worked on many machine learning and business analytics projects, including predictive models for customer churn, recommendation engines, and self-service dashboards. He holds Masters degrees in International Business from HEC Paris and Queen's University, and earned his Bachelor's degree from Queen's University, where he studied commerce.  
+	*Topic TBA* 
+* Thursday, 1 April, 4:30-5:30pm  
+	**Vik Pant**, Natural Resources Canada. 
+	Dr. Vik Pant is the Chief Scientist and Chief Science Advisor of Natural Resources Canada (NRCan). He leads the Office of the Chief Scientist at NRCan and reports directly to the Deputy Minister. His office oversees the development and implementation of evidence-based science policy across NRCan sectors and agencies. His office also manages NRCan's enterprise-wide technology strategy and portfolio of science products. He also runs the Digital Accelerator, which is an innovation platform for designing and launching AI-driven software products in NRCan. Vik is also the Founder of Synthetic Intelligence Forum, which is a leading community of practice focused on the industrial application of Artificial Intelligence (AI). He earned a doctorate from the Faculty of Information (iSchool) in the University of Toronto, a master's degree in business administration with distinction from the University of London, a master's degree in information technology from Harvard University, where he received the Dean’s List Academic Achievement Award, and an undergraduate degree in business administration from Villanova University. Vik serves as an Adjunct Professor in the Faculty of Information (iSchool) at the University of Toronto.  
+	Supporting the Integration of Science and Policy through Data Science and Artificial Intelligence. 
+* Thursday, 8 April, 4:30-5:30pm  
+	**Faria Khandaker**, University of Toronto  
+	Bio  
+	*Topic TBA* 
+* Thursday, 15 April, 4:30-5:30pm  
+	**TBA**  
+	Bio  
+	*Topic TBA* 
+* Thursday, 22 April, 4:30-5:30pm  
+	**Sam-Jo Caetano**, University of Toronto, **Aimee Schwab-McCoy**, Creighton University. 
+	Sam-Jo Caetano is an Assistant Professor at the University of Toronto. Aimee Schwab-McCoy is an Assistant Professor of Statistics at Creighton University.  
+	Panel on teaching data-focused topics. 
+
+
+
+
+
+
+
+
+
+
+# Fall 2020 speakers
 
 
 ```{r, out.width= "25%"}
@@ -18,39 +127,25 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_maple_leaf.png"
 [*Thanks to Hidaya Ismail for the brilliant maple leaf and dinosaur hex stickers.*]{style="float:right"}
 
 
-
-# Overview
-
-Since Fall 2019, the Toronto Data Workshop (TDW) has brought together researchers from various academic disciplines as well as industry to collectively consider, collate, share, and disseminate best practices in the critical initial data-centric steps of any data science project: collection; cleaning; storage; retrieval; dissemination; and protection. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. 
-
-We meet on Thursdays at 4-5pm (Toronto time) via Zoom. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
-We start at 4:01 with a brief welcome and then three minutes of break-out rooms to meet some of the other participants. At 4:05 we return to the main room and the speaker is introduced. Speakers typically speak for 20-45 minutes, during which participants are encouraged to add comments and questions to the chat, rather than verbally interrupting. We then have a chaired question period, in which those with questions are asked to signal this in the chat, at which point they'll be called on to introduce themselves and ask their question.
-
-The current organising committee is: Faria Khandaker, [Kelly Lyons](http://individual.utoronto.ca/klyons/), and Rohan Alexander. The TDW is a joint initiative between the Faculty of Information and the Department of Statistical Sciences at the University of Toronto and we especially thank Dean Wendy Duff and Chair Radu Craiu for their support.
-
-
-
-# Fall 2020 speakers
-
-Date (Toronto time)  | Speaker | Topic | 
-------------- | ------------- | ------------- 
-Thu, 3 Sep, 4-5pm  |  Erik Drysdale *(The Hospital for Sick Children)* |  Using hospital data 
-Tue, 8 Sep, 3:30-4:30pm  |  Sophie Bennett *(Industry data scientist)* |  UK A levels algorithm issues *(jointly hosted with [SRI](https://sr-institute.utoronto.ca/))* 
-Thu, 10 Sep, 4-5pm  |  A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu & Paul Hodgetts *(University of Toronto)*  |  Various R packages and research developed by students 
-Thu, 17 Sep, 4-5pm  |  Amber Simpson *(Queen's University)* |  Cancer and AI 
-Thu, 24 Sep, 4-5pm  |  Chelsea Parlett-Pelleriti *(Chapman University)* |  Talking to non-statisticians about statistics 
-Thu, 1 Oct, 4-5pm  |  Florence Vallée-Dubois *(Université de Montréal)* |  Canadian demographics by riding (1991-2015) 
-Thu, 8 Oct, 4-5pm  |  Yim Register *(University of Washington Data Lab)* |  Self-advocacy within machine learning systems
-Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leanne Trimble, Leslie Barnes, & Lisa Strug *(University of Toronto)* |  Panel on data-focused resources at U of T 
-Thu, 29 Oct, 4-5pm  |  Fei Chiang *(McMaster University)* |  Data currency and applications 
-Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses 
-Mon, 9 Nov, 4-5pm  |  Tom Cardoso *(Globe and Mail)*  |  Bias Behind Bars 
-Thu, 12 Nov, 4-5pm  |  Kevin Armstrong *(University of Toronto)* |  Measuring poverty for NGOs 
-Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughput Bayesian modelling workflow 
-Thu, 26 Nov, 4-5pm  |  Postponed | 
-Thu, 3 Dec, 5-6pm  |  Monica Alexander *(University of Toronto)* |  [Using Facebook advertising data to estimate migration](https://youtu.be/xM1vf_KT76g) 
-Thu, 10 Dec, 4-5pm  |  Shabrina Mardevi *(United Nations Population Fund & University of Toronto)* & Romesh Silva *(United Nations Population Fund)* |  Population data estimation
-Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Duke University)*, Nathalie Moon *(University of Toronto)*, Teon Brooks *(Mozilla Firefox)* |  Panel on teaching data-focused topics
+Date (Toronto time)  | Speaker | Topic | Recording |
+---------- | ------------- | ------------- | --- | 
+Thu, 3 Sep, 4-5pm  |  Erik Drysdale *(The Hospital for Sick Children)* |  Using hospital data | |
+Tue, 8 Sep, 3:30-4:30pm  |  Sophie Bennett *(Industry data scientist)* |  UK A levels algorithm issues *(jointly hosted with [SRI](https://sr-institute.utoronto.ca/))* | |
+Thu, 10 Sep, 4-5pm  |  A Mahfouz, Diego Mamanche Castellanos, Hidaya Ismail, Ke-Li Chiu & Paul Hodgetts *(University of Toronto)*  |  Various R packages and research developed by students | |
+Thu, 17 Sep, 4-5pm  |  Amber Simpson *(Queen's University)* |  Cancer and AI | |
+Thu, 24 Sep, 4-5pm  |  Chelsea Parlett-Pelleriti *(Chapman University)* |  Talking to non-statisticians about statistics | |
+Thu, 1 Oct, 4-5pm  |  Florence Vallée-Dubois *(Université de Montréal)* |  Canadian demographics by riding (1991-2015) | |
+Thu, 8 Oct, 4-5pm  |  Yim Register *(University of Washington Data Lab)* |  Self-advocacy within machine learning systems| |
+Thu, 22 Oct, 4-5pm  |  Jeff Waldman, Leanne Trimble, Leslie Barnes, & Lisa Strug *(University of Toronto)* |  Panel on data-focused resources at U of T | |
+Thu, 29 Oct, 4-5pm  |  Fei Chiang *(McMaster University)* |  Data currency and applications | |
+Thu, 5 Nov, 4-5pm  |  Andrew Whitby *(Industry data scientist)* |  Censuses | |
+Mon, 9 Nov, 4-5pm  |  Tom Cardoso *(Globe and Mail)*  |  Bias Behind Bars  | |
+Thu, 12 Nov, 4-5pm  |  Kevin Armstrong *(University of Toronto)* |  Measuring poverty for NGOs | |
+Thu, 19 Nov, 4-5pm  |  Michael Chong *(University of Toronto)* |  High-throughput Bayesian modelling workflow | https://youtu.be/xM1vf_KT76g |
+Thu, 26 Nov, 4-5pm  |  Postponed | |
+Thu, 3 Dec, 5-6pm  |  Monica Alexander *(University of Toronto)* |  Using Facebook advertising data to estimate migration  | https://youtu.be/xM1vf_KT76g |
+Thu, 10 Dec, 4-5pm  |  Shabrina Mardevi *(United Nations Population Fund & University of Toronto)* & Romesh Silva *(United Nations Population Fund)* |  Population data estimation | https://youtu.be/kfmKusnGDLI |
+Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Duke University)*, Nathalie Moon *(University of Toronto)*, Teon Brooks *(Mozilla Firefox)* |  Panel on teaching data-focused topics| https://youtu.be/c3R6pZisvm0 |
 
 
 

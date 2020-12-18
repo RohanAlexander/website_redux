@@ -14,7 +14,9 @@ navbar:
       href: index.html
     - text: "Academic"
       href: academic.html
-    - text: "Lab"
+    - text: "Conference"
+      href: reproducibility.html
+    - text: "Group"
       href: lab.html
     - text: "Teaching"
       menu: 
