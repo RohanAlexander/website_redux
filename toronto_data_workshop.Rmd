@@ -68,7 +68,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	*Topic TBA* 
 * Thursday, 18 February, 4:30-5:30pm  
 	**Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo**, University of Toronto  
-	DoSS toolkit launch.  
+	University of Toronto DoSS toolkit launch.  
 	The DoSS toolkit is a series of self-paced lessons that students can go through ahead of class, to achieve badges for various levels of accomplishment with R. Instructors can use the badges to work out the level of the class and either direct students to the toolkit to address deficiencies or cover missing aspects themselves.
 * Thursday, 25 February, 9:00-5:30pm  
 	**Various**  
@@ -82,12 +82,12 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	Petros will talk about marrying simulation modeling and retrospective data for health economic decision making. 
 * Thursday, 11 March, 4:30-5:30pm  
 	**Lucas Cherkewski**, Canadian Digital Service  
-	Bio  
-	*Topic TBA* 
+	[Lucas Cherkewski](https://lucascherkewski.com) is a policy advisor at the Canadian Digital Service (CDS). He helps delivery teams improve government services. From that experience, he advises on structural changes to make better services the default. This work includes plenty of data-enabled research and analysis—Lucas is in a happy place when his work leads him to spend an afternoon poking around a dataset, trying to better understand government so he can help change it.  
+	Lucas will talk about a few of these small CDS research projects, using publicly-available data to better understand the government’s operations.
 * Thursday, 18 March, 4:30-5:30pm  
-	**Sofia Ruiz Suarez**, National University of Comahue  
-	Bio  
-	*Topic TBA* 
+	**Sofia Ruiz-Suarez**, National University of Comahue  
+	Sofia Ruiz-Suarez holds an undergraduate degree in mathematics from the University of Buenos Aires and now is a PhD candidate at the institute for Research on Biodiversity and Environment. She also teaches mathematics at the University of Comahue and leads R-Ladies at her local city. Her research is focused on bayesian statistics with applications in animal behaviour and movement.  
+  Sofia will talk about animal tracking data. She will explain how sensors are used to track animal movement and activities, the characteristics of this type of data and how to deal with it.  
 * Thursday, 25 March, 4:30-5:30pm  
 	**Alex Cookson**, Royal Canadian Mint  
 	[Alex](https://www.alexcookson.com/) loves data science, cycling, and cats. He works at the Royal Canadian Mint, where he helps the marketing team make the most of their data. He's worked on many machine learning and business analytics projects, including predictive models for customer churn, recommendation engines, and self-service dashboards. He holds Masters degrees in International Business from HEC Paris and Queen's University, and earned his Bachelor's degree from Queen's University, where he studied commerce.  
