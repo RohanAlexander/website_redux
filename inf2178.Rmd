@@ -2,6 +2,156 @@
 title: "INF2178: Experimental Design"
 description: |
   INF2178 is a masters-level course at the University of Toronto's Faculty of Information.
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2  
 ---
 
-*Coming soon.*
+**The following is tentative and will change through to 11 January 2021.**
+
+
+# Syllabus
+
+**TBA - released on 11 January 2021.**
+
+# Assessment
+
+(Note: For Papers #1-#3 we take the best two out of three.)
+
+## Weekly quizzes
+
+- Due date: Weekly before the lecture.
+- Weight: 10 per cent (no quiz in Week 1 or Week 10)
+- Task: Please complete a weekly quiz in Quercus.
+
+## Paper #1
+
+- Due date: 29 January 2021
+- Weight: 25 per cent
+- Task: Working individually, please find a dataset on Open Data Toronto. Download it using the R package `opendatatoronto`. Write a paper in `R Markdown` with these sections: title, author, date, abstract, data, and references. In the data section thoroughly and precisely discuss the source of the data and the bias this brings (statistical or otherwise). Comprehensively describe the data using words and include a graph made in `ggplot` and a table made using `gt.` Make sure to reference both of those in the text using cross-references. Use bibtex to add references. Submit a GitHub link to a well organized repo. 
+
+## Paper #2
+
+- Due date: 19 February 2021
+- Weight: 25 per cent
+- Task: Working as part of a team of 1-4 people, please **TBA** 
+<!-- write a paper in R Markdown with a title, author, date, abstract, introduction, data, discussion and references section. In the discussion section please discuss ethics.  -->
+
+## Paper #3
+
+- Due date: 12 March 2021
+- Weight: 25 per cent
+- Task: Working as part of a team of 1-4 people, please **TBA** 
+<!-- Write a paper in R Markdown with a title, author, date, abstract, introduction, data, model, results, discussion and references section. -->
+
+
+## Test
+
+- Due date: 23 March 2021
+- Weight: 10 per cent
+- Task: We will have a test during class this week via Quercus. It will be available for 24 hours, but I recommend you complete it during class because I'll be able to help you with any technical issues immediately. There'll be a practice test released a week before this.
+
+## Final Paper
+
+- Due date: During exam week (with a peer review check point the week before).
+- Weight: 30 per cent (5 per cent of this is for peer review conducted a week before).
+- Task: Working individually, please **TBA** 
+
+
+# Content
+
+## Week 1
+
+- Date: 12 January 2021
+- Lecture: 
+  - Topic: [R essentials](https://www.tellingstorieswithdata.com/01-03-r_essentials.html), [graphs and tables](https://www.tellingstorieswithdata.com/02-01-graphs.html).
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 2
+
+- Date: 19 January 2021
+- Lecture: 
+	- Topic: [Writing](https://www.tellingstorieswithdata.com/02-02-writing.html), [Workflow](https://www.tellingstorieswithdata.com/01-06-workflow.html), [Reproducibility](https://www.tellingstorieswithdata.com/01-05-reproducibility.html).
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 3
+
+- Date: 26 January 2021
+- Lecture: 
+	- Topic: Ethics, experiments, and treatment effects.
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 4
+
+- Date: 2 February 2021
+- Lecture: 
+	- Topic: Ethics, gathering data ([scraping](https://www.tellingstorieswithdata.com/03-02-scraping.html), [surveys](https://www.tellingstorieswithdata.com/03-07-surveys.html), open data, etc).
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 5
+
+- Date: 9 February 2021
+- Lecture: 
+	- Topic: Ethics, linear and logistic regression and `tidymodels`
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Reading Week
+
+## Week 6
+
+- Date: 23 February 2021
+- Lecture: 
+	- Topic: Ethics, simulation, [RCTs](https://www.tellingstorieswithdata.com/03-05-rcts.html) and [A/B testing](https://www.tellingstorieswithdata.com/03-06-abtesting.html).
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 7
+
+- Date: 2 March 2021
+- Lecture: 
+	- Topic: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics.
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 8
+
+- Date: 9 March 2021
+- Lecture: 
+	- Topic: [Diff in diff](https://www.tellingstorieswithdata.com/06-03-matching_and_differences.html) and [regression discontinuity](https://www.tellingstorieswithdata.com/06-05-rdd).
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 9
+
+- Date: 16 March 2021
+- Lecture: 
+	- Topic: [Instrumental variables](https://www.tellingstorieswithdata.com/06-04-iv).
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 10
+
+- Date: 23 March 2021
+- Lecture: In class test (available for 24 hours). 
+
+## Week 11
+
+- Date: 30 March 2021
+- Lecture: 
+	- Topic: Case study reproduction #1, Case study reproduction #2
+	- Recording: *TBD*
+- Lab: **TBA**
+
+## Week 12
+
+- Date: 6 April 2021
+- Lecture: 
+	- Topic: [Maps](https://www.tellingstorieswithdata.com/02-03-maps.html), [Shiny](https://www.tellingstorieswithdata.com/02-05-shiny.html), [text-as-data](https://www.tellingstorieswithdata.com/03-04-text.html).
+	- Recording: *TBD*
+- Lab: **TBA**
