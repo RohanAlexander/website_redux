@@ -30,19 +30,19 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | ---------- | --------------- | ------------- | ----- |
 | Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* 					| TBA | |
 | Thu 21 Jan, 4:30-5:30pm 	| *Cancelled*																			| - | - |
-| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			| TBA | |
+| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			| Bias and fairness in health | |
 | Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																| TBA | |
 | Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									| TBA | |
 | Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| |
 | Thu 25 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
 | Fri 26 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
 | Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Marrying simulation modeling and retrospective data for health economic decision making.| |
-| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 											| TBA | |
-| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| TBA | |
+| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 											| Using publicly-available data. | |
+| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data | |
 | Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Royal Canadian Mint* 													| TBA | |
 | Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 													| Integrating science & policy through DS & AI | |
-| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 											| TBA | |
-| Thu 15 Apr, 4:30-5:30pm 	| *TBA* 																				| TBA | |
+| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 											| Object Oriented Process Mining | |
+| Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*																	|  Issues in Mexican demographic history | |
 | Thu 22 Apr, 4:30-5:30pm 	| Sam-Jo Caetano, *University of Toronto*, Aimee Schwab-McCoy, *Creighton University* 	| Panel on teaching data-focused topics. | |
 
 
@@ -56,8 +56,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	*Cancelled*
 * Thursday, 28 January, 4:30-5:30pm  
 	**Irene Duah-Kessie**, University of Toronto  
-	Irene completed an Honours Bachelors of Science Degree at the McMaster University and is now pursuing a Master of Science in Sustainability Management at the University of Toronto, with a collaborative specialization in Environmental Studies.  
-	*Topic TBA* 
+	Irene Duah-Kessie completed an Honours Bachelors of Science Degree at the McMaster University and is now pursuing a Master of Science in Sustainability Management at the University of Toronto, with a collaborative specialization in Environmental Studies.  
+	Irene will discuss bias and fairness of AI in health. 
 * Thursday, 4 February, 4:30-5:30pm  
 	**Kathy Ge**, Uber  
 	Kathy Ge is a Data Scientist at Uber. Previously she worked at Shopify. She holds a masters in Computer Science and a bachelors in CS and statistics all from the University of Toronto.  
@@ -95,17 +95,17 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 * Thursday, 1 April, 4:30-5:30pm  
 	**Vik Pant**, Natural Resources Canada. 
 	Dr. Vik Pant is the Chief Scientist and Chief Science Advisor of Natural Resources Canada (NRCan). He leads the Office of the Chief Scientist at NRCan and reports directly to the Deputy Minister. His office oversees the development and implementation of evidence-based science policy across NRCan sectors and agencies. His office also manages NRCan's enterprise-wide technology strategy and portfolio of science products. He also runs the Digital Accelerator, which is an innovation platform for designing and launching AI-driven software products in NRCan. Vik is also the Founder of Synthetic Intelligence Forum, which is a leading community of practice focused on the industrial application of Artificial Intelligence (AI). He earned a doctorate from the Faculty of Information (iSchool) in the University of Toronto, a master's degree in business administration with distinction from the University of London, a master's degree in information technology from Harvard University, where he received the Dean’s List Academic Achievement Award, and an undergraduate degree in business administration from Villanova University. Vik serves as an Adjunct Professor in the Faculty of Information (iSchool) at the University of Toronto.  
-	Supporting the Integration of Science and Policy through Data Science and Artificial Intelligence. 
+	Vik will discuss supporting the Integration of Science and Policy through Data Science and Artificial Intelligence. 
 * Thursday, 8 April, 4:30-5:30pm  
 	**Faria Khandaker**, University of Toronto  
-	Bio  
-	*Topic TBA* 
+	Faria is a 2nd year student of the Information Systems and Design Concentration at the Faculty of Information and is one of the co-hosts of the Toronto Data Workshop. She holds an Honour's Bachelor of Science Degree in Anthropology and Human Biology from the University of Toronto Scarborough. Since starting her masters, she became interested in research related to data-driven decision making within organizations. Under the supervision of Professor Arik Senderovich, she is researching topics related to the application of Machine Learning within the field of Process Mining and exploring various methodologies for gaining insights from email driven business processes.  
+	Faria will discuss Object Oriented Process Mining. 
 * Thursday, 15 April, 4:30-5:30pm  
-	**TBA**  
-	Bio  
-	*Topic TBA* 
+	**Emily A. Sellars**, Yale University  
+	[Emily A. Sellars](https://emilysellars.com) is an assistant professor in the Department of Political Science at Yale University. Before coming to Yale, she was an assistant professor in the Bush School of Government and Public Service at Texas A&M University and a postdoctoral scholar at the University of Chicago's Harris School of Public Policy. She received her Ph. D. in Political Science and Agricultural and Applied Economics from the University of Wisconsin–Madison in 2015. Her research interests are at the intersection of political economy and development economics. Her research examines the political economy of emigration and population.  
+	Emily will discuss issues in Mexican demographic history. 
 * Thursday, 22 April, 4:30-5:30pm  
-	**Sam-Jo Caetano**, University of Toronto, **Aimee Schwab-McCoy**, Creighton University. 
+	**Sam-Jo Caetano**, University of Toronto, **Aimee Schwab-McCoy**, Creighton University.  
 	Sam-Jo Caetano is an Assistant Professor at the University of Toronto. Aimee Schwab-McCoy is an Assistant Professor of Statistics at Creighton University.  
 	Panel on teaching data-focused topics. 
 
