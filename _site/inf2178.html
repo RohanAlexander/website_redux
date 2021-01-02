@@ -54,35 +54,35 @@ div.sourceCode
 @media screen {
 code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #545454; font-weight: bold; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #a1024a; } /* BaseN */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007faa; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #008000; } /* Char */
-code span.cn { color: #d91e18; } /* Constant */
-code span.co { color: #545454; } /* Comment */
-code span.cv { color: #545454; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #aa5d00; } /* DataType */
-code span.dv { color: #a1024a; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #a1024a; } /* Float */
-code span.fu { color: #4254a7; } /* Function */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #545454; font-weight: bold; } /* Information */
-code span.kw { color: #007faa; font-weight: bold; } /* Keyword */
-code span.op { color: #696969; } /* Operator */
-code span.ot { color: #007faa; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #008000; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #008000; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #008000; } /* VerbatimString */
-code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warning */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
@@ -110,7 +110,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["INF2178: Experimental Design"]},{"type":"character","attributes":{},"value":["INF2178 is a masters-level course at the University of Toronto's Faculty of Information.\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["INF2178: Experimental Design"]},{"type":"character","attributes":{},"value":["INF2178 is a masters-level course at the University of Toronto's Faculty of Information.\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -126,6 +126,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
       var header = $('header').get(0);
       var headerHeight = header.offsetHeight;
       var headroom = new Headroom(header, {
+        tolerance: 5,
         onPin : function() {
           if (window.headroom_prevent_pin) {
             window.headroom_prevent_pin = false;
@@ -598,7 +599,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
-    overflow: hidden;
+    overflow: auto;
   }
   
   d-article div.sourceCode {
@@ -1891,14 +1892,11 @@ Other
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
+<li><a href="#preamble">Preamble</a><ul>
 <li><a href="#syllabus">Syllabus</a></li>
-<li><a href="#assessment">Assessment</a><ul>
-<li><a href="#weekly-quizzes">Weekly quizzes</a></li>
-<li><a href="#paper-1">Paper #1</a></li>
-<li><a href="#paper-2">Paper #2</a></li>
-<li><a href="#paper-3">Paper #3</a></li>
-<li><a href="#test">Test</a></li>
-<li><a href="#final-paper">Final Paper</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#how-to-succeed">How to succeed</a></li>
+<li><a href="#advice-from-past-students">Advice from past students</a></li>
 </ul></li>
 <li><a href="#content">Content</a><ul>
 <li><a href="#week-1">Week 1</a></li>
@@ -1915,168 +1913,444 @@ Other
 <li><a href="#week-11">Week 11</a></li>
 <li><a href="#week-12">Week 12</a></li>
 </ul></li>
+<li><a href="#assessment">Assessment</a><ul>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#weekly-quizzes">Weekly quizzes</a></li>
+<li><a href="#paper-1">Paper #1</a></li>
+<li><a href="#paper-2">Paper #2</a></li>
+<li><a href="#paper-3">Paper #3</a></li>
+<li><a href="#test">Test</a></li>
+<li><a href="#final-paper">Final Paper</a></li>
+</ul></li>
 </ul>
 </nav>
 </div>
-<p><strong>The following is tentative and will change through to 11 January 2021.</strong></p>
-<h1 id="syllabus">Syllabus</h1>
+<p><strong>The following is tentative. There will be major changes through to 11 January 2021, and minor changes after that.</strong></p>
+<h2 id="preamble">Preamble</h2>
+<h3 id="syllabus">Syllabus</h3>
 <p><strong>TBA - released on 11 January 2021.</strong></p>
-<h1 id="assessment">Assessment</h1>
-<p>(Note: For Papers #1-#3 we take the best two out of three.)</p>
-<h2 id="weekly-quizzes">Weekly quizzes</h2>
+<h3 id="overview">Overview</h3>
+<p>Experimental design has a long and robust tradition within traditional applications such as agriculture, medicine, physics, and chemistry. Typically, these are situations in which control groups can be established, randomization is appropriate, and ethical concerns can be assuaged. Unfortunately, such a set-up is rarely possible in modern applications.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="https://imgs.xkcd.com/comics/statistics.png" width="40%" /></p>
+</div>
+<p>Source: <a href="https://xkcd.com/2400/" class="uri">https://xkcd.com/2400/</a></p>
+<p>This course covers the traditional approaches and statistical methods, but focuses on what to do when traditional experimental design methods cannot be implemented or are not appropriate (i.e. most of the time these days). We focus on methods that can provide some causal understanding even when we cannot conduct traditional experiments, and the concerns that we might have when we do run experiments. Importantly, these approaches do not rely on ‘big data’ or fancy statistics, but instead on thoroughly interrogating the data that are available to get understanding through as simple means as possible.</p>
+<p>This is a hands-on course in which you will conduct research projects using real-world data. This means that you will: obtain and clean relevant datasets; develop your own research questions; use the statistical techniques that you are introduced to in class to answer those questions; and finally communicate your results in a meaningful way. This course is designed around approaches that are used extensively in academia, government, and industry. Furthermore, it includes many aspects, such as data cleaning and preparation, that are critical, but rarely taught.</p>
+<p>This course is different to many other courses at the University of Toronto. At the end of this course you will have a portfolio of work that you could show off to a potential employer. You will have developed the skills to work successfully as an applied statistician or data scientist. And you will know how to fill gaps in your knowledge.</p>
+<h3 id="how-to-succeed">How to succeed</h3>
+<p>In this course you will work in a self-directed, open-ended manner. Identify relevant areas of interest and then learn the skills that you need to explore those areas.</p>
+<p>To successfully complete this course you should spend all your time reading and writing (both code and text). Deeply engage with the materials. Find a small study group and keep each other motivated and focused. At the start of the week, read the course notes, all compulsory materials and some recommended materials based on your interest. After doing that, but before the ‘lecture’ time you should complete the weekly quiz. During ‘lectures’ I’ll live-code, discuss materials in the course notes, talk about an experiment, and you’ll have a chance to discuss the materials with me.</p>
+<p>You need to be more active in your learning in this course than others - read the notes and related materials - and then go out there and teach yourself more and apply it. You will not be spoon-fed in this course. Each week try to write reproducible, understandable, R code surrounded by beautifully crafted text that motivates, backgrounds, explains, discusses and criticizes. Make steady progress toward the assessment. This is not a ‘bird course’. Similar courses that I’ve taught in past have a dropout/failure rate of 17-52 per cent.</p>
+<h3 id="advice-from-past-students">Advice from past students</h3>
+<p>Successful past students have the following advice (completely unedited by me):</p>
 <ul>
-<li>Due date: Weekly before the lecture.</li>
-<li>Weight: 10 per cent (no quiz in Week 1 or Week 10)</li>
-<li>Task: Please complete a weekly quiz in Quercus.</li>
+<li>‘Start reading and writing on a weekly basis, watch some videos on R and RMD but more importantly learn how to use Google.’</li>
+<li>‘Start early, find a group of people you trust enough to divide the work up fairly. Let people work to their strengths (people who know R should do the modelling, good writers should write most of the reports, etc.)’</li>
+<li>‘Not to worry if you don’t do well on the first problem set—the nature of the course is to build up skills overtime, and it’s meant to be challenging in the beginning. In the end, it is worth it because you learn very valuable applicable skills on how to write professional reports.’</li>
+<li>‘Work on your writing and direction following skills.’</li>
+<li>‘Look at the rubric. There were times that I lost marks because I didn’t follow the rubric properly. Go to office hours, they are very useful as you can ask your own question and also get answers to questions other people ask and you didn’t think of. Also, do the assignments to the best of your ability. You will lose marks if you don’t put in effort and the only person you’re hurting is yourself.’</li>
+<li>‘During lectures, focus more on the why the prof is doing what he’s doing. When he runs certain commands in R, figure out why that sequence of code gives what you want, because it’ll help adapt his code into your assignment code. just remembering what he’s doing in lecture becomes useless really quickly since the thought process matters more. also, start everything early.’</li>
+<li>‘Do this course when you really want to learn something and have a lot of time to working on it.’</li>
+<li>‘you need to be very skillful in RStudio and latex. Otherwise you would be struggling.’</li>
+<li>‘Try to incorporate the feedback given and read a looottttttttt. Also start early on the problem sets because they tend to take a lot of time. Don’t give up!’</li>
+<li>‘Find a good group for problem sets’</li>
+<li>‘If the assignments stay the same, I would tell students to approach this class from the perspective of ’storytelling with statistics’ rather than a statistics course. You need to use R, and Markdown, and have a solid understanding of concepts like regression and sampling, but more importantly you need to be able to interpret results and write about them in a way coherent and professional way.’</li>
+<li>‘do your readings’</li>
+<li>‘Definitely get ready to write reports’</li>
 </ul>
-<h2 id="paper-1">Paper #1</h2>
-<ul>
-<li>Due date: 29 January 2021</li>
-<li>Weight: 25 per cent</li>
-<li>Task: Working individually, please find a dataset on Open Data Toronto. Download it using the R package <code>opendatatoronto</code>. Write a paper in <code>R Markdown</code> with these sections: title, author, date, abstract, data, and references. In the data section thoroughly and precisely discuss the source of the data and the bias this brings (statistical or otherwise). Comprehensively describe the data using words and include a graph made in <code>ggplot</code> and a table made using <code>gt.</code> Make sure to reference both of those in the text using cross-references. Use bibtex to add references. Submit a GitHub link to a well organized repo.</li>
-</ul>
-<h2 id="paper-2">Paper #2</h2>
-<ul>
-<li>Due date: 19 February 2021</li>
-<li>Weight: 25 per cent</li>
-<li>Task: Working as part of a team of 1-4 people, please <strong>TBA</strong> <!-- write a paper in R Markdown with a title, author, date, abstract, introduction, data, discussion and references section. In the discussion section please discuss ethics.  --></li>
-</ul>
-<h2 id="paper-3">Paper #3</h2>
-<ul>
-<li>Due date: 12 March 2021</li>
-<li>Weight: 25 per cent</li>
-<li>Task: Working as part of a team of 1-4 people, please <strong>TBA</strong> <!-- Write a paper in R Markdown with a title, author, date, abstract, introduction, data, model, results, discussion and references section. --></li>
-</ul>
-<h2 id="test">Test</h2>
-<ul>
-<li>Due date: 23 March 2021</li>
-<li>Weight: 10 per cent</li>
-<li>Task: We will have a test during class this week via Quercus. It will be available for 24 hours, but I recommend you complete it during class because I’ll be able to help you with any technical issues immediately. There’ll be a practice test released a week before this.</li>
-</ul>
-<h2 id="final-paper">Final Paper</h2>
-<ul>
-<li>Due date: During exam week (with a peer review check point the week before).</li>
-<li>Weight: 30 per cent (5 per cent of this is for peer review conducted a week before).</li>
-<li>Task: Working individually, please <strong>TBA</strong></li>
-</ul>
-<h1 id="content">Content</h1>
-<h2 id="week-1">Week 1</h2>
+<h2 id="content">Content</h2>
+<p><strong>The following is tentative and will update as we go through the term. Weeks 11 and 12 will be adjusted to make space for the content in earlier weeks to the extent necessary.</strong></p>
+<h3 id="week-1">Week 1</h3>
 <ul>
 <li>Date: 12 January 2021</li>
 <li>Lecture:
 <ul>
-<li>Topic: <a href="https://www.tellingstorieswithdata.com/01-03-r_essentials.html">R essentials</a>, <a href="https://www.tellingstorieswithdata.com/02-01-graphs.html">graphs and tables</a>.
-<ul>
-<li>Recording: <em>TBD</em></li>
+<li>Topic: <a href="https://www.tellingstorieswithdata.com/01-02-hello_world.html">Hello world!</a>, <a href="https://www.tellingstorieswithdata.com/01-03-r_essentials.html">R Essentials</a>, <a href="https://www.tellingstorieswithdata.com/01-04-r_desirables.html">R Desirables</a>, <a href="https://www.tellingstorieswithdata.com/02-01-graphs.html">Graphs and Tables</a>.</li>
+<li>Case Study: <a href="https://www.tellingstorieswithdata.com/03-05-rcts.html#case-study---fishers-tea-party">Fisher’s Lady Tasting Tea</a>.</li>
+<li>Recording: <em>TBD</em>.</li>
 </ul></li>
-</ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab: Go through DoSS Toolkit ‘White’ and ‘Yellow’ and discuss any issues with the TA.</li>
 </ul>
-<h2 id="week-2">Week 2</h2>
+<h3 id="week-2">Week 2</h3>
 <ul>
 <li>Date: 19 January 2021</li>
 <li>Lecture:
 <ul>
 <li>Topic: <a href="https://www.tellingstorieswithdata.com/02-02-writing.html">Writing</a>, <a href="https://www.tellingstorieswithdata.com/01-06-workflow.html">Workflow</a>, <a href="https://www.tellingstorieswithdata.com/01-05-reproducibility.html">Reproducibility</a>.</li>
+<li>Case Study: Tuskegee Syphilis Study.</li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab: Go through DoSS Toolkit ‘Green’ and discuss any issues with the TA.</li>
 </ul>
-<h2 id="week-3">Week 3</h2>
+<h3 id="week-3">Week 3</h3>
 <ul>
 <li>Date: 26 January 2021</li>
 <li>Lecture:
 <ul>
-<li>Topic: Ethics, experiments, and treatment effects.</li>
+<li>Topic: Experiments, and treatment effects.</li>
+<li>Case Study: <a href="https://www.povertyactionlab.org/evaluation/oregon-health-insurance-experiment-united-states">The Oregon Health Insurance Experiment in the United States</a></li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab:
+<ul>
+<li>Pretend that you work as a junior analyst for a large consulting firm. Further, pretend that your consulting firm has taken a contract to put together a facial recognition model for the Canada Border Services Agency’s Inland Enforcement branch. Write five or six points with regard to your thoughts on this matter. What would you do and why? Then split into small groups and compare your points with others. Do you think the model would end up being implemented?</li>
+<li>With the help of the TA, please conduct ‘face-to-face’ surveys (via Zoom). For this exercise, you will be randomly split into groups of two. You have two minutes in each group and will then be swapped to another group. One person is to survey the other person asking the following questions: i) ‘What is your gender?’, ii) ‘What is your age?’, iii) ‘What is your marital status?’, iv) ‘What is your income?’, v) ‘If an election were held today who would you vote for?’. After one person is done, then switch roles. When you are the questioner you should record all responses using a small CSV (but not the person’s name please). When you are the respondent you are welcome to not respond. You will cycle through this multiple times. At the end, please write a small reflection about: 1) as a respondent, how you felt answering these questions and the implications that you think this feeling may have for how survey questions are answered more generally; and 2) as a questioner, how difficult it was to code responses and the implications this may have for the dataset that we analyse.</li>
+</ul></li>
 </ul>
-<h2 id="week-4">Week 4</h2>
+<h3 id="week-4">Week 4</h3>
 <ul>
 <li>Date: 2 February 2021</li>
 <li>Lecture:
 <ul>
-<li>Topic: Ethics, gathering data (<a href="https://www.tellingstorieswithdata.com/03-02-scraping.html">scraping</a>, <a href="https://www.tellingstorieswithdata.com/03-07-surveys.html">surveys</a>, open data, etc).</li>
+<li>Topic: Gathering data (<a href="https://www.tellingstorieswithdata.com/03-02-scraping.html">scraping</a>, <a href="https://www.tellingstorieswithdata.com/03-07-surveys.html">surveys</a>, open data, etc).</li>
+<li>Case Study: <a href="https://www.povertyactionlab.org/evaluation/student-coaching-how-far-can-technology-go">Student Coaching: How Far Can Technology Go?</a></li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab:
+<ul>
+<li>Please pretend you work for Netflix and you want to know more about why people subscribe (or don’t!) when prices change. Please design an experiment, discuss its key features and how you would implement it. Please pay special attention to sampling issues. Then simulate the outcome and illustrate a short blog post with these.</li>
+<li>Following the guidance of the TA, please scrape some data and discuss some ethical considerations around the dataset that you created. You may like to write a short blog post discussing the difference between data being public but scattered, and a consolidated dataset being public with reference to Kirkegaard and Bjerrekær, 2016, and Politou, Alepis, and Patsakis, 2018 (if you do that please do email a link to me out of interest).</li>
+<li>Following the guidance of the TA, please read and critique Pouwels, et al, 2020, ‘Community prevalence of SARS-CoV-2 in England during April to November 2020: Results from the ONS Coronavirus Infection Survey’, <em>The Lancet Public Health</em>, December 10, <a href="https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30282-6/fulltext" class="uri">https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30282-6/fulltext</a>.</li>
+</ul></li>
 </ul>
-<h2 id="week-5">Week 5</h2>
+<h3 id="week-5">Week 5</h3>
 <ul>
 <li>Date: 9 February 2021</li>
 <li>Lecture:
 <ul>
-<li>Topic: Ethics, linear and logistic regression and <code>tidymodels</code></li>
+<li>Topic: Linear and logistic regression and <code>tidymodels</code></li>
+<li>Case Study: <a href="https://science.sciencemag.org/content/365/6448/70">Civic honesty around the globe</a></li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab:
+<ul>
+<li>Analyse the Toronto AirBNB dataset with guidance from the TA.</li>
+<li>Following the guidance of the TA, and thinking about what we covered in lectures, please read, compare, and discuss:
+<ul>
+<li>Bendavid, E., Mulaney, B., Sood, N., Shah, S., Ling, E., Bromley-Dulfano, R., …, and Tversky, D, 2020, ‘COVID-19 Antibody Seroprevalence in Santa Clara County, California’, <em>MedRxiv</em>, <a href="https://www.medrxiv.org/content/10.1101/2020.04.14.20062463v1.full.pdf" class="uri">https://www.medrxiv.org/content/10.1101/2020.04.14.20062463v1.full.pdf</a>.</li>
+<li>Gelman, Andrew, 2020, ‘Concerns with that Stanford study of coronavirus prevalence’, Statistical Modeling, Causal Inference, and Social Science, 19 April, <a href="https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/" class="uri">https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/</a>.</li>
+<li>Eisen, Michael B., and Robert Tibshirani, 2020, ‘How to Identify Flawed Research Before It Becomes Dangerous’, <em>New York Times</em>, 20 July, <a href="https://www.nytimes.com/2020/07/20/opinion/coronavirus-preprints.html" class="uri">https://www.nytimes.com/2020/07/20/opinion/coronavirus-preprints.html</a>.</li>
+<li>Gelman, Andrew and Bob Carpenter, 2020, ‘Bayesian analysis of tests with unknown specificity and sensitivity’, 8 July, <a href="http://www.stat.columbia.edu/~gelman/research/published/specificity.pdf" class="uri">http://www.stat.columbia.edu/~gelman/research/published/specificity.pdf</a>.</li>
+</ul></li>
+</ul></li>
 </ul>
-<h2 id="reading-week">Reading Week</h2>
-<h2 id="week-6">Week 6</h2>
+<h3 id="reading-week">Reading Week</h3>
+<h3 id="week-6">Week 6</h3>
 <ul>
 <li>Date: 23 February 2021</li>
 <li>Lecture:
 <ul>
-<li>Topic: Ethics, simulation, <a href="https://www.tellingstorieswithdata.com/03-05-rcts.html">RCTs</a> and <a href="https://www.tellingstorieswithdata.com/03-06-abtesting.html">A/B testing</a>.</li>
+<li>Topic: Ethics, simulation, power, <a href="https://www.tellingstorieswithdata.com/03-05-rcts.html">RCTs</a> and <a href="https://www.tellingstorieswithdata.com/03-06-abtesting.html">A/B testing</a>.</li>
+<li>Case Study: <a href="https://www.tellingstorieswithdata.com/03-06-abtesting.html#case-study---upworthy">Upworthy A/B tests of headlines</a></li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab:
+<ul>
+<li>Following the guidance of the TA, please use Blogdown to create a simple website and then design and execute a simple A/B test for your website using Netlify.</li>
+</ul></li>
 </ul>
-<h2 id="week-7">Week 7</h2>
+<h3 id="week-7">Week 7</h3>
 <ul>
 <li>Date: 2 March 2021</li>
 <li>Lecture:
 <ul>
 <li>Topic: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics.</li>
+<li>Case Study: Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment</li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab:
+<ul>
+<li>Following the guidance of the TA, please look back on the case studies that we’ve covered so far. Please break up into small groups and create DAGs for each. Then write some notes about the potential for confounding, selection bias and measurement bias. Pick one person in your group to make a brief 2 minute presentation about what you did.</li>
+</ul></li>
 </ul>
-<h2 id="week-8">Week 8</h2>
+<h3 id="week-8">Week 8</h3>
 <ul>
 <li>Date: 9 March 2021</li>
 <li>Lecture:
 <ul>
 <li>Topic: <a href="https://www.tellingstorieswithdata.com/06-03-matching_and_differences.html">Diff in diff</a> and <a href="https://www.tellingstorieswithdata.com/06-05-rdd">regression discontinuity</a>.</li>
+<li>Case Study: Tamar Oostrom, ‘Funding of Clinical Trials and Reported Drug Efficacy’</li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
-<li>Lab: <strong>TBA</strong></li>
+<li>Lab:
+<ul>
+<li>Following the guidance of the TA, please read McClelland, Alexander, 2019, ‘“Lock This Whore Up”: Legal Violence and Flows of Information Precipitating Personal Violence against People Criminalised for HIV-Related Crimes in Canada’, <em>European Journal of Risk Regulation</em>, 10 (1), pp. 132-147. Then look at Policing the Pandemic - <a href="https://www.policingthepandemic.ca/" class="uri">https://www.policingthepandemic.ca/</a>. Look into how they gathered their dataset and what it took to put this together. What is in the dataset and why? What is missing and why? How could this affect the results? How might similar biases enter into other datasets that you have used or read about? Put together a brief model. You may like to write a short blog post about the biases and influences that are in this dataset (if you do that please do email a link to me out of interest).</li>
+</ul></li>
 </ul>
-<h2 id="week-9">Week 9</h2>
+<h3 id="week-9">Week 9</h3>
 <ul>
 <li>Date: 16 March 2021</li>
 <li>Lecture:
 <ul>
 <li>Topic: <a href="https://www.tellingstorieswithdata.com/06-04-iv">Instrumental variables</a>.</li>
+<li>Case Study: Political Knowledge and Misinformation in the Era of Social Media: Evidence From the 2015 UK Election</li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
 <li>Lab: <strong>TBA</strong></li>
 </ul>
-<h2 id="week-10">Week 10</h2>
+<h3 id="week-10">Week 10</h3>
 <ul>
 <li>Date: 23 March 2021</li>
 <li>Lecture: In class test (available for 24 hours).</li>
 </ul>
-<h2 id="week-11">Week 11</h2>
+<h3 id="week-11">Week 11</h3>
 <ul>
 <li>Date: 30 March 2021</li>
 <li>Lecture:
 <ul>
 <li>Topic: Case study reproduction #1, Case study reproduction #2</li>
+<li>Case Study: Elections and the Regression Discontinuity Design: Lessons from Close U.S. House Races, 1942–2008</li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
 <li>Lab: <strong>TBA</strong></li>
 </ul>
-<h2 id="week-12">Week 12</h2>
+<h3 id="week-12">Week 12</h3>
 <ul>
 <li>Date: 6 April 2021</li>
 <li>Lecture:
 <ul>
 <li>Topic: <a href="https://www.tellingstorieswithdata.com/02-03-maps.html">Maps</a>, <a href="https://www.tellingstorieswithdata.com/02-05-shiny.html">Shiny</a>, <a href="https://www.tellingstorieswithdata.com/03-04-text.html">text-as-data</a>.</li>
+<li>Case Study: <em>TBD</em></li>
 <li>Recording: <em>TBD</em></li>
 </ul></li>
 <li>Lab: <strong>TBA</strong></li>
+</ul>
+<h2 id="assessment">Assessment</h2>
+<h3 id="summary">Summary</h3>
+<table>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th style="text-align: right;">Weight (%)</th>
+<th style="text-align: right;">Due date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Weekly quiz</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">Weekly before the lecture</td>
+</tr>
+<tr class="even">
+<td>Paper 1</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">29 January 2021</td>
+</tr>
+<tr class="odd">
+<td>Paper 2</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">12 February 2021</td>
+</tr>
+<tr class="even">
+<td>Paper 3</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">12 March 2021</td>
+</tr>
+<tr class="odd">
+<td>Test</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">23 March 2021</td>
+</tr>
+<tr class="even">
+<td>Final Paper (initial submission)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">9 April 2021</td>
+</tr>
+<tr class="odd">
+<td>Final Paper (peer review)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">12 April 2021</td>
+</tr>
+<tr class="even">
+<td>Final Paper</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">19 April 2021</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weekly-quizzes">Weekly quizzes</h3>
+<ul>
+<li>Due date: Weekly before the lecture.</li>
+<li>Weight: 10 per cent (no quiz in Week 1 or Week 10)</li>
+<li>Task: Please complete a weekly quiz in Quercus.</li>
+</ul>
+<h3 id="paper-1">Paper #1</h3>
+<p><strong>Tentative - finalised on 11 January 2021.</strong></p>
+<ul>
+<li>Due date: 29 January 2021</li>
+<li>Weight: 25 per cent (for Papers #1-#3 I take the best two out of three)</li>
+<li>Task:
+<ul>
+<li>Working individually, please find a dataset of interest on Open Data Toronto and download it in a reproducible way using the R package <code>opendatatoronto</code>.</li>
+<li>Prepare a PDF using <code>R Markdown</code> with these sections: title, author, date, abstract, data, and references.
+<ul>
+<li>In the data section thoroughly and precisely discuss the source of the data and the bias this brings (statistical or otherwise). Comprehensively describe the data using text and include at least one graph and one table. Graphs must be made in <code>ggplot</code> and tables must be made using <code>gt.</code> Make sure to reference both of those in the text using cross-references.</li>
+<li>Do not include any R code or raw R output in the PDF.</li>
+<li>Use bibtex to add references. Be sure to reference R and any R packages you use as well as the dataset. Check that you have referenced everything. Strong submissions will draw on related literature and would be sure to also reference those. There are various options in R Markdown for references style, and just pick one that you are used to.</li>
+<li>Go back and write an introduction. This should be two to three paragraphs. The last paragraph should lay-out the remainder of the paper.</li>
+<li>Add an abstract and a descriptive title (Hint: ‘Paper 1’ is not descriptive. There should be no evidence that this is a class assignment.) (Hint: if your abstract is longer than four sentences then you should redo it.)</li>
+<li>Add a link to your GitHub repo via a footnote.</li>
+<li>Check that your GitHub repo is well-organized, and the README is informative. (Hint: Comment. Your. Code.).</li>
+<li>Pull this all together as a PDF and check that the paper is well-written and able to be understood by the average reader of, say, 538. This means that you are allowed to use mathematical notation, but you must explain all of it in plain english. Similarly, you can (hint: and should) use surveys/sampling/observational data terminology, but again, you need to explain it. Your graph and discussion must be extremely clear, and of comparable quality to 538.</li>
+</ul></li>
+</ul></li>
+<li>Your entire workflow must be entirely reproducible.</li>
+<li>Via Quercus, submit the PDF.</li>
+</ul>
+<h4 id="faq">FAQ</h4>
+<ul>
+<li>Can I use a dataset from Kaggle instead? No, because too many people use Kaggle datasets so employers are sick of them.</li>
+<li>I can’t use code to download my dataset, can I just manually download it? No, because your entire workflow needs to be reproducible. Please fix the download problem or pick a different dataset.</li>
+<li>How much should I write? This is really up to you. Be precise and thorough.</li>
+<li>My data is about apartment blocks so there’s no ethical aspect, what do I do? Please re-read the readings to better understand bias and ethics.</li>
+</ul>
+<h3 id="paper-2">Paper #2</h3>
+<p><strong>Tentative - finalised on 29 January 2021.</strong></p>
+<ul>
+<li>Due date: 12 February 2021</li>
+<li>Weight: 25 per cent (for Papers #1-#3 I take the best two out of three)</li>
+<li>Task:
+<ul>
+<li>Please consider this scenario: ‘You are employed as a junior data scientist at Petit Poll - a Canadian polling company. Petit Poll has a contract with a ’client’ - an Ontario government department - to provide them with advice. In particular, the client wants to understand the effect of COVID shut-downs on restaurant businesses and has asked Petit Poll to design an experiment where some restaurants are shutdown, surveys are sent out, and results collected.’</li>
+<li>Working as part of a team of 1-4 people, prepare a PDF in R Markdown with: a title, author/s, date, abstract, introduction, a data section that specifies the intervention and survey methodology, discussion, and references section. In the discussion section and any other relevant section, please be sure to discuss ethics and bias.</li>
+</ul></li>
+<li>Decide on an intervention:
+<ul>
+<li>How will it be designed and implemented?</li>
+<li>What will be random about it?</li>
+<li>How will you ensure the separation of treatment and non-treatment?</li>
+<li>How long will it run?</li>
+</ul></li>
+<li>Decide on a survey methodology (hint: p. 13 of Wu &amp; Thompson provides a handy checklist). Some questions you should address include:
+<ul>
+<li>What is the population, frame, and sample?</li>
+<li>What sampling methods will you use and why (e.g. you could choose SRSWOR, stratified, etc). What are some of the statistical properties that the method brings to the table?</li>
+<li>How are you going to reach your desired respondents?</li>
+<li>How much do you estimate this will cost?</li>
+<li>What steps will you take to deal with non-response and how will non-response affect your survey?</li>
+<li>How are you going to protect respondent privacy?</li>
+</ul></li>
+<li>Remember to consider all of this in the context of your ‘client’ - for instance, what are they interested in?</li>
+<li>Develop a survey on a platform that was introduced in class. Be sure to test it yourselves. You will want to test this as much as possible, maybe even swap informally with another group?</li>
+<li>Now release the surveys into the (simulated) ‘field’. Please do this by simulating an appropriate number of responses to your survey in R. Don’t forget to simulate in relation to the intervention that you proposed. Show the results and discuss your ‘findings’. Everything must be entirely reproducible.</li>
+<li>You may wish to scrape some data and/or use open data sources to parameterize your simulations.</li>
+<li>Use R Markdown to write a PDF report about all of this. Discuss your intervention, results and findings, your survey design and motivations, etc - all of it. You are writing a report that will eventually go to the client, so you must set the scene, and use language that demonstrates your command of statistical concepts but brings the reader along with you. Be sure to include graphs and tables and reference them in your discussion. Be sure to be clear about weaknesses and biases, and opportunities for future work.</li>
+<li>Your report must be well written. You are allowed to, and should, use mathematical notation, but you must explain all of it in plain language. Similarly, you can, and should, use surveys/sampling/observational data terminology, but again, you need to explain it.</li>
+<li>Your client has stats graduates working for it who need to be impressed by the main content of the report, but also has people who barely know what an average is and these people need to be impressed also. This is the role of the abstract.</li>
+<li>Your graphs must be of an extremely high standard.</li>
+<li>Check that you have referenced everything, including R, R packages, and datasets. Strong submissions will draw on related literature in the discussion and would be sure to also reference those. The style of references does not matter, provided it is consistent.</li>
+<li>Via Quercus, submit your PDF report. You must provide a link to the GitHub repo where the code that you used for this assignment lives (Hint: Comment. Your. Code.). Your entire workflow must be entirely reproducible.</li>
+<li>Please be sure to include a link to your survey in your report and screenshots of the survey in the appendix of your report.</li>
+<li>There should be no evidence that this is a class assignment.</li>
+</ul>
+<h4 id="faq-1">FAQ</h4>
+<ul>
+<li>Can I work by myself? Yes. But I recommend forming a group.</li>
+<li>Can we switch groups for the third paper? Yes.</li>
+<li>How can I find a group? On 30 January 2021 I will randomly create groups of four in Quercus. You are welcome to shift out of those groups and form your own groups if you’d like.</li>
+<li>Can I get a different mark to the rest of my group? No. Everyone in the group gets the same mark.</li>
+<li>I wrote my paper by myself, so can I be graded on a different scale? No. All papers are graded in the same way.</li>
+</ul>
+<h3 id="paper-3">Paper #3</h3>
+<p><strong>Tentative - finalised on 19 February 2021.</strong></p>
+<ul>
+<li>Due date: 12 March 2021</li>
+<li>Weight: 25 per cent (for Papers #1-#3 I take the best two out of three)</li>
+<li>Task:
+<ul>
+<li>Working as part of a team of 1-4 people, please prepare a PDF in R Markdown with a title, author/s, date, abstract, introduction, data, model, results, discussion, and references section. In the discussion section and any other relevant section, please be sure to discuss ethics and bias.</li>
+<li>You should reproduce one of the following papers:
+<ul>
+<li>Liran Einav, Amy Finkelstein, Tamar Oostrom, Abigail Ostriker, Heidi Williams, 2020, ‘Screening and Selection: The Case of Mammograms’, <em>American Economic Review</em>.</li>
+<li>Pons, Vincent, 2018, ‘Will a Five-Minute Discussion Change Your Mind? A Countrywide Experiment on Voter Choice in France’ <em>American Economic Review</em>.</li>
+<li>Others <strong>TBD</strong></li>
+<li>If you have a favourite paper and want to reproduce it, then please let me know by the end of Week 12 so that I can check that it’s appropriate.</li>
+</ul></li>
+<li>You should follow the lead of the author of the paper, but thoroughly think about what is being done. Regardless of the particular model that you are using, and the (possibly lack of) extent to which this is done in the paper your model must be well explained, thoroughly justified, appropriate to the task at hand, and the results must be beautifully described.</li>
+<li>You must include a DAG (probably in the model section).</li>
+<li>You must have a discussion of power and experimental design (probably in the data section)</li>
+<li>Your paper must be well-written, draw on relevant literature, and show your statistical skills by explaining all statistical concepts that you draw on.</li>
+<li>You are welcome to use appendices for supporting, but not critical, material. Your discussion must include three or four interesting points, and also sub-sections on weaknesses and next steps.</li>
+<li>In your report you must provide a link to a GitHub repo that fully contains your analysis. Your code must be entirely reproducible, documented, and readable. Your repo must be well-organised and appropriately use folders.</li>
+<li>Your graphs and tables must be of an incredibly high standard. Graphs and tables should be well formatted and report-ready. They should be clean and digestible. Furthermore, you should label and describe each table/figure.</li>
+<li>When you discuss the dataset (in the data section) you should make sure to discuss (at least):</li>
+<li>Its key features, strengths, and weaknesses generally.</li>
+<li>A discussion of the questionnaire - what is good and bad about it?</li>
+<li>A discussion of the methodology including how they find people to take the survey; what their population, frame, and sample were; what sampling approach they took and what some of the trade-offs may be; what they do about non-response; the cost.</li>
+<li>This is just some of the issues strong submissions will consider. Show off your knowledge. If this becomes too detailed then you should push some of this to footnotes or an appendix.</li>
+<li>When you discuss your model (in the model section), you must be extremely careful to spell out the statistical model that you are using, defining and explaining each aspect and why it is important. (For a Bayesian model, a discussion of priors and regularization is almost always important.) You should mention the software that you used to run the model. You should be clear about model convergence, model checks, and diagnostic issues. How do the sampling and survey aspects that you discussed assert themselves in the modelling decisions that you make? Again, if it becomes too detailed then push some of the details to footnotes or an appendix.</li>
+<li>You should present model results, graphs, figures, etc, in the results section. This section should strictly relay results. Interpretation of these results and conclusions drawn from the results should be left for the discussion section.</li>
+<li>Your discussion should focus on your model results. Interpret them and explain what they mean. Put them in context. What do we learn about the world having understood your model and its results? What caveats could apply? To what extent does your model represent the small world and the large world (to use the language of McElreath, Ch 2)? What are some weaknesses and opportunities for future work?</li>
+<li>Check that you have referenced everything. Strong submissions will draw on related literature in the discussion (and other sections) and would be sure to also reference those. The style of references does not matter, provided it is consistent.</li>
+<li>As a team, via Quercus, submit a PDF of your paper. Again, in your paper you must have a link to the associated GitHub repo in an appendix. And you must include the R Markdown file that produced the PDF in that repo.</li>
+<li>A good way to work as a team would be to split up the work, so that one person is doing each section. The people doing the sections that rely on data (such as the analysis and the graphs) could just simulate it while they are waiting for the person putting together the data to finish.</li>
+<li>It is expected that your submission be well written and able to be understood by the average reader of say 538. This means that you are allowed to use mathematical notation, but you must be able to explain it all in plain English. Similarly, you can (and hint: you should) use survey, sampling, observational, and statistical terminology, but again you need to explain it. Your work should have flow and should be easy to follow and understand. To communicate well, anyone at the university level should be able to read your report once and relay back the methodology, overall results, findings, weaknesses and next steps without confusion.</li>
+<li>It is recommended that you (informally) proofread one another’s sections - why not exchange papers with another group?</li>
+<li>Everyone in the team receives the same mark.</li>
+<li>There should be no evidence that this is a class assignment.</li>
+</ul></li>
+</ul>
+<h3 id="test">Test</h3>
+<ul>
+<li>Due date: 23 March 2021</li>
+<li>Weight: 10 per cent</li>
+<li>Task: We will have a test during class this week via Quercus. It will be available for 24 hours, but I recommend you complete it during class because I’ll be able to help you with any technical issues immediately. There’ll be a practice test released a week before this.</li>
+</ul>
+<h3 id="final-paper">Final Paper</h3>
+<p><strong>Tentative - finalised on 12 March 2021.</strong></p>
+<ul>
+<li>Due date:
+<ul>
+<li>Initial submission: 9 April 2021</li>
+<li>Peer review: 12 April 2021</li>
+<li>Final Paper: 19 April 2021</li>
+</ul></li>
+<li>Weight: 30 per cent (5 per cent of this is for peer review conducted a week before).
+<ul>
+<li>Initial submission: 2 per cent</li>
+<li>Peer review: 3 per cent</li>
+<li>Final Paper: 25 per cent</li>
+</ul></li>
+<li>Task: Working individually, please conduct original research that applies methods from statistics to a question that involves an experiment. You have various options for topics (pick one):
+<ul>
+<li>Develop a research question that is of interest to you and obtain or create a relevant dataset. This option involves developing your own research question based on your own interests, background, and expertise. I encourage you to take this option, but please discuss your plans with me. How does one come up with ideas? One way is to be question-driven, where you keep an informal log of small ideas, questions, and puzzles, that you have as you’re reading and working. Often, after dwelling on it for a while you can manage to find some questions of interest. Another way is to be data-driven - try to find some interesting dataset and then work backward. Finally, yet another way, is to be methods-driven - let’s say that you happen to understand Gaussian processes, then just apply that expertise.</li>
+</ul></li>
+<li>Use this post by Andrew Whitby - <a href="https://andrewwhitby.com/2020/11/24/contact-tracing-biased/" class="uri">https://andrewwhitby.com/2020/11/24/contact-tracing-biased/</a> - as a starting point to explore biased sampling and its effects on what we know about COVID and how this affects public policy. (This option involves extensive simulation.)</li>
+<li>In ‘Bias Behind Bars’, data journalist Tom Cardoso finds that ‘(a)fter controlling for a number of variables, … Black and Indigenous inmates are more likely to get worse scores than white inmates, based solely on their race.’ The main story is here: <a href="https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prison-risk-assessments/" class="uri">https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prison-risk-assessments/</a> The methodology discussion is here: <a href="https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prisons-methodology/" class="uri">https://www.theglobeandmail.com/canada/article-investigation-racial-bias-in-canadian-prisons-methodology/</a> The observational data is available here: <a href="https://www.theglobeandmail.com/files/editorial/News/nw-na-risk-1023/The_Globe_and_Mail_CSC_OMS_2012-2018_20201022235635.zip" class="uri">https://www.theglobeandmail.com/files/editorial/News/nw-na-risk-1023/The_Globe_and_Mail_CSC_OMS_2012-2018_20201022235635.zip</a> Your task is to follow the methodology that Tom published and attempt to replicate the results. Are you able to replicate them? Do the results change significantly under slightly different assumptions? (This option involves only frequentist logistic regression, although doing everything in a Bayesian setting would be lovely too).</li>
+</ul>
+<p>You should know the expectations by now. If you need a refresher then review the past problem sets.</p>
+<ul>
+<li>Everything is entirely reproducible.</li>
+<li>Your paper must be written in R Markdown.</li>
+<li>Your paper must have the following sections:
+<ul>
+<li>Title, date, author, keywords, abstract, introduction, data, model, results, discussion, appendix (optional, for supporting, but not critical, material), and a reference list.</li>
+<li>Your paper must be well-written, draw on relevant literature, and show your statistical skills by explaining all statistical concepts that you draw on.</li>
+<li>The discussion needs to be substantial. For instance, if the paper were 10 pages long then a discussion should be at least 2.5 pages. In the discussion, the paper must include subsections on weaknesses and next steps - but these must be in proportion.</li>
+<li>The report must provide a link to a GitHub repo that contains everything (apart from any raw data that you git ignored if it is not yours to share). The code must be entirely reproducible, documented, and readable. The repo must be well-organised and appropriately use folders and README files.</li>
+<li>My expectations for this paper are very high. I’m very excited to read what you submit. To help you achieve this standard, there is an initial ‘submission’ where you can get comments and feedback and then the final, actual, submission.</li>
+</ul></li>
+<li>Submit initial materials for peer-review.
+<ul>
+<li>As an individual, via Quercus, submit a PDF of your rough draft on Quercus.</li>
+<li>At a minimum this must include:</li>
+<li>All top-matter (title, author (you can use a pseudonym if you want), date, keywords, abstract) completely filled out.</li>
+<li>A fully written Introduction section.</li>
+<li>All other sections must be present in your paper, but don’t have to be filled out (e.g. you must have a ‘Data’ heading, but you don’t need to have content in that section).</li>
+<li>To be clear - it is fine to later change any aspect of what you submit at this check-point.</li>
+<li>You will be awarded two percentage points just for submitting a draft that meets this minimum.</li>
+<li>The point of this is to get feedback on your work (and to make sure you have at least started thinking about this project) so you are more than welcome to include other sections that you wish to get feedback on.</li>
+<li>There will be no extensions granted for this submission since the following submission is dependent on this date.</li>
+</ul></li>
+<li>Conduct peer-review.
+<ul>
+<li>As an individual, you will randomly be assigned a handful of rough drafts to provide feedback. You have three days to provide feedback to your peers.</li>
+<li>If you provide feedback to one peer you will receive one percentage point, if you provide feedback to two peers you will receive two percentage points, if you provide feedback to three (or more) peers you will receive the full three percentage points.</li>
+<li>Your feedback must include at least five comments (meaningful/useful bullet points). These must be well-written and thoughtful.</li>
+<li>There will be no extensions granted for this submission since the following submission is dependent on this date.</li>
+<li>Please remember that you are providing feedback here to help your colleagues. All comments should be professional and kind. It is challenging to receive criticism. Please remember that your goal here is to help your peers advance their writing/analysis. Any feedback that is inappropriate or not up to standard will receive a 0 and cannot be redeemed later.</li>
+</ul></li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

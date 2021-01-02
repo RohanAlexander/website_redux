@@ -78,6 +78,7 @@
     var header = $('header').get(0);
     var headerHeight = header.offsetHeight;
     var headroom = new Headroom(header, {
+      tolerance: 5,
       onPin : function() {
         if (window.headroom_prevent_pin) {
           window.headroom_prevent_pin = false;
@@ -550,7 +551,7 @@ d-article pre code {
 d-article pre,
 d-article div.sourceCode,
 d-article div.sourceCode pre {
-  overflow: hidden;
+  overflow: auto;
 }
 
 d-article div.sourceCode {
@@ -1769,7 +1770,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Home Buyers Will Be Hurt by Aid Plan","description":"The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2008-05-08T00:00:00.000-04:00","citationText":"Alexander, 2008"}
+{"title":"Home Buyers Will Be Hurt by Aid Plan","description":"The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2008-05-08T00:00:00.000+00:00","citationText":"Alexander, 2008"}
 </script>
 
 <!--/radix_placeholder_front_matter-->

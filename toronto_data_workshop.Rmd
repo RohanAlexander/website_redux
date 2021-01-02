@@ -28,21 +28,21 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 
 | Date 				| Speaker				| Topic | Recording |
 | ---------- | --------------- | ------------- | ----- |
-| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* 					| TBA | |
-| Thu 21 Jan, 4:30-5:30pm 	| *Cancelled*																			| - | - |
-| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			| Bias and fairness in health | |
-| Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																| TBA | |
-| Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									| TBA | |
+| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* 					  | TBA | |
+| Wed 20 Jan, 4:30-5:30pm 	| Zia Babar, *University of Toronto*								| Derivative data security. |  |
+| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			  | Bias and fairness in health. | |
+| Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																    | TBA | |
+| Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									  | TBA | |
 | Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| |
 | Thu 25 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
 | Fri 26 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
-| Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Marrying simulation modeling and retrospective data for health economic decision making.| |
-| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 											| Using publicly-available data. | |
-| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data | |
-| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Royal Canadian Mint* 													| TBA | |
-| Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 													| Integrating science & policy through DS & AI | |
-| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 											| Object Oriented Process Mining | |
-| Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*																	|  Issues in Mexican demographic history | |
+| Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Simulation and retrospective data for health economic decision making.| |
+| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 			| Using publicly-available data. | |
+| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data. | |
+| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Royal Canadian Mint* 							| The power of great datasets. | |
+| Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | |
+| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| Object oriented process mining. | |
+| Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*								| Data issues in Mexican demographic history. | |
 | Thu 22 Apr, 4:30-5:30pm 	| Sam-Jo Caetano, *University of Toronto*, Aimee Schwab-McCoy, *Creighton University* 	| Panel on teaching data-focused topics. | |
 
 
@@ -52,8 +52,10 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	**Andrew Miles**, University of Toronto  
 	Andrew Miles is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.  
 	*Topic TBA* 
-* Thursday, 21 January, 4:30-5:30pm  
-	*Cancelled*
+* Wednesday, 20 January, 4:30-5:30pm  
+  **Zia Babar**, University of Toronto  
+	Zia Babar obtained his PhD from the University of Toronto where his research studies focused on the analysis and design of data-centered information systems for enabling enterprise transformation. He is engaged in a multi-year research engagement with IBM Research Labs and is a startup technical mentor at WeWork Labs. He is the organizer of technology meetup groups in both Toronto and Waterloo, and a course instructor at the Faculty of Information, University of Toronto.  
+	Zia will provide a background on data security approaches, and a demonstration of machine learning and deep learning techniques that can be used for providing derivative data security.
 * Thursday, 28 January, 4:30-5:30pm  
 	**Irene Duah-Kessie**, University of Toronto  
 	Irene Duah-Kessie completed an Honours Bachelors of Science Degree at the McMaster University and is now pursuing a Master of Science in Sustainability Management at the University of Toronto, with a collaborative specialization in Environmental Studies.  
@@ -90,8 +92,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
   Sofia will talk about animal tracking data. She will explain how sensors are used to track animal movement and activities, the characteristics of this type of data and how to deal with it.  
 * Thursday, 25 March, 4:30-5:30pm  
 	**Alex Cookson**, Royal Canadian Mint  
-	[Alex](https://www.alexcookson.com/) loves data science, cycling, and cats. He works at the Royal Canadian Mint, where he helps the marketing team make the most of their data. He's worked on many machine learning and business analytics projects, including predictive models for customer churn, recommendation engines, and self-service dashboards. He holds Masters degrees in International Business from HEC Paris and Queen's University, and earned his Bachelor's degree from Queen's University, where he studied commerce.  
-	*Topic TBA* 
+	[Alex Cookson](https://www.alexcookson.com/) helps the Customer Intelligence team at the Royal Canadian Mint make the most of their data. When he's not working on A/B testing, recommendation engines, or exploratory data analysis at the Mint, he can be found participating in Tidy Tuesday or thinking up cool datasets to explore. And when he's not doing that, he's probably cycling around Toronto or doting on his two cats, Tom Tom and Ruby.  
+	Alex will explore the power of great datasets, and discuss the importance of interesting, fun datasets as a way to guide and motivate learning R. 
 * Thursday, 1 April, 4:30-5:30pm  
 	**Vik Pant**, Natural Resources Canada. 
 	Dr. Vik Pant is the Chief Scientist and Chief Science Advisor of Natural Resources Canada (NRCan). He leads the Office of the Chief Scientist at NRCan and reports directly to the Deputy Minister. His office oversees the development and implementation of evidence-based science policy across NRCan sectors and agencies. His office also manages NRCan's enterprise-wide technology strategy and portfolio of science products. He also runs the Digital Accelerator, which is an innovation platform for designing and launching AI-driven software products in NRCan. Vik is also the Founder of Synthetic Intelligence Forum, which is a leading community of practice focused on the industrial application of Artificial Intelligence (AI). He earned a doctorate from the Faculty of Information (iSchool) in the University of Toronto, a master's degree in business administration with distinction from the University of London, a master's degree in information technology from Harvard University, where he received the Dean’s List Academic Achievement Award, and an undergraduate degree in business administration from Villanova University. Vik serves as an Adjunct Professor in the Faculty of Information (iSchool) at the University of Toronto.  

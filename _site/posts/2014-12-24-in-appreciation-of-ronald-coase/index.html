@@ -78,6 +78,7 @@
     var header = $('header').get(0);
     var headerHeight = header.offsetHeight;
     var headroom = new Headroom(header, {
+      tolerance: 5,
       onPin : function() {
         if (window.headroom_prevent_pin) {
           window.headroom_prevent_pin = false;
@@ -550,7 +551,7 @@ d-article pre code {
 d-article pre,
 d-article div.sourceCode,
 d-article div.sourceCode pre {
-  overflow: hidden;
+  overflow: auto;
 }
 
 d-article div.sourceCode {
@@ -1769,7 +1770,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"In Appreciation of Ronald Coase","description":"Ronald Coase, one of the most influential economists of the twentieth century, passed away in 2013 aged 102. Reading his papers today, I wonder whether he'd have become an economist if he were making that decision now.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2014-12-24T00:00:00.000-05:00","citationText":"Alexander, 2014"}
+{"title":"In Appreciation of Ronald Coase","description":"Ronald Coase, one of the most influential economists of the twentieth century, passed away in 2013 aged 102. Reading his papers today, I wonder whether he'd have become an economist if he were making that decision now.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2014-12-24T00:00:00.000+00:00","citationText":"Alexander, 2014"}
 </script>
 
 <!--/radix_placeholder_front_matter-->

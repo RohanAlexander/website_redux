@@ -78,6 +78,7 @@
     var header = $('header').get(0);
     var headerHeight = header.offsetHeight;
     var headroom = new Headroom(header, {
+      tolerance: 5,
       onPin : function() {
         if (window.headroom_prevent_pin) {
           window.headroom_prevent_pin = false;
@@ -550,7 +551,7 @@ d-article pre code {
 d-article pre,
 d-article div.sourceCode,
 d-article div.sourceCode pre {
-  overflow: hidden;
+  overflow: auto;
 }
 
 d-article div.sourceCode {
@@ -1769,7 +1770,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Professional Amateurs","description":"Despite many unforced errors Hillary Clinton has won the Democratic nomination and polls suggest she will beat Donald Trump. But her campaign continues to make unforced errors. There was plenty of evidence of an amateur nature to what should be a professional campaign at a recent rally for Clinton’s running mate, Tim Kaine, in Grand Rapids, Michigan.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2016-09-08T00:00:00.000-04:00","citationText":"Alexander, 2016"}
+{"title":"Professional Amateurs","description":"Despite many unforced errors Hillary Clinton has won the Democratic nomination and polls suggest she will beat Donald Trump. But her campaign continues to make unforced errors. There was plenty of evidence of an amateur nature to what should be a professional campaign at a recent rally for Clinton’s running mate, Tim Kaine, in Grand Rapids, Michigan.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2016-09-08T00:00:00.000+00:00","citationText":"Alexander, 2016"}
 </script>
 
 <!--/radix_placeholder_front_matter-->

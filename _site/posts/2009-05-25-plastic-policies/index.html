@@ -78,6 +78,7 @@
     var header = $('header').get(0);
     var headerHeight = header.offsetHeight;
     var headroom = new Headroom(header, {
+      tolerance: 5,
       onPin : function() {
         if (window.headroom_prevent_pin) {
           window.headroom_prevent_pin = false;
@@ -550,7 +551,7 @@ d-article pre code {
 d-article pre,
 d-article div.sourceCode,
 d-article div.sourceCode pre {
-  overflow: hidden;
+  overflow: auto;
 }
 
 d-article div.sourceCode {
@@ -1769,7 +1770,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Plastic Policies","description":"There is broad agreement that Australian plastic bag consumption should be reduced. To this end, recent South Australian legislation has banned certain types of plastic bags. But other states wishing to reduce their plastic bag consumption may find a tax rather than a ban the more appropriate policy instrument.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Flavio Menezes","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2009-05-25T00:00:00.000-04:00","citationText":"Alexander & Menezes, 2009"}
+{"title":"Plastic Policies","description":"There is broad agreement that Australian plastic bag consumption should be reduced. To this end, recent South Australian legislation has banned certain types of plastic bags. But other states wishing to reduce their plastic bag consumption may find a tax rather than a ban the more appropriate policy instrument.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Flavio Menezes","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2009-05-25T00:00:00.000+00:00","citationText":"Alexander & Menezes, 2009"}
 </script>
 
 <!--/radix_placeholder_front_matter-->

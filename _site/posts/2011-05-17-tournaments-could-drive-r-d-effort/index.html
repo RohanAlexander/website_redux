@@ -80,6 +80,7 @@
     var header = $('header').get(0);
     var headerHeight = header.offsetHeight;
     var headroom = new Headroom(header, {
+      tolerance: 5,
       onPin : function() {
         if (window.headroom_prevent_pin) {
           window.headroom_prevent_pin = false;
@@ -552,7 +553,7 @@ d-article pre code {
 d-article pre,
 d-article div.sourceCode,
 d-article div.sourceCode pre {
-  overflow: hidden;
+  overflow: auto;
 }
 
 d-article div.sourceCode {
@@ -1771,7 +1772,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Tournaments Could Drive R&D Effort","description":"The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Andrew Barnes","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2011-05-17T00:00:00.000-04:00","citationText":"Alexander & Barnes, 2011"}
+{"title":"Tournaments Could Drive R&D Effort","description":"The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Andrew Barnes","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2011-05-17T00:00:00.000+00:00","citationText":"Alexander & Barnes, 2011"}
 </script>
 
 <!--/radix_placeholder_front_matter-->

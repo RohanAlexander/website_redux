@@ -54,35 +54,35 @@ div.sourceCode
 @media screen {
 code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #545454; font-weight: bold; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #a1024a; } /* BaseN */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007faa; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #008000; } /* Char */
-code span.cn { color: #d91e18; } /* Constant */
-code span.co { color: #545454; } /* Comment */
-code span.cv { color: #545454; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #aa5d00; } /* DataType */
-code span.dv { color: #a1024a; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #a1024a; } /* Float */
-code span.fu { color: #4254a7; } /* Function */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #545454; font-weight: bold; } /* Information */
-code span.kw { color: #007faa; font-weight: bold; } /* Keyword */
-code span.op { color: #696969; } /* Operator */
-code span.ot { color: #007faa; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #008000; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #008000; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #008000; } /* VerbatimString */
-code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warning */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
@@ -126,6 +126,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
       var header = $('header').get(0);
       var headerHeight = header.offsetHeight;
       var headroom = new Headroom(header, {
+        tolerance: 5,
         onPin : function() {
           if (window.headroom_prevent_pin) {
             window.headroom_prevent_pin = false;
@@ -598,7 +599,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
-    overflow: hidden;
+    overflow: auto;
   }
   
   d-article div.sourceCode {
@@ -1980,7 +1981,7 @@ Other
 </tr>
 <tr class="even">
 <td>2:30-2:55pm</td>
-<td>Mauricio Vargas, <em>Catholic University of Chile</em></td>
+<td>Mauricio Vargas, <em>Catholic University of Chile</em> &amp; Nicolas Didier <em>Arizona State University</em></td>
 <td>Evaluating</td>
 </tr>
 <tr class="odd">
@@ -1996,7 +1997,7 @@ Other
 <tr class="odd">
 <td>4:00-4:25pm</td>
 <td>Garret Christensen, <em>US FDIC</em></td>
-<td></td>
+<td>Evaluating</td>
 </tr>
 <tr class="even">
 <td>4:30-4:55pm</td>
@@ -2043,7 +2044,7 @@ Other
 <tr class="odd">
 <td>9:30-9:55am</td>
 <td>Heidi Seibold, <em>Helmholtz AI Cooperation Unit</em></td>
-<td></td>
+<td>Practices</td>
 </tr>
 <tr class="even">
 <td>10:00-10:55am</td>
@@ -2078,12 +2079,12 @@ Other
 <tr class="even">
 <td>1:30-1:55pm</td>
 <td>Shemra Rizzo, <em>Genentech</em></td>
-<td></td>
+<td>Practices</td>
 </tr>
 <tr class="odd">
 <td>2:00-2:25pm</td>
 <td>Amber Simpson, <em>Queens University</em></td>
-<td></td>
+<td>Practices</td>
 </tr>
 <tr class="even">
 <td>2:30-2:55pm</td>
@@ -2135,7 +2136,7 @@ Abstract: <em>TBA</em></li>
 <p>Invited presentations:</p>
 <ul>
 <li><a href="http://www2.cs.queensu.ca/people/profile.php?fname=Amber&amp;lname=Simpson">Amber Simpson</a> is the Canada Research Chair in Biomedical Computing and Informatics and Associate Professor in the School of Computing (Faculty of Arts and Science) and Department of Biomedical and Molecular Sciences (Faculty of Health Sciences). She specializes in biomedical data science and computer-aided surgery. Her research group is focused on developing novel computational strategies for improving human health. She joined the Queen’s University faculty in 2019, after four years as faculty at Memorial Sloan Kettering Cancer Center in New York and three years as a Research Assistant Professor in Biomedical Engineering at Vanderbilt University in Nashville. She is an American Association of Cancer Research award winner and the holder of multiple National Institutes of Health grants. She received her PhD in Computer Science from Queen’s University.<br />
-Abstract: <em>TBA</em></li>
+Abstract: The development of predictive and prognostic biomarkers is a major area of investigation in cancer research. Our lab specializes in the development of quantitative imaging markers for personalized treatment of cancer. Progress in developing these novel markers is limited by a lack of optimization, standardization, and validation, all critical barriers to clinical use. This talk will describe our work in the repeatability and reproducibility of imaging biomarkers.</li>
 <li><a href="https://arcruz0.github.io/">Andrés Cruz</a> is an adjunct instructor at Pontificia Universidad Católica de Chile, where he teaches computational social science. He holds a BA and MA in Political Science, and is the co-editor of “R for Political Data Science: A Practical Guide” (CRC Press, 2020), an R manual for social science students and practitioners.<br />
 Abstract: <code>inexact</code> is an RStudio addin to supervise fuzzy joins. Merging data sets is a simple procedure in most statistical software packages. However, applied researchers frequently face problems when dealing with data in which ID variables are not properly standardized. For instance, politicians’ names can be spelled differently in multiple sources (press reports, official documents, etc.), causing regular merging methods to fail. The most common approach to fix this issue when working with small and medium data sets is manually fixing the problematic values before merging. However, this solution is time-consuming and not reproducible. An RStudio addin called “inexact” was created to help with this. The package draws from approximate string matching algorithms, which quantify the distance between two given strings. When merging data sets with non-standardized ID variables, <code>inexact</code> users benefit from automatic match suggestions, while also being able to override the automatic choices when needed, using a user-friendly graphical user interface (GUI). The output is simply code to perform the corrected merging procedure, which registers the employed algorithm and any corrections made by the user, ensuring reproducibility. A development version of <code>inexact</code> is available on <a href="https://github.com/arcruz0/inexact">GitHub</a>.</li>
 <li><a href="https://twitter.com/smallperks?lang=en">Danielle Smalls-Perkins</a> works at Google in Natural Language Processing. She is a co-founder of MiR, which exists to support and increase the underrepresented minority users in the R community.<br />
@@ -2147,16 +2148,16 @@ Abstract: The repliCATS (Collaborative Assessments for Trustworthy Science) proj
 <li><a href="https://florencia.netlify.app/">Florencia D’Andrea</a> is a post-doc at the Argentine National Institute of Agricultural Technology where she develops computer tools to assess the risk of pesticide applications for aquatic ecosystems. She holds a PhD in Biological Sciences from the University of Buenos Aires, Argentina.<br />
 Abstract: <em>TBA</em></li>
 <li><a href="https://www.ocf.berkeley.edu/~garret/">Garret Christensen</a> received his economics PhD from UC Berkeley in 2011. He is an economist with the FDIC. Before that he worked for the Census Bureau, and he was a project scientist with the Berkeley Initiative for Transparency in the Social Sciences and a Data Science Fellow with the Berkeley Institute for Data Science.<br />
-Abstract: <em>TBA</em></li>
+Abstract: Adoption of Open Science Practices is Increasing: Survey Evidence on Attitudes, Norms and Behavior in the Social Sciences. Has there been meaningful movement toward open science practices within the social sciences in recent years? Discussions about changes in practices such as posting data and pre-registering analyses have been marked by controversy—including controversy over the extent to which change has taken place. This study, based on the State of Social Science (3S) Survey, provides the first comprehensive assessment of awareness of, attitudes towards, perceived norms regarding, and adoption of open science practices within a broadly representative sample of scholars from four major social science disciplines: economics, political science, psychology, and sociology. We observe a steep increase in adoption: as of 2017, over 80% of scholars had used at least one such practice, rising from one quarter a decade earlier. Attitudes toward research transparency are on average similar between older and younger scholars, but the pace of change differs by field and methodology. According with theories of normal science and scientific change, the timing of increases in adoption coincides with technological innovations and institutional policies. Patterns are consistent with most scholars underestimating the trend toward open science in their discipline.</li>
 <li><a href="https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html">Heidi Seibold</a> is a Team leader at Helmholtz AI. Her group combines open science, AI and health research. It focuses on reproducible and open research, as well as on machine learning methods for personalized medicine that improve patient treatment.<br />
-Abstract: <em>TBA</em></li>
+Abstract: In this talk I will discuss some practical steps for making your work reproducible. I will also share my thoughts on what role data scientists and statisticians can play in the reproducibility crisis.</li>
 <li><a href="http://www.jakebowers.org">Jake Bowers</a> is a Senior Scientist at The Policy Lab and a member of the Lab’s data science practice. Jake is Associate Professor of Political Science and Statistics at the University of Illinois Urbana-Champaign. He has served as a Fellow in the Office of Evaluation Sciences in the General Services Administration of the US Federal Government and is Methods Director for the Evidence in Governance and Politics network. Jake holds a PhD in Political Science from the University of California, Berkeley, and a BA in Ethics, Politics and Economics from Yale University.<br />
 Abstract: For evidence-based public policy to grow in impact and importance, practices to enhance scientific credibility should be brought into governmental contexts and also should be modified for those contexts. For example, few analyses of governmental data allow data sharing (in contrast with most scientific studies); and many analysis of governmental administrative data inform high stakes immediate decisions (in contrast with the slow accumulation of scientific knowledge). We make several proposals to adjust scientific norms of reproducibility and pre-registration to the policy context.</li>
 <li><a href="https://jdblischak.com/">John Blischak</a> is a freelance scientific software developer for the life sciences industry. He is the primary author of the R package workflowr and the co-maintainer of the CRAN Task View on Reproducible Research. He received his PhD in Genetics from the University of Chicago.<br />
 Abstract: The <code>workflowr</code> R package helps organize computational research in a way that promotes effective project management, reproducibility, collaboration, and sharing of results. <code>workflowr</code> combines literate programming (knitr and rmarkdown) and version control (Git, via git2r) to generate a website containing time-stamped, versioned, and documented results. Any R user can quickly and easily adopt <code>workflowr</code>, which includes four key features: (1) <code>workflowr</code> automatically creates a directory structure for organizing data, code, and results; (2) <code>workflowr</code> uses the version control system Git to track different versions of the code and results without the user needing to understand Git syntax; (3) to support reproducibility, <code>workflowr</code> automatically includes code version information in webpages displaying results and; (4) <code>workflowr</code> facilitates online Web hosting (e.g. GitHub Pages) to share results. Our goal is that <code>workflowr</code> will make it easier for researchers to organize and communicate reproducible results. Documentation and source code are <a href="https://github.com/jdblischak/workflowr">available</a>.</li>
 <li><a href="https://www.johnmclevey.com/">John McLevey</a> is an Associate Professor in the Department of Knowledge Integration at University of Waterloo, and cross-appointed to Sociology &amp; Legal Studies, the School of Environment, Resources, &amp; Sustainability (SERS), and Geography &amp; Environmental Management (GEM). He primarily works in the areas of social network analysis and computational social science, with substantive interests in the sociology of science, environmental sociology, political sociology, and cognitive sociology.<br />
 Abstract: <em>TBA</em></li>
-<li><a href="https://jschultecloos.github.io">Julia Schulte-Cloos</a> is a Marie Skłodowska-Curie funded LMU Research Fellow at the Geschwister Scholl Institute of Political Science at LMU Munich. Her research lies at the intersection of comparative politics, political sociology and socio-psychology.<br />
+<li><a href="https://jschultecloos.github.io">Julia Schulte-Cloos</a> is a Marie Skłodowska-Curie funded research fellow at LMU Munich. She has earned her PhD in Political Science from the European University Institute. Julia is passionate about developing tools and templates for generating reproducible workflows and creating reproducible research outputs with R Markdown.<br />
 Abstract: We present a template package in R that allows users without any prior knowledge of R Markdown to implement reproducible research practices in their scientific workflows. We provide a single Rmd-file that is fully optimized for two different output formats, HTML and PDF. While in the stage of explorative analysis and when focusing on content only, researchers may rely on the ‘draft mode’ of our template that knits to HTML When in the stage of research dissemination and when focusing on the presentation of results, in contrast, researchers may rely on the ‘manuscript mode’ that knits to PDF. Our template outlines the basics for successfully writing a reproducible paper in R Markdown by showing how to include citations, figures, and cross-references. It also provides examples for the use of <code>ggplot2</code> to include plots, both in static and animated outputs, and it shows how to present the most commonly used tables in scientific research (descriptive statistics and regression tables). Finally, in our template, we discuss some more advanced features of literate programming and helpful tweaks in R Markdown.</li>
 <li><a href="https://jazzystats.com/">Lauren Kennedy</a> is a lecturer at Monash University (Melbourne, Australia), where she works creating survey weights and thinking about non-representative data, multilevel modelling, poststratification, causal inference, Bayesian inference and all manner of other related fields to making inference from the social sciences.<br />
 Abstract: <em>TBA</em></li>
@@ -2167,27 +2168,29 @@ Abstract: Evidence-based policymaking has turned into a high priority for govern
 Abstract: <em>TBA</em></li>
 <li><a href="http://www.utstat.utoronto.ca/reid/">Nancy Reid</a> is Professor of Statistical Sciences at the University of Toronto and Canada Research Chair in Statistical Theory and Applications. Her main area of research is theoretical statistics. This treats the foundations and properties of methods of statistical inference. She is interested in how best to use information in the data to construct inferential statements about quantities of interest. A very simple example of this is the widely quoted ‘margin of error’ in the reporting of polls, another is the ubiquitous ‘p-value’ reported in medical and health studies. Much of her research considers how to ensure that these inferential statements are both accurate and effective at summarizing complex sets of data.<br />
 Abstract: <em>TBA</em></li>
-<li><a href="https://www.ryancbriggs.net/">Ryan Briggs</a> is a social scientist who studies the political economy of poverty alleviation. Most of my research focuses on Africa. He is also an Associate Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph. Before that, he taught at Virginia Tech and American University.<br />
+<li><a href="https://cord.asu.edu/content/nicolas-didier">Nicolas Didier</a> is studying for a PhD in Public Administration and Policy at the Arizona State University. During his PhD studies and previous studies, he has worked extensively on developing evidence that addresses policy in labour markets and public expenditure.<br />
+Abstract: Please see Mauricio Vargas Sepúlveda.</li>
+<li><a href="https://www.ryancbriggs.net">Ryan Briggs</a> is a social scientist who studies the political economy of poverty alleviation. Most of his research focuses on the spatial targeting of foreign aid. He is an Assistant Professor in the Guelph Institute of Development Studies and Department of Political Science at the University of Guelph. Before that, he taught at Virginia Tech and American University.<br />
 Abstract: <em>TBA</em></li>
 <li><a href="https://sharla.party/">Sharla Gelfand</a> is a freelance R and Shiny developer specializing in enabling easy access to data and replacing manual, redundant processes with ones that are automated, reproducible, and repeatable. They also co-organize R-Ladies Toronto and the Greater Toronto Area R User Group. They like R (of course), dogs, learning Spanish, playing bass, and punk.<br />
 Abstract: <em>TBA</em></li>
-<li><a href="https://www.linkedin.com/in/shemra">Shemra Rizzo</a> is a Senior Data Scientist at Genentech and before that Proteus Digital Health. She was previously Assistant Professor in Statistics at the University of California, Riverside, and holds a PhD in Biostatistics from UCLA.<br />
-Abstract: <em>TBA</em></li>
+<li><a href="https://www.linkedin.com/in/shemra">Shemra Rizzo</a> is a senior data scientist in Genentech’s Personalized Healthcare group. Shemra’s role includes research on COVID-19 using electronic health records, and the development of data-driven approaches to evaluate clinical trial eligibility criteria. Shemra obtained her PhD in Biostatistics from UCLA. Before joining Genentech, Shemra was an assistant professor of statistics at UC Riverside, where her research covered topics in mental health, health disparities, and nutrition. In her free time, Shemra enjoys spending time with her family and running.<br />
+Abstract: Reproducibility when working with EHR licensed data.</li>
 <li><a href="https://www.shirokuriwaki.com/">Shiro Kuriwaki</a> is a PhD Candidate in the Department of Government at Harvard University. His research focuses on democratic representation in American Politics. In an ongoing project, he studies the structure of voter’s choices across levels of government and the political economy of local elections, using cast vote records and surveys. His other projects also help understand the mechanics of representation, including: public opinion and Congress, modern survey statistics and causal inference, and election administration. Prior to and during graduate school, he worked at the Analyst Institute in Washington D.C.<br />
 Abstract: <em>TBA</em></li>
 <li><a href="http://simeon-carstens.com/">Simeon Carstens</a> is a Data Scientist at Tweag I/O, a software innovation lab and consulting company. Originally a physicist, Simeon did a PhD and postdoc research in computational biology, focusing on Bayesian determination of three-dimensional chromosome structures.<br />
 Abstract: Data analysis often requires a complex software environment containing one or several programming languages, language-specific modules and external dependencies, all in compatible versions. This poses a challenge to reproducibility: what good is a well-designed, tested and documented data analysis pipeline if it is difficult to replicate the software environment required to run it? Standard tools such as Python / R virtual environments solve part of the problem, but do not take into account external and system-level dependencies. Nix is a fully declarative, open-source package manager solving this problem: a program packaged with Nix comes with a complete description of its full dependency tree, down to system libraries. In this presentation, I will give an introduction to Nix, show in a live demo how to set up a fully reproducible software environment and compare Nix to existing solutions such as virtual environments and Docker.</li>
 <li><a href="https://www.tiffanytimbers.com/">Tiffany Timbers</a> is an Assistant Professor of Teaching in the Department of Statistics and an Co-Director for the Master of Data Science program (Vancouver Option) at the University of British Columbia. In these roles she teaches and develops curriculum around the responsible application of Data Science to solve real-world problems. One of her favourite courses she teaches is a graduate course on collaborative software development, which focuses on teaching how to create R and Python packages using modern tools and workflows.<br />
 Abstract: <em>TBA</em></li>
-<li><a href="https://pure.royalholloway.ac.uk/portal/en/persons/thomas-barton(8a862a25-f335-4c52-9986-6c094b613b55).html">Tom Barton</a> is a PhD student in Politics at Royal Holloway, University of London. His PhD focuses on the impact of Voter Identification laws on political participation and attitudes. More generally his interests include elections, public opinion (particularly social values) and quantitative research methods.<br />
-Abstract: I reproduce Surridge, 2016, ‘Education and liberalism: pursuing the link’, <em>Oxford Review of Education</em>, 42:2, pp.146-164, using the 1970 British Cohort Study (BCS70), instead using a difference-in-difference regression approach with more waves of data. I find that whilst there is evidence for both socialisation and self-selection models, self-selection dominates the link between social values and university attendance. This is counter to what Surridge (2016) concluded. The need for respecification was two-fold, first Surridge’s methodology did not fully test for causality and secondly later waves have data have become available since.<br />
+<li><a href="https://tombarton.netlify.app">Tom Barton</a> is a PhD student in Politics at Royal Holloway, University of London. His PhD focuses on the impact of Voter Identification laws on political participation and attitudes. More generally his interests include elections, public opinion (particularly social values) and quantitative research methods.<br />
+Abstract: I reproduce Surridge, 2016, ‘Education and liberalism: pursuing the link’, <em>Oxford Review of Education</em>, 42:2, pp. 146-164, using the 1970 British Cohort Study (BCS70), instead using a difference-in-difference regression approach with more waves of data. I find that whilst there is evidence for both socialisation and self-selection models, self-selection dominates the link between social values and university attendance. This is counter to what Surridge (2016) concluded. The need for respecification was two-fold, first Surridge’s methodology did not fully test for causality and secondly later waves have data have become available since.<br />
 </li>
 <li><a href="https://www.tylergirard.com/">Tyler Girard</a> is a PhD Candidate in political science at the University of Western Ontario (London, Ontario, Canada). His dissertation research seeks to explain the origins and diffusion of the global financial inclusion agenda by focusing on the role of ambiguous ideas in mobilizing and consolidating transnational coalitions.<br />
 Abstract: <em>TBA</em></li>
 <li><a href="https://www.statistics.utoronto.ca/people/directories/graduate-students/yanbo-tang">Yanbo Tang</a> is a PhD candidate at the University of Toronto in the Department of Statistical Sciences, under the joint supervision of Nancy Reid and Daniel Roy. He is interested in the study and application of methods in higher order asymptotics and statistical inference in the presence of many nuisance parameters. Nowadays, he works under the careful gaze of his pet parrot.<br />
 Abstract: Hypothesis testing results often rely on simple, yet important assumptions about the behavior of the distribution of p-values under the null and alternative. We show that commonly held beliefs regarding the distribution of p-values are misleading when the variance or location of the test statistic are not well-calibrated or when the higher order cumulants of the test statistic are not negligible. We further examine the impact of having these misleading p-values on reproducibility of scientific studies, with some examples focused on GWAS studies. Certain corrected tests are proposed and are shown to perform better than their traditional counterparts in certain settings.</li>
 <li><a href="http://www.wijdantariq.com/">Wijdan Tariq</a> is an undergraduate student in the Department of Statistical Sciences at the University of Toronto.<br />
-Abstract: <em>TBA</em></li>
+Abstract: I undertake a narrow replication of Caicedo, 2019, ‘The Mission: Human Capital Transmission, Economic Persistence, and Culture in South America’, <em>Quarterly Journal of Economics</em>, 134:1, pp. 507-556. Caicedo reports of a remarkable, religiously inspired human capital intervention that took place in remote parts of South America 250 years ago and whose positive economic effects, he claims, persist to this day. I replicate some of the paper’s key results using data files that are available on the Harvard Dataverse portal. I discuss some lessons learned in the process of replicating this paper and share some reflections on the state of reproducibility in economics.</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

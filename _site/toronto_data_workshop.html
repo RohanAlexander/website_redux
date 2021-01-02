@@ -54,35 +54,35 @@ div.sourceCode
 @media screen {
 code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #545454; font-weight: bold; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #a1024a; } /* BaseN */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #20794d; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007faa; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #008000; } /* Char */
-code span.cn { color: #d91e18; } /* Constant */
-code span.co { color: #545454; } /* Comment */
-code span.cv { color: #545454; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #aa5d00; } /* DataType */
-code span.dv { color: #a1024a; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.cf { color: #007ba5; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
 code span.ex { } /* Extension */
-code span.fl { color: #a1024a; } /* Float */
-code span.fu { color: #4254a7; } /* Function */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
-code span.in { color: #545454; font-weight: bold; } /* Information */
-code span.kw { color: #007faa; font-weight: bold; } /* Keyword */
-code span.op { color: #696969; } /* Operator */
-code span.ot { color: #007faa; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #008000; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #008000; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #008000; } /* VerbatimString */
-code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warning */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #007ba5; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #007ba5; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #20794d; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
@@ -126,6 +126,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
       var header = $('header').get(0);
       var headerHeight = header.offsetHeight;
       var headroom = new Headroom(header, {
+        tolerance: 5,
         onPin : function() {
           if (window.headroom_prevent_pin) {
             window.headroom_prevent_pin = false;
@@ -598,7 +599,7 @@ code span.wa { color: #545454; font-weight: bold; font-style: italic; } /* Warni
   d-article pre,
   d-article div.sourceCode,
   d-article div.sourceCode pre {
-    overflow: hidden;
+    overflow: auto;
   }
   
   d-article div.sourceCode {
@@ -1931,15 +1932,15 @@ Other
 <td></td>
 </tr>
 <tr class="even">
-<td>Thu 21 Jan, 4:30-5:30pm</td>
-<td><em>Cancelled</em></td>
-<td>-</td>
-<td>-</td>
+<td>Wed 20 Jan, 4:30-5:30pm</td>
+<td>Zia Babar, <em>University of Toronto</em></td>
+<td>Derivative data security.</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>Thu 28 Jan, 4:30-5:30pm</td>
 <td>Irene Duah-Kessie, <em>University of Toronto</em></td>
-<td>Bias and fairness in health</td>
+<td>Bias and fairness in health.</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1975,7 +1976,7 @@ Other
 <tr class="odd">
 <td>Thu 4 Mar, 4:30-5:30pm</td>
 <td>Petros Pechlivanoglou, <em>The Hospital for Sick Children (SickKids) Research Institute</em></td>
-<td>Marrying simulation modeling and retrospective data for health economic decision making.</td>
+<td>Simulation and retrospective data for health economic decision making.</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -1987,31 +1988,31 @@ Other
 <tr class="odd">
 <td>Thu 18 Mar, 4:30-5:30pm</td>
 <td>Sofia Ruiz Suarez, <em>National University of Comahue</em></td>
-<td>Animal tracking data</td>
+<td>Animal tracking data.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Thu 25 Mar, 4:30-5:30pm</td>
 <td>Alex Cookson, <em>Royal Canadian Mint</em></td>
-<td>TBA</td>
+<td>The power of great datasets.</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Thu 1 Apr, 4:30-5:30pm</td>
 <td>Vik Pant, <em>Natural Resources Canada</em></td>
-<td>Integrating science &amp; policy through DS &amp; AI</td>
+<td>Integrating science &amp; policy through DS &amp; AI.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>Thu 8 Apr, 4:30-5:30pm</td>
 <td>Faria Khandaker, <em>University of Toronto</em></td>
-<td>Object Oriented Process Mining</td>
+<td>Object oriented process mining.</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td>Thu 15 Apr, 4:30-5:30pm</td>
 <td>Emily A. Sellars, <em>Yale University</em></td>
-<td>Issues in Mexican demographic history</td>
+<td>Data issues in Mexican demographic history.</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -2027,8 +2028,10 @@ Other
 <strong>Andrew Miles</strong>, University of Toronto<br />
 Andrew Miles is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.<br />
 <em>Topic TBA</em></li>
-<li>Thursday, 21 January, 4:30-5:30pm<br />
-<em>Cancelled</em></li>
+<li>Wednesday, 20 January, 4:30-5:30pm<br />
+<strong>Zia Babar</strong>, University of Toronto<br />
+Zia Babar obtained his PhD from the University of Toronto where his research studies focused on the analysis and design of data-centered information systems for enabling enterprise transformation. He is engaged in a multi-year research engagement with IBM Research Labs and is a startup technical mentor at WeWork Labs. He is the organizer of technology meetup groups in both Toronto and Waterloo, and a course instructor at the Faculty of Information, University of Toronto.<br />
+Zia will provide a background on data security approaches, and a demonstration of machine learning and deep learning techniques that can be used for providing derivative data security.</li>
 <li>Thursday, 28 January, 4:30-5:30pm<br />
 <strong>Irene Duah-Kessie</strong>, University of Toronto<br />
 Irene Duah-Kessie completed an Honours Bachelors of Science Degree at the McMaster University and is now pursuing a Master of Science in Sustainability Management at the University of Toronto, with a collaborative specialization in Environmental Studies.<br />
@@ -2066,8 +2069,8 @@ Sofia will talk about animal tracking data. She will explain how sensors are use
 </li>
 <li>Thursday, 25 March, 4:30-5:30pm<br />
 <strong>Alex Cookson</strong>, Royal Canadian Mint<br />
-<a href="https://www.alexcookson.com/">Alex</a> loves data science, cycling, and cats. He works at the Royal Canadian Mint, where he helps the marketing team make the most of their data. He’s worked on many machine learning and business analytics projects, including predictive models for customer churn, recommendation engines, and self-service dashboards. He holds Masters degrees in International Business from HEC Paris and Queen’s University, and earned his Bachelor’s degree from Queen’s University, where he studied commerce.<br />
-<em>Topic TBA</em></li>
+<a href="https://www.alexcookson.com/">Alex Cookson</a> helps the Customer Intelligence team at the Royal Canadian Mint make the most of their data. When he’s not working on A/B testing, recommendation engines, or exploratory data analysis at the Mint, he can be found participating in Tidy Tuesday or thinking up cool datasets to explore. And when he’s not doing that, he’s probably cycling around Toronto or doting on his two cats, Tom Tom and Ruby.<br />
+Alex will explore the power of great datasets, and discuss the importance of interesting, fun datasets as a way to guide and motivate learning R.</li>
 <li>Thursday, 1 April, 4:30-5:30pm<br />
 <strong>Vik Pant</strong>, Natural Resources Canada. Dr. Vik Pant is the Chief Scientist and Chief Science Advisor of Natural Resources Canada (NRCan). He leads the Office of the Chief Scientist at NRCan and reports directly to the Deputy Minister. His office oversees the development and implementation of evidence-based science policy across NRCan sectors and agencies. His office also manages NRCan’s enterprise-wide technology strategy and portfolio of science products. He also runs the Digital Accelerator, which is an innovation platform for designing and launching AI-driven software products in NRCan. Vik is also the Founder of Synthetic Intelligence Forum, which is a leading community of practice focused on the industrial application of Artificial Intelligence (AI). He earned a doctorate from the Faculty of Information (iSchool) in the University of Toronto, a master’s degree in business administration with distinction from the University of London, a master’s degree in information technology from Harvard University, where he received the Dean’s List Academic Achievement Award, and an undergraduate degree in business administration from Villanova University. Vik serves as an Adjunct Professor in the Faculty of Information (iSchool) at the University of Toronto.<br />
 Vik will discuss supporting the Integration of Science and Policy through Data Science and Artificial Intelligence.</li>
