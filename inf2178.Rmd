@@ -18,18 +18,18 @@ output:
 
 ### Overview
 
-Experimental design has a long and robust tradition within traditional applications such as agriculture, medicine, physics, and chemistry. Typically, these are situations in which control groups can be established, randomization is appropriate, and ethical concerns can be assuaged. Unfortunately, such a set-up is rarely possible in modern applications.
+Experimental design has a long and robust tradition within traditional applications such as agriculture, medicine, physics, and chemistry. It allows us to speak of causality with confidence. Typically, these are situations in which control groups can be established, randomization is appropriate, and ethical concerns can be assuaged. Unfortunately, such a set-up is rarely possible in the full extent of the modern applications where we want to understand causality.
 
 ```{r  out.width = "40%"}
 knitr::include_graphics("https://imgs.xkcd.com/comics/statistics.png")
 ```
 Source: https://xkcd.com/2400/
 
-This course covers the traditional approaches and statistical methods, but focuses on what to do when traditional experimental design methods cannot be implemented or are not appropriate (i.e. most of the time these days). We focus on methods that can provide some causal understanding even when we cannot conduct traditional experiments, and the concerns that we might have when we do run experiments. Importantly, these approaches do not rely on 'big data' or fancy statistics, but instead on thoroughly interrogating the data that are available to get understanding through as simple means as possible.
+This course covers the traditional approaches and statistical methods, but focuses on what to do when traditional experimental design methods cannot be implemented or are not appropriate (i.e. what feels like most of the time these days). We cover experiments in their modern guise especially the concerns that we might have when we can run them; but also methods that can provide some causal understanding even when we cannot conduct traditional experiments. Importantly, these approaches do not rely on 'big data' or fancy statistics, but instead on thoroughly interrogating the data that are available to get understanding through as simple means as possible.
 
 This is a hands-on course in which you will conduct research projects using real-world data. This means that you will: obtain and clean relevant datasets; develop your own research questions; use the statistical techniques that you are introduced to in class to answer those questions; and finally communicate your results in a meaningful way. This course is designed around approaches that are used extensively in academia, government, and industry. Furthermore, it includes many aspects, such as data cleaning and preparation, that are critical, but rarely taught. 
 
-This course is different to many other courses at the University of Toronto. At the end of this course, you will have a portfolio of work that you could show off to a potential employer. You will have developed the skills to work successfully as an applied statistician or data scientist. And you will know how to fill gaps in your knowledge. 
+This course is different to many other courses at the University of Toronto. At the end of this course, you will have a portfolio of work that you could show off to a potential employer. You will have developed the skills to work successfully as an applied statistician or data scientist. And you will know how to fill gaps in your knowledge yourself.
 
 
 
@@ -40,6 +40,11 @@ In this course you will work in a self-directed, open-ended manner. Identify rel
 To successfully complete this course, you should spend all your time reading and writing (both code and text). Deeply engage with the materials. Find a small study group and keep each other motivated and focused. At the start of the week, read the course notes, all compulsory materials and some recommended materials based on your interest. After doing that, but before the 'lecture' time you should complete the weekly quiz. During 'lectures' I'll live-code, discuss materials in the course notes, talk about an experiment, and you'll have a chance to discuss the materials with me. 
 
 You need to be more active in your learning in this course than others - read the notes and related materials - and then go out there and teach yourself more and apply it. You will not be spoon-fed in this course. Each week try to write reproducible, understandable, R code surrounded by beautifully crafted text that motivates, backgrounds, explains, discusses and criticizes. Make steady progress toward the assessment. This is not a 'bird course'. Similar courses that I've taught in past have a dropout/failure rate of 17-52 per cent.
+
+
+### How we'll work
+
+This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available here: https://www.tellingstorieswithdata.com. Those contain notes and other material that you could go over. There is a course Slack for discussion. We'll use Quercus really only for assessment submission and grading. I expect you to work professionally, and so we'll try to use professional tools to the extent possible. 
 
 
 ### Advice from past students
@@ -140,7 +145,7 @@ knitr::include_graphics("images/book_week.jpg")
 
 2 March 2021, 'Post Hoc, Ergo Propter Hoc'.
 
-- Lecture: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics.
+- Lecture: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics. Simpson's paradox, Berkson's paradox.
 - Case Study: Joshua Kalla and David Broockman, 2016, 'Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment'
 - Lab: 
   - Following the guidance of the TA, please look back on the case studies that we've covered so far. Please break up into small groups and create DAGs for each. Then write some notes about the potential for confounding, selection bias and measurement bias. Pick one person in your group to make a brief 2-minute presentation about what you did.
@@ -221,6 +226,7 @@ knitr::include_graphics("images/book_week.jpg")
 - Due date: Weekly before the lecture.
 - Weight: 10 per cent (no quiz in Week 1 or Week 10)
 - Task: Please complete a weekly quiz in Quercus.
+- Questions: The questions that form the quiz are drawn from those in the course notes.
 
 ### Paper #1
 
@@ -229,12 +235,12 @@ knitr::include_graphics("images/book_week.jpg")
 #### Essentials
 
 - Due date: 29 January 2021.
-- Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
+- Weight: 25 per cent (for Papers #1-#3 the best two of three count).
 
 #### Task
 
 - Working individually, please find a dataset of interest on Open Data Toronto and download it in a reproducible way using the R package `opendatatoronto`. 
-- Create a folder with appropriate sub-folders, add it to GitHub, and then prepare a PDF using `R Markdown` with these sections: title, author, date, abstract, data, and references. If you'd like, you are welcome to use this starter folder **TBA**. 
+- Create a folder with appropriate sub-folders, add it to GitHub, and then prepare a PDF using `R Markdown` with these sections: title, author, date, abstract, data, and references. If you'd like, you are welcome to use this starter folder: https://github.com/RohanAlexander/starter_folder.
 - In the data section thoroughly and precisely discuss the source of the data and the bias this brings (ethical, statistical, or otherwise). Comprehensively describe and summarize the data using text and at least one graph and one table. Graphs must be made in `ggplot` and tables must be made using `gt.` Make sure to cross-reference both of those in the text. 
 - Do not include any R code or raw R output in the PDF.
 - Use bibtex to add references. Be sure to reference R and any R packages you use as well as the dataset. Check that you have referenced everything. Strong submissions will draw on related literature and would be sure to also reference those. There are various options in R Markdown for references style, and just pick one that you are used to.
