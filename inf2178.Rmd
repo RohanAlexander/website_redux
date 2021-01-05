@@ -37,9 +37,11 @@ This course is different to many other courses at the University of Toronto. At 
 
 In this course you will work in a self-directed, open-ended manner. Identify relevant areas of interest and then learn the skills that you need to explore those areas. 
 
-To successfully complete this course, you should spend all your time reading and writing (both code and text). Deeply engage with the materials. Find a small study group and keep each other motivated and focused. At the start of the week, read the course notes, all compulsory materials and some recommended materials based on your interest. After doing that, but before the 'lecture' time you should complete the weekly quiz. During 'lectures' I'll live-code, discuss materials in the course notes, talk about an experiment, and you'll have a chance to discuss the materials with me. 
+To successfully complete this course, you should expect to spend a large portion of your time reading and writing (both code and text). Deeply engage with the materials. Find a small study group and keep each other motivated and focused. At the start of the week, read the course notes, all compulsory materials and some recommended materials based on your interest. After doing that, but before the 'lecture' time you should complete the weekly quiz. During 'lectures' I'll live-code, discuss materials in the course notes, talk about an experiment, and you'll have a chance to discuss the materials with me. 
 
-You need to be more active in your learning in this course than others - read the notes and related materials - and then go out there and teach yourself more and apply it. You will not be spoon-fed in this course. Each week try to write reproducible, understandable, R code surrounded by beautifully crafted text that motivates, backgrounds, explains, discusses and criticizes. Make steady progress toward the assessment. This is not a 'bird course'. Similar courses that I've taught in past have a dropout/failure rate of 17-52 per cent.
+You need to be more active in your learning in this course than others - read the notes and related materials - and then go out there and teach yourself more and apply it. You will not be spoon-fed in this course. Each week try to write reproducible, understandable, R code surrounded by beautifully crafted text that motivates, backgrounds, explains, discusses and criticizes. Make steady progress toward the assessment.
+
+This is not a 'bird course'. Typically, after the term is finished, students say that the course is difficult but rewarding. The TAs and I are always available to answer any questions. Please come to office hours!
 
 
 ### How we'll work
@@ -64,6 +66,7 @@ Successful past students have the following advice (completely unedited by me):
 - 'If the assignments stay the same, I would tell students to approach this class from the perspective of 'storytelling with statistics' rather than a statistics course. You need to use R, and Markdown, and have a solid understanding of concepts like regression and sampling, but more importantly you need to be able to interpret results and write about them in a way coherent and professional way.'
 - 'do your readings'
 - 'Definitely get ready to write reports'
+- 'Echoing the people who said to read the rubrics and treat INF2178 as a storytelling with data course rather than INF1344 part 2. Let the point distribution rubric guide what parts of the paper to focus on/expand. And pay attention to the "telling stories" part of the site URL. The point of the papers isn't to chuck every statistical method and cool R trick you know in there, it's to practice building data-driven arguments that different audiences might actually care about. Last, the piece of advice I wish I had followed for the class: keep a log of things that you find confusing/cool/useful.'
 
 
 
@@ -78,8 +81,8 @@ Each week you should go through the course notes and all compulsory materials. D
 
 12 January 2021, 'Drinking from a fire hose'.
 
-- Lecture: [Hello world!](https://www.tellingstorieswithdata.com/01-02-hello_world.html), [R Essentials](https://www.tellingstorieswithdata.com/01-03-r_essentials.html), [R Desirables](https://www.tellingstorieswithdata.com/01-04-r_desirables.html), [Graphs and Tables](https://www.tellingstorieswithdata.com/02-01-graphs.html).
-- Case Study: [Fisher's Lady Tasting Tea](https://www.tellingstorieswithdata.com/03-05-rcts.html#case-study---fishers-tea-party).
+- Lecture: [Hello world!](https://www.tellingstorieswithdata.com/hello-world.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html), [Graphs](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html#graphs).
+- Case Study: [Fisher's Lady Tasting Tea](https://www.tellingstorieswithdata.com/randomised-controlled-trials.html#case-study---fishers-tea-party).
 - Lab: Go through DoSS Toolkit 'White' and 'Yellow' and discuss any issues with the TA.
 
 
@@ -87,7 +90,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 19 January 2021, 'Science-ing'.
 
-- Lecture: Writing, https://www.tellingstorieswithdata.com/01-06-workflow.html, https://www.tellingstorieswithdata.com/01-05-reproducibility.html.
+- Lecture: [Workflow](https://www.tellingstorieswithdata.com/workflow.html), [tables and writing](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html).
 - Case Study: Tuskegee Syphilis Study.
 - Lab: Go through DoSS Toolkit 'Green' and discuss any issues with the TA.
 
@@ -245,34 +248,8 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Due date: 29 January 2021.
 - Weight: 25 per cent (for Papers #1-#3 the best two of three count).
+- Task: ['Mandatory minimums'](https://www.tellingstorieswithdata.com/assessment.html)
 
-#### Task
-
-- Working individually, please find a dataset of interest on Open Data Toronto and download it in a reproducible way using the R package `opendatatoronto`. 
-- Create a folder with appropriate sub-folders, add it to GitHub, and then prepare a PDF using `R Markdown` with these sections: title, author, date, abstract, data, and references. If you'd like, you are welcome to use this starter folder: https://github.com/RohanAlexander/starter_folder.
-- In the data section thoroughly and precisely discuss the source of the data and the bias this brings (ethical, statistical, or otherwise). Comprehensively describe and summarize the data using text and at least one graph and one table. Graphs must be made in `ggplot` and tables must be made using `gt.` Make sure to cross-reference both of those in the text. 
-- Do not include any R code or raw R output in the PDF.
-- Use bibtex to add references. Be sure to reference R and any R packages you use as well as the dataset. Check that you have referenced everything. Strong submissions will draw on related literature and would be sure to also reference those. There are various options in R Markdown for references style, and just pick one that you are used to.
-- Go back and write an introduction. This should be two to three paragraphs. The last paragraph should lay-out the remainder of the paper.
-- Add an abstract. This should be three or four sentences long. And then add a descriptive title (Hint: 'Paper 1' is not descriptive.)
-- Add a link to your GitHub repo via a footnote.
-- Check that your GitHub repo is well-organized, and add an informative README. (Hint: Comment. Your. Code.).
-- Pull this all together as a PDF and check that the paper is well-written and able to be understood by the average reader of, say, FiveThirtyEight. This means that you are allowed to use mathematical notation, but you must explain all of it in plain language. All statistical concepts and terminology must be explained.
-- Check that your graph and discussion are extremely clear, and of comparable quality to those of FiveThirtyEight.
-- Check that the date is updated.
-- Your entire workflow must be entirely reproducible.
-- There should be no evidence that this is a class assignment.
-- Via Quercus, submit the PDF.
-
-
-#### FAQ
-
-- Can I use a dataset from Kaggle instead? No, because too many people use Kaggle datasets so employers are sick of them.
-- I can't use code to download my dataset, can I just manually download it? No, because your entire workflow needs to be reproducible. Please fix the download problem or pick a different dataset.
-- How much should I write? Most students submit something in the two-to-six-page range, but it's really up to you. Be precise and thorough.
-- My data is about apartment blocks/NBA/League of Legends so there's no ethical or bias aspect, what do I do? Please re-read the readings to better understand bias and ethics. If you really can't think of something, then it might be worth picking a different dataset.
-- Can I use Python? No. If you already know Python then it doesn't hurt to learn another language.
-- Why do I need to cite R, when I don't need to cite Word? R is a free statistical programming language with academic origins so it's appropriate to acknowledge the work of others. It's also important for reproducibility.
 
 
 ### Paper #2
@@ -283,45 +260,7 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Due date: 12 February 2021
 - Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
-
-#### Task
-
-- Please consider this scenario: 'You are employed as a junior data scientist at Petit Poll - a Canadian polling company. Petit Poll has a contract with a 'client' - an Ontario government department - to provide them with advice. In particular, the client wants to understand the effect of COVID shut-downs on restaurant businesses and has asked Petit Poll to design an experiment where some restaurants are shutdown.'
-- Working as part of a team of 1-4 people, prepare a PDF in R Markdown with the following features: title, author/s, date, abstract, introduction, a data section that specifies the intervention and data gathering methodology, discussion, and references. In the discussion section and any other relevant section, please be sure to discuss ethics and bias with reference to relevant literature.
-- Decide on an intervention. Some aspects to address include:
-  - How will it be designed and implemented?
-  - What will be random about it?
-  - How will you ensure the separation of treatment and non-treatment?
-  - How long will it run?
-- Decide on a survey methodology. Some aspects to address include: 
-  - What is the population, frame, and sample? 
-  - What sampling methods will you use and why? What are some of the statistical properties that the method brings to the table? 
-  - How are you going to reach your desired respondents?
-  - How much do you estimate this will cost?
-  - What steps will you take to deal with non-response and how will non-response affect your survey? 
-  - How are you going to protect respondent privacy? 
-- Remember to consider all of this in the context of your 'client' - for instance, what are they interested in?
-- Develop a survey on a platform that was introduced in class. Be sure to test it yourselves. You will want to test this as much as possible, maybe even swap informally with another group?
-- Now release the surveys into the (simulated) 'field'. Please do this by simulating an appropriate number of responses to your survey in R. Don’t forget to simulate in relation to the intervention that you proposed. Do you need two, or even more, surveys? Show the results and discuss your 'findings'. Everything must be entirely reproducible.
-- You may wish to scrape some data and/or use open data sources to appropriately parameterize your simulations. Don't forget to cite them when you do this.
-- Use R Markdown to write a PDF report about all of this. Discuss your intervention, results and findings, your survey design and motivations, etc - all of it. You are writing a report that will eventually go to the client, so you must set the scene, and use language that demonstrates your command of statistical concepts but brings the reader along with you. Be sure to include graphs and tables and reference them in your discussion. Be sure to be clear about weaknesses and biases, and opportunities for future work. 
-- Your report must be well written. You are allowed to, and should, use mathematical notation, but you must explain all of it in plain language. Similarly, you can, and should, use experimental/survey/sampling/observational data terminology, but again, you need to explain it. 
-- Your client has stats graduates working for it who need to be impressed by the main content of the report, but also has people who barely know what an average is and these people need to be impressed also. 
-- Your graphs must be of an extremely high standard.
-- Check that you have referenced everything, including R, R packages, and datasets. Strong submissions will draw on related literature and would be sure to also reference those. The style of references does not matter, provided it is consistent.
-- Via Quercus, submit your PDF report. You must provide a link to the GitHub repo where the code that you used for this assignment lives (hint: Comment. Your. Code.). Your entire workflow must be entirely reproducible. Your repo should be clearly organised and a useful README included. And you must include the R Markdown file that produced the PDF in that repo.
-- Please be sure to include a link to your survey/s in your report and screenshots of the survey/s in the appendix of your report. 
-- Everyone in the team receives the same mark.
-- There should be no evidence that this is a class assignment.
-
-
-#### FAQ
-
-- Can I work by myself? Yes. But I recommend forming a group and the workload for the course assumes you'll work on the second and third paper as part of a group of four.
-- Can we switch groups for the third paper? Yes.
-- How can I find a group? On 30 January 2021 I will randomly create groups of four in Quercus. You are welcome to shift out of those groups and form your own groups if you'd like.
-- Can I get a different mark to the rest of my group? No. Everyone in the group gets the same mark.
-- I wrote my paper by myself, so can I be graded on a different scale? No. All papers are graded in the same way.
+- Task: ['These numbers mean dial it up'](https://www.tellingstorieswithdata.com/assessment.html)
 
 
 
@@ -333,38 +272,7 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Due date: 12 March 2021
 - Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
-
-#### Task
-
-- Working as part of a team of 1-4 people, prepare a PDF in R Markdown with the following features: title, author/s, date, abstract, introduction, data, model, results, discussion, and references. In the discussion section and any other relevant section, please be sure to discuss ethics and bias with reference to relevant literature.
-- You should reproduce one of the following papers:
-  - Liran Einav, Amy Finkelstein, Tamar Oostrom, Abigail Ostriker, Heidi Williams, 2020, 'Screening and Selection: The Case of Mammograms', *American Economic Review*.
-  - Pons, Vincent, 2018, 'Will a Five-Minute Discussion Change Your Mind? A Countrywide Experiment on Voter Choice in France' *American Economic Review*.
-  - **Others TBA**
-  - If you have a favourite paper and want to reproduce it, then please submit it to me for consideration before Reading Week.
-- You should follow the lead of the author/s of the paper you're reproducing, but thoroughly think about, and discuss, what is being done. Regardless of the particular model that you are using, and the (possibly lack of) extent to which this is done in the paper, your model must be well explained, thoroughly justified, explained as appropriate to the task at hand, and the results must be beautifully described.
-- You must include a DAG (probably in the model section).
-- You must have a discussion of power and experimental design (probably in the data section)
-- Your paper must be well-written, draw on relevant literature, and show your statistical skills by explaining all statistical concepts that you draw on. 
-- You are welcome to use appendices for supporting, but not critical, material. Your discussion must include sub-sections that focus on three or four interesting points, and also sub-sections on weaknesses and next steps.
-- In your report you must provide a link to a GitHub repo that fully contains your analysis. Your code must be entirely reproducible, documented, and readable. Your repo must be well-organised and appropriately use folders.
-- Your graphs and tables must be of an incredibly high standard. Graphs and tables should be well formatted and report-ready. They should be clean and digestible. Furthermore, you should label and describe each table/figure.
-- When you discuss the dataset (in the data section) you should make sure to discuss (at least): 
-  - Its key features, strengths, and weaknesses generally. 
-  - A discussion of the questionnaire - what is good and bad about it? 
-  - A discussion of the methodology including how they find people to take the survey; what their population, frame, and sample were; what sampling approach they took and what some of the trade-offs may be; what they do about non-response; the cost. 
-  - A discussion of the intervention and experimental design.
-  - These are just some of the issues strong submissions will consider. Show off your knowledge. If this becomes too detailed then you should push some of this to footnotes or an appendix. 
-- When you discuss your model (in the model section), you must be extremely careful to spell out the statistical model that you are using, defining and explaining each aspect and why it is important. (For a Bayesian model, a discussion of priors and regularization is almost always important.) You should mention the software that you used to run the model. You should be clear about model convergence, model checks, and diagnostic issues. How do the sampling and survey aspects that you discussed assert themselves in the modelling decisions that you make? Again, if it becomes too detailed then push some of the details to footnotes or an appendix. You have the original paper to guide you, but you'll likely need to go well-beyond what is included.
-- You should present model results, graphs, figures, etc, in the results section. This section should strictly relay results. Interpretation of these results and conclusions drawn from the results should be left for the discussion section.
-- Your discussion should focus on your model results. Interpret them and explain what they mean. Put them in context. What do we learn about the world having understood your model and its results? What caveats could apply? To what extent does your model represent the small world and the large world (to use the language of McElreath, Ch 2)? What are some weaknesses and opportunities for future work? Additionally, as this is a reproduction you should include a sub-section on differences you found and difficulties that you had.
-- Check that you have referenced everything. Strong submissions will draw on related literature in the discussion (and other sections) and would be sure to also reference those. The style of references does not matter, provided it is consistent.
-- As a team, via Quercus, submit a PDF of your paper. Again, in your paper you must have a link to the associated GitHub repo. And you must include the R Markdown file that produced the PDF in that repo. And you must include the R Markdown file that produced the PDF in that repo. The repo must be well-organized and have a detailed README.
-- A good way to work as a team would be to split up the work, so that one person is doing each section. The people doing the sections that rely on data (such as the analysis and the graphs) could just simulate it while they are waiting for the person putting together the data to finish.
-- It is expected that your submission be well written and able to be understood by the average reader of say 538. This means that you are allowed to use mathematical notation, but you must be able to explain it all in plain English. Similarly, you can (and hint: you should) use survey, sampling, observational, and statistical terminology, but again you need to explain it. Your work should have flow and should be easy to follow and understand. To communicate well, anyone at the university level should be able to read your report once and relay back the methodology, overall results, findings, weaknesses and next steps without confusion. 
-- Everyone in the team receives the same mark.
-- There should be no evidence that this is a class assignment.
-
+- Task: ['The Short List'](https://www.tellingstorieswithdata.com/assessment.html)
 
 
 
@@ -372,7 +280,7 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Due date: 23 March 2021
 - Weight: 10 per cent
-- Task: We will have a test during class this week via Quercus. It will be available for 24 hours, but I recommend you complete it during class because I'll be able to help you with any technical issues immediately. There'll be a practice test released a week before this.
+- Task: We will have a test during class this week via Quercus. It will be available for 24 hours, but I recommend you complete it during class because I'll be able to help you with any technical issues immediately. There'll be a practice test released a week before this. But essentially you can expect similar questions to the weekly quizzes.
 
 
 ### Final Paper
@@ -389,50 +297,6 @@ knitr::include_graphics("images/book_week.jpg")
   - Initial submission: 1 per cent
   - Peer review: 3 per cent
   - Final Paper: 25 per cent
-
-#### Task
-
-- Working individually, please conduct original research that applies methods from statistics to a question that involves an experiment. You have various options for topics (pick one):
-  - Develop a research question that is of interest to you and obtain or create a relevant dataset. This option involves developing your own research question based on your own interests, background, and expertise. I encourage you to take this option, but please discuss your plans with me. How does one come up with ideas? One way is to be question-driven, where you keep an informal log of small ideas, questions, and puzzles, that you have as you're reading and working. Often, after dwelling on it for a while you can manage to find some questions of interest. Another way is to be data-driven - try to find some interesting dataset and then work backward. Finally, yet another way, is to be methods-driven - let's say that you happen to understand Gaussian processes, then just apply that expertise.
-  - Others **TBA**
-
-- You should know the expectations by now. If you need a refresher then review the past problem sets. But essentially: 
-  - Everything is entirely reproducible. 
-  - Your paper must be written in R Markdown.
-  - Your paper must have the following sections:
-    - Title, date, author, keywords, abstract, introduction, data, model, results, discussion, appendix (optional, for supporting, but not critical, material), and a reference list. 
-  - Your paper must be well-written, draw on relevant literature, and show your statistical skills by explaining all statistical concepts that you draw on. 
-  - The discussion needs to be substantial. For instance, if the paper were 10 pages long then a discussion should be at least 2.5 pages. In the discussion, the paper must include subsections on weaknesses and next steps - but these must be in proportion.
-  - The report must provide a link to a GitHub repo that contains everything (apart from any raw data that you git ignored if it is not yours to share). The code must be entirely reproducible, documented, and readable. The repo must be well-organised and appropriately use folders and README files. 
-
-
-#### Peer review submission 
-
-- My expectations for this paper are very high. I'm very excited to read what you submit. To help you achieve this standard, there is an initial 'submission' where you can get comments and feedback and then the final, actual, submission. 
-- Submit initial materials for peer-review.
-  - As an individual, via Quercus, submit a PDF of your rough draft on Quercus.
-  - At a minimum this must include:
-  - All top-matter (title, author (you can use a pseudonym if you want), date, keywords, abstract) completely filled out.
-  - A fully written Introduction section.
-- All other sections must be present in your paper, but don’t have to be filled out (e.g. you must have a 'Data' heading, but you don't need to have content in that section).
-- To be clear - it is fine to later change any aspect of what you submit at this check-point.
-- You will be awarded two percentage points just for submitting a draft that meets this minimum.
-- The point of this is to get feedback on your work (and to make sure you have at least started thinking about this project) so you are more than welcome to include other sections that you wish to get feedback on.
-- There will be no extensions granted for this submission since the following submission is dependent on this date.
-
-
-#### Conduct peer-review
-
-- As an individual, you will randomly be assigned a handful of rough drafts to provide feedback. You have three days to provide feedback to your peers.
-- If you provide feedback to one peer you will receive one percentage point, if you provide feedback to two peers you will receive two percentage points, if you provide feedback to three (or more) peers you will receive the full three percentage points.
-- Your feedback must include at least five comments (meaningful/useful bullet points). These must be well-written and thoughtful.
-- There will be no extensions granted for this submission since the following submission is dependent on this date.
-- Please remember that you are providing feedback here to help your colleagues. All comments should be professional and kind. It is challenging to receive criticism. Please remember that your goal here is to help your peers advance their writing/analysis. Any feedback that is inappropriate or not up to standard will receive a 0 and cannot be redeemed later. 
-
-
-#### FAQ
-
-- Can I work as part of a team? No. It's important that you have some work that is entirely your own.
-
+- Task: ['Two Cathedrals'](https://www.tellingstorieswithdata.com/assessment.html)
 
 
