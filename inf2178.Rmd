@@ -29,7 +29,7 @@ This course covers the traditional approaches and statistical methods, but focus
 
 This is a hands-on course in which you will conduct research projects using real-world data. This means that you will: obtain and clean relevant datasets; develop your own research questions; use the statistical techniques that you are introduced to in class to answer those questions; and finally communicate your results in a meaningful way. This course is designed around approaches that are used extensively in academia, government, and industry. Furthermore, it includes many aspects, such as data cleaning and preparation, that are critical, but rarely taught. 
 
-This course is different to many other courses at the University of Toronto. At the end of this course, you will have a portfolio of work that you could show off to a potential employer. You will have developed the skills to work successfully as an applied statistician or data scientist. And you will know how to fill gaps in your knowledge yourself.
+This course is different to many other courses at the University of Toronto. At the end of this course, you will have a portfolio of work that you could show off to a potential employer. You will have developed the skills to work successfully as an applied statistician or data scientist. And you will know how to fill gaps in your knowledge yourself. A lot of scholarships and jobs these days ask for GitHub and blog links etc to show off a portfolio of your work. This is the class that gives you a chance to develop these. It's very important to having something to show that needs to go beyond what is done in a normal class.
 
 
 
@@ -47,6 +47,16 @@ This is not a 'bird course'. Typically, after the term is finished, students say
 ### How we'll work
 
 This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available here: https://www.tellingstorieswithdata.com. Those contain notes and other material that you could go over. There is a course Slack for discussion. We'll use Quercus really only for assessment submission and grading. I expect you to work professionally, and so we'll try to use professional tools to the extent possible. 
+
+A rough weekly flow for the course would be something like:
+
+1. Read the week's course notes.
+2. Read/watch/listen to the compulsory materials.
+3. Complete the weekly quiz.
+4. Attend the lecture.
+5. Attend the lab.
+6. Make progress on a paper.
+
 
 
 ### Advice from past students
@@ -69,6 +79,9 @@ Successful past students have the following advice (completely unedited by me):
 - 'Echoing the people who said to read the rubrics and treat INF2178 as a storytelling with data course rather than INF1344 part 2. Let the point distribution rubric guide what parts of the paper to focus on/expand. And pay attention to the "telling stories" part of the site URL. The point of the papers isn't to chuck every statistical method and cool R trick you know in there, it's to practice building data-driven arguments that different audiences might actually care about. Last, the piece of advice I wish I had followed for the class: keep a log of things that you find confusing/cool/useful.'
 
 
+### Acknowledgements
+
+Thanks to the following who helped develop this course: Monica Alexander, Kelly Lyons, Sharla Gelfand, Faria Khandaker, Hidaya Ismail, A Mahfouz, Paul Hodgetts, Thomas Rosenthal.
 
 
 ## Content
@@ -81,7 +94,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 12 January 2021, 'Drinking from a fire hose'.
 
-- Lecture: [Hello world!](https://www.tellingstorieswithdata.com/hello-world.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html), [Graphs](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html#graphs).
+- Lecture: [Hello world!](https://www.tellingstorieswithdata.com/hello-world.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html), [Workflow](https://www.tellingstorieswithdata.com/workflow.html).
 - Case Study: [Fisher's Lady Tasting Tea](https://www.tellingstorieswithdata.com/randomised-controlled-trials.html#case-study---fishers-tea-party).
 - Lab: Go through DoSS Toolkit 'White' and 'Yellow' and discuss any issues with the TA.
 
@@ -90,7 +103,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 19 January 2021, 'Science-ing'.
 
-- Lecture: [Workflow](https://www.tellingstorieswithdata.com/workflow.html), [tables and writing](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html).
+- Lecture: [Remainder of Workflow](https://www.tellingstorieswithdata.com/workflow.html), [Graphs, tables and writing](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html).
 - Case Study: Tuskegee Syphilis Study.
 - Lab: Go through DoSS Toolkit 'Green' and discuss any issues with the TA.
 
@@ -244,11 +257,9 @@ knitr::include_graphics("images/book_week.jpg")
 
 **Tentative - finalised on 11 January 2021.**
 
-#### Essentials
-
 - Due date: 29 January 2021.
 - Weight: 25 per cent (for Papers #1-#3 the best two of three count).
-- Task: ['Mandatory minimums'](https://www.tellingstorieswithdata.com/assessment.html)
+- Task: ['Mandatory minimums'](https://www.tellingstorieswithdata.com/assessment.html#mandatory-minimums)
 
 
 
@@ -256,11 +267,9 @@ knitr::include_graphics("images/book_week.jpg")
 
 **Tentative - finalised on 29 January 2021.**
 
-#### Essentials
-
 - Due date: 12 February 2021
 - Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
-- Task: ['These numbers mean dial it up'](https://www.tellingstorieswithdata.com/assessment.html)
+- Task: ['These numbers mean dial it up'](https://www.tellingstorieswithdata.com/assessment.html#these-numbers-mean-dial-it-up)
 
 
 
@@ -268,11 +277,10 @@ knitr::include_graphics("images/book_week.jpg")
 
 **Tentative - finalised on 19 February 2021.**
 
-#### Essentials
 
 - Due date: 12 March 2021
 - Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
-- Task: ['The Short List'](https://www.tellingstorieswithdata.com/assessment.html)
+- Task: ['The Short List'](https://www.tellingstorieswithdata.com/assessment.html#the-short-list)
 
 
 
@@ -287,8 +295,6 @@ knitr::include_graphics("images/book_week.jpg")
 
 **Tentative - finalised on 12 March 2021.**
 
-#### Essentials
-
 - Due dates: 
   - Initial submission: 9 April 2021
   - Peer review: 12 April 2021
@@ -297,6 +303,6 @@ knitr::include_graphics("images/book_week.jpg")
   - Initial submission: 1 per cent
   - Peer review: 3 per cent
   - Final Paper: 25 per cent
-- Task: ['Two Cathedrals'](https://www.tellingstorieswithdata.com/assessment.html)
+- Task: ['Two Cathedrals'](https://www.tellingstorieswithdata.com/assessment.html#two-cathedrals)
 
 
