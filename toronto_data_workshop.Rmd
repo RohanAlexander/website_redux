@@ -58,8 +58,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	Zia will provide a background on data security approaches, and a demonstration of machine learning and deep learning techniques that can be used for providing derivative data security.
 * Thursday, 28 January, 4:30-5:30pm  
 	**Irene Duah-Kessie**, University of Toronto  
-	Irene Duah-Kessie completed an Honours Bachelors of Science Degree at the McMaster University and is now pursuing a Master of Science in Sustainability Management at the University of Toronto, with a collaborative specialization in Environmental Studies.  
-	Irene will discuss bias and fairness of AI in health. 
+	Irene Duah-Kessie is a graduate of the University of Toronto's Master of Science in Sustainability Management program. Throughout her studies, Irene published her research on racial income inequality in Toronto with the Wellesley Institute and is currently a part of the Turtle Island Journal of Indigenous Health Editorial Team. Irene is a Project Manager at Across Boundaries leading an initiative to address food security and mental health challenges in Toronto's Black community. She is also the founder of Rise In STEM, a grassroots organization that aims to increase access to STEM learning opportunities in Black and marginalized communities.  
+  Topic: Exploring algorithmic bias and fairness and its impact on health outcomes faced by racialized communities. 
 * Thursday, 4 February, 4:30-5:30pm  
 	**Kathy Ge**, Uber  
 	Kathy Ge is a Data Scientist at Uber. Previously she worked at Shopify. She holds a masters in Computer Science and a bachelors in CS and statistics all from the University of Toronto.  
