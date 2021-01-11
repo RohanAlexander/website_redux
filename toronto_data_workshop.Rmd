@@ -28,14 +28,14 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 
 | Date 				| Speaker				| Topic | Recording |
 | ---------- | --------------- | ------------- | ----- |
-| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* 					  | TBA | |
+| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* (jointly hosted with the UTM Collaborative Digital Research Space.) 					  | TBA | |
 | Wed 20 Jan, 4:30-5:30pm 	| Zia Babar, *University of Toronto*								| Derivative data security. |  |
 | Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			  | Bias and fairness in health. | |
 | Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																    | TBA | |
 | Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									  | TBA | |
 | Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| |
-| Thu 25 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
-| Fri 26 Feb, 9:00-5:30pm 	| Various 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
+| Thu 25 Feb, 9:00-5:30pm 	| Danielle Smalls-Perkins, *Google*, Fiona Fidler, *University of Melbourne*, Garret Christensen, *US FDIC*, Jake Bowers, *University of Illinois & The Policy Lab*, Lauren Kennedy, *Monash University*, Mauricio Vargas, *Catholic University of Chile* & Nicolas Didier, *Arizona State University*, Mine Çetinkaya-Rundel, *University of Edinburgh*, Radu Craiu, *University of Toronto*, Riana Minocher, *Max Planck Institute for Evolutionary Anthropology*, Shiro Kuriwaki, *Harvard University*, Tiffany Timbers, *University of British Columbia*, Tom Barton, *Royal Holloway, University of London*, Tyler Girard, *University of Western Ontario*, Wendy Duff, *University of Toronto*, Wijdan Tariq, *University of Toronto*, Yanbo Tang, *University of Toronto* 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
+| Fri 26 Feb, 9:00-5:30pm 	| Amber Simpson, *Queens University*, Andrés Cruz, *Pontificia Universidad Católica de Chile*, Annie Collins, *University of Toronto*, Emily Riederer, *Capital One*, Eva Vivalt, *University of Toronto*, Florencia D’Andrea, *National Institute of Agricultural Technology*, Heidi Seibold, *Helmholtz AI Cooperation Unit*, John Blischak, *Freelance scientific software developer*, John McLevey, *University of Waterloo*, Julia Schulte-Cloos, *LMU Munich*, Monica Alexander, *University of Toronto*, Nancy Reid, *University of Toronto*, Nick Radcliffe, *University of Edinburgh*, Ryan Briggs, *University of Guelph*, Sharla Gelfand, *Freelance R Developer*, Shemra Rizzo, *Genentech*, Simeon Carstens, *Tweag/IO* 			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
 | Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Simulation and retrospective data for health economic decision making.| |
 | Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 			| Using publicly-available data. | |
 | Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data. | |
@@ -50,6 +50,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 
 * Thursday, 14 January, 4:30-5:30pm  
 	**Andrew Miles**, University of Toronto  
+	 *Jointly hosted with Elizabeth Parke and the UTM Collaborative Digital Research Space.*  
 	[Andrew Miles](http://www.andrewamiles.com) is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.  
 	*Topic TBA* 
 * Wednesday, 20 January, 4:30-5:30pm  
@@ -69,6 +70,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	[Garrick](https://www.garrickadenbuie.com) is a Data Science Educator at RStudio who lives in sunny St. Petersburg, Florida. His passion is combining creative coding with programming education, using code to build tools that teach coding to new and advanced R users alike. Like tidyexplain: a project that used ggplot2 and gganimate to reimagine database operations as colorful flying boxes instead of the typical Venn diagrams. Garrick has developed a number of open source addins and packages for RStudio—such regexplain, shrtcts and rsthemes—and is always easily distracted by projects that combine R Markdown and online learning or teaching.   
 	*Topic TBA* 
 * Thursday, 18 February, 4:30-5:30pm  
+  *Special guest Bethany White (Department of Statistical Sciences).*  
 	**Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo**, University of Toronto  
 	University of Toronto DoSS toolkit launch.  
 	The DoSS toolkit is a series of self-paced lessons that students can go through ahead of class, to achieve badges for various levels of accomplishment with R. Instructors can use the badges to work out the level of the class and either direct students to the toolkit to address deficiencies or cover missing aspects themselves.
@@ -107,7 +109,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	[Emily A. Sellars](https://emilysellars.com) is an assistant professor in the Department of Political Science at Yale University. Before coming to Yale, she was an assistant professor in the Bush School of Government and Public Service at Texas A&M University and a postdoctoral scholar at the University of Chicago's Harris School of Public Policy. She received her Ph. D. in Political Science and Agricultural and Applied Economics from the University of Wisconsin–Madison in 2015. Her research interests are at the intersection of political economy and development economics. Her research examines the political economy of emigration and population.  
 	Emily will discuss issues in Mexican demographic history. 
 * Thursday, 22 April, 4:30-5:30pm  
-	**Aimee Schwab-McCoy**, Creighton University, **Ashley Juavinett**, UC San Diego, **Samantha-Jo Caetano**, University of Toronto,   
+	**Aimee Schwab-McCoy**, Creighton University, **Ashley Juavinett**, UC San Diego, **Samantha-Jo Caetano**, University of Toronto   
 	[Aimee Schwab-McCoy](https://aimeeschwab-mccoy.github.io) is an Assistant Professor of Statistics at Creighton University. [Ashley Juavinett](https://ashleyjuavinett.com) is a neuroscientist, an educator, and a writer, currently working as an Assistant Teaching Professor at UC San Diego. Samantha-Jo Caetano is an Assistant Professor, Teaching Stream, at the University of Toronto.  
 	Panel on teaching data-focused topics. 
 
