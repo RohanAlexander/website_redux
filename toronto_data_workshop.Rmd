@@ -17,7 +17,7 @@ The current organising committee is: Faria Khandaker, [Kelly Lyons](http://indiv
 
 
 
-# Winter 2021 speakers
+# Winter 2021
 
 
 ```{r, out.width= "33%"}
@@ -43,14 +43,14 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | |
 | Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| Object oriented process mining. | |
 | Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*								| Data issues in Mexican demographic history. | |
-| Thu 22 Apr, 4:30-5:30pm 	| Sam-Jo Caetano, *University of Toronto*, Aimee Schwab-McCoy, *Creighton University* 	| Panel on teaching data-focused topics. | |
+| Thu 22 Apr, 4:30-5:30pm 	| Aimee Schwab-McCoy, *Creighton University*, Ashley Juavinett, *UC San Diego*, Samantha-Jo Caetano, *University of Toronto*	| Panel on teaching data-focused topics. | |
 
 
 
 
 * Thursday, 14 January, 4:30-5:30pm  
 	**Andrew Miles**, University of Toronto  
-	Andrew Miles is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.  
+	[Andrew Miles](http://www.andrewamiles.com) is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.  
 	*Topic TBA* 
 * Wednesday, 20 January, 4:30-5:30pm  
   **Zia Babar**, University of Toronto  
@@ -95,7 +95,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	[Alex Cookson](https://www.alexcookson.com/) helps the Customer Intelligence team at the Royal Canadian Mint make the most of their data. When he's not working on A/B testing, recommendation engines, or exploratory data analysis at the Mint, he can be found participating in Tidy Tuesday or thinking up cool datasets to explore. And when he's not doing that, he's probably cycling around Toronto or doting on his two cats, Tom Tom and Ruby.  
 	Alex will explore the power of great datasets, and discuss the importance of interesting, fun datasets as a way to guide and motivate learning R. 
 * Thursday, 1 April, 4:30-5:30pm  
-	**Vik Pant**, Natural Resources Canada. 
+	**Vik Pant**, Natural Resources Canada.  
 	Dr. Vik Pant is the Chief Scientist and Chief Science Advisor of Natural Resources Canada (NRCan). He leads the Office of the Chief Scientist at NRCan and reports directly to the Deputy Minister. His office oversees the development and implementation of evidence-based science policy across NRCan sectors and agencies. His office also manages NRCan's enterprise-wide technology strategy and portfolio of science products. He also runs the Digital Accelerator, which is an innovation platform for designing and launching AI-driven software products in NRCan. Vik is also the Founder of Synthetic Intelligence Forum, which is a leading community of practice focused on the industrial application of Artificial Intelligence (AI). He earned a doctorate from the Faculty of Information (iSchool) in the University of Toronto, a master's degree in business administration with distinction from the University of London, a master's degree in information technology from Harvard University, where he received the Dean’s List Academic Achievement Award, and an undergraduate degree in business administration from Villanova University. Vik serves as an Adjunct Professor in the Faculty of Information (iSchool) at the University of Toronto.  
 	Vik will discuss supporting the Integration of Science and Policy through Data Science and Artificial Intelligence. 
 * Thursday, 8 April, 4:30-5:30pm  
@@ -107,8 +107,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	[Emily A. Sellars](https://emilysellars.com) is an assistant professor in the Department of Political Science at Yale University. Before coming to Yale, she was an assistant professor in the Bush School of Government and Public Service at Texas A&M University and a postdoctoral scholar at the University of Chicago's Harris School of Public Policy. She received her Ph. D. in Political Science and Agricultural and Applied Economics from the University of Wisconsin–Madison in 2015. Her research interests are at the intersection of political economy and development economics. Her research examines the political economy of emigration and population.  
 	Emily will discuss issues in Mexican demographic history. 
 * Thursday, 22 April, 4:30-5:30pm  
-	**Sam-Jo Caetano**, University of Toronto, **Aimee Schwab-McCoy**, Creighton University.  
-	Sam-Jo Caetano is an Assistant Professor at the University of Toronto. Aimee Schwab-McCoy is an Assistant Professor of Statistics at Creighton University.  
+	**Aimee Schwab-McCoy**, Creighton University, **Ashley Juavinett**, UC San Diego, **Samantha-Jo Caetano**, University of Toronto,   
+	[Aimee Schwab-McCoy](https://aimeeschwab-mccoy.github.io) is an Assistant Professor of Statistics at Creighton University. [Ashley Juavinett](https://ashleyjuavinett.com) is a neuroscientist, an educator, and a writer, currently working as an Assistant Teaching Professor at UC San Diego. Samantha-Jo Caetano is an Assistant Professor, Teaching Stream, at the University of Toronto.  
 	Panel on teaching data-focused topics. 
 
 
@@ -120,7 +120,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 
 
 
-# Fall 2020 speakers
+# Fall 2020
 
 
 ```{r, out.width= "25%"}
@@ -222,7 +222,7 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 
 
 
-# Summer 2020 speakers
+# Summer 2020
 
 * *Thursday, 21 May 2020, 4-5pm*  
 	**Rohan Alexander** (University of Toronto, Information)  
@@ -280,7 +280,7 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 
 
 
-# Winter 2020 speakers
+# Winter 2020
 
 * *Noon, Friday, 24 January 2020*  
     [Steven Pimentel](https://www.linkedin.com/in/steve-pimentel-3610a11/) (U of T, business intelligence) 
@@ -297,7 +297,7 @@ Thu, 17 Dec, 4-5pm  |  Liza Bolton *(University of Toronto)*, Maria Tackett *(Du
 
 
 
-# Fall 2019 speakers
+# Fall 2019
  
 * *Noon, Thursday, 26 September 2019*  
     [Periklis Andritsos](http://www.cs.toronto.edu/~periklis/) (ODAIA & U of T, Information)  
