@@ -92,18 +92,18 @@ Each week you should go through the course notes and all compulsory materials. D
 
 12 January 2021, 'Drinking from a fire hose'.
 
-- Lecture: [Hello world!](https://www.tellingstorieswithdata.com/hello-world.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html), [Workflow](https://www.tellingstorieswithdata.com/workflow.html).
+- [Lecture](https://youtu.be/J6EA82-vCB8): [Hello world!](https://www.tellingstorieswithdata.com/hello-world.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html).
 - Case Study: [Fisher's Lady Tasting Tea](https://www.tellingstorieswithdata.com/randomised-controlled-trials.html#case-study---fishers-tea-party).
-- Lab: Go through DoSS Toolkit 'White' and 'Yellow' and discuss any issues with the TA.
+- Lab: Go through DoSS Toolkit 'White' and discuss any issues with the TA.
 
 
 ### Week 2
 
 19 January 2021, 'Science-ing'.
 
-- Lecture: [Remainder of Workflow](https://www.tellingstorieswithdata.com/workflow.html), [Graphs, tables and writing](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html).
+- Lecture: [Workflow](https://www.tellingstorieswithdata.com/workflow.html), [Graphs, tables and writing](https://www.tellingstorieswithdata.com/graphs-tables-and-writing.html).
 - Case Study: Tuskegee Syphilis Study.
-- Lab: Go through DoSS Toolkit 'Green' and discuss any issues with the TA.
+- Lab: Go through DoSS Toolkit 'Yellow' and discuss any issues with the TA.
 
 ### Week 3
 
