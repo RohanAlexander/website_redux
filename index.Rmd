@@ -3,7 +3,7 @@ title: "Home"
 site: distill::distill_website
 ---
 
-*13 January 2021: If you work with text data, you might be interested in my latest working paper with [Ke-Li Chiu](https://kelichiu.com) 'On consistency scores in text data with an implementation in R', available here: https://arxiv.org/abs/2101.05225.*
+*13 January 2021: If you work with text data, you might be interested in my working paper with [Ke-Li Chiu](https://kelichiu.com) 'On consistency scores in text data with an implementation in R', available here: https://arxiv.org/abs/2101.05225.*
 
 Hi, I’m Rohan Alexander.
 
