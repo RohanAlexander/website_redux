@@ -3,6 +3,7 @@ title: "Home"
 site: distill::distill_website
 ---
 
+*13 January 2021: If you work with text data, you might be interested in my latest working paper with [Ke-Li Chiu](https://kelichiu.com) 'On consistency scores in text data with an implementation in R', available here: https://arxiv.org/abs/2101.05225.*
 
 Hi, I’m Rohan Alexander.
 
@@ -12,13 +13,15 @@ knitr::include_graphics("images/portrait_mask.jpeg")
 
 I am an Assistant Professor in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander) (jointly-appointed) at the University of Toronto, Canada. I am a faculty affiliate at the [Schwartz Reisman Institute for Technology and Society](https://sr-institute.utoronto.ca/).
 
-My [academic work](https://rohanalexander.com/academic.html) typically involves first constructing new datasets in a reproducible way, drawing on methods including digitization, record matching, survey collection, and web-scraping. After constructing datasets, I then typically use quantitative methods to analyse the large amounts of information contained in them, drawing on techniques from natural language processing, machine learning, and Bayesian methods, as appropriate. As my work is focused on individuals, issues of privacy and consent are of critical importance, and exist within my broader research interests in the intersection of data and ethics. My [research group](https://rohanalexander.com/lab.html) exists to bring this all together and provide opportunities for the training of graduate students.
+My [academic work](https://rohanalexander.com/academic.html) typically involves first constructing new datasets in a reproducible way, drawing on methods including digitization, record matching, survey collection, and web-scraping. I then use quantitative methods to analyse them, drawing on techniques from natural language processing, machine learning, and Bayesian methods, as appropriate. As my work is focused on individuals, issues of privacy and consent are of critical importance, and exist within my broader research interests at the intersection of data and ethics. My [research group](https://rohanalexander.com/lab.html) exists to bring this all together and provide opportunities for the training of undergraduate and graduate students.
 
-I enjoy [teaching](https://rohanalexander.com/teaching.html) and aim to help students from a wide range of backgrounds learn how to [tell stories with data](https://www.tellingstorieswithdata.com/). In Winter 2021 I am teaching ['Experimental Design'](https://rohanalexander.com/inf2178.html) in Information and leading a reading course ['Ethics and Data Science'](https://rohanalexander.com/reading_course-ethics.html). I am an [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers).
+I enjoy [teaching](https://rohanalexander.com/teaching.html) and aim to help students from a wide range of backgrounds learn how to [tell stories with data](https://www.tellingstorieswithdata.com/). In Winter 2021 I am teaching ['Experimental Design'](https://rohanalexander.com/inf2178.html) in Information and leading a reading course ['Ethics and Data Science'](https://rohanalexander.com/reading_course-ethics.html). In Statistical Sciences I have taught ['Surveys, Sampling, and Observational Data'](https://rohanalexander.com/sta304.html). I am an [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers).
 
 I co-organize the weekly [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html), which is more fun than it sounds. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 
-With [Lauren Kennedy](https://jazzystats.com/) at Monash University, I co-organize a weekly MRP Reading Group. Please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend.
+I am organizing a conference on reproducibility in applied statistics that will be held via Zoom on Thursday and Friday 25-26 February 2021. You can learn more [here](https://rohanalexander.com/reproducibility.html). 
+
+<!-- With [Lauren Kennedy](https://jazzystats.com/) at Monash University, I co-organize a weekly MRP Reading Group. Please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend. -->
 
 <!-- Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling. -->
 

@@ -19,8 +19,10 @@ My work is arranged around three tranches:
 
 
 # Working papers
+
+* [Ke-Li Chiu](https://kelichiu.com) and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
+* [Paul A. Hodgetts](http://www.hodgettsp.com/) and Rohan Alexander, 2020, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
 * [Monica Alexander](monicaalexander.com) and Rohan Alexander, '[The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)](pdfs/AlexanderAlexander-EffectofElectionsandPrimeMinisters.pdf)'.  
-* [Paul A. Hodgetts](http://www.hodgettsp.com/) and Rohan Alexander, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
 
 
 # Datasets
