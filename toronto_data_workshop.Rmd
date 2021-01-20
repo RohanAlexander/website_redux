@@ -28,7 +28,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 
 | Date 				| Speaker				| Topic | Recording |
 | ---------- | --------------- | ------------- | ----- |
-| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* (jointly hosted with the UTM Collaborative Digital Research Space.) 					  | TBA | |
+| Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* (jointly hosted with the UTM Collaborative Digital Research Space.) 					  | Code, plots, and values | https://youtu.be/mdjOoKT-f7E |
 | Wed 20 Jan, 4:30-5:30pm 	| Zia Babar, *University of Toronto*								| Derivative data security. |  |
 | Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			  | Bias and fairness in health. | |
 | Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																    | TBA | |
@@ -52,7 +52,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	**Andrew Miles**, University of Toronto  
 	 *Jointly hosted with Elizabeth Parke and the UTM Collaborative Digital Research Space.*  
 	[Andrew Miles](http://www.andrewamiles.com) is Assistant Professor of Sociology at the University of Toronto and Director of the Morality, Action, and Cognition Lab.  
-	*Topic TBA* 
+	Topic: Code, plots, and values.  
+	Recording: https://youtu.be/mdjOoKT-f7E
 * Wednesday, 20 January, 4:30-5:30pm  
   **Zia Babar**, University of Toronto  
 	Zia Babar obtained his PhD from the University of Toronto where his research studies focused on the analysis and design of data-centered information systems for enabling enterprise transformation. He is engaged in a multi-year research engagement with IBM Research Labs and is a startup technical mentor at WeWork Labs. He is the organizer of technology meetup groups in both Toronto and Waterloo, and a course instructor at the Faculty of Information, University of Toronto.  

@@ -8,6 +8,8 @@ output:
     toc_depth: 1  
 ---
 
+
+
 # Overview 
 
 The Faculty of Information and the Department of Statistical Sciences at the University of Toronto are excited to host a two-day conference bringing together academic and industry participants on the critical issue of reproducibility in applied statistics and related areas. The conference is free and will be hosted online on Thursday and Friday 25-26 February 2021. Everyone is welcome, you don't need to be affiliated with a university, and you can register [here](https://forms.gle/txLw43Q7UsXjzQys8).
@@ -23,7 +25,7 @@ We intend to record the presentations and will add links here after the conferen
 
 # Draft schedule
 
-(All times are Toronto - same as US east coast / New York.)
+All times are Toronto / US east coast. 9am in Toronto `r emo::ji("canada")` is: 3pm in Berlin `r emo::ji("pretzel")`; 2pm in London `r emo::ji("guard")`; 11am in Santiago `r emo::ji("chile")`; 6am in Vancouver `r emo::ji("ski")`; and 1am in Melbourne `r emo::ji("kangaroo")`.
 
 ## Thursday, 25 February, 2021
 
@@ -63,7 +65,7 @@ We intend to record the presentations and will add links here after the conferen
 | 11:30-11:55am | Emily Riederer, *Capital One* 														    | Practices	|
 | Noon-12:25pm 	| Florencia D'Andrea, *National Institute of Agricultural Technology* | |
 | 12:30-12:55pm | John Blischak, *Freelance scientific software developer* 			| Practices	|
-| 1:00-1:25pm 	|*Break*                                                        | |
+| 1:00-1:25pm 	| Tania Allard, *Quansight labs*                                 |  |
 | 1:30-1:55pm 	| Shemra Rizzo, *Genentech*                                     | Practices |
 | 2:00-2:25pm 	| Amber Simpson, *Queens University* 													  | Practices |
 | 2:30-2:55pm 	| John McLevey, *University of Waterloo* 												| |
@@ -138,6 +140,7 @@ Invited presentations:
   Abstract: *TBA*
 - [Simeon Carstens](http://simeon-carstens.com/) is a Data Scientist at Tweag I/O, a software innovation lab and consulting company. Originally a physicist, Simeon did a PhD and postdoc research in computational biology, focusing on Bayesian determination of three-dimensional chromosome structures.   
   Abstract: Data analysis often requires a complex software environment containing one or several programming languages, language-specific modules and external dependencies, all in compatible versions. This poses a challenge to reproducibility: what good is a well-designed, tested and documented data analysis pipeline if it is difficult to replicate the software environment required to run it? Standard tools such as Python / R virtual environments solve part of the problem, but do not take into account external and system-level dependencies. Nix is a fully declarative, open-source package manager solving this problem: a program packaged with Nix comes with a complete description of its full dependency tree, down to system libraries. In this presentation, I will give an introduction to Nix, show in a live demo how to set up a fully reproducible software environment and compare Nix to existing solutions such as virtual environments and Docker.
+- [Tania Allard](https://www.trallard.dev)  is the co-director at Quansight Labs. At my current role she is mainly focused on all things full-stack data science, scientific computing, and open source. As a co-director her priorities are driving Quansight Labs direction, vision and overall support and growth of the PyData ecosystem. She is particularly interested in: reproducible research; reproducible machine learning; data engineering; MLOps / DataOps; all things automation; creative coding; serverless computing; and open tech knowledge.
 - [Tiffany Timbers](https://www.tiffanytimbers.com/) is an Assistant Professor of Teaching in the Department of Statistics and an Co-Director for the Master of Data Science program (Vancouver Option) at the University of British Columbia. In these roles she teaches and develops curriculum around the responsible application of Data Science to solve real-world problems. One of her favourite courses she teaches is a graduate course on collaborative software development, which focuses on teaching how to create R and Python packages using modern tools and workflows.  
   Abstract: *TBA*
 - [Tom Barton](https://tombarton.netlify.app) is a PhD student in Politics at Royal Holloway, University of London. His PhD focuses on the impact of Voter Identification laws on political participation and attitudes. More generally his interests include elections, public opinion (particularly social values) and quantitative research methods.  
