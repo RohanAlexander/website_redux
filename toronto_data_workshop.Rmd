@@ -29,7 +29,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | Date 				| Speaker				| Topic | Recording |
 | ---------- | --------------- | ------------- | ----- |
 | Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* (jointly hosted with the UTM Collaborative Digital Research Space.) 					  | Code, plots, and values | https://youtu.be/mdjOoKT-f7E |
-| Wed 20 Jan, 4:30-5:30pm 	| Zia Babar, *University of Toronto*								| Derivative data security. |  |
+| Wed 20 Jan, 4:30-5:30pm 	| Zia Babar, *University of Toronto*								| Derivative data security. | https://youtu.be/fdVZqvECXXQ |
 | Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			  | Bias and fairness in health. | |
 | Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																    | TBA | |
 | Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									  | TBA | |
