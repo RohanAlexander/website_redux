@@ -9,6 +9,9 @@ output:
 ---
 
 
+
+
+
 # Overview
 
 The Toronto Data Workshop (TDW) brings together academia and industry to consider, collate, share, and disseminate best practices in the initial data-centric steps of a data science project: collection; cleaning; storage; retrieval; dissemination; and protection. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
