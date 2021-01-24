@@ -427,18 +427,21 @@ toronto_shelters %>%
 We can see that's almost entirely taken care of the systematic differences. However it's probably a little blunt. For instance, notice there are now no entries below the diagonal (Figure \@ref(fig:sheltersdatebyrowadj2017)).
 
 ```{r sheltersdatebyrowadj2017, fig.cap = "Toronto shelters daily occupancy in 2017 after adjustment"}
-toronto_shelters %>% 
+toronto_shelters_adjusted <- 
+  toronto_shelters %>% 
   # We only want rows with occupancy
   tidyr::drop_na(occupancy, capacity) %>% 
   # We want to know the occupancy by date and sector
   group_by(changed_date, sector) %>% 
-  summarise(occupancy = sum(occupancy), .groups = 'drop') %>% 
+  summarise(occupancy = sum(occupancy), .groups = 'drop') 
+
+toronto_shelters_adjusted %>% 
   filter(year(changed_date) == 2017) %>% 
   ggplot(aes(x = day(changed_date), y = occupancy, color = sector)) + 
   geom_point(aes(group = sector), alpha = 0.3) +
   scale_y_continuous(limits = c(0, NA)) +
   labs(color = "Type",
-       x = "Changed Day",
+       x = "Changed day",
        y = "Occupancy (number)") +
   facet_wrap(vars(month(changed_date, label = TRUE)),
              scales = "free_x") +
@@ -464,10 +467,28 @@ We could keep going here to try to get to the bottom of it, but the baby is goin
 > https://kieranhealy.org/blog/archives/2020/05/21/the-kitchen-counter-observatory/
 
 
+Let's start by looking at the effect of COVID on occupancy. On 17 March Ontario declared a state of emergency, so let's focus on the time around then (Figure \@ref(fig:focuson2020) includes a dashed line at that point).
 
-If you live in Toronto one thing that you'll notice is that there are a lot of homeless people living in parks since COVID started. My understanding is that they are understandably concerned about their ability to socially distance in the shelters. The issue is that in winter it is well below 0C overnight.
+```{r focuson2020, fig.cap = "Shelter usage in 2020"}
+toronto_shelters_adjusted %>% 
+  filter(year(changed_date) == 2020) %>%
+  ggplot(aes(x = changed_date, y = occupancy, color = sector)) + 
+  geom_point(aes(group = sector), alpha = 0.3) +
+  geom_vline(xintercept = ymd("2020-03-17"), linetype = 'dotted')+
+  scale_y_continuous(limits = c(0, NA)) +
+  labs(color = "Type",
+       x = "Changed date",
+       y = "Occupancy (number)") +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1")
+```
 
-We might like to see if we can estimate how many additional people are sleeping outside in January. We'll do this by comparing the number that slept in the shelters in January 2021, compared with the number in the shelters in January 2020, which is before COVID hit Toronto. As Kieran Healy says, an exercise like this is confronting. While it's a stretch to say that if they're not sleeping in a shelter then they must be sleeping outside, it's also not clear where else they could be if they're not in a shelter.
+
+It's clear that soon after the state of emergency was declared the usage of shelters began to decrease. Understandably the homeless, like all of us, want to socially distance to the extent possible and this likely means avoiding shelters. If you live in Toronto one thing that you'll notice is that there are a lot of homeless people living in parks since COVID started. While this was fine in summer, the issue is that in winter it is well below 0C overnight.
+
+We might like to see if we can estimate how many additional people are sleeping outside in January. We'll do this by comparing the number that slept in the shelters in January 2021, compared with the number in the shelters in January 2020, which is before COVID hit Toronto. As Kieran Healy says, an exercise like this is confronting. 
+
+While it's a stretch to say that if they're not sleeping in a shelter then they must be sleeping outside, it's also not clear where else they could be if they're not in a shelter. It's possible that they have found permanent housing and so are no longer using shelters, however I don't know of any substantial change in public policy or resource allocation such that the whole difference is due to people finding permanent homes.
 
 We'll use the data that the city has so far released for 2021. The data provider warns us against using capacity, so we'll focus on occupancy. 
 
@@ -589,8 +610,12 @@ toronto_shelters_by_day_current %>%
 ```
 
 
-I estimate that in January, on average, there are roughly 3,517 additional people sleeping outside in below freezing conditions this year compared with last year. In particular, on Friday night, when it was horrendously cold, I estimate there were 3,634 additional people likely sleeping outside, by comparing the usage of the shelter on 22 January 2020 with 22 January 2021.
+I estimate that in January, on average, there are roughly 3,517 additional people sleeping outside in below freezing conditions this year compared with last year. That is to say, shelter usage is that much below what it was, and I'm not sure where else they could go. In particular, on Friday night, when it was horrendously cold, I estimate there were 3,634 additional people likely sleeping outside, by comparing the usage of shelters on 22 January 2020 with 22 January 2021.
 
-Even if I'm off by an order of magnitude, the city clearly should do more.
+Even if I'm off by an order of magnitude, the city and province clearly should do more.
 
+
+## Acknowledgments {.appendix}
+
+Thank you to Monica Alexander for helpful comments.
 

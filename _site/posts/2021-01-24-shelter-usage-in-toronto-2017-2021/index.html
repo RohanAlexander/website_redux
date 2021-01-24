@@ -139,7 +139,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["inputs/raw_data-January.csv","inputs/raw_data.csv","references.bib","toronto-shelter-usage_files/anchor-4.2.2/anchor.min.js","toronto-shelter-usage_files/bowser-1.9.3/bowser.min.js","toronto-shelter-usage_files/distill-2.2.21/template.v2.js","toronto-shelter-usage_files/figure-html5/finalgraph-1.png","toronto-shelter-usage_files/figure-html5/firstthreeyearsdistrib-1.png","toronto-shelter-usage_files/figure-html5/hahahah-1.png","toronto-shelter-usage_files/figure-html5/plotoccupancy-1.png","toronto-shelter-usage_files/figure-html5/plotoccupancyrate-1.png","toronto-shelter-usage_files/figure-html5/plotorder-1.png","toronto-shelter-usage_files/figure-html5/sheltersdatebyrow-1.png","toronto-shelter-usage_files/figure-html5/sheltersdatebyrowadj-1.png","toronto-shelter-usage_files/figure-html5/sheltersdatebyrowadj2017-1.png","toronto-shelter-usage_files/figure-html5/sheltersin2017-1.png","toronto-shelter-usage_files/figure-html5/sheltersin2017byrow-1.png","toronto-shelter-usage_files/figure-html5/sheltersin2018-1.png","toronto-shelter-usage_files/figure-html5/sheltersinfeb2017-1.png","toronto-shelter-usage_files/figure-html5/sheltersinjan2017-1.png","toronto-shelter-usage_files/figure-html5/yearsdistribfor2020-1.png","toronto-shelter-usage_files/jquery-1.11.3/jquery.min.js","toronto-shelter-usage_files/kePrint-0.0.1/kePrint.js","toronto-shelter-usage_files/lightable-0.0.1/lightable.css","toronto-shelter-usage_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["inputs/raw_data-January.csv","inputs/raw_data.csv","references.bib","toronto-shelter-usage_files/anchor-4.2.2/anchor.min.js","toronto-shelter-usage_files/bowser-1.9.3/bowser.min.js","toronto-shelter-usage_files/distill-2.2.21/template.v2.js","toronto-shelter-usage_files/figure-html5/finalgraph-1.png","toronto-shelter-usage_files/figure-html5/firstthreeyearsdistrib-1.png","toronto-shelter-usage_files/figure-html5/focuson2020-1.png","toronto-shelter-usage_files/figure-html5/hahahah-1.png","toronto-shelter-usage_files/figure-html5/plotoccupancy-1.png","toronto-shelter-usage_files/figure-html5/plotoccupancyrate-1.png","toronto-shelter-usage_files/figure-html5/plotorder-1.png","toronto-shelter-usage_files/figure-html5/sheltersdatebyrow-1.png","toronto-shelter-usage_files/figure-html5/sheltersdatebyrowadj-1.png","toronto-shelter-usage_files/figure-html5/sheltersdatebyrowadj2017-1.png","toronto-shelter-usage_files/figure-html5/sheltersin2017-1.png","toronto-shelter-usage_files/figure-html5/sheltersin2017byrow-1.png","toronto-shelter-usage_files/figure-html5/sheltersin2018-1.png","toronto-shelter-usage_files/figure-html5/sheltersinfeb2017-1.png","toronto-shelter-usage_files/figure-html5/sheltersinjan2017-1.png","toronto-shelter-usage_files/figure-html5/yearsdistribfor2020-1.png","toronto-shelter-usage_files/jquery-1.11.3/jquery.min.js","toronto-shelter-usage_files/kePrint-0.0.1/kePrint.js","toronto-shelter-usage_files/lightable-0.0.1/lightable.css","toronto-shelter-usage_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -1935,6 +1935,7 @@ Other
 <li><a href="#one-last-thing---plot-raw-data">One last thing - plot raw data</a></li>
 </ul></li>
 <li><a href="#model">Model</a></li>
+<li><a href="#acknowledgments">Acknowledgments</a></li>
 </ul>
 </nav>
 </div>
@@ -2745,18 +2746,21 @@ Figure 12: Date of each row in order in 2017 after adjustment
 <p>We can see that’s almost entirely taken care of the systematic differences. However it’s probably a little blunt. For instance, notice there are now no entries below the diagonal (Figure <a href="#fig:sheltersdatebyrowadj2017">13</a>).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre><code><span class='va'>toronto_shelters</span> <span class='op'>%&gt;%</span> 
+<pre><code><span class='va'>toronto_shelters_adjusted</span> <span class='op'>&lt;-</span> 
+  <span class='va'>toronto_shelters</span> <span class='op'>%&gt;%</span> 
   <span class='co'># We only want rows with occupancy</span>
   <span class='fu'>tidyr</span><span class='fu'>::</span><span class='fu'><a href='https://tidyr.tidyverse.org/reference/drop_na.html'>drop_na</a></span><span class='op'>(</span><span class='va'>occupancy</span>, <span class='va'>capacity</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='co'># We want to know the occupancy by date and sector</span>
   <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>changed_date</span>, <span class='va'>sector</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>summarise</span><span class='op'>(</span>occupancy <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>occupancy</span><span class='op'>)</span>, .groups <span class='op'>=</span> <span class='st'>'drop'</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>summarise</span><span class='op'>(</span>occupancy <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>occupancy</span><span class='op'>)</span>, .groups <span class='op'>=</span> <span class='st'>'drop'</span><span class='op'>)</span> 
+
+<span class='va'>toronto_shelters_adjusted</span> <span class='op'>%&gt;%</span> 
   <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='fu'><a href='http://lubridate.tidyverse.org/reference/year.html'>year</a></span><span class='op'>(</span><span class='va'>changed_date</span><span class='op'>)</span> <span class='op'>==</span> <span class='fl'>2017</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/day.html'>day</a></span><span class='op'>(</span><span class='va'>changed_date</span><span class='op'>)</span>, y <span class='op'>=</span> <span class='va'>occupancy</span>, color <span class='op'>=</span> <span class='va'>sector</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> 
   <span class='fu'>geom_point</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>group <span class='op'>=</span> <span class='va'>sector</span><span class='op'>)</span>, alpha <span class='op'>=</span> <span class='fl'>0.3</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>scale_y_continuous</span><span class='op'>(</span>limits <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='cn'>NA</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>labs</span><span class='op'>(</span>color <span class='op'>=</span> <span class='st'>"Type"</span>,
-       x <span class='op'>=</span> <span class='st'>"Changed Day"</span>,
+       x <span class='op'>=</span> <span class='st'>"Changed day"</span>,
        y <span class='op'>=</span> <span class='st'>"Occupancy (number)"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>facet_wrap</span><span class='op'>(</span><span class='fu'>vars</span><span class='op'>(</span><span class='fu'><a href='http://lubridate.tidyverse.org/reference/month.html'>month</a></span><span class='op'>(</span><span class='va'>changed_date</span>, label <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span><span class='op'>)</span>,
              scales <span class='op'>=</span> <span class='st'>"free_x"</span><span class='op'>)</span> <span class='op'>+</span>
@@ -2777,8 +2781,32 @@ Figure 13: Toronto shelters daily occupancy in 2017 after adjustment
 <p>…With a laptop, some free software, and a cup of coffee, I can examine what ought to seem like a staggering amount of information. …I sit here at home, surveying the scope of what’s being inflicted on people across the country and around the world as this disease spreads. … … People sometimes think (or complain) that working with quantitative data like this inures you to the reality of the human lives that lie behind the numbers. Numbers and measures are crude; they pick up the wrong things; they strip out the meaning of what’s happening to real people; they make it easy to ignore what can’t be counted. There’s something to those complaints. But it’s mostly a lazy critique. In practice, I find that far from distancing you from questions of meaning, quantitative data forces you to confront them. The numbers draw you in. Working with data like this is an unending exercise in humility, a constant compulsion to think through what you can and cannot see, and a standing invitation to understand what the measures really capture—what they mean, and for whom. …"</p>
 <p>Kieran Healy, 2020, The Kitchen Counter Observatory, 21 May. <a href="https://kieranhealy.org/blog/archives/2020/05/21/the-kitchen-counter-observatory/" class="uri">https://kieranhealy.org/blog/archives/2020/05/21/the-kitchen-counter-observatory/</a></p>
 </blockquote>
-<p>If you live in Toronto one thing that you’ll notice is that there are a lot of homeless people living in parks since COVID started. My understanding is that they are understandably concerned about their ability to socially distance in the shelters. The issue is that in winter it is well below 0C overnight.</p>
-<p>We might like to see if we can estimate how many additional people are sleeping outside in January. We’ll do this by comparing the number that slept in the shelters in January 2021, compared with the number in the shelters in January 2020, which is before COVID hit Toronto. As Kieran Healy says, an exercise like this is confronting. While it’s a stretch to say that if they’re not sleeping in a shelter then they must be sleeping outside, it’s also not clear where else they could be if they’re not in a shelter.</p>
+<p>Let’s start by looking at the effect of COVID on occupancy. On 17 March Ontario declared a state of emergency, so let’s focus on the time around then (Figure <a href="#fig:focuson2020">14</a> includes a dashed line at that point).</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre><code><span class='va'>toronto_shelters_adjusted</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='fu'><a href='http://lubridate.tidyverse.org/reference/year.html'>year</a></span><span class='op'>(</span><span class='va'>changed_date</span><span class='op'>)</span> <span class='op'>==</span> <span class='fl'>2020</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>changed_date</span>, y <span class='op'>=</span> <span class='va'>occupancy</span>, color <span class='op'>=</span> <span class='va'>sector</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> 
+  <span class='fu'>geom_point</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>group <span class='op'>=</span> <span class='va'>sector</span><span class='op'>)</span>, alpha <span class='op'>=</span> <span class='fl'>0.3</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>geom_vline</span><span class='op'>(</span>xintercept <span class='op'>=</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2020-03-17"</span><span class='op'>)</span>, linetype <span class='op'>=</span> <span class='st'>'dotted'</span><span class='op'>)</span><span class='op'>+</span>
+  <span class='fu'>scale_y_continuous</span><span class='op'>(</span>limits <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='cn'>NA</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>labs</span><span class='op'>(</span>color <span class='op'>=</span> <span class='st'>"Type"</span>,
+       x <span class='op'>=</span> <span class='st'>"Changed date"</span>,
+       y <span class='op'>=</span> <span class='st'>"Occupancy (number)"</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>scale_color_brewer</span><span class='op'>(</span>palette <span class='op'>=</span> <span class='st'>"Set1"</span><span class='op'>)</span>
+</code></pre>
+</div>
+<div class="figure"><span id="fig:focuson2020"></span>
+<img src="toronto-shelter-usage_files/figure-html5/focuson2020-1.png" alt="Shelter usage in 2020" width="624" />
+<p class="caption">
+Figure 14: Shelter usage in 2020
+</p>
+</div>
+</div>
+<p>It’s clear that soon after the state of emergency was declared the usage of shelters began to decrease. Understandably the homeless, like all of us, want to socially distance to the extent possible and this likely means avoiding shelters. If you live in Toronto one thing that you’ll notice is that there are a lot of homeless people living in parks since COVID started. While this was fine in summer, the issue is that in winter it is well below 0C overnight.</p>
+<p>We might like to see if we can estimate how many additional people are sleeping outside in January. We’ll do this by comparing the number that slept in the shelters in January 2021, compared with the number in the shelters in January 2020, which is before COVID hit Toronto. As Kieran Healy says, an exercise like this is confronting.</p>
+<p>While it’s a stretch to say that if they’re not sleeping in a shelter then they must be sleeping outside, it’s also not clear where else they could be if they’re not in a shelter. It’s possible that they have found permanent housing and so are no longer using shelters, however I don’t know of any substantial change in public policy or resource allocation such that the whole difference is due to people finding permanent homes.</p>
 <p>We’ll use the data that the city has so far released for 2021. The data provider warns us against using capacity, so we’ll focus on occupancy.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
@@ -4969,7 +4997,7 @@ Youth
 </tbody>
 </table>
 </div>
-<p>Let’s look at a comparison graph (Figure <a href="#fig:finalgraph">14</a>).</p>
+<p>Let’s look at a comparison graph (Figure <a href="#fig:finalgraph">15</a>).</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre><code><span class='va'>toronto_shelters_by_day_current</span> <span class='op'>%&gt;%</span> 
@@ -4992,12 +5020,14 @@ Youth
 <div class="figure"><span id="fig:finalgraph"></span>
 <img src="toronto-shelter-usage_files/figure-html5/finalgraph-1.png" alt="Comparison of shelter usage in January 2021 with January 2020" width="624" />
 <p class="caption">
-Figure 14: Comparison of shelter usage in January 2021 with January 2020
+Figure 15: Comparison of shelter usage in January 2021 with January 2020
 </p>
 </div>
 </div>
-<p>I estimate that in January, on average, there are roughly 3,517 additional people sleeping outside in below freezing conditions this year compared with last year. In particular, on Friday night, when it was horrendously cold, I estimate there were 3,634 additional people likely sleeping outside, by comparing the usage of the shelter on 22 January 2020 with 22 January 2021.</p>
-<p>Even if I’m off by an order of magnitude, the city clearly should do more.</p>
+<p>I estimate that in January, on average, there are roughly 3,517 additional people sleeping outside in below freezing conditions this year compared with last year. That is to say, shelter usage is that much below what it was, and I’m not sure where else they could go. In particular, on Friday night, when it was horrendously cold, I estimate there were 3,634 additional people likely sleeping outside, by comparing the usage of shelters on 22 January 2020 with 22 January 2021.</p>
+<p>Even if I’m off by an order of magnitude, the city and province clearly should do more.</p>
+<h2 id="acknowledgments" class="appendix">Acknowledgments</h2>
+<p>Thank you to Monica Alexander for helpful comments.</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <div id="refs" class="references" role="doc-bibliography">
 <div id="ref-sharla">
