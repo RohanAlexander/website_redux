@@ -12,12 +12,21 @@
       <link>https://rohanalexander.com/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Shelter usage in Toronto (2017-2021)</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2021-01-24-shelter-usage-in-toronto-2017-2021</link>
+      <description>I look at Toronto shelter usage numbers between 2017 and January 2021. I document and adjust for a systematic error in the 2017 data. The data show that homelessness in Toronto is a large problem; essentially all shelters are almost always full. COVID changed the nature of the problem by reducing the number of people using shelters, however they must be sleeping somewhere. I compare January 2021 with January 2020 and estimate that following COVID there are now around an additional 3,500 people sleeping somewhere outside of shelters, possibly outdoors.</description>
+      <guid>https://rohanalexander.com/posts/2021-01-24-shelter-usage-in-toronto-2017-2021</guid>
+      <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2021-01-24-shelter-usage-in-toronto-2017-2021/toronto-shelter-usage_files/figure-html5/firstthreeyearsdistrib-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Tidying the 2019 Kenyan Census</title>
-      <dc:creator>Rohan Alexandere</dc:creator>
+      <dc:creator>Rohan Alexanderr</dc:creator>
       <link>https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census</link>
-      <description>In this note I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.</description>
+      <description>In this blog post I convert a PDF of Kenyan census results of counts, by age and sex, by county and sub-county, into a tidy dataset that can be analysed. I will draw on an introduce a bunch of handy packages including: `janitor`, `pdftools`, `tidyverse`, and `stringi`.</description>
       <guid>https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census</guid>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       <media:content url="https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census/images/2020-04-10-screenshot-of-census.png" medium="image" type="image/png" width="1060" height="1500"/>

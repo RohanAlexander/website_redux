@@ -1,9 +1,9 @@
 ---
 title: "Tidying the 2019 Kenyan Census"
 description: |
-  In this note I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.
+  In this blog post I convert a PDF of Kenyan census results of counts, by age and sex, by county and sub-county, into a tidy dataset that can be analysed. I will draw on an introduce a bunch of handy packages including: `janitor`, `pdftools`, `tidyverse`, and `stringi`.
 author:
-  - name: Rohan Alexandere
+  - name: Rohan Alexanderr
 date: 2020-04-14
 output:
   distill::distill_article:
@@ -32,7 +32,7 @@ The distribution of population by age, sex, and administrative unit from the 201
 
 And while it is great that they make it easily available, and it is easy to look-up a particular result, it is not overly useful to do larger-scale data analysis, such as building a Bayesian hierarchical model. 
 
-In this blog post I convert a PDF of Kenyan census results of counts, by age and sex, by county and sub-county, into a tidy dataset that can be analysed. I will draw on an introduce a bunch of handy packages including: `janitor` by @janitor, `pdftools` by @pdftools, `tidyverse` by @tidyverse, and `stringi` by @stringi. 
+In this blog post I convert a PDF of Kenyan census results of counts, by age and sex, by county and sub-county, into a tidy dataset that can be analysed. I will draw on and introduce a bunch of handy packages including: `janitor` by @janitor, `pdftools` by @pdftools, `tidyverse` by @tidyverse, and `stringi` by @stringi. 
 
 If you just want the cleaned tidied data, then it is [here](outputs/data/cleaned_kenya_2019_census.csv).
 
