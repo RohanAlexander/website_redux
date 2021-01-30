@@ -15,7 +15,7 @@ output:
 
 Experimental design has a long and robust tradition within traditional applications such as agriculture, medicine, physics, and chemistry. It allows us to speak of causality with confidence. Typically, these are situations in which control groups can be established, randomization is appropriate, and ethical concerns can be assuaged. Unfortunately, such a set-up is rarely possible in the full extent of the modern applications where we want to understand causality.
 
-```{r  out.width = "40%"}
+```{r  out.width = "40%", echo = FALSE}
 knitr::include_graphics("https://imgs.xkcd.com/comics/statistics.png")
 ```
 Source: https://xkcd.com/2400/
@@ -94,7 +94,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Drinking from a fire hose](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html).
 - Case Study: [Fisher's Lady Tasting Tea](https://www.tellingstorieswithdata.com/hunting-data.html#case-study---fishers-tea-party).
-- Lecture (https://youtu.be/J6EA82-vCB8): Questions and worked example.
+- Lecture: Questions and worked example - https://youtu.be/J6EA82-vCB8.
 - Lab: Go through DoSS Toolkit 'White' and discuss any issues with the TA.
 
 
@@ -104,7 +104,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Workflow](https://www.tellingstorieswithdata.com/workflow.html), [Static communication](https://www.tellingstorieswithdata.com/static-communication.html).
 - Case Study: [Tuskegee Syphilis Study](https://www.tellingstorieswithdata.com/hunting-data.html#case-study---tuskegee-syphilis-study).
-- Lecture (https://youtu.be/5lEFoU8pPNc): GitHub, `opendatatoronto`, BibTeX, graphing example in small groups, and discussion of 'The Kitchen Counter Observatory' and Tuskegee.
+- Lecture: GitHub, `opendatatoronto`, BibTeX, graphing example in small groups, and discussion of 'The Kitchen Counter Observatory' and Tuskegee - https://youtu.be/5lEFoU8pPNc.
 - Lab: Review `ggplot`.
 
 ### Week 3
@@ -113,7 +113,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Experiments, and treatment effects](https://www.tellingstorieswithdata.com/hunting-data.html#experiments-and-randomised-controlled-trials).
 - Case Study: [The Oregon Health Insurance Experiment in the United States](https://www.tellingstorieswithdata.com/hunting-data.html#case-study---the-oregon-health-insurance-experiment).
-- Lecture (*Recording link TBA*): Updated based on student interest/needs, and discussion of 'Experiments on Trial' and Oregon Health Insurance Experiment.
+- Lecture: Greg Wilson on 'How to Run a Meeting' - https://youtu.be/qYh6Nzv3RWs; Oregon Health Insurance and bibtex Part 1 - https://youtu.be/SSh4kKIMt7k; Part 2 - https://youtu.be/xHQw7VwjrF8.
 - Lab: 
   - Please pretend that you work as a junior analyst for a large consulting firm. Further, pretend that your consulting firm has taken a contract to put together a facial recognition model for the Canada Border Services Agency’s Inland Enforcement branch. Write five or six points with regard to your thoughts on this matter. What would you do and why? Then split into small groups and compare your points with others. Do you think the model would end up being implemented?
   - With the help of the TA, please conduct 'face-to-face' surveys (via Zoom). For this exercise, you will be randomly split into groups of two. You have two minutes in each group and will then be swapped to another group. One person is to survey the other person asking the following questions: i) 'What is your gender?', ii) 'What is your age?', iii) 'What is your marital status?', iv) 'What is your income?', v) 'If an election were held today who would you vote for?'. After one person is done, then switch roles. When you are the questioner you should record all responses using a small CSV (but not the person's name please). When you are the respondent you are welcome to not respond. You will cycle through this multiple times. At the end, please write a small reflection about: 1) as a respondent, how you felt answering these questions and the implications that you think this feeling may have for how survey questions are answered more generally; and 2) as a questioner, how difficult it was to code responses and the implications this may have for the dataset that we analyse.
@@ -124,8 +124,8 @@ Each week you should go through the course notes and all compulsory materials. D
 2 February 2021, 'Gathering data'.
 
 - Content: [Gathering data](https://www.tellingstorieswithdata.com/gathering-data.html).
-- Case Study: Student Coaching: How Far Can Technology Go? (https://www.povertyactionlab.org/evaluation/student-coaching-how-far-can-technology-go)
-- Lecture recording: *TBA*. 
+- Case Study: [Student Coaching: How Far Can Technology Go?](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---student-coaching-how-far-can-technology-go)
+- Lecture recording: 
 - Lab: 
   - Please pretend you work for Netflix and you want to know more about why people subscribe (or don't!) when prices change. Please design an experiment, discuss its key features and how you would implement it. Please pay special attention to sampling issues. Then simulate an outcome.
   - Following the guidance of the TA, please scrape some data and discuss some ethical considerations around the dataset that you created. You may like to write a short blog post discussing the difference between data being public but scattered, and a consolidated dataset being public with reference to Kirkegaard and Bjerrekær, 2016, and Politou, Alepis, and Patsakis, 2018 (if you do that please do email a link to me out of interest).
@@ -145,7 +145,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 ### Reading Week
 
-```{r  out.width = "60%"}
+```{r  out.width = "60%", echo = FALSE}
 knitr::include_graphics("images/book_week.jpg")
 ```
 
@@ -260,24 +260,22 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Due date: Anytime during the teaching term.
 - Weight: 1 per cent
-- Task: We (optionally) use Slack to interact in this class. At some point during the term, please use Slack to answer another student's question or otherwise similarly be generally helpful in a professional manner. When you do that, copy the link (hover on the comment, click the vertical dots, click 'copy link') and submit the link via Quercus. You'll get the full mark just for one helpful interaction. (If you are opting out of using Slack - which is entirely fine - then instead, at some point in the term send me an email with a link that is relevant to the course materials and that I should add to the course notes. Please be clear that this is your 'professional conduct' submission by stating that in the subject line.)
+- Task: We (optionally) use Slack to interact in this class. At some point during the term, please use Slack to answer another student's question or otherwise similarly be generally helpful in a professional manner. When you do that, please share the comment into the 'Professional conduct' channel and @ me (hover on the message, click share message, type in the channel 'profession_conduct', add a message that @'s me, and click 'share'). You'll get the full mark just for one helpful interaction. (If you are opting out of using Slack - which is entirely fine - then instead, at some point in the term send me an email with a link that is relevant to the course materials and that I should add to the course notes. Please be clear that this is your 'professional conduct' submission by stating that in the subject line.)
 
 
 ### Paper #1
 
 - Due date: 29 January 2021.
 - Weight: 25 per cent (for Papers #1-#3 the best two of three count).
-- Task: ['Mandatory minimums'](https://www.tellingstorieswithdata.com/assessment.html#mandatory-minimums)
+- Task: ['Mandatory minimums'](https://www.tellingstorieswithdata.com/papers.html#mandatory-minimums)
 
 
 
 ### Paper #2
 
-**Tentative - finalised on 29 January 2021.**
-
-- Due date: 12 February 2021
+- Due date: 12 February 2021.
 - Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
-- Task: ['These numbers mean dial it up'](https://www.tellingstorieswithdata.com/assessment.html#these-numbers-mean-dial-it-up)
+- Task: ['These numbers mean dial it up'](https://www.tellingstorieswithdata.com/papers.html#these-numbers-mean-dial-it-up)
 
 
 
@@ -288,7 +286,7 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Due date: 12 March 2021.
 - Weight: 25 per cent (for Papers #1-#3 the best two of three counts).
-- Task: ['The Short List'](https://www.tellingstorieswithdata.com/assessment.html#the-short-list).
+- Task: ['The Short List'](https://www.tellingstorieswithdata.com/papers.html#the-short-list).
 
 
 
@@ -311,6 +309,6 @@ knitr::include_graphics("images/book_week.jpg")
   - Initial submission: 1 per cent
   - Peer review: 3 per cent
   - Final Paper: 25 per cent
-- Task: ['Two Cathedrals'](https://www.tellingstorieswithdata.com/assessment.html#two-cathedrals)
+- Task: ['Two Cathedrals'](https://www.tellingstorieswithdata.com/papers.html#two-cathedrals)
 
 

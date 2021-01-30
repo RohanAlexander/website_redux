@@ -3,7 +3,7 @@ title: "Tidying the 2019 Kenyan Census"
 description: |
   In this blog post I convert a PDF of Kenyan census results of counts, by age and sex, by county and sub-county, into a tidy dataset that can be analysed. I will draw on an introduce a bunch of handy packages including: `janitor`, `pdftools`, `tidyverse`, and `stringi`.
 author:
-  - name: Rohan Alexanderr
+  - name: Rohan Alexander
 date: 2020-04-14
 output:
   distill::distill_article:
@@ -449,7 +449,7 @@ all <-
   separate(col = type, into = c("gender", "part_of_area"), sep = "_") %>% 
   select(area, area_type, part_of_area, age, age_type, gender, number)
 
-write_csv(all, path = "outputs/data/cleaned_kenya_2019_census.csv")
+write_csv(all, file = "outputs/data/cleaned_kenya_2019_census.csv")
 
 head(all)
 ```

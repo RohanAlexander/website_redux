@@ -28,14 +28,14 @@ The course outline is available [here](pdfs/2021-ethics_and_data_science.pdf).
 
 ### Acknowledgements
 
-Thanks to the following who helped develop this course: A Mahfouz, Assel Kushkeyeva, Ke-li Chiu, Paul Hodgetts, and Thomas Rosenthal.
+Thanks to the following who helped develop this course: A Mahfouz, Assel Kushkeyeva, Irene Duah-Kessie, Ke-li Chiu, Paul Hodgetts, and Thomas Rosenthal.
 
 
 
 ## Content
 
 ### Week 1 - General
-*Brian Cantwell Smith, Reid Hoffman Professor of Artificial Intelligence and the Human, University of Toronto, will be invited to join the discussion briefly this week.*
+<!-- *Brian Cantwell Smith, Reid Hoffman Professor of Artificial Intelligence and the Human, University of Toronto, will be invited to join the discussion briefly this week.* -->
 
 #### Ethical
 
@@ -57,14 +57,11 @@ Additional (pick two):
 
 #### Technical
 
-- Set-up R and R Studio, if necessary.
-- Set-up GitHub, if necessary.
-- Set-up a website, if necessary.
-- Review R and static communication from *Telling Stories With Data*, if necessary.
+- Review 'Essentials' from *Telling Stories With Data*, if necessary.
 
 
 ### Week 2 - Data and consent
-*Nina Yiannopoulos, Director, Data Protection and Privacy, Deloitte Australia, will be invited to join the discussion briefly this week.*
+<!-- *Nina Yiannopoulos, Director, Data Protection and Privacy, Deloitte Australia, will be invited to join the discussion briefly this week.* -->
 
 #### Ethical
 
@@ -89,7 +86,7 @@ Additional (pick two):
 
 #### Technical
 
-- Review 'Data Gathering' from *Telling Stories With Data*.
+- Review 'Hunt, gather and farm' from *Telling Stories With Data*, if necessary.
 
 
 ### Week 3 - Women and gender
@@ -114,20 +111,19 @@ Additional (pick two):
 Review the essentials of Bayesian models by going through McElreath, 2020, Statistical Rethinking, 2nd Edition, (at least chapters 1, 2, 4, 7, 9, 11, 12, and 13) to address any shortcomings.
 
 ### Week 4 - Race
-*Tom Davidson, Assistant Professor, Sociology, Rutgers University, will be invited to join the discussion briefly this week.*
+
+*Tom Davidson, Assistant Professor, Sociology, Rutgers University, will join the discussion briefly this week.*
 
 #### Ethical
 
 Core: 
 
-
-- Noble, Safiya Umoja, 2018, Algorithms of Oppression: How Search Engines Reinforce Racism, NYU Press.
+- Davidson, Thomas, Debasmita Bhattacharya, and Ingmar Weber, 2019, 'Racial bias in hate speech and abusive language detection datasets', arXiv, https://arxiv.org/abs/1905.12516.
+- Noble, Safiya Umoja, 2018, *Algorithms of Oppression: How Search Engines Reinforce Racism*, NYU Press, Chapter 2.
 
 Additional (pick two):
 
-
 - Buolamwini, Joy and Timnit Gebru, 2018, 'Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification', Proceedings of Machine Learning Research Conference on Fairness, Accountability, and Transparency, 81: pp. 1–15, http://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf
-- Davidson, Thomas, Debasmita Bhattacharya, and Ingmar Weber, 2019, 'Racial bias in hate speech and abusive language detection datasets', arXiv, https://arxiv.org/abs/1905.12516.
 - Kwet, Michael, 2019, 'Digital colonialism: US empire and the new imperialism in the Global South', Race & Class 60.4, 3-26.
 - Scheuerman, M. K., Wade, K., Lustig, C., and Brubaker, J. R., 2020, 'How We've Taught Algorithms to See Identity: Constructing Race and Gender in Image Databases for Facial Analysis', Proceedings of the ACM on Human-Computer Interaction, 4(CSCW1), 1-35. 
 - Ziad Obermeyer, Brian Powers, Christine Vogeli, and Sendhil Mullainathan, 2019, 'Dissecting racial bias in an algorithm used to manage the health of populations', Science, Vol. 366, Issue 6464, pp. 447-453, DOI: 10.1126/science.aax2342,   https://science.sciencemag.org/content/366/6464/447/tab-pdf
@@ -137,7 +133,7 @@ Additional (pick two):
 - Pick a project from The Markup's Show Your Work section (https://themarkup.org/series/show-your-work) and reproduce it, writing your own code. You may pick whatever language you are comfortable in.
 
 ### Week 5 - Natural Language Processing
-*Xanda Schofield, Assistant Professor, Computer Science, Harvey Mudd College, will be invited to join the discussion briefly this week.*
+<!-- *Xanda Schofield, Assistant Professor, Computer Science, Harvey Mudd College, will be invited to join the discussion briefly this week.* -->
 
 #### Ethical
 
@@ -161,7 +157,8 @@ Additional (pick two):
 - Implement a NLP model via Hugging Face or Spacy, depending on your language preference.
 
 ### Week 6 - AI Ethics
-*Jamie Duncan, Junior Policy Analyst, Artificial Intelligence Hub, Innovation, Science and Economic Development Canada, will be invited to join the discussion briefly this week.*
+
+*Shion Guha, Assistant Professor, University of Toronto, will join the discussion briefly this week.*
 
 #### Ethical
 
@@ -180,6 +177,9 @@ Additional (pick two):
 - Luciano, Floridi, and Cowls Josh, 2019, 'A Unified Framework of Five Principles for AI in Society', Harvard Data Science Review, 1 July, https://hdsr.mitpress.mit.edu/pub/l0jsh9d1.
 - Paglioni, Vincent, 2015, 'The Ethics of Intelligent Machines', Investment Management Consultants Association, https://investmentsandwealth.org/getattachment/f3614756-1e1d-49c7-a201-29dbc22d8fbf/IWM15NovDec-EthicsIntelligentMachines.pdf
 - Winfield, Alan F., Katina Michael, Jeremy Pitt, Vanessa Evers, 2019, 'Machine Ethics: the Design and Governance of Ethical AI and Autonomous Systems', Proceeding of IEEE, Volume 107, Issue 3, pp. 509-517.
+- Sam Corbett-Davies and Sharad Goel, 2018, 'The Measure and Mismeasure of Fairness: A Critical Review of Fair Machine Learning', 14 August, https://arxiv.org/pdf/1808.00023.pdf.
+- Inareh Mehrabi, Fred Morstatter, Nripsuta Saxena, Kristina Lerman, And Aram Galstyan, 2019, 'A Survey on Bias and Fairness in Machine Learning', https://arxiv.org/pdf/1908.09635.pdf.
+- Irene Y. Chen, Fredrik D. Johansson, David Sontag, 2018, 'Why Is My Classifier Discriminatory?', https://arxiv.org/pdf/1805.12002.pdf.
 
 #### Technical
 Use RASA (https://rasa.com/) to build a chatbot, or OpenAI's GPT-2 or GPT-3 to generate text.
@@ -233,6 +233,7 @@ Additional (pick two):
 
 ### Week 9 - Corporate Surveillance
 
+
 #### Ethical
 
 Core: 
@@ -281,6 +282,8 @@ Additional (pick two):
 - TBD based on student interest.
 
 ### Week 11 - Algorithmic decision-making
+
+*Jamie Duncan, Junior Policy Analyst, Artificial Intelligence Hub, Innovation, Science and Economic Development Canada, will be invited to join the discussion briefly this week.*
 
 #### Ethical
 

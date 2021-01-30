@@ -1,5 +1,5 @@
 ---
-title: "Toronto Data Lab"
+title: "Research Group"
 output:
   distill::distill_article:
     toc: true
@@ -8,7 +8,7 @@ output:
 
 
 
-```{r}
+```{r  out.width = "75%", echo = FALSE}
 knitr::include_graphics(c("images/datalab dnd_1350x900.png")) 
 ```
 [*Thanks to Paul Hodgetts for the fantastic logo.*]{style="float:right"}
@@ -38,7 +38,7 @@ We organize the Toronto Data Workshop, which everyone is welcome to attend - sig
 
 Students are equal partners, have considerable autonomy, are given co-authorship, and are paid. They take ownership of their project and contribute critically to its success.
 
-```{r, out.width= "30%"}
+```{r, out.width= "30%", echo = FALSE}
 knitr::include_graphics(c("images/cesR_hex.png")) 
 ```
 
@@ -88,13 +88,13 @@ knitr::include_graphics(c("images/cesR_hex.png"))
 
 <!-- If I've worked with you or you got an A+ in a course that I taught then I'd be happy to write you references and I will need:  -->
 
-<!-- 1) at least two week's notice;  -->
+<!-- 1) two weeks' notice;  -->
 <!-- 2) a unofficial copy of your entire Toronto transcript;  -->
 <!-- 3) a copy of your CV; -->
-<!-- 4) a list of the marks that you got in my problem sets and a copy of your submissions for those problem sets;  -->
+<!-- 4) a list of the marks that you got in the papers you wrote for me and a copy of those papers;  -->
 <!-- 5) a list of the programs that you're applying for;  -->
-<!-- 6) three or four paragraphs where you talk about yourself in third person (this is: 1) to ensure that I use the correct names, pronouns etc; 2) to better understand what role I play - am I the 'stats' or 'information' reference for you, am I the 'academic' or the 'work' reference; 3) to give me something to start from). -->
+<!-- 6) three or four paragraphs where you talk about yourself in third person (this is: 1) to ensure that I use the correct names, pronouns etc; 2) to better understand what role I play - am I the stats/information/other reference for you, am I the academic/work/etc reference; 3) to give me something to start from). -->
 
-<!-- Finally, writing references is part of my job. There's not need to feel bad about asking, and there's no need for gifts - while I appreciate the gesture, it's not appropriate - a thank you email is more than sufficient. -->
+<!-- Finally, writing references is part of my job. There's not need to feel bad about asking, and there's no need for gifts - while I appreciate the gesture, it's not appropriate - a thank you email is more than sufficient (oh, and of course let me know if you get whatever it is you applied for. -->
 
 

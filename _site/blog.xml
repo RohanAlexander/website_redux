@@ -24,7 +24,7 @@
     </item>
     <item>
       <title>Tidying the 2019 Kenyan Census</title>
-      <dc:creator>Rohan Alexanderr</dc:creator>
+      <dc:creator>Rohan Alexander</dc:creator>
       <link>https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census</link>
       <description>In this blog post I convert a PDF of Kenyan census results of counts, by age and sex, by county and sub-county, into a tidy dataset that can be analysed. I will draw on an introduce a bunch of handy packages including: `janitor`, `pdftools`, `tidyverse`, and `stringi`.</description>
       <guid>https://rohanalexander.com/posts/2020-04-14-tidying-the-2019-kenyan-census</guid>

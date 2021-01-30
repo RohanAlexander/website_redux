@@ -23,7 +23,7 @@ The current organising committee is: Faria Khandaker, [Kelly Lyons](http://indiv
 # Winter 2021
 
 
-```{r, out.width= "33%"}
+```{r, out.width= "33%", echo = FALSE}
 knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png", "images/tdw_bluejays_dataworkshop_hex.png")) 
 ```
 [*Thanks to Paul Hodgetts for the Jays-inspired sticker.*]{style="float:right"}
@@ -33,7 +33,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | ---------- | --------------- | ------------- | ----- |
 | Thu 14 Jan, 4:30-5:30pm 	| Andrew Miles, *University of Toronto* (jointly hosted with the UTM Collaborative Digital Research Space.) 					  | Code, plots, and values | https://youtu.be/mdjOoKT-f7E |
 | Wed 20 Jan, 4:30-5:30pm 	| Zia Babar, *University of Toronto*								| Derivative data security. | https://youtu.be/fdVZqvECXXQ |
-| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			  | Bias and fairness in health. | |
+| Thu 28 Jan, 4:30-5:30pm 	| Irene Duah-Kessie, *University of Toronto* 			  | Bias and fairness in health. | https://youtu.be/xwWvOeSXu5o |
 | Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																    | Experimentation and product design. | |
 | Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									  | TBA | |
 | Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Asel Kushkeyeva, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| |
@@ -129,7 +129,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 # Fall 2020
 
 
-```{r, out.width= "25%"}
+```{r, out.width= "25%", echo = FALSE}
 knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_maple_leaf.png", "images/tdw_moose.png", "images/tdw_dino.png")) 
 ```
 [*Thanks to Hidaya Ismail for the brilliant maple leaf and dinosaur hex stickers.*]{style="float:right"}

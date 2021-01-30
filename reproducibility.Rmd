@@ -12,7 +12,7 @@ output:
 
 We gratefully acknowledge the support of the [Faculty of Information](https://ischool.utoronto.ca) and the [Department of Statistical Sciences](https://www.statistics.utoronto.ca) at the University of Toronto, and [CANSSI Ontario](https://canssiontario.utoronto.ca); in particular [Dean Wendy Duff](https://ischool.utoronto.ca/profile/wendy-duff/), [Chair Radu Craiu](https://utstat.toronto.edu/craiu/), and [Professor Lisa Strug](https://lab.research.sickkids.ca/strug/) for their support.
 
-```{r, out.width= "33%"}
+```{r, out.width= "33%", echo = FALSE}
 knitr::include_graphics(c("images/information_vert.png", "images/doss_vert.png", "images/CANSSI.png")) 
 
 ```
