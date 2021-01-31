@@ -123,7 +123,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 2 February 2021, 'Gathering data'.
 
-- Content: [Gathering data](https://www.tellingstorieswithdata.com/gathering-data.html).
+- Content: [Gathering data](https://www.tellingstorieswithdata.com/gather-data.html).
 - Case Study: [Student Coaching: How Far Can Technology Go?](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---student-coaching-how-far-can-technology-go)
 - Lecture recording: 
 - Lab: 
