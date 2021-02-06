@@ -112,7 +112,7 @@ Review the essentials of Bayesian models by going through McElreath, 2020, Stati
 
 ### Week 4 - Race
 
-*Tom Davidson, Assistant Professor, Sociology, Rutgers University, will join the discussion briefly this week.*
+*Tom Davidson, Assistant Professor, Sociology, Rutgers University: https://youtu.be/YDmxMn2Doq0.*
 
 #### Ethical
 
@@ -139,6 +139,7 @@ Additional (pick two):
 
 Core: 
 
+- Bender, Emily M., Angelina McMillan-Major, Timnit Gebru and Shmargaret Shmitchell, 2021, 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?', https://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf
 - Hovy, Dirk and Shannon L. Spruit, 2016, 'The Social Impact of Natural Language Processing', Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics, pp. 591–598, https://aclweb.org/anthology/P16-2096.pdf. 
 - Prabhumoye, Shrimai, Elijah Mayfield, and Alan W Black, 2019, 'Principled Frameworks for Evaluating Ethics in NLP Systems', Proceedings of the 2019 Workshop on Widening NLP, https://aclweb.org/anthology/W19-3637/. 
 

@@ -125,7 +125,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Gathering data](https://www.tellingstorieswithdata.com/gather-data.html).
 - Case Study: [Student Coaching: How Far Can Technology Go?](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---student-coaching-how-far-can-technology-go)
-- Lecture recording: 
+- Lecture recording: https://youtu.be/aZtga7iVyQY.
 - Lab: 
   - Please pretend you work for Netflix and you want to know more about why people subscribe (or don't!) when prices change. Please design an experiment, discuss its key features and how you would implement it. Please pay special attention to sampling issues. Then simulate an outcome.
   - Following the guidance of the TA, please scrape some data and discuss some ethical considerations around the dataset that you created. You may like to write a short blog post discussing the difference between data being public but scattered, and a consolidated dataset being public with reference to Kirkegaard and Bjerrekær, 2016, and Politou, Alepis, and Patsakis, 2018 (if you do that please do email a link to me out of interest).
@@ -135,8 +135,8 @@ Each week you should go through the course notes and all compulsory materials. D
 
 9 February 2021, 'IJALM - It's Just A Linear Model'.
 
-- Content: Linear and logistic regression and `tidymodels`
-- Case Study: Alain Cohn, Michel André Maréchal, David Tannenbaum, Christian Lukas Zünd, 2019, 'Civic honesty around the globe'
+- Content: [Linear and logistic regression and `tidymodels`](https://www.tellingstorieswithdata.com/its-just-a-linear-model.html)
+- Case Study: [Civic honesty around the globe](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---civic-honesty-around-the-globe)
 - Lecture recording: *TBA*. 
 - Lab: 
   - Pretend that you work for Loblaws as a data scientist and it is late March 2020. As part of normal monitoring, you have noticed that purchases of flour and pasta have increased substantially. You had been planning to increase the price of these items in April as part of a trial, but now your manager is not sure whether it is appropriate to conduct the trial. Please write five or six points with regard to your thoughts on this matter. What would you do and why? 
