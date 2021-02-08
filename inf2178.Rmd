@@ -113,7 +113,8 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Experiments, and treatment effects](https://www.tellingstorieswithdata.com/hunting-data.html#experiments-and-randomised-controlled-trials).
 - Case Study: [The Oregon Health Insurance Experiment in the United States](https://www.tellingstorieswithdata.com/hunting-data.html#case-study---the-oregon-health-insurance-experiment).
-- Lecture: Greg Wilson on 'How to Run a Meeting' - https://youtu.be/qYh6Nzv3RWs; Oregon Health Insurance and bibtex Part 1 - https://youtu.be/SSh4kKIMt7k; Part 2 - https://youtu.be/xHQw7VwjrF8.
+- Special guest: [Greg Wilson on 'How to Run a Meeting'](https://youtu.be/qYh6Nzv3RWs).
+- Lecture: Oregon Health Insurance and bibtex Part 1 - https://youtu.be/SSh4kKIMt7k; Part 2 - https://youtu.be/xHQw7VwjrF8.
 - Lab: 
   - Please pretend that you work as a junior analyst for a large consulting firm. Further, pretend that your consulting firm has taken a contract to put together a facial recognition model for the Canada Border Services Agency’s Inland Enforcement branch. Write five or six points with regard to your thoughts on this matter. What would you do and why? Then split into small groups and compare your points with others. Do you think the model would end up being implemented?
   - With the help of the TA, please conduct 'face-to-face' surveys (via Zoom). For this exercise, you will be randomly split into groups of two. You have two minutes in each group and will then be swapped to another group. One person is to survey the other person asking the following questions: i) 'What is your gender?', ii) 'What is your age?', iii) 'What is your marital status?', iv) 'What is your income?', v) 'If an election were held today who would you vote for?'. After one person is done, then switch roles. When you are the questioner you should record all responses using a small CSV (but not the person's name please). When you are the respondent you are welcome to not respond. You will cycle through this multiple times. At the end, please write a small reflection about: 1) as a respondent, how you felt answering these questions and the implications that you think this feeling may have for how survey questions are answered more generally; and 2) as a questioner, how difficult it was to code responses and the implications this may have for the dataset that we analyse.
@@ -153,8 +154,9 @@ knitr::include_graphics("images/book_week.jpg")
 
 23 February 2021, 'Celestial Navigation'.
 
-- Content: Simulation, power, RCTs and A/B testing.
+- Content: Simulation, power, RCTs, A/B testing.
 - Case Study: Upworthy A/B tests of headlines.
+- Special guest: [Kathy Ge on experiments at Uber](https://youtu.be/UYzXElJTovg).
 - Lecture recording: *TBA*. 
 - Lab: 
   - Following the guidance of the TA, please use Blogdown to create a simple website and then design and execute a simple A/B test for your website using Netlify.
