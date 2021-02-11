@@ -138,7 +138,7 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Linear and logistic regression and `tidymodels`](https://www.tellingstorieswithdata.com/its-just-a-linear-model.html)
 - Case Study: [Civic honesty around the globe](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---civic-honesty-around-the-globe)
-- Lecture recording: *TBA*. 
+- Lecture recording: https://youtu.be/RT5ft3Wey3k. 
 - Lab: 
   - Pretend that you work for Loblaws as a data scientist and it is late March 2020. As part of normal monitoring, you have noticed that purchases of flour and pasta have increased substantially. You had been planning to increase the price of these items in April as part of a trial, but now your manager is not sure whether it is appropriate to conduct the trial. Please write five or six points with regard to your thoughts on this matter. What would you do and why? 
   - Analyse the Toronto AirBNB dataset with guidance from the TA.
@@ -154,8 +154,8 @@ knitr::include_graphics("images/book_week.jpg")
 
 23 February 2021, 'Celestial Navigation'.
 
-- Content: Simulation, power, RCTs, A/B testing.
-- Case Study: Upworthy A/B tests of headlines.
+- Content: [Simulation](https://www.tellingstorieswithdata.com/r-essentials.html#simulating-data), [power](https://www.tellingstorieswithdata.com/its-just-a-linear-model.html#on-p-values), [RCTs](https://www.tellingstorieswithdata.com/hunt-data.html#experiments-and-randomised-controlled-trials), [A/B testing](https://www.tellingstorieswithdata.com/hunt-data.html#ab-testing).
+- Case Study: [Upworthy A/B tests of headlines](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---upworthy).
 - Special guest: [Kathy Ge on experiments at Uber](https://youtu.be/UYzXElJTovg).
 - Lecture recording: *TBA*. 
 - Lab: 

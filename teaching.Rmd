@@ -9,6 +9,7 @@ output:
 ---
 
 # University of Toronto
+* *(Upcoming)* Instructor, 'INF312: Worlds Become Data', Winter 2022.
 * *(Current)* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2021
 * Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020, [evaluations](pdfs/2020-STA304_student_evals.pdf)
 * Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf)
