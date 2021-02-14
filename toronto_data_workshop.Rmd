@@ -76,7 +76,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	Topic: Using R Markdown in general and in some specific projects.
 * Monday, 15 February, Noon-1:00pm  
 	**Emily Riederer**, Capital One  
-	[Emily](https://emilyriederer.netlify.app) is a Senior Analytics Manager at Capital One. My team focuses on reimagining our analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to our partner teams.   
+	[Emily](https://emilyriederer.netlify.app) is a Senior Analytics Manager at Capital One. Emily's team focuses on reimagining analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to partner teams.   
 	Topic: [Causal design patterns for data analysts](https://emilyriederer.netlify.app/post/causal-design-patterns/).
 * Thursday, 18 February, 4:30-5:30pm  
   *Special guest Bethany White (Department of Statistical Sciences).*  
