@@ -69,7 +69,7 @@ Successful past students have the following advice (completely unedited by me):
 - 'During lectures, focus more on the why the prof is doing what he's doing. When he runs certain commands in R, figure out why that sequence of code gives what you want, because it'll help adapt his code into your assignment code. just remembering what he's doing in lecture becomes useless really quickly since the thought process matters more. also, start everything early. '
 - 'Do this course when you really want to learn something and have a lot of time to working on it.'
 - 'you need to be very skillful in RStudio and latex. Otherwise you would be struggling.'
-- 'Try to incorporate the feedback given and read a looottttttttt. Also start early on the problem sets because they tend to take a lot of time. Don’t give up!'
+- 'Try to incorporate the feedback given and read a looottttttttt. Also start early on the problem sets because they tend to take a lot of time. Don't give up!'
 - 'Find a good group for problem sets'
 - 'If the assignments stay the same, I would tell students to approach this class from the perspective of 'storytelling with statistics' rather than a statistics course. You need to use R, and Markdown, and have a solid understanding of concepts like regression and sampling, but more importantly you need to be able to interpret results and write about them in a way coherent and professional way.'
 - 'do your readings'
@@ -113,10 +113,10 @@ Each week you should go through the course notes and all compulsory materials. D
 
 - Content: [Experiments, and treatment effects](https://www.tellingstorieswithdata.com/hunting-data.html#experiments-and-randomised-controlled-trials).
 - Case Study: [The Oregon Health Insurance Experiment in the United States](https://www.tellingstorieswithdata.com/hunting-data.html#case-study---the-oregon-health-insurance-experiment).
-- Special guest: [Greg Wilson on 'How to Run a Meeting'](https://youtu.be/qYh6Nzv3RWs).
+- Special guest: [Greg Wilson on how to run a meeting](https://youtu.be/qYh6Nzv3RWs).
 - Lecture: Oregon Health Insurance and bibtex Part 1 - https://youtu.be/SSh4kKIMt7k; Part 2 - https://youtu.be/xHQw7VwjrF8.
 - Lab: 
-  - Please pretend that you work as a junior analyst for a large consulting firm. Further, pretend that your consulting firm has taken a contract to put together a facial recognition model for the Canada Border Services Agency’s Inland Enforcement branch. Write five or six points with regard to your thoughts on this matter. What would you do and why? Then split into small groups and compare your points with others. Do you think the model would end up being implemented?
+  - Please pretend that you work as a junior analyst for a large consulting firm. Further, pretend that your consulting firm has taken a contract to put together a facial recognition model for the Canada Border Services Agency's Inland Enforcement branch. Write five or six points with regard to your thoughts on this matter. What would you do and why? Then split into small groups and compare your points with others. Do you think the model would end up being implemented?
   - With the help of the TA, please conduct 'face-to-face' surveys (via Zoom). For this exercise, you will be randomly split into groups of two. You have two minutes in each group and will then be swapped to another group. One person is to survey the other person asking the following questions: i) 'What is your gender?', ii) 'What is your age?', iii) 'What is your marital status?', iv) 'What is your income?', v) 'If an election were held today who would you vote for?'. After one person is done, then switch roles. When you are the questioner you should record all responses using a small CSV (but not the person's name please). When you are the respondent you are welcome to not respond. You will cycle through this multiple times. At the end, please write a small reflection about: 1) as a respondent, how you felt answering these questions and the implications that you think this feeling may have for how survey questions are answered more generally; and 2) as a questioner, how difficult it was to code responses and the implications this may have for the dataset that we analyse.
 
 
@@ -161,7 +161,6 @@ knitr::include_graphics("images/book_week.jpg")
 - Lab: 
   - Following the guidance of the TA, please use Blogdown to create a simple website and then design and execute a simple A/B test for your website using Netlify.
   
-  
 
 ### Week 7
 
@@ -173,22 +172,26 @@ knitr::include_graphics("images/book_week.jpg")
 - Lab: 
   - Following the guidance of the TA, please look back on the case studies that we've covered so far. Please break up into small groups and create DAGs for each. Then write some notes about the potential for confounding, selection bias and measurement bias. Pick one person in your group to make a brief 2-minute presentation about what you did.
 
+
 ### Week 8
 
 9 March 2021, 'Such a shame they'll never meet'.
 
-- Content: Diff in diff and regression discontinuity.
+- Content: [Matching and difference in differences](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#difference-in-differences). 
 - Case Study: Tamar Oostrom, 2020, 'Funding of Clinical Trials and Reported Drug Efficacy'
+- Special guest: [Emily Riederer on observational causal inference](https://youtu.be/VP3BBZ7poc0).
 - Lecture recording: *TBA*. 
 - Lab: 
-  - Following the guidance of the TA, please read McClelland, Alexander, 2019, '"Lock This Whore Up": Legal Violence and Flows of Information Precipitating Personal Violence against People Criminalised for HIV-Related Crimes in Canada', *European Journal of Risk Regulation*, 10 (1), pp. 132-147. Then look at Policing the Pandemic - https://www.policingthepandemic.ca/. Look into how they gathered their dataset and what it took to put this together. What is in the dataset and why? What is missing and why? How could this affect the results? How might similar biases enter into other datasets that you have used or read about? Put together a brief model. You may like to write a short blog post about the biases and influences that are in this dataset (if you do that please do email a link to me out of interest). 
+  - Following the guidance of the TA, please look at McClelland, Alexander, 2019, '"Lock This Whore Up": Legal Violence and Flows of Information Precipitating Personal Violence against People Criminalised for HIV-Related Crimes in Canada', *European Journal of Risk Regulation*, 10 (1), pp. 132-147. 
+  - Then look at Policing the Pandemic - https://www.policingthepandemic.ca/. Look into how they gathered their dataset and what it took to put this together. What is in the dataset and why? What is missing and why? How could this affect the results? How might similar biases enter into other datasets that you have used or read about? 
+  - Put together a brief model. You may like to write a short blog post about the biases and influences that are in this dataset (if you do that please do email a link to me out of interest). 
 
 
 ### Week 9
 
 16 March 2021, 'Why does it always rain on me?'.
 
-- Content: Instrumental variables.
+- Content: [Regression discontinuity](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#regression-discontinuity-design) and [instrumental variables](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#instrumental-variables).
 - Case Study: James H. Ware, 1989, 'Investigating Therapies of Potentially Great Benefit: ECMO'.
 - Lecture recording: *TBA*. 
 - Lab: 
@@ -212,8 +215,8 @@ knitr::include_graphics("images/book_week.jpg")
 - Lecture recording: *TBA*. 
 - Lab: 
   - Following the guidance of the TA, and thinking about what we covered in lectures, please read, compare, and discuss:
-    - Bendavid, E., Mulaney, B., Sood, N., Shah, S., Ling, E., Bromley-Dulfano, R., …, and Tversky, D, 2020, ‘COVID-19 Antibody Seroprevalence in Santa Clara County, California’, *MedRxiv*, https://www.medrxiv.org/content/10.1101/2020.04.14.20062463v1.full.pdf.
-    - Gelman, Andrew, 2020, ‘Concerns with that Stanford study of coronavirus prevalence’, Statistical Modeling, Causal Inference, and Social Science, 19 April, https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/. 
+    - Bendavid, E., Mulaney, B., Sood, N., Shah, S., Ling, E., Bromley-Dulfano, R., …, and Tversky, D, 2020, ‘COVID-19 Antibody Seroprevalence in Santa Clara County, California', *MedRxiv*, https://www.medrxiv.org/content/10.1101/2020.04.14.20062463v1.full.pdf.
+    - Gelman, Andrew, 2020, ‘Concerns with that Stanford study of coronavirus prevalence', Statistical Modeling, Causal Inference, and Social Science, 19 April, https://statmodeling.stat.columbia.edu/2020/04/19/fatal-flaws-in-stanford-study-of-coronavirus-prevalence/. 
     - Eisen, Michael B., and Robert Tibshirani, 2020, 'How to Identify Flawed Research Before It Becomes Dangerous', *New York Times*, 20 July, https://www.nytimes.com/2020/07/20/opinion/coronavirus-preprints.html. 
     - Gelman, Andrew and Bob Carpenter, 2020, 'Bayesian analysis of tests with unknown specificity and sensitivity', 8 July, http://www.stat.columbia.edu/~gelman/research/published/specificity.pdf. 
 
