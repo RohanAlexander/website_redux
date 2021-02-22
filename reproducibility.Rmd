@@ -12,7 +12,7 @@ output:
 
 We gratefully acknowledge the support of the [Faculty of Information](https://ischool.utoronto.ca) and the [Department of Statistical Sciences](https://www.statistics.utoronto.ca) at the University of Toronto, and [CANSSI Ontario](https://canssiontario.utoronto.ca); in particular [Dean Wendy Duff](https://ischool.utoronto.ca/profile/wendy-duff/), [Chair Radu Craiu](https://utstat.toronto.edu/craiu/), and [Professor Lisa Strug](https://lab.research.sickkids.ca/strug/) for their support.
 
-```{r, out.width= "33%", echo = FALSE}
+```{r, out.width= "25%", echo = FALSE}
 knitr::include_graphics(c("images/information_vert.png", "images/doss_vert.png", "images/canssi_logo_Ontario-RGB-M.png")) 
 
 ```
@@ -32,9 +32,8 @@ The conference has three broad areas of focus:
 We intend to record the presentations and will add links here after the conference. Again, the conference is free and online via Zoom, everyone is welcome - you don't need to be affiliated with a university. If you would like to attend, then please sign up [here](https://forms.gle/txLw43Q7UsXjzQys8).
 
 
-## Draft schedule
+## Schedule
 
-All times are Toronto / US east coast. 9am in Toronto `r emo::ji("canada")` is: 7:30pm in New Delhi `r emo::ji("india")`; 3pm in Berlin `r emo::ji("pretzel")`; 2pm in London `r emo::ji("guard")`; 11am in Santiago `r emo::ji("chile")`; 6am in Vancouver `r emo::ji("ski")`; and 1am in Melbourne `r emo::ji("kangaroo")`.
 
 ### Thursday, 25 February, 2021
 
@@ -68,7 +67,7 @@ All times are Toronto / US east coast. 9am in Toronto `r emo::ji("canada")` is: 
 | 8:00-8:30am 	| Nick Radcliffe and Pei Shan Yu, *Global Open Finance Centre of Excellence & University of Edinburgh*  | Practices	|
 | 8:30-9:00am 	| Julia Schulte-Cloos, *LMU Munich*                             | Practices	|
 | 9:00-9:25am 	| Simeon Carstens, *Tweag/IO* 														      | Practices	|
-| 9:30-9:55am 	| Heidi Seibold, *Helmholtz AI Cooperation Unit*                | Practices |
+| 9:30-9:55am 	| *Break*                                                       |  |
 | 10:00-10:55am | Eva Vivalt, *University of Toronto* 													| Keynote - Practices |
 | 11:00-11:25am | Andrés Cruz, *Pontificia Universidad Católica de Chile* 			| Practices |
 | 11:30-11:55am | Emily Riederer, *Capital One* 														    | Practices	|
@@ -86,6 +85,13 @@ All times are Toronto / US east coast. 9am in Toronto `r emo::ji("canada")` is: 
 | 5:30-6:00pm 	| Rohan Alexander, *University of Toronto* 											| Closing remarks |
 
 
+All times are Toronto / US east coast. 9am in Toronto `r emo::ji("canada")` is:  
+- 7:30pm in Bangalore `r emo::ji("india")`;  
+- 3pm in Berlin `r emo::ji("pretzel")`;  
+- 2pm in London `r emo::ji("guard")`;  
+- 11am in Santiago `r emo::ji("chile")`;  
+- 6am in Vancouver `r emo::ji("ski")`; and  
+- 1am in Melbourne `r emo::ji("kangaroo")`.
 
 
 ## Presenter biographies and abstracts
@@ -117,8 +123,6 @@ Invited presentations:
 One might think that having access to the research data and the code used to analyze that data would be enough to reproduce published results, but often this is much more involved. Is reproducibility dependent on the reviewer's knowledge? What things do we not usually think about can affect reproducibility? Can the choice of how to capture the computational environment influence the experience of the reviewer? In this talk, we are going to think together some of the necessary steps that make someone else able to reproduce a scientific article or project. I will share some thoughts from my experience in ReproHack and show you how reviewing is a great practice to learn about reproducibility. What is ReproHack? Reprohack is a hackathon-style event focused on the reproducibility of research results. These hackathons provide a low-pressure sandbox environment for practicing reproducible research: Authors can practice producing reproducible research and receive friendly feedback and appreciation of their efforts. Participants can practice reviewing, learn about reproducibility best practices as well as common pitfalls from working with real-life materials rather than just dummy. They also get inspired and grow confidence in working more openly themselves. Research Community benefits from: Evaluating what best practice is in practice. More practice in both developing and reviewing materials.
 - [Garret Christensen](https://www.ocf.berkeley.edu/~garret/) received his economics PhD from UC Berkeley in 2011. He is an economist with the FDIC. Before that he worked for the Census Bureau, and he was a project scientist with the Berkeley Initiative for Transparency in the Social Sciences and a Data Science Fellow with the Berkeley Institute for Data Science.  
   Abstract: Adoption of Open Science Practices is Increasing: Survey Evidence on Attitudes, Norms and Behavior in the Social Sciences. Has there been meaningful movement toward open science practices within the social sciences in recent years? Discussions about changes in practices such as posting data and pre-registering analyses have been marked by controversy—including controversy over the extent to which change has taken place. This study, based on the State of Social Science (3S) Survey, provides the first comprehensive assessment of awareness of, attitudes towards, perceived norms regarding, and adoption of open science practices within a broadly representative sample of scholars from four major social science disciplines: economics, political science, psychology, and sociology. We observe a steep increase in adoption: as of 2017, over 80% of scholars had used at least one such practice, rising from one quarter a decade earlier. Attitudes toward research transparency are on average similar between older and younger scholars, but the pace of change differs by field and methodology. According with theories of normal science and scientific change, the timing of increases in adoption coincides with technological innovations and institutional policies. Patterns are consistent with most scholars underestimating the trend toward open science in their discipline.
-- [Heidi Seibold](https://www.helmholtz.ai/themenmenue/our-research/research-groups/seibolds-group/index.html) is a Team leader at Helmholtz AI. Her group combines open science, AI and health research. It focuses on reproducible and open research, as well as on machine learning methods for personalized medicine that improve patient treatment.  
-  Abstract: In this talk I will discuss some practical steps for making your work reproducible. I will also share my thoughts on what role data scientists and statisticians can play in the reproducibility crisis.
 - [Jake Bowers](http://www.jakebowers.org) is a Senior Scientist at The Policy Lab and a member of the Lab's data science practice. Jake is Associate Professor of Political Science and Statistics at the University of Illinois Urbana-Champaign. He has served as a Fellow in the Office of Evaluation Sciences in the General Services Administration of the US Federal Government and is Methods Director for the Evidence in Governance and Politics network. Jake holds a PhD in Political Science from the University of California, Berkeley, and a BA in Ethics, Politics and Economics from Yale University.  
   Abstract: For evidence-based public policy to grow in impact and importance, practices to enhance scientific credibility should be brought into governmental contexts and also should be modified for those contexts. For example, few analyses of governmental data allow data sharing (in contrast with most scientific studies); and many analyses of governmental administrative data inform high stakes immediate decisions (in contrast with the slow accumulation of scientific knowledge). We make several proposals to adjust scientific norms of reproducibility and pre-registration to the policy context.
 - [John Blischak](https://jdblischak.com/) is a freelance scientific software developer for the life sciences industry. He is the primary author of the R package workflowr and the co-maintainer of the CRAN Task View on Reproducible Research. He received his PhD in Genetics from the University of Chicago.  
@@ -164,6 +168,74 @@ One might think that having access to the research data and the code used to ana
 - [Yanbo Tang](https://www.statistics.utoronto.ca/people/directories/graduate-students/yanbo-tang) is a PhD candidate at the University of Toronto in the Department of Statistical Sciences, under the joint supervision of Nancy Reid and Daniel Roy. He is interested in the study and application of methods in higher order asymptotics and statistical inference in the presence of many nuisance parameters. Nowadays, he works under the careful gaze of his pet parrot.  
   Abstract: Hypothesis testing results often rely on simple, yet important assumptions about the behavior of the distribution of p-values under the null and alternative. We show that commonly held beliefs regarding the distribution of p-values are misleading when the variance or location of the test statistic are not well-calibrated or when the higher order cumulants of the test statistic are not negligible. We further examine the impact of having these misleading p-values on reproducibility of scientific studies, with some examples focused on GWAS studies. Certain corrected tests are proposed and are shown to perform better than their traditional counterparts in certain settings.
   
+
+
+## Code of conduct
+
+### Code
+
+The organizers of the Toronto Workshop on Reproducibility are dedicated to providing a harassment-free experience for everyone regardless of age, gender, sexual orientation, disability, physical appearance, race, or religion (or lack thereof).
+
+All participants (including attendees, speakers, sponsors and volunteers) at the Toronto Workshop on Reproducibility are required to agree to the following code of conduct.
+
+The code of conduct applies to all conference activities including talks, panels, workshops, and social events. It extends to conference-specific exchanges on social media, for instance posts tagged with the identifier of the conference (e.g. #TOrepro on Twitter), and replies to such posts.
+
+Organizers will enforce this code throughout and expect cooperation in ensuring a safe environment for all.
+
+### Expected Behaviour
+
+All conference participants agree to:
+
+- Be considerate in language and actions, and respect the boundaries of fellow participants.
+- Refrain from demeaning, discriminatory, or harassing behaviour and language. Please refer to 'Unacceptable Behaviour' for more details.
+- Alert Rohan Alexander - rohan.alexander@utoronto.ca - or Kelly Lyons - kelly.lyons@utoronto.ca - if you notice someone in distress, or observe violations of this code of conduct, even if they seem inconsequential. Please refer to the section titled 'What To Do If You Witness or Are Subject To Unacceptable Behaviour' for more details.
+
+### Unacceptable Behaviour
+
+Behaviour that is unacceptable includes, but is not limited to:
+
+- Stalking
+- Deliberate intimidation
+- Unwanted photography or recording
+- Sustained or willful disruption of talks or other events
+- Use of sexual or discriminatory imagery, comments, or jokes
+- Offensive comments related to age, gender, sexual orientation, disability, race or religion
+- Inappropriate physical contact, which can include grabbing, or massaging or hugging without consent.
+- Unwelcome sexual attention, which can include inappropriate questions of a sexual nature, asking for sexual favours or repeatedly asking for dates or contact information.
+
+If you are asked to stop harassing behaviour you should stop immediately, even if your behaviour was meant to be friendly or a joke, it was clearly not taken that way and for the comfort of all conference attendees you should stop.
+
+Attendees who behave in a manner deemed inappropriate are subject to actions listed under 'Procedure for Code of Conduct Violations'.
+
+### Additional Requirements for Conference Contributions
+
+Presentation slides and posters should not contain offensive or sexualised material. If this material is impossible to avoid given the topic (for example text mining of material from hate sites) the existence of this material should be noted in the abstract and, in the case of oral contributions, at the start of the talk or session.
+
+### Procedure for Code of Conduct Violations
+
+The organizing committee reserves the right to determine the appropriate response for all code of conduct violations. Potential responses include:
+
+- a formal warning to stop harassing behaviour
+- expulsion from the conference
+- cancellation or early termination of talks or other contributions to the program
+
+### What To Do If You Witness or Are Subject To Unacceptable Behaviour
+
+If you are being harassed, notice that someone else is being harassed, or have any other concerns relating to harassment, please contact Rohan Alexander - rohan.alexander@utoronto.ca, or Kelly Lyons - kelly.lyons@utoronto.ca.
+
+We will take all good-faith reports of harassment by Toronto Workshop on Reproducibility participants seriously.
+
+We reserve the right to reject any report we believe to have been made in bad faith. This includes reports intended to silence legitimate criticism.
+
+We will respect confidentiality requests for the purpose of protecting victims of abuse. We will not name harassment victims without their affirmative consent.
+
+Questions or concerns about the Code of Conduct can be addressed to rohan.alexander@utoronto.ca.
+
+### Acknowledgements
+
+Parts of the above text are licensed CC BY-SA 4.0. Credit to SRCCON. This code of conduct was based on that developed for useR! 2018 which was a revision of the code of conduct used at previous useR!s and also drew from rOpenSci’s code of conduct.
+
+
 
 
 
