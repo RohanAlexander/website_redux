@@ -157,8 +157,8 @@ knitr::include_graphics("images/book_week.jpg")
 - Content: [Simulation](https://www.tellingstorieswithdata.com/r-essentials.html#simulating-data), [power](https://www.tellingstorieswithdata.com/its-just-a-linear-model.html#on-p-values), [RCTs](https://www.tellingstorieswithdata.com/hunt-data.html#experiments-and-randomised-controlled-trials), [A/B testing](https://www.tellingstorieswithdata.com/hunt-data.html#ab-testing).
 - Case Study: [Upworthy A/B tests of headlines](https://www.tellingstorieswithdata.com/hunt-data.html#case-study---upworthy).
 - Special guest: [Kathy Ge on experiments at Uber](https://youtu.be/UYzXElJTovg).
-- Lecture recording: *TBA*. 
-- Lab: 
+- Lecture recording: https://youtu.be/DxejDFbrX-I 
+- Lab recording: https://youtu.be/zM9apCbbm80: 
   - Following the guidance of the TA, please use Blogdown to create a simple website and then design and execute a simple A/B test for your website using Netlify.
   
 
@@ -178,7 +178,7 @@ knitr::include_graphics("images/book_week.jpg")
 9 March 2021, 'Such a shame they'll never meet'.
 
 - Content: [Matching and difference in differences](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#difference-in-differences). 
-- Case Study: Tamar Oostrom, 2020, 'Funding of Clinical Trials and Reported Drug Efficacy'
+- Case Study: [Tamar Oostrom, 2020, 'Funding of Clinical Trials and Reported Drug Efficacy'](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#case-study---funding-of-clinical-trials-and-reported-drug-efficacy)
 - Special guest: [Emily Riederer on observational causal inference](https://youtu.be/VP3BBZ7poc0).
 - Lecture recording: *TBA*. 
 - Lab: 

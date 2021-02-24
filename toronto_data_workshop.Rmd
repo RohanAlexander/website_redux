@@ -47,7 +47,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | |
 | Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| Object oriented process mining. | |
 | Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*								| Data issues in Mexican demographic history. | |
-| Thu 22 Apr, 4:30-5:30pm 	| Aimee Schwab-McCoy, *Creighton University*, Ashley Juavinett, *UC San Diego*, Samantha-Jo Caetano, *University of Toronto*	| Panel on teaching data-focused topics. | |
+| Thu 22 Apr, 4:30-5:30pm 	| Aimee Schwab-McCoy, *Creighton University*, Ashley Juavinett, *UC San Diego*, Chris Papalia, *St. Andrew's College*, Samantha-Jo Caetano, *University of Toronto*	| Panel on teaching data-focused topics. | |
 
 
 
@@ -118,12 +118,12 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	[Emily A. Sellars](https://emilysellars.com) is an assistant professor in the Department of Political Science at Yale University. Before coming to Yale, she was an assistant professor in the Bush School of Government and Public Service at Texas A&M University and a postdoctoral scholar at the University of Chicago's Harris School of Public Policy. She received her Ph. D. in Political Science and Agricultural and Applied Economics from the University of Wisconsin–Madison in 2015. Her research interests are at the intersection of political economy and development economics. Her research examines the political economy of emigration and population.  
 	Emily will discuss issues in Mexican demographic history. 
 * Thursday, 22 April, 4:30-5:30pm  
-	**Aimee Schwab-McCoy**, Creighton University, **Ashley Juavinett**, UC San Diego, **Samantha-Jo Caetano**, University of Toronto   
-	[Aimee Schwab-McCoy](https://aimeeschwab-mccoy.github.io) is an Assistant Professor of Statistics at Creighton University. [Ashley Juavinett](https://ashleyjuavinett.com) is a neuroscientist, an educator, and a writer, currently working as an Assistant Teaching Professor at UC San Diego. Samantha-Jo Caetano is an Assistant Professor, Teaching Stream, at the University of Toronto.  
+	**Aimee Schwab-McCoy**, Creighton University, **Ashley Juavinett**, UC San Diego, **Chris Papalia**, St. Andrew's College, **Samantha-Jo Caetano**, University of Toronto   
+	[Aimee Schwab-McCoy](https://aimeeschwab-mccoy.github.io) is an Assistant Professor of Statistics at Creighton University. [Ashley Juavinett](https://ashleyjuavinett.com) is a neuroscientist, an educator, and a writer, currently working as an Assistant Teaching Professor at UC San Diego. Chris Papalia is a Mathematics and Science Teacher and Head of House at St. Andrew's College. Samantha-Jo Caetano is an Assistant Professor, Teaching Stream, at the University of Toronto.  
 	Panel on teaching data-focused topics. 
 
 
-
+ 
 
 
 
