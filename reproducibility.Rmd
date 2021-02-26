@@ -37,27 +37,26 @@ We intend to record the presentations and will add links here after the conferen
 
 ### Thursday, 25 February, 2021
 
-| Time 								| Speaker				 | Focus | 
-| -------- | ---------------------- | --------- |
-| 9:00-9:10am 	| Rohan Alexander, *University of Toronto* 											| Welcome|
-| 9:10-9:20am 	| Radu Craiu, *University of Toronto* 													| Opening remarks|
-| 9:20-9:30am 	| Wendy Duff, *University of Toronto* 													| Opening remarks|
-| 9:30-10:25am 	| Mine Çetinkaya-Rundel, *University of Edinburgh*              | Keynote - Teaching |
-| 10:30-11:30am | Riana Minocher, *Max Planck Institute for Evolutionary Anthropology* | Keynote - Evaluating|
-| 11:30-11:55am | Tiffany Timbers, *University of British Columbia*             | Teaching |
-| Noon-12:25pm 	| Tyler Girard, *University of Western Ontario*                 | Teaching |
-| 12:30-12:55pm | Shiro Kuriwaki, *Harvard University* 							            | Practices |
-| 1:00-1:25pm 	| Meghan Hoyer, *Washington Post* & Larry Fenn *AP*             | Practices |
-| 1:30-1:55pm 	| Tom Barton, *Royal Holloway, University of London* 						| Evaluating |
-| 2:00-2:25pm 	| *Break*  											                        		    |  |
-| 2:30-2:55pm 	| Mauricio Vargas, *Catholic University of Chile* & Nicolas Didier *Arizona State University* | Evaluating |
-| 3:00-3:25pm 	| Jake Bowers, *University of Illinois & The Policy Lab*        | Practices |
-| 3:30-3:55pm 	| Amber Simpson, *Queens University* 													  | Practices |
-| 4:00-4:25pm 	| Garret Christensen, *US FDIC*                                 | Evaluating |
-| 4:30-4:55pm 	| Yanbo Tang, *University of Toronto* 													| Practices |
-| 5:00-5:25pm 	| Lauren Kennedy, *Monash University* 													| Practices |
-| 5:30-6:00pm 	| Fiona Fidler, *University of Melbourne*                       | Evaluating |
-| 6:00-6:15pm 	| Lisa Strug, *University of Toronto & CANSSI Ontario* 					| Closing remarks|
+| Time 								| Speaker				 | Focus | Recording |
+| -------- | ---------------------- | --------- | --------- |
+| 9:00-9:10am 	| Rohan Alexander, *University of Toronto* 											| Welcome|  |
+| 9:10-9:20am 	| Radu Craiu, *University of Toronto* 													| Opening remarks| https://youtu.be/JGGVEgMBURU |
+| 9:20-9:30am 	| Wendy Duff, *University of Toronto* 													| Opening remarks | https://youtu.be/Z3aWU1A0FCw |
+| 9:30-10:25am 	| Mine Çetinkaya-Rundel, *University of Edinburgh*              | Keynote - Teaching | https://youtu.be/ANH2tv2vkew  |
+| 10:30-11:30am | Riana Minocher, *Max Planck Institute for Evolutionary Anthropology* | Keynote - Evaluating| https://youtu.be/O3t8TwWeli0 |
+| 11:30-11:55am | Tiffany Timbers, *University of British Columbia*             | Teaching | https://youtu.be/mh93W8XimOg |
+| Noon-12:25pm 	| Tyler Girard, *University of Western Ontario*                 | Teaching | https://youtu.be/k3qgmUAjIvA |
+| 12:30-12:55pm | Shiro Kuriwaki, *Harvard University* 							            | Practices | https://youtu.be/-J-eiPnmoNE |
+| 1:00-1:25pm 	| Meghan Hoyer, *Washington Post* & Larry Fenn *AP*             | Practices | https://youtu.be/FFwMfNk83rc |
+| 1:30-1:55pm 	| Tom Barton, *Royal Holloway, University of London* 						| Evaluating | https://youtu.be/YTdhcSDqFNQ |
+| 2:00-2:25pm 	| *Break*  											                        		    |  | |
+| 2:30-2:55pm 	| Mauricio Vargas, *Catholic University of Chile* & Nicolas Didier *Arizona State University* | Evaluating | https://youtu.be/VpTavLYEMgg |
+| 3:00-3:25pm 	| Jake Bowers, *University of Illinois & The Policy Lab*        | Practices | https://youtu.be/3N0YwJIbbHg |
+| 3:30-3:55pm 	| Amber Simpson, *Queens University* 													  | Practices | https://youtu.be/uUfrcB6aynQ |
+| 4:00-4:25pm 	| Garret Christensen, *US FDIC*                                 | Evaluating | https://youtu.be/595KkVKJ29w |
+| 4:30-4:55pm 	| Yanbo Tang, *University of Toronto* 													| Practices | https://youtu.be/0x6gOkldOvk |
+| 5:00-5:25pm 	| Lauren Kennedy, *Monash University* 													| Practices | https://youtu.be/HhfogRbgbA4 |
+| 5:30-6:00pm 	| Lisa Strug, *University of Toronto & CANSSI Ontario* 					| Closing remarks| https://youtu.be/B_9puTSp3f8 |
 
 
 ### Friday, 26 February, 2021
@@ -73,9 +72,9 @@ We intend to record the presentations and will add links here after the conferen
 | 11:30-11:55am | Emily Riederer, *Capital One* 														    | Practices	|
 | Noon-12:25pm 	| Florencia D'Andrea, *National Institute of Agricultural Technology* | Practices |
 | 12:30-12:55pm | John Blischak, *Freelance scientific software developer* 			| Practices	|
-| 1:00-1:25pm 	| *Break*  											                        		  |  |
-| 1:30-1:55pm 	| Shemra Rizzo, *Genentech*                                     | Practices |
-| 2:00-2:25pm 	| *Break*  											                        		  |  |
+| 1:00-1:25pm 	| Shemra Rizzo, *Genentech*                                     | Practices |
+| 1:30-1:55pm 	| *Break*  											                        		    |  |
+| 2:00-2:25pm 	| *Break-out sessions*  											                  |  |
 | 2:30-2:55pm 	| Wijdan Tariq, *University of Toronto*  						            | Evaluating |
 | 3:00-3:25pm 	| Sharla Gelfand, *Freelance R Developer* 											| Practices |
 | 3:30-3:55pm 	| Ryan Briggs, *University of Guelph* 													| Practices |
@@ -122,9 +121,6 @@ Invited presentations:
 - [Emily Riederer](https://emilyriederer.netlify.app) 
   - Bio: Emily Riederer is a Senior Analytics Manager at Capital One. Her team focuses on reimagining our analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to our partner teams.  
   - Abstract: Complex software systems make performance guarantees through documentation and unit tests, and they communicate these to users with conscientious interface design. However, published data tables exist in a gray area; they are static enough not to be considered a 'service' or 'software', yet too raw to earn attentive user interface design. This ambiguity creates a disconnect between data producers and consumers and poses a risk for analytical correctness and reproducibility. In this talk, I will explain how controlled vocabularies can be used to form contracts between data producers and data consumers. Explicitly embedding meaning in each component of variable names is a low-tech and low-friction approach which builds a shared understanding of how each field in the dataset is intended to work. Doing so can offload the burden of data producers by facilitating automated data validation and metadata management. At the same time, data consumers benefit by a reduction in the cognitive load to remember names, a deeper understanding of variable encoding, and opportunities to more efficiently analyze the resulting dataset. After discussing the theory of controlled vocabulary column-naming and related workflows, I will illustrate these ideas with a demonstration of the `convo` R package, which aids in the creation, upkeep, and application of controlled vocabularies. This talk is based on my related [blog post](https://emilyriederer.netlify.app/post/column-name-contracts/) and [R package](https://emilyriederer.github.io/convo).
-- [Fiona Fidler](https://fionaresearch.wordpress.com/about/) 
-  - Bio: Fiona Fidler is a professor at the University of Melbourne, with a joint appointment in the Schools of BioSciences and History and Philosophy of Science. She is broadly interested in how experts, including scientists, make decisions and change their minds. Her past research has examined how methodological change occurs in different disciplines, including psychology, medicine and ecology, and developed methods for eliciting reliable expert judgements to improve decision making. She originally trained as a psychologist, and maintains a strong interest in psychological methods. She also has an abiding interest is statistical controversies, for example, the ongoing debate over Null Hypothesis Significance Testing. She is a current Australian Research Council Future Fellow, and leads the University of Melbourne's Interdisciplinary MetaResearch Group (IMeRG), and the lead PI of the repliCATS project.  
-  - Abstract: The repliCATS (Collaborative Assessments for Trustworthy Science) project is a meta-research project about scientific research practices and replication rates in science. We can't afford to test and replicate every piece of research before it's published and the aim of this project is to crowdsource group predictions of the replicability of 3,000 published research claims in the social and behavioural sciences. We use a structured group discussion method, the Investigate, Discuss, Estimage, Aggregate (IDEA) protocol, developed at the University of Melbourne, to develop accurate prediction methods of replicability that could be especially useful for end-users of research including policymakers.
 - [Florencia D'Andrea](https://florencia.netlify.app/) 
   - Bio: Florencia D'Andrea is a post-doc at the Argentine National Institute of Agricultural Technology where she develops computer tools to assess the risk of pesticide applications for aquatic ecosystems. She holds a PhD in Biological Sciences from the University of Buenos Aires, Argentina, and is part of the ReproHack core-team and the R-Ladies global team. She believes that code and data should also be recognized as valuable products of scientific work.  
   - Abstract: Choose your own adventure to a reproducible scientific article: learnings from ReproHack
