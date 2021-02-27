@@ -39,7 +39,7 @@ We intend to record the presentations and will add links here after the conferen
 
 | Time 								| Speaker				 | Focus | Recording |
 | -------- | ---------------------- | --------- | --------- |
-| 9:00-9:10am 	| Rohan Alexander, *University of Toronto* 											| Welcome|  |
+| 9:00-9:10am 	| Rohan Alexander, *University of Toronto* 											| Welcome | - |
 | 9:10-9:20am 	| Radu Craiu, *University of Toronto* 													| Opening remarks| https://youtu.be/JGGVEgMBURU |
 | 9:20-9:30am 	| Wendy Duff, *University of Toronto* 													| Opening remarks | https://youtu.be/Z3aWU1A0FCw |
 | 9:30-10:25am 	| Mine Çetinkaya-Rundel, *University of Edinburgh*              | Keynote - Teaching | https://youtu.be/ANH2tv2vkew  |
@@ -49,7 +49,7 @@ We intend to record the presentations and will add links here after the conferen
 | 12:30-12:55pm | Shiro Kuriwaki, *Harvard University* 							            | Practices | https://youtu.be/-J-eiPnmoNE |
 | 1:00-1:25pm 	| Meghan Hoyer, *Washington Post* & Larry Fenn *AP*             | Practices | https://youtu.be/FFwMfNk83rc |
 | 1:30-1:55pm 	| Tom Barton, *Royal Holloway, University of London* 						| Evaluating | https://youtu.be/YTdhcSDqFNQ |
-| 2:00-2:25pm 	| *Break*  											                        		    |  | |
+| 2:00-2:25pm 	| *Break*  											                        		    | -  | - |
 | 2:30-2:55pm 	| Mauricio Vargas, *Catholic University of Chile* & Nicolas Didier *Arizona State University* | Evaluating | https://youtu.be/VpTavLYEMgg |
 | 3:00-3:25pm 	| Jake Bowers, *University of Illinois & The Policy Lab*        | Practices | https://youtu.be/3N0YwJIbbHg |
 | 3:30-3:55pm 	| Amber Simpson, *Queens University* 													  | Practices | https://youtu.be/uUfrcB6aynQ |
@@ -61,27 +61,26 @@ We intend to record the presentations and will add links here after the conferen
 
 ### Friday, 26 February, 2021
 
-| Time 								| Speaker				 | Focus | 
-| -------- | ---------------------- | --------- |
-| 8:00-8:30am 	| Nick Radcliffe and Pei Shan Yu, *Global Open Finance Centre of Excellence & University of Edinburgh*  | Practices	|
-| 8:30-9:00am 	| Julia Schulte-Cloos, *LMU Munich*                             | Practices	|
-| 9:00-9:25am 	| Simeon Carstens, *Tweag/IO* 														      | Practices	|
-| 9:30-9:55am 	| *Break*                                                       |  |
-| 10:00-10:55am | Eva Vivalt, *University of Toronto* 													| Keynote - Practices |
-| 11:00-11:25am | Andrés Cruz, *Pontificia Universidad Católica de Chile* 			| Practices |
-| 11:30-11:55am | Emily Riederer, *Capital One* 														    | Practices	|
-| Noon-12:25pm 	| Florencia D'Andrea, *National Institute of Agricultural Technology* | Practices |
-| 12:30-12:55pm | John Blischak, *Freelance scientific software developer* 			| Practices	|
-| 1:00-1:25pm 	| Shemra Rizzo, *Genentech*                                     | Practices |
-| 1:30-1:55pm 	| *Break*  											                        		    |  |
-| 2:00-2:25pm 	| *Break-out sessions*  											                  |  |
-| 2:30-2:55pm 	| Wijdan Tariq, *University of Toronto*  						            | Evaluating |
-| 3:00-3:25pm 	| Sharla Gelfand, *Freelance R Developer* 											| Practices |
-| 3:30-3:55pm 	| Ryan Briggs, *University of Guelph* 													| Practices |
-| 4:00-4:25pm 	| Monica Alexander, *University of Toronto* 										| Practices |
-| 4:30-4:55pm 	| Annie Collins, *University of Toronto* 												| Practices |
-| 5:00-5:25pm 	| Nancy Reid, *University of Toronto* 											    | Practices |
-| 5:30-6:00pm 	| Rohan Alexander, *University of Toronto* 											| Closing remarks |
+| Time 								| Speaker				 | Focus |  Recording |
+| -------- | ---------------------- | --------- | --------- |
+| 8:00-8:30am 	| Nick Radcliffe and Pei Shan Yu, *Global Open Finance Centre of Excellence & University of Edinburgh*  | Practices	| https://youtu.be/pWEc8XoIIKE |
+| 8:30-9:00am 	| Julia Schulte-Cloos, *LMU Munich*                             | Practices	| - |
+| 9:00-9:25am 	| Simeon Carstens, *Tweag/IO* 														      | Practices	| https://youtu.be/fpoFzDvrJAA |
+| 9:30-9:55am 	| *Break*                                                       | -  | - |
+| 10:00-10:55am | Eva Vivalt, *University of Toronto* 													| Keynote - Practices | https://youtu.be/0WZUzf2oSGY |
+| 11:00-11:25am | Andrés Cruz, *Pontificia Universidad Católica de Chile* 			| Practices | https://youtu.be/HjdPDEACxmA |
+| 11:30-11:55am | Emily Riederer, *Capital One* 														    | Practices	| https://youtu.be/BknQ0ZNkMNY |
+| Noon-12:25pm 	| Florencia D'Andrea, *National Institute of Agricultural Technology* | Practices | https://youtu.be/9FVUIPfBeXw |
+| 12:30-12:55pm | John Blischak, *Freelance scientific software developer* 			| Practices	| https://youtu.be/RrcaGukYDyE |
+| 1:00-1:25pm 	| Shemra Rizzo, *Genentech*                                     | Practices | https://youtu.be/rEYtB3CG76Q |
+| 1:30-2:25pm 	| *Break*  											                        		    | -  | - |
+| 2:30-2:55pm 	| Wijdan Tariq, *University of Toronto*  						            | Evaluating | - |
+| 3:00-3:25pm 	| Sharla Gelfand, *Freelance R Developer* 											| Practices | https://youtu.be/G5Nm-GpmrLw |
+| 3:30-3:55pm 	| Ryan Briggs, *University of Guelph* 													| Practices | https://youtu.be/_dgGbxItiB4 |
+| 4:00-4:25pm 	| Monica Alexander, *University of Toronto* 										| Practices | https://youtu.be/yvM2C6aZ94k |
+| 4:30-4:55pm 	| Annie Collins, *University of Toronto* 												| Practices | https://youtu.be/u4ibhN_nWyI |
+| 5:00-5:25pm 	| Nancy Reid, *University of Toronto* 											    | Practices | https://youtu.be/sIsOPuZOQL4 |
+| 5:30-6:00pm 	| Rohan Alexander, *University of Toronto* 											| Closing remarks | https://youtu.be/7LttFNOI6p8 |
 
 
 All times are Toronto / US east coast. 9am in Toronto `r emo::ji("canada")` is:  
@@ -117,7 +116,7 @@ Invited presentations:
   - Abstract: `inexact` is an RStudio addin to supervise fuzzy joins. Merging data sets is a simple procedure in most statistical software packages. However, applied researchers frequently face problems when dealing with data in which ID variables are not properly standardized. For instance, politicians' names can be spelled differently in multiple sources (press reports, official documents, etc.), causing regular merging methods to fail. The most common approach to fix this issue when working with small and medium data sets is manually fixing the problematic values before merging. However, this solution is time-consuming and not reproducible. An RStudio addin called “inexact” was created to help with this. The package draws from approximate string matching algorithms, which quantify the distance between two given strings. When merging data sets with non-standardized ID variables, `inexact` users benefit from automatic match suggestions, while also being able to override the automatic choices when needed, using a user-friendly graphical user interface (GUI). The output is simply code to perform the corrected merging procedure, which registers the employed algorithm and any corrections made by the user, ensuring reproducibility. A development version of `inexact` is available on [GitHub](https://github.com/arcruz0/inexact).
 - Annie Collins 
   - Bio: Annie Collins is an undergraduate student in the Department of Mathematics specializing in applied mathematics and statistics with a minor in history and philosophy of science. In her free time, she focusses her efforts on student governance, promoting women's representation in STEM, and working with data in the non-profit and charitable sector.  
-  - Abstract: *TBA*
+  - Abstract: We create a dataset of all the pre-prints published on medRxiv between 28 January 2020 and 31 January 2021. We extract the text from these pre-prints and parse them looking for keyword markers signalling the availability of the data and code underpinning the pre-print. We are unable to find markers of either open data or open code for 81 per cent of the pre-prints in our sample. Our paper demonstrates the need to have authors categorize the degree of openness of their pre-print as part of the medRxiv submissions process, and more broadly, the need to better integrate open science training into a wide range of fields
 - [Emily Riederer](https://emilyriederer.netlify.app) 
   - Bio: Emily Riederer is a Senior Analytics Manager at Capital One. Her team focuses on reimagining our analytical infrastructure by building data products, elevating business analysis with novel data sources and statistical methods, and providing consultation and training to our partner teams.  
   - Abstract: Complex software systems make performance guarantees through documentation and unit tests, and they communicate these to users with conscientious interface design. However, published data tables exist in a gray area; they are static enough not to be considered a 'service' or 'software', yet too raw to earn attentive user interface design. This ambiguity creates a disconnect between data producers and consumers and poses a risk for analytical correctness and reproducibility. In this talk, I will explain how controlled vocabularies can be used to form contracts between data producers and data consumers. Explicitly embedding meaning in each component of variable names is a low-tech and low-friction approach which builds a shared understanding of how each field in the dataset is intended to work. Doing so can offload the burden of data producers by facilitating automated data validation and metadata management. At the same time, data consumers benefit by a reduction in the cognitive load to remember names, a deeper understanding of variable encoding, and opportunities to more efficiently analyze the resulting dataset. After discussing the theory of controlled vocabulary column-naming and related workflows, I will illustrate these ideas with a demonstration of the `convo` R package, which aids in the creation, upkeep, and application of controlled vocabularies. This talk is based on my related [blog post](https://emilyriederer.netlify.app/post/column-name-contracts/) and [R package](https://emilyriederer.github.io/convo).
