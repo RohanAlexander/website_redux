@@ -44,6 +44,7 @@ knitr::include_graphics(c("images/cesR_hex.png"))
 
 #### Current
 
+- **Amy Farrow** is a Master of Information student at the University of Toronto. 
 - **Dan Xu** is a doctoral student in the Faculty of Information at the University of Toronto. His research focus is on misinformation propagation in politics.
 - **Ke-Li Chiu** is a Master of Information student at the University of Toronto. She is interested in natural language processing (NLP) and put together the `aRianna` R package and Shiny app for text cleaning and preparation described here: https://arxiv.org/abs/2101.05225. Work in progress involves GPT-3.
 - **Paul Hodgetts** is a Master of Information student at the University of Toronto. Paul put together `cesR`, which is an R package that makes it easier to gather and use the Canadian Election Study surveys from 1965 through to 2019, described here: https://osf.io/preprints/socarxiv/a29h8/. Work in progress involves estimates of stateless populations.
