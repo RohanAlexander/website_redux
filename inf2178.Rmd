@@ -164,43 +164,50 @@ knitr::include_graphics("images/book_week.jpg")
 
 ### Week 7
 
-2 March 2021, 'Post Hoc, Ergo Propter Hoc'.
-
-- Content: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics. Simpson's paradox, Berkson's paradox.
-- Case Study: Joshua Kalla and David Broockman, 2016, 'Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment'
-- Lecture recording: *TBA*. 
-- Lab: 
-  - Following the guidance of the TA, please look back on the case studies that we've covered so far. Please break up into small groups and create DAGs for each. Then write some notes about the potential for confounding, selection bias and measurement bias. Pick one person in your group to make a brief 2-minute presentation about what you did.
-
-
-### Week 8
-
-9 March 2021, 'Such a shame they'll never meet'.
+2 March 2021, 'Such a shame they'll never meet'.
 
 - Content: [Matching and difference in differences](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#difference-in-differences). 
 - Case Study: [Tamar Oostrom, 2020, 'Funding of Clinical Trials and Reported Drug Efficacy'](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#case-study---funding-of-clinical-trials-and-reported-drug-efficacy)
 - Special guest: [Emily Riederer on observational causal inference](https://youtu.be/VP3BBZ7poc0).
-- Lecture recording: *TBA*. 
+- Special guest: [Tamar Oostrom on funding of clinical trials](https://youtu.be/DdnpWS9Km5U).
+- Lecture recording: https://youtu.be/EaSpOBOGrkU. 
 - Lab: 
   - Following the guidance of the TA, please look at McClelland, Alexander, 2019, '"Lock This Whore Up": Legal Violence and Flows of Information Precipitating Personal Violence against People Criminalised for HIV-Related Crimes in Canada', *European Journal of Risk Regulation*, 10 (1), pp. 132-147. 
   - Then look at Policing the Pandemic - https://www.policingthepandemic.ca/. Look into how they gathered their dataset and what it took to put this together. What is in the dataset and why? What is missing and why? How could this affect the results? How might similar biases enter into other datasets that you have used or read about? 
   - Put together a brief model. You may like to write a short blog post about the biases and influences that are in this dataset (if you do that please do email a link to me out of interest). 
 
 
-### Week 9
+### Week 8
 
-16 March 2021, 'Why does it always rain on me?'.
+9 March 2021, 'Why does it always rain on me?'.
 
 - Content: [Regression discontinuity](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#regression-discontinuity-design) and [instrumental variables](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#instrumental-variables).
-- Case Study: James H. Ware, 1989, 'Investigating Therapies of Potentially Great Benefit: ECMO'.
+- Case Study: James H. Ware, 1989, 'Investigating Therapies of Potentially Great Benefit: ECMO', available [here](https://projecteuclid.org/journals/statistical-science/volume-4/issue-4/Investigating-Therapies-of-Potentially-Great-Benefit-ECMO/10.1214/ss/1177012384.full).
 - Lecture recording: *TBA*. 
 - Lab: 
-  - Following the guidance of the TA, please read and discuss: Pouwels, Koen B, Thomas House, Emma Pritchard, Julie V Robotham, Paul J Birrell, Andrew Gelman, Karina-Doris Vihta, Nikola Bowers, Ian Boreham, Heledd Thomas, James Lewis, Iain Bell, John I Bell, John N Newton, Jeremy Farrar, Ian Diamond, Pete Benton, Ann Sarah Walker, and COVID-19 Infection Survey team, 2020, 'Community prevalence of SARS-CoV-2 in England during April to November 2020: Results from the ONS Coronavirus Infection Survey', *The Lancet Public Health*, December 10, https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30282-6/fulltext. 
+  - TBD.
+
+
+### Week 9
+
+16 March 2021, 'Whoops, I forgot EDA'
+
+- Content: [Exploratory Data Analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html).
+- Case Study: *TBD*.
+- Lecture recording: *TBA*. 
+- Lab: 
+  - *TBD*.
 
 
 ### Week 10
 
-23 March 2021.
+23 March 2021.'Post Hoc, Ergo Propter Hoc'.
+
+- Content: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics. Simpson's paradox, Berkson's paradox.
+- Case Study: Joshua Kalla and David Broockman, 2016, 'Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment'
+- Lecture recording: *TBA*. 
+- Lab: 
+  - Following the guidance of the TA, please look back on the case studies that we've covered so far. Please break up into small groups and create DAGs for each. Then write some notes about the potential for confounding, selection bias and measurement bias. Pick one person in your group to make a brief 2-minute presentation about what you did.
 
 - No lecture or lab. In class test administered via Quercus (available for 24 hours).
 

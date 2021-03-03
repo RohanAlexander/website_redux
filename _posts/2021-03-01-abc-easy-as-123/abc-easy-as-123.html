@@ -85,381 +85,44 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Rohan Alexander: About this blog</title>
+  <title>AB MVP</title>
 
-  <meta property="description" itemprop="description" content="Some additional details about the blog"/>
+  <meta property="description" itemprop="description" content="I run through getting minimal viable A/B testing up and running in 15 minutes or less based on Google analytics, distill postcards, GitHub branches and Netlify. I base this on the wonderful Alison Hill post about getting started wtih postcards."/>
 
-  <link rel="icon" type="image/svg+xml" href="images/user-astronaut-solid.svg"/>
 
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-03-01"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-03-01"/>
+  <meta name="article:author" content="Rohan Alexander"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Rohan Alexander: About this blog"/>
+  <meta property="og:title" content="AB MVP"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Some additional details about the blog"/>
+  <meta property="og:description" content="I run through getting minimal viable A/B testing up and running in 15 minutes or less based on Google analytics, distill postcards, GitHub branches and Netlify. I base this on the wonderful Alison Hill post about getting started wtih postcards."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Rohan Alexander"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Rohan Alexander: About this blog"/>
-  <meta property="twitter:description" content="Some additional details about the blog"/>
-  <meta property="twitter:site" content="@RohanAlexander"/>
+  <meta property="twitter:title" content="AB MVP"/>
+  <meta property="twitter:description" content="I run through getting minimal viable A/B testing up and running in 15 minutes or less based on Google analytics, distill postcards, GitHub branches and Netlify. I base this on the wonderful Alison Hill post about getting started wtih postcards."/>
 
   <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=Distill: ’R markdown’ format for scientific and technical writing;citation_publication_date=2021;citation_author=JJ Allaire;citation_author=Rich Iannone;citation_author=Alison Presmanes Hill;citation_author=Yihui Xie"/>
+  <meta name="citation_reference" content="citation_title=The upworthy research archive;citation_publication_date=2019;citation_author=J. Nathan Matias;citation_author=Kevin Munger;citation_author=Marianne Aubin Le Quere;citation_author=Charles Ebersole"/>
+  <meta name="citation_reference" content="citation_title=Postcards: Create beautiful, simple personal websites;citation_publication_date=2021;citation_author=Sean Kross"/>
+  <meta name="citation_reference" content="citation_title=Distill: ’R markdown’ format for scientific and technical writing;citation_publication_date=2021;citation_author=JJ Allaire;citation_author=Rich Iannone;citation_author=Alison Presmanes Hill;citation_author=Yihui Xie"/>
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this blog"]},{"type":"character","attributes":{},"value":["Some additional details about the blog"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","bibliography","draft","collections"]}},"value":[{"type":"character","attributes":{},"value":["AB MVP"]},{"type":"character","attributes":{},"value":["I run through getting minimal viable A/B testing up and running in 15 minutes or less based on Google analytics, distill postcards, GitHub branches and Netlify. I base this on the wonderful Alison Hill post about getting started wtih postcards.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["rohanalexander.com"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]}]},{"type":"character","attributes":{},"value":["2021-03-01"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]},{"type":"character","attributes":{},"value":["references.bib"]},{"type":"logical","attributes":{},"value":[true]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["citations"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
-  <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["abc-easy-as-123_files/anchor-4.2.2/anchor.min.js","abc-easy-as-123_files/bowser-1.9.3/bowser.min.js","abc-easy-as-123_files/distill-2.2.21/template.v2.js","abc-easy-as-123_files/header-attrs-2.7.2/header-attrs.js","abc-easy-as-123_files/jquery-1.11.3/jquery.min.js","abc-easy-as-123_files/popper-2.6.0/popper.min.js","abc-easy-as-123_files/tippy-6.2.7/tippy-bundle.umd.min.js","abc-easy-as-123_files/tippy-6.2.7/tippy-light-border.css","abc-easy-as-123_files/tippy-6.2.7/tippy.css","abc-easy-as-123_files/tippy-6.2.7/tippy.umd.min.js","abc-easy-as-123_files/webcomponents-2.0.0/webcomponents.js","references.bib"]}
   </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -1775,83 +1438,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7.2/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="abc-easy-as-123_files/header-attrs-2.7.2/header-attrs.js"></script>
+  <script src="abc-easy-as-123_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="abc-easy-as-123_files/popper-2.6.0/popper.min.js"></script>
+  <link href="abc-easy-as-123_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="abc-easy-as-123_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="abc-easy-as-123_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="abc-easy-as-123_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="abc-easy-as-123_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="abc-easy-as-123_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="abc-easy-as-123_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <style type="text/css">
-  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-
-
-
-  .nav-dropdown-content {
-    color: #00f5d4;
-    background-color: #14213d;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #14213d;
-  }
-
-  .nav-dropdown-content a{
-    color: #00f5d4;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    color: #283044;
-  }
-
-  .distill-site-nav {
-    color: #283044;
-    background-color: #00f5d4;
-    font-weight: bold;
-  }
-
-  .distill-site-nav a:hover {
-    font-weight: bold;
-    color: #FFFFFF;
-  }
-
-  body {
-    background-color: #FFFFFF;
-  }
-
-  h1 {
-    color: #283044;
-  }
-
-  h2 {
-    color: #283044;
-  }
-
-  d-article h2 {
-  	border-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  /* Use specific font in the body of the text */
-  html, body, p {
-    
-    font-family: 'Raleway', sans-serif;
-
-    
-  }
-
-
-  </style>
   <!--/radix_placeholder_site_in_header-->
 
-  <link rel="stylesheet" href="styles.css" type="text/css"/>
 
 </head>
 
@@ -1860,84 +1459,118 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"About this blog","description":"Some additional details about the blog","authors":[]}
+{"title":"AB MVP","description":"I run through getting minimal viable A/B testing up and running in 15 minutes or less based on Google analytics, distill postcards, GitHub branches and Netlify. I base this on the wonderful Alison Hill post about getting started wtih postcards.","authors":[{"author":"Rohan Alexander","authorURL":{"rohanalexander.com":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-01T00:00:00.000+00:00","citationText":"Alexander, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">Rohan Alexander</a>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="academic.html">Academic</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Conferences and workshops
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="toronto_data_workshop.html">Toronto Data Workshop</a>
-<a href="reproducibility.html">2021 Toronto Workshop on Reproducibility</a>
-</div>
-</div>
-<a href="group.html">Group</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Teaching
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="teaching.html">Overview</a>
-<a href="inf2178.html">Experimental Design</a>
-<a href="sta304.html">Surveys, Sampling and Observational Data</a>
-<a href="reading_course-ethics.html">Reading course: 'Ethics and Data Science'</a>
-<a href="reading_course-nlp.html">Reading course: 'Natural Language Processing'</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Other
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="blog.html">Blog</a>
-<a href="bookshelf.html">Bookshelf</a>
-<a href="bookshelf.html">Professional</a>
-</div>
-</div>
-<a href="https://twitter.com/RohanAlexander">
-<i class="fab fa-twitter" aria-hidden="true"></i>
-</a>
-<a href="https://github.com/RohanAlexander">
-<i class="fab fa-github" aria-hidden="true"></i>
-</a>
-<a href="mailto:rohan.alexander@utoronto.ca">
-<i class="far fa-paper-plane" aria-hidden="true"></i>
-</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>About this blog</h1>
+<h1>AB MVP</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Some additional details about the blog</p></p>
+<p><p>I run through getting minimal viable A/B testing up and running in 15 minutes or less based on Google analytics, distill postcards, GitHub branches and Netlify. I base this on the wonderful Alison Hill post about getting started wtih postcards.</p></p>
 </div>
 
+<div class="d-byline">
+  Rohan Alexander true 
+  
+<br/>2021-03-01
+</div>
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#make-a-website-or-two">Make a website, or two</a>
+<ul>
+<li><a href="#dogs">Dogs</a></li>
+<li><a href="#cats">Cats</a></li>
+</ul></li>
+<li><a href="#host-them">Host them</a></li>
+<li><a href="#add-tracking">Add tracking</a></li>
+<li><a href="#next-steps">Next steps</a></li>
+</ul>
+</nav>
+</div>
+<h2 id="introduction">Introduction</h2>
+<p>We live in an age where, likely, we are subject to more experiments than ever before. Any time that you use (many/most/all?) a major websites, they are tracking your every movement and click, comparing those with other users, and then making adjustments based on that.</p>
+<p>The statistics that underpin A/B testing are well established and broadly relatively straight-forward, but the specifics of A/B testing complicate things. To get comfortable with it, it’s important to do it yourself. But A/B testing can be difficult to learn because it’s not really done by academics much, and there’s very little incentive for industry to share their findings let alone their raw data, so there are very few datasets available (one notable exception that I’m very grateful for being <span class="citation" data-cites="upworthy">(<a href="#ref-upworthy" role="doc-biblioref">Matias et al. 2019</a>)</span>).</p>
+<p>In this post, I’m going to walk through getting A/B testing set-up yourself so that you can play around with the details and come to understand it better. No aspect of this workflow is perfect, but having established the workflow, it’s easier to go back back and improve pieces of it. First we’re going to build two versions of the one website, then we’re going to get them onto GitHub and Netlify, finally, we’re going to add tracking.</p>
+<h2 id="make-a-website-or-two">Make a website, or two</h2>
+<h3 id="dogs">Dogs</h3>
+<p>To get started, we need a website, or rather two version of a website that we can compare. I’m going to follow Alison Hill’s blog post about creating ‘postcards’ fairly closely and to get the details, please see that write-up: <a href="https://alison.rbind.io/post/2020-12-22-postcards-distill/" class="uri">https://alison.rbind.io/post/2020-12-22-postcards-distill/</a>.</p>
+<p>We need the dev versions of a few packages that you may already have installed and we need to install the <code>postcards</code> package <span class="citation" data-cites="citepostcards">(<a href="#ref-citepostcards" role="doc-biblioref">Kross 2021</a>)</span>:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>remotes</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"rstudio/distill"</span><span class='op'>)</span>
+<span class='fu'>remotes</span><span class='fu'>::</span><span class='fu'><a href='https://remotes.r-lib.org/reference/install_github.html'>install_github</a></span><span class='op'>(</span><span class='st'>"rstudio/rmarkdown"</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/utils/install.packages.html'>install.packages</a></span><span class='op'>(</span><span class='st'>"postcards"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>Create a new project (File -&gt; New Project -&gt; New Directory -&gt; New Project) with a obvious name such as ‘cats_vs_dogs’ (again, go to Alison’s blog post for all the details) and then use distill <span class="citation" data-cites="citedistill">(<a href="#ref-citedistill" role="doc-biblioref">Allaire et al. 2021</a>)</span> to make a new website:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/rstudio/distill'>distill</a></span><span class='op'>)</span>
+<span class='fu'>distill</span><span class='fu'>::</span><span class='fu'><a href='https://pkgs.rstudio.com/distill//reference/create_website.html'>create_website</a></span><span class='op'>(</span>dir <span class='op'>=</span> <span class='st'>"."</span>, title <span class='op'>=</span> <span class='st'>"Dogs rule"</span>, gh_pages <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>Close R Studio, then re-open the project that you just created. Click ‘Build Website.’ Now we need to make a postcard (to be clear we could do this with any website, but I really like the postcards idea and it keeps things simple).</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>postcards</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/postcards/man/create_postcard.html'>create_postcard</a></span><span class='op'>(</span>file <span class='op'>=</span> <span class='st'>"tobi.Rmd"</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>Then open ‘tobi.Rmd’ and add ‘site: distill::distill_website’ into the yaml (on a new line just below the description). Then delete ‘index.Rmd’ and change ‘tobi.Rmd’ to ‘index.Rmd’ and finally rebuild the website.</p>
+<p>Now we need to make our website about dogs:</p>
+<ul>
+<li>Open ’_site.yml’ file and change the title to something that’s relevant.</li>
+<li>And open ‘index.Rmd,’ and change the paragraph to be about dogs.</li>
+<li>And finally, change the picture to be a dog.</li>
+</ul>
+<p>Re-build your site and you should have a page that’s all about dogs.</p>
+<p>At this point we want to add it to GitHub. I’m going to assume that you’ve got GitHub setup on R Studio (if not, see the Jenny Bryan GitHub bible: <a href="http://happygitwithr.com" class="uri">http://happygitwithr.com</a>) and so you can run:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>usethis</span><span class='fu'>::</span><span class='fu'><a href='https://usethis.r-lib.org/reference/use_git.html'>use_git</a></span><span class='op'>(</span><span class='op'>)</span>
+<span class='fu'>usethis</span><span class='fu'>::</span><span class='fu'><a href='https://usethis.r-lib.org/reference/use_github.html'>use_github</a></span><span class='op'>(</span><span class='op'>)</span>
+</code></pre>
+</div>
+</div>
+<p>So at this point, we have a perfectly good website about dogs. What we want is a second version of this website, about cats, that we can use to compare.</p>
+<h3 id="cats">Cats</h3>
+<p>We need a second version, but about cats. We’re going to create a new branch: in R Studio, go to the ‘Git’ pane and then click ‘New Branch.’ You’ll need to name the new branch, but it doesn’t really matter what we call it, so let’s just call it ‘Toronto’ to distinguish it. Then click ‘Create.’ You’ll be moved over to the new branch.</p>
+<p>You want to change the details that were about dogs, to be about cats, so that’s the written content in ‘index.Rmd,’ the title in ’_site.yml’, and change the picture.</p>
+<p>Then build the site and commit it to GitHub.</p>
+<h2 id="host-them">Host them</h2>
+<p>We now have to versions of the one website - one focused on cats and another focused on dogs. I’m going to use Netlify to host them (GitHub pages would be a popular option here, but we’re going to take advantage of Netlify’s A/B options). So create a Netlify account, or log in, then link your Netlify account with your GitHub and create a new site.</p>
+<p>Now we need to look at A/B integration.</p>
+<p>HERE</p>
+<h2 id="add-tracking">Add tracking</h2>
+<h2 id="next-steps">Next steps</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-citedistill" class="csl-entry" role="doc-biblioentry">
+Allaire, JJ, Rich Iannone, Alison Presmanes Hill, and Yihui Xie. 2021. <em>Distill: ’R Markdown’ Format for Scientific and Technical Writing</em>. <a href="https://CRAN.R-project.org/package=distill">https://CRAN.R-project.org/package=distill</a>.
+</div>
+<div id="ref-citedistill" class="csl-entry" role="doc-biblioentry">
+———. 2021. <em>Distill: ’R Markdown’ Format for Scientific and Technical Writing</em>. <a href="https://CRAN.R-project.org/package=distill">https://CRAN.R-project.org/package=distill</a>.
+</div>
+<div id="ref-citepostcards" class="csl-entry" role="doc-biblioentry">
+Kross, Sean. 2021. <em>Postcards: Create Beautiful, Simple Personal Websites</em>. <a href="https://CRAN.R-project.org/package=postcards">https://CRAN.R-project.org/package=postcards</a>.
+</div>
+<div id="ref-upworthy" class="csl-entry" role="doc-biblioentry">
+Matias, J. Nathan, Kevin Munger, Marianne Aubin Le Quere, and Charles Ebersole. 2019. <span>“The Upworthy Research Archive.”</span> <a href="https://upworthy.natematias.com">https://upworthy.natematias.com</a>.
+</div>
+</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -1949,7 +1582,10 @@ Other
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->
