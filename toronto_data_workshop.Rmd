@@ -37,14 +37,14 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | Thu 4 Feb, 4:30-5:30pm 	| Kathy Ge, *Uber* 																    | Experimentation and product design. | https://youtu.be/UYzXElJTovg |
 | Thu 11 Feb, 4:30-5:30pm 	| Garrick Aden-Buie, *R Studio* 									  | Using R Markdown. | https://youtu.be/Hl798H6J-bg |
 | Mon 15 Feb, Noon-1:00pm 	| Emily Riederer, *Capital One* 									  | Observational causal inference. | https://youtu.be/VP3BBZ7poc0 |
-| Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| |
-| Thu 25 Feb, 9:00-5:30pm 	| Various			| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
-| Fri 26 Feb, 9:00-5:30pm 	| Various		| [*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | |
+| Thu 18 Feb, 4:30-5:30pm 	| Annie Collins, Haoluan Chen, Isaac Ehrlich, Mariam Walaa, Marija Pejcinovska, Mathew Wankiewicz, Michael Chong, Paul Hodgetts, Rohan Alexander, Samantha-Jo Caetano, Shirley Deng, and Yena Joo, *University of Toronto* | DoSS toolkit launch.| https://youtu.be/aeAXvW3K_wU |
+| Thu 25 Feb, 9:00-5:30pm 	| Various			| [*Toronto Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | See [here](https://rohanalexander.com/reproducibility). |
+| Fri 26 Feb, 9:00-5:30pm 	| Various		| [*Toronto Workshop on Reproducibility*](https://rohanalexander.com/reproducibility) | See [here](https://rohanalexander.com/reproducibility). |
 | Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Simulation and retrospective data for health economic decision making.|https://youtu.be/-aZjLCPsO_w |
-| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 			| Using publicly-available data. | |
+| Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 			| Using publicly-available data. | https://youtu.be/6vDedpF0lfg |
 | Mon 15 Mar, 4:00-5:00pm 	| Todd Feathers, *Freelance reporter* 			| Algorithmic fairness in universities. *(jointly hosted with [Maryclare Griffin](https://maryclare.github.io))* | |
 | Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data. | |
-| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Royal Canadian Mint* 							| The power of great datasets. | |
+| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Muse* 							| The power of great datasets. |  |
 | Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | |
 | Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| Object oriented process mining. | |
 | Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*								| Data issues in Mexican demographic history. | |
@@ -86,10 +86,10 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	The DoSS toolkit is a series of self-paced lessons that students can go through ahead of class, to achieve badges for various levels of accomplishment with R. Instructors can use the badges to work out the level of the class and either direct students to the toolkit to address deficiencies or cover missing aspects themselves.
 * Thursday, 25 February, 9:00-6:30pm  
 	**Various speakers**  
-	[*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility)
+	[*Toronto Workshop on Reproducibility*](https://rohanalexander.com/reproducibility)
 * Friday, 26 February, 8:00-6:00pm  
 	**Various speakers**  
-	[*Toronto Data Workshop on Reproducibility*](https://rohanalexander.com/reproducibility)
+	[*Toronto Workshop on Reproducibility*](https://rohanalexander.com/reproducibility)
 * Thursday, 4 March, 4:30-5:30pm  
 	**Petros Pechlivanoglou**, The Hospital for Sick Children (SickKids) Research Institute  
 	Petros Pechlivanoglou, PhD, is a Scientist at The Hospital for Sick Children (SickKids) Research Institute and an Assistant Professor at the University of Toronto, Institute of Health Policy Management and Evaluation. He studied economics in his native country, Greece, econometrics at the University of Groningen, the Netherlands and obtained a PhD in health econometrics from the same university. He completed a post-doctoral fellowship at the University of Toronto, within the Toronto Health Economics and Technology Assessment (THETA) Collaborative where he focused on methodological aspects around the application of decision analysis in health-care policy.  
@@ -105,11 +105,11 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	Todd will talk about ['Major Universities are Using Race as a "High Impact Predictor" of Student Success'](https://themarkup.org/news/2021/03/02/major-universities-are-using-race-as-a-high-impact-predictor-of-student-success) published in *The Markup* on 2 March 2021.
 * Thursday, 18 March, 4:30-5:30pm  
 	**Sofia Ruiz-Suarez**, National University of Comahue  
-	Sofia Ruiz-Suarez holds an undergraduate degree in mathematics from the University of Buenos Aires and now is a PhD candidate at the institute for Research on Biodiversity and Environment. She also teaches mathematics at the University of Comahue and leads R-Ladies at her local city. Her research is focused on bayesian statistics with applications in animal behaviour and movement.  
+	[Sofia Ruiz-Suarez](https://twitter.com/sofiruizsuarez) holds an undergraduate degree in mathematics from the University of Buenos Aires and now is a PhD candidate at the institute for Research on Biodiversity and Environment. She also teaches mathematics at the University of Comahue and leads R-Ladies at her local city. Her research is focused on Bayesian statistics with applications in animal behaviour and movement.  
   Sofia will talk about animal tracking data. She will explain how sensors are used to track animal movement and activities, the characteristics of this type of data and how to deal with it.  
 * Thursday, 25 March, 4:30-5:30pm  
 	**Alex Cookson**, Royal Canadian Mint  
-	[Alex Cookson](https://www.alexcookson.com/) helps the Customer Intelligence team at the Royal Canadian Mint make the most of their data. When he's not working on A/B testing, recommendation engines, or exploratory data analysis at the Mint, he can be found participating in Tidy Tuesday or thinking up cool datasets to explore. And when he's not doing that, he's probably cycling around Toronto or doting on his two cats, Tom Tom and Ruby.  
+	[Alex Cookson](https://www.alexcookson.com/) is a Data Scientist at [Muse](https://choosemuse.com/), where he helps make the most of their data. In his spare time, you can find him participating in Tidy Tuesday or thinking up cool datasets to explore. And when he’s not doing that, he's probably cycling around Toronto or doting on his two cats, Tom Tom and Ruby.  
 	Alex will explore the power of great datasets, and discuss the importance of interesting, fun datasets as a way to guide and motivate learning R. 
 * Thursday, 1 April, 4:30-5:30pm  
 	**Vik Pant**, Natural Resources Canada.  
