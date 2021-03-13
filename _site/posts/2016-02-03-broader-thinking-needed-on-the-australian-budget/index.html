@@ -1557,7 +1557,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1807,7 +1810,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Broader Thinking Needed on the Australian Budget","description":"The Treasury Secretary, and many others, bemoan the wasted years of the mining boom. Most agree that Australia should have more to show for what was the most significant boom since Federation. But the boom is over. And a fixation on budget surpluses means that we are missing an opportunity to make up for it. Australia’s credit rating is a strength that we should take advantage of. The Commonwealth should be borrowing to fund infrastructure investment.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2016-02-03T00:00:00.000+00:00","citationText":"Alexander, 2016"}
+{"title":"Broader Thinking Needed on the Australian Budget","description":"The Treasury Secretary, and many others, bemoan the wasted years of the mining boom. Most agree that Australia should have more to show for what was the most significant boom since Federation. But the boom is over. And a fixation on budget surpluses means that we are missing an opportunity to make up for it. Australia’s credit rating is a strength that we should take advantage of. The Commonwealth should be borrowing to fund infrastructure investment.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2016-02-03T00:00:00.000-05:00","citationText":"Alexander, 2016"}
 </script>
 
 <!--/radix_placeholder_front_matter-->

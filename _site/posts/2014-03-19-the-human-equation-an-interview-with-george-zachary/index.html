@@ -1557,7 +1557,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1807,7 +1810,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"The Human Equation: An Interview With George Zachary","description":"In an age when you can buy data-driven refrigerators and Moneyball is nominated for Academy Awards you may be surprised to hear there are investors who describe themselves as gut-driven. Frankly I thought such people would be too embarrassed to be out in public. Then I heard George Zachary talk.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2014-03-19T00:00:00.000+00:00","citationText":"Alexander, 2014"}
+{"title":"The Human Equation: An Interview With George Zachary","description":"In an age when you can buy data-driven refrigerators and Moneyball is nominated for Academy Awards you may be surprised to hear there are investors who describe themselves as gut-driven. Frankly I thought such people would be too embarrassed to be out in public. Then I heard George Zachary talk.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2014-03-19T00:00:00.000-04:00","citationText":"Alexander, 2014"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
