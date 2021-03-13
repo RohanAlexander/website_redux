@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on grad school applications"
+title: "Saturday morning thoughts on grad school applications"
 description: |
   There's a huge amount of luck involved. Worry as much, if not more, about letters and your personal statement as you do about your GPA. Have a clear reason for wanting to go to the school/program that you're applying for and communicate that throughout your application.
 author:
@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Overview 
 
-Grad school application season is mostly done. I wanted to put together some general thoughts in case they're helpful for undergraduates applying next year. Please keep in mind that I'm new and interested in applied statistics. This advice probably doesn't apply for more-experienced, or less-applied, folks. 
+Grad school application season is mostly done. I wanted to quickly put together some general thoughts in case they're helpful for undergraduates applying next year. Please keep in mind that I'm new and interested in applied statistics. This advice probably doesn't apply for more-experienced, or less-applied, folks. 
 
 The main takeaways:
 
