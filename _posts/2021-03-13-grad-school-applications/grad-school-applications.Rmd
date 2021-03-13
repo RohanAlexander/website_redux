@@ -39,7 +39,7 @@ The main takeaways:
 
 ## CV and personal statement
 
-Be clear about why you're applying, show evidence of your work, and weave that into your narrative. When you do sales, the key to everything is identifying a ‘champion' in the firm that you want to sell to. Your job in sales is then to give that person the information they need to sell the rest of the firm on it. When you're applying to grad school, it's the exact same thing. You don't need all the faculty to love your application - you just need at least one of the reviewers to love it and for no one to hate it enough to veto. Your personal statement is a sales opportunity and will be when the faculty reviewers work out who they advocate for. It's hard to recover from a bad personal statement. You should get your letter writers to review it before you send it.
+Be clear about why you're applying, show evidence of your work, and weave that into your narrative. When you do sales, the key to everything is identifying a ‘champion' in the firm that you want to sell to. Your job in sales is then to give that person the information they need to sell the rest of the firm on it. When you're applying to grad school, it's a similar situation. You don't need all the faculty to love your application - you just need at least one of the reviewers to love it and for no one to hate it enough to veto. Your personal statement is a sales opportunity and will be when the faculty reviewers work out who they advocate for. It's hard to recover from a bad personal statement. You should get your letter writers to review it before you send it.
 
 - Use the combination of your CV and personal statement to craft a narrative (which your letters and transcript support).
 - Articulate the reason that you want to attend the department/school that you're applying for.
@@ -58,7 +58,7 @@ Be clear about why you're applying, show evidence of your work, and weave that i
 
 The best letters are from folks that know you and your work. You need to spend a huge amount of effort getting decent letters. They're as important, if not more, as your GPA.
 
-- The strongest letters are from folks who know you well and can credibly say you're in the top 5 per cent of something. Usually, this type of letter looks better than someone who doesn't know you well, even if they're a famous professor, and even if you got an A in their class.
+- The strongest letters are from folks who know you well. Usually, this type of letter looks better than someone who doesn't know you well, even if they're a famous professor, and even if you got an A in their class.
 - If possible try to work for a professor, ideally a quantitative one, because it can be more difficult to understand the evidence that non-quantitative-professors bring. 
 	- How do you get a job with a professor so that they will write you a letter? The best way is to excel in a course that they teach and then ask to work for them. Or excel in a course and then ask that professor to recommend you to the professor you want to work for. 
 	- There's a language that good letters use. You need to be very thoughtful in your choice of letter writers because you can't control what is written about you, other than through your choice of letter writer. 
@@ -78,3 +78,8 @@ Grades are important, but not everything. Your transcript needs to reflect the n
 ## Concluding remarks
 
 Getting in anywhere requires a healthy dose of luck. It's not a reflection of your worth as an academic, and especially not as a person. You can't control who reviews your application, or who has funding to take students that year, or the other students applying that year. There's also just incredible competition for these spots. There's an awful lot of chance involved. There's nothing you can do about this other than not tie your self-worth to it.
+
+
+## Acknowledgments {.appendix}
+
+Without wanting to implicate her in anything said here, thanks to Monica Alexander for reading many drafts of this.
