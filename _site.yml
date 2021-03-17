@@ -14,12 +14,6 @@ navbar:
       href: index.html
     - text: "Academic"
       href: academic.html
-    - text: "Conferences and workshops"
-      menu: 
-        - text: "Toronto Data Workshop"
-          href: toronto_data_workshop.html
-        - text: "2021 Toronto Workshop on Reproducibility"
-          href: reproducibility.html
     - text: "Group"
       href: group.html
     - text: "Teaching"
@@ -34,6 +28,8 @@ navbar:
           href: reading_course-ethics.html
         - text: "Reading course: 'Natural Language Processing'"
           href: reading_course-nlp.html
+    - text: "Toronto Data Workshop"
+      href: toronto_data_workshop.html
     - text: "Other"
       menu: 
         - text: "Blog"
@@ -42,6 +38,8 @@ navbar:
           href: bookshelf.html
         - text: "Professional"
           href: bookshelf.html
+        - text: "2021 Toronto Workshop on Reproducibility"
+          href: reproducibility.html
     - icon: fab fa-twitter
       href: https://twitter.com/RohanAlexander
     - icon: fab fa-github

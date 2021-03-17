@@ -167,7 +167,7 @@ knitr::include_graphics("images/book_week.jpg")
 2 March 2021, 'Such a shame they'll never meet'.
 
 - Content: [Matching and difference in differences](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#difference-in-differences). 
-- Case Study: [Tamar Oostrom, 2020, 'Funding of Clinical Trials and Reported Drug Efficacy'](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#case-study---funding-of-clinical-trials-and-reported-drug-efficacy)
+- Case Study: [Funding of Clinical Trials and Reported Drug Efficacy](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#case-study---funding-of-clinical-trials-and-reported-drug-efficacy)
 - Special guest: [Emily Riederer on observational causal inference](https://youtu.be/VP3BBZ7poc0).
 - Special guest: [Tamar Oostrom on funding of clinical trials](https://youtu.be/DdnpWS9Km5U).
 - Lecture recording: https://youtu.be/EaSpOBOGrkU. 
@@ -197,16 +197,14 @@ knitr::include_graphics("images/book_week.jpg")
 
 - Content: [Exploratory Data Analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html).
 - Case Study: Please pick one chapter from Catherine D'Ignazio and Lauren F. Klein, *Data Feminism*, that is of interest to you and read it (freely available: https://data-feminism.mitpress.mit.edu).
-- Lecture recording: *TBA*. 
-- Lab: 
-  - *TBD*.
+- Lecture/lab recording: https://youtu.be/wB2NBUHNXhI. 
 
 
 ### Week 10
 
 23 March 2021.'Post Hoc, Ergo Propter Hoc'.
 
-- Content: DAGs, confounding, selection bias, and measurement bias. Factorial designs, Latin Squares, blocking, and the other classics. Simpson's paradox, Berkson's paradox.
+- Content: [DAGs, bias, and paradoxes](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#dags-and-trying-not-to-be-tricked-by-the-data).
 - Case Study: Joshua Kalla and David Broockman, 2016, 'Campaign Contributions Facilitate Access to Congressional Officials: A Randomized Field Experiment'
 - Lecture recording: *TBA*. 
 - Lab: 
