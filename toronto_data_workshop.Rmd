@@ -43,7 +43,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | Thu 4 Mar, 4:30-5:30pm 	| Petros Pechlivanoglou, *The Hospital for Sick Children (SickKids) Research Institute* | Simulation and retrospective data for health economic decision making.| https://youtu.be/-aZjLCPsO_w |
 | Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 			| Using publicly-available data. | https://youtu.be/6vDedpF0lfg |
 | Mon 15 Mar, 4:00-5:00pm 	| Todd Feathers, *Freelance reporter* 			| Algorithmic fairness in universities. *(jointly hosted with [Maryclare Griffin](https://maryclare.github.io))* | https://youtu.be/Hw5viOofnC0 |
-| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data. | |
+| Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data. | https://youtu.be/GMi5nLl4wos |
 | Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Muse* 							| The power of great datasets. |  |
 | Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | |
 | Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| Object oriented process mining. | |
@@ -108,7 +108,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 	[Sofia Ruiz-Suarez](https://twitter.com/sofiruizsuarez) holds an undergraduate degree in mathematics from the University of Buenos Aires and now is a PhD candidate at the institute for Research on Biodiversity and Environment. She also teaches mathematics at the University of Comahue and leads R-Ladies at her local city. Her research is focused on Bayesian statistics with applications in animal behaviour and movement.  
   Sofia will talk about animal tracking data. She will explain how sensors are used to track animal movement and activities, the characteristics of this type of data and how to deal with it.  
 * Thursday, 25 March, 4:30-5:30pm  
-	**Alex Cookson**, Royal Canadian Mint  
+	**Alex Cookson**, Muse  
 	[Alex Cookson](https://www.alexcookson.com/) is a Data Scientist at [Muse](https://choosemuse.com/), where he helps make the most of their data. In his spare time, you can find him participating in Tidy Tuesday or thinking up cool datasets to explore. And when he’s not doing that, he's probably cycling around Toronto or doting on his two cats, Tom Tom and Ruby.  
 	Alex will explore the power of great datasets, and discuss the importance of interesting, fun datasets as a way to guide and motivate learning R. 
 * Thursday, 1 April, 4:30-5:30pm  
