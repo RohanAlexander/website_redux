@@ -13,16 +13,14 @@ My work is arranged around three tranches:
 - Natural language processing (NLP).
 - Statistical workflow.
 
-# Published papers
-* Rohan Alexander and Zach Ward, 2018, '[Age at Arrival and Assimilation During the Age of Mass Migration](https://www.cambridge.org/core/journals/journal-of-economic-history/article/age-at-arrival-and-assimilation-during-the-age-of-mass-migration/85FDB674232C30BDD889711D343F22FE)', *The Journal of Economic History*, 78(3), 904-937.  
-[Working paper version](pdfs/2018_02_21-Age_at_arrival.pdf).
+# Papers
 
+* Ke-Li Chiu and Rohan Alexander, 2021, 'Detecting Hate Speech with GPT-3', *arXiv*, 23 March, https://arxiv.org/abs/2103.12407.
+* Ke-Li Chiu and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
+* Paul A. Hodgetts and Rohan Alexander, 2020, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
+* Rohan Alexander and Zach Ward, 2018, '[Age at Arrival and Assimilation During the Age of Mass Migration](https://www.cambridge.org/core/journals/journal-of-economic-history/article/age-at-arrival-and-assimilation-during-the-age-of-mass-migration/85FDB674232C30BDD889711D343F22FE)', *The Journal of Economic History*, 78(3), 904-937. [Working paper version](pdfs/2018_02_21-Age_at_arrival.pdf).
 
-# Working papers
-
-* [Ke-Li Chiu](https://kelichiu.com) and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
-* [Paul A. Hodgetts](http://www.hodgettsp.com/) and Rohan Alexander, 2020, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
-* [Monica Alexander](monicaalexander.com) and Rohan Alexander, '[The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)](pdfs/AlexanderAlexander-EffectofElectionsandPrimeMinisters.pdf)'.  
+<!-- * [Monica Alexander](monicaalexander.com) and Rohan Alexander, '[The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)](pdfs/AlexanderAlexander-EffectofElectionsandPrimeMinisters.pdf)'.   -->
 
 
 # Datasets
