@@ -44,9 +44,9 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 | Thu 11 Mar, 4:30-5:30pm 	| Lucas Cherkewski, *Canadian Digital Service* 			| Using publicly-available data. | https://youtu.be/6vDedpF0lfg |
 | Mon 15 Mar, 4:00-5:00pm 	| Todd Feathers, *Freelance reporter* 			| Algorithmic fairness in universities. *(jointly hosted with [Maryclare Griffin](https://maryclare.github.io))* | https://youtu.be/Hw5viOofnC0 |
 | Thu 18 Mar, 4:30-5:30pm 	| Sofia Ruiz Suarez, *National University of Comahue* 							| Animal tracking data. | https://youtu.be/GMi5nLl4wos |
-| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Muse* 							| The power of great datasets. |  |
-| Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | |
-| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| Object oriented process mining. | |
+| Thu 25 Mar, 4:30-5:30pm 	| Alex Cookson, *Muse* 							| The power of great datasets. | https://youtu.be/E2aRKZczqKY  |
+| Thu 1 Apr, 4:30-5:30pm 	| Vik Pant, *Natural Resources Canada* 								| Integrating science & policy through DS & AI. | - |
+| Thu 8 Apr, 4:30-5:30pm 	| Faria Khandaker, *University of Toronto* 						| 'Mining Process Models from Email Data. | https://youtu.be/2M32PbclTnE |
 | Thu 15 Apr, 4:30-5:30pm 	| Emily A. Sellars, *Yale University*								| Data issues in Mexican demographic history. | |
 | Thu 22 Apr, 4:30-5:30pm 	| Aimee Schwab-McCoy, *Creighton University*, Ashley Juavinett, *UC San Diego*, Chris Papalia, *St. Andrew's College*, Samantha-Jo Caetano, *University of Toronto*	| Panel on teaching data-focused topics. | |
 
@@ -118,11 +118,11 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/tdw_snowflake.png",
 * Thursday, 8 April, 4:30-5:30pm  
 	**Faria Khandaker**, University of Toronto  
 	Faria is a 2nd year student of the Information Systems and Design Concentration at the Faculty of Information and is one of the co-hosts of the Toronto Data Workshop. She holds an Honour's Bachelor of Science Degree in Anthropology and Human Biology from the University of Toronto Scarborough. Since starting her masters, she became interested in research related to data-driven decision making within organizations. Under the supervision of Professor Arik Senderovich, she is researching topics related to the application of Machine Learning within the field of Process Mining and exploring various methodologies for gaining insights from email driven business processes.  
-	Faria will discuss Object Oriented Process Mining. 
+	Faria will discuss mining process models from email data. 
 * Thursday, 15 April, 4:30-5:30pm  
 	**Emily A. Sellars**, Yale University  
 	[Emily A. Sellars](https://emilysellars.com) is an assistant professor in the Department of Political Science at Yale University. Before coming to Yale, she was an assistant professor in the Bush School of Government and Public Service at Texas A&M University and a postdoctoral scholar at the University of Chicago's Harris School of Public Policy. She received her Ph. D. in Political Science and Agricultural and Applied Economics from the University of Wisconsin–Madison in 2015. Her research interests are at the intersection of political economy and development economics. Her research examines the political economy of emigration and population.  
-	Emily will discuss issues in Mexican demographic history. 
+	Emily will discuss missing data and mis-measurement in Mexico's 1900 census and the Historical Archive of Localities (AHL).
 * Thursday, 22 April, 4:30-5:30pm  
 	**Aimee Schwab-McCoy**, Creighton University, **Ashley Juavinett**, UC San Diego, **Chris Papalia**, St. Andrew's College, **Samantha-Jo Caetano**, University of Toronto   
 	[Aimee Schwab-McCoy](https://aimeeschwab-mccoy.github.io) is an Assistant Professor of Statistics at Creighton University. [Ashley Juavinett](https://ashleyjuavinett.com) is a neuroscientist, an educator, and a writer, currently working as an Assistant Teaching Professor at UC San Diego. Chris Papalia is a Mathematics and Science Teacher and Head of House at St. Andrew's College. Samantha-Jo Caetano is an Assistant Professor, Teaching Stream, at the University of Toronto.  
