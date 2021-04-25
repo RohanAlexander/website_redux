@@ -3,7 +3,7 @@ title: "Home"
 site: distill::distill_website
 ---
 
-*23 March 2021: If you are interested in natural language processing you might like my pre-print with Ke-Li Chiu 'Detecting Hate Speech with GPT-3', available here: https://arxiv.org/abs/2103.12407.*
+*25 April 2021: If you gather lots of PDFs, CSVs, and similar files from the internet, you might be interested in my R package 'heapsofpapers', available here: https://rohanalexander.github.io/heapsofpapers/.*
 
 Hi, I'm Rohan Alexander.
 
