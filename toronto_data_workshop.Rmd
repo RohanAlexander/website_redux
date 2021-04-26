@@ -42,18 +42,18 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Date | Speaker | Topic | Recording |
 | --------- | --------------- | ------------- | ----- |
 | Fri 21 May 2021, noon-1pm | David Shor, *OpenLabs* | TBD | |
-| Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | Broadway data | |
-| Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in Data | |
+| Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | Broadway data. | |
+| Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | |
 | Fri 11 June 2021, noon-1pm | Laura Bronner, *FiveThirtyEight* | TBD | |
-| Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to Dashboard | |
-| Fri 25 June 2021, noon-1pm | Nick Huntington-Klein, *Seattle University* | Data cleaning, replication, and researcher decisions | |
+| Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to dashboard. | |
+| Fri 25 June 2021, noon-1pm | Nick Huntington-Klein, *Seattle University* | Data cleaning, replication, and researcher decisions. | |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* | TBD | |
 | Fri 9 July 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | TBD |  |
 | Fri 16 July 2021, noon-1pm | Leslie Root, *University of Colorado Boulder* | TBD | |
 | Fri 23 July 2021, noon-1pm | Maria Kamenetsky, *University of Wisconsin-Madison* | TBD | |
 | Fri 30 July 2021, noon-1pm | Vincent Arel-Bundock, *Université de Montréal* | The 'modelsummary' R package. | |
-| Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  |  |  |
-| Fri 13 August 2021, noon-1pm | Silvia Canelón, *University of Pennsylvania* | Lessons Learned from EHR Data | |
+| Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
+| Fri 13 August 2021, noon-1pm | Silvia Canelón, *University of Pennsylvania* | Lessons from EHR data. | |
 | Fri 20 August 2021, 9am-1pm | Undergraduate research day | | |
 | Fri 27 August 2021, noon-1pm | Jingchen (Monika) Hu, *Vassar College*, Lisa Lendway, *Macalester College*, Vincenzo Coia, *University of British Columbia, Vancouver* | Panel on teaching data-focused topics. | |
 
