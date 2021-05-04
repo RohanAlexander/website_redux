@@ -30,10 +30,10 @@ navbar:
           href: reading_course-nlp.html
     - text: "Toronto Data Workshop"
       href: toronto_data_workshop.html
+    - text: "Blog"
+      href: blog.html
     - text: "Other"
       menu: 
-        - text: "Blog"
-          href: blog.html
         - text: "Bookshelf"
           href: bookshelf.html
         - text: "Professional"
