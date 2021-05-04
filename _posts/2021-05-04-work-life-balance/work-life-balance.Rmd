@@ -7,6 +7,7 @@ author:
     url:
       rohanalexander.com: {}
 date: 2021-05-04
+thanks: "test"
 preview: were_all_just_fingerpainting.png
 output:
   distill::distill_article:
@@ -39,7 +40,7 @@ I don't think there's only one optimal work-life balance, and if there is one, t
 
 The first lesson is that you're smart enough to work out what works for you. When my first child was born, it was all a bit challenging. As folks who have done or are doing a PhD, we're trained in, and selected for, certain attributes, and none of those have any relation to your ability to care for an infant when it's 3am and you've not slept, and the child won't eat. I did what I was trained to do, which was look at the literature, synthesize it, plan, and execute. And of course, that didn't help.
 
-One of my PhD supervisors had also had a challenging time around the birth of her children, and she emailed me, and she said ‘you're smart enough to work out what works for you'. And that's the key bit. You're here. The admissions committee doesn't make mistakes.
+One of my PhD supervisors had also had a challenging time around the birth of her children, and she emailed me, and she said, 'you're smart enough to work out what works for you'. And that's the key bit. You're here. The admissions committee doesn't make mistakes.
 
 Today is all about us giving you advice, but in the end you're smart enough to work out what work-life balance works for you.
 
@@ -55,7 +56,7 @@ Ignore what others are doing, and react to your own circumstances.
 
 The third lesson is that doing a PhD is really, really hard (and it's meant to be). The fundamental purpose of doing a PhD is to create new knowledge. Knowledge that literally no one in the world has. 
 
-One way to think about it is that you're going to become the world champion in one tiny little aspect of the world. The days of Oxbridge gentlemen athletes winning Olympic medals are gone, and that's true also of easy PhDs. What's left for us is the stuff that takes a huge amount of effort. Recognizing that fact, and the implication that—working really hard at this is what it's going to take—is crucial. 
+One way to think about it is that you're going to become the world champion in one tiny little aspect of the world. The days of Oxbridge gentlemen athletes winning Olympic medals are gone, and that's true also of easy PhDs. What's left for us is the stuff that takes a huge amount of effort. Recognizing that fact, and the implication that working really hard at this is what it's going to take, is crucial. 
 
 The work-life balance that I experience in a university isn't, and cannot be, the work-life balance of those that I know outside of universities. This job is just really different. You have to be prepared for things to be hard, and to work hard, and try not to take it personally when things don't work out straight away. It's part of the process
 
@@ -102,13 +103,13 @@ I think it's a spectrum. For some people, work is work, and life is life and the
 
 If you enjoy coding, then taking a break from work might mean doing a fun coding project. If you enjoy hiking, then taking a break from work might mean going hiking. When my wife was doing her PhD, we went on road trips and worked in different environments. We did this because we loved our work, not because anyone was forcing us. We went to different cafes, and ate different foods, and ran in different parks, and went to different pubs, but for most of the day we sat at tables in random Airbnbs and worked. We have great memories of that, but not everyone wants to do that and that's okay.
 
-Initially, your supervisor will put a huge amount of pressure on yourself, but I've found that as I've gotten older the person putting the most pressure on me is myself. Once you're at that stage, if you think ‘oh I want a break, but I should get this done because the code isn't working, or I need to get it to my collaborator, or whatever', then chances are that it's okay and you should probably just email the collaborator to say that it'll be a week late and then take the week off. From time to time, I'll just declare a day off and not open the computer. If you think that maybe you don't have time for something, then you are probably right and you need to get out of it.
+Initially, your supervisor will put a huge amount of pressure on you, but I've found that as I've gotten older the person putting the most pressure on me is myself. Once you're at that stage, if you think 'oh I want a break, but I should get this done because the code isn't working, or I need to get it to my collaborator, or whatever', then chances are that it's okay and you should probably just email the collaborator to say that it'll be a week late and then take the week off. From time to time, I'll just declare a day off and not open the computer. If you think that maybe you don't have time for something, then you are probably right and you need to get out of it.
 
 In grad school I've found that many people lose their hobbies. But maybe there is value in trying to make time, particularly for exercise. So, things like going for a run or being part of a team might be important for you. During my PhD a lot of my friends continued with rock-climbing, or cycling, or took up walking. 
 
 ## Between the ideal and the reality falls the shadow
 
-Increasingly we see that the composition of academia is changing, for instance, in terms of the proportion of women in masters and PhD programs and junior faculty. However, institutional structures at all stages of  academia are still fundamentally designed for people—particularly men—without caring responsibilities; and as such those who do not fit this mould often face enormous challenges
+Increasingly we see that the composition of academia is changing, for instance, in terms of the proportion of women in masters and PhD programs and junior faculty. However, institutional structures at all stages of academia are still fundamentally designed for people—particularly men—without caring responsibilities; and as such those who do not fit this mould often face enormous challenges
 
 While things have changed, this structural issue has been increasingly brought to light during the pandemic. NSERC submission deadlines remained the same. NSERC grant application requirements remained the same. I said earlier that you should take a week off, but the amount of work to be done remains the same and NSERC doesn't change its deadlines just because you took a week off. Similarly, departments here didn't change their teaching, or service requirements. 
 
@@ -124,3 +125,7 @@ I think that there's value in the struggle. Even if my cohort of academics with 
 
 Thanks very much to Tony for giving me the opportunity to reflect on work-life balance at universities and how that changes over the life course, and I hope that he doesn't regret providing me with the platform too much. I'd be happy to take any questions.
 
+
+## Acknowledgments {.appendix}
+
+Thank you very much to Monica for reading a draft of this. Thank you also to John, Zach, Martine, Tim, and Jill at the ANU, and Kelly at U of T for helpful conversations about this topic at various points in time.
