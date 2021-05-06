@@ -1,7 +1,7 @@
 ---
-title: "Univeristy of Toronto Data Workshop"
+title: "University of Toronto Data Workshop"
 description: |
-  We share best practice in the data munging/cleaning/prep/comms stages that are essential for any data science project, but that folks typically don't talk about. We meet for an hour each week and are interested in anything that is data-focused across academia and industry. Fridays at noon (Toronto time) via Zoom, with most talks recorded and shared. All welcome. Free. Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+  We share best practice for doing data science, and are especially interested in the data munging/cleaning/prep/comms stages that folks typically don't talk about. We meet for an hour each week and are interested in anything that is data-focused across academia and industry. Typically, Fridays at noon (Toronto time) via Zoom, with most talks recorded and shared. All welcome. Free. Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 output:
   distill::distill_article:
     toc: true
@@ -15,10 +15,11 @@ library(fontawesome)
 
 # Overview
 
-The University of Toronto Data Workshop (TDW) brings together academia and industry to consider, collate, share, and disseminate best practices in the data-centric steps of a data science project: collection; cleaning; storage; retrieval; dissemination; protection; communication. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
+The University of Toronto Data Workshop (TDW) brings together academia and industry to consider, collate, share, and disseminate best practices in doing data science, especially in the data-centric steps of a data science project: collection; cleaning; storage; retrieval; dissemination; protection; and communication. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
 
 Current organising committee: 
 
+- Amy Farrow,
 - [Kelly Lyons](http://individual.utoronto.ca/klyons/), 
 - Lorena Almaraz De La Garza, and 
 - Rohan Alexander. 
@@ -51,6 +52,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 9 July 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | TBD |  |
 | Fri 16 July 2021, noon-1pm | Leslie Root, *University of Colorado Boulder* | TBD | |
 | Fri 23 July 2021, noon-1pm | Maria Kamenetsky, *University of Wisconsin-Madison* | TBD | |
+| Tue 27 July 2021, noon-1pm | Irena Papst, *Cornell University* | TBD | |
 | Fri 30 July 2021, noon-1pm | Vincent Arel-Bundock, *Université de Montréal* | The 'modelsummary' R package. | |
 | Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
 | Fri 13 August 2021, noon-1pm | Silvia Canelón, *University of Pennsylvania* | Lessons from EHR data. | |
@@ -60,32 +62,32 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 
 
 * Friday, 21 May 2021, Noon - 1pm  
-	**David Shor**, OpenLabs, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/davidshor)    
+	**David Shor**, OpenLabs, [`r fa("twitter", fill = "black")`](https://twitter.com/davidshor)    
 	Bio: [David](https://davidshor.io) is an American data scientist who tries to elect Democrats. He is known for analyzing political polls and currently serves as head of data science with OpenLabs, a progressive nonprofit, and also as a Senior Fellow with the Center for American Progress Action Fund.    
 	Topic: TBA.  
 	Recording: TBA.  
 * Friday, 28 May 2021, Noon - 1pm  
-	**Samantha Pierre**, University of Toronto, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/whambamgam)    
+	**Samantha Pierre**, University of Toronto, [`r fa("twitter", fill = "black")`](https://twitter.com/whambamgam)    
 	Bio: Samantha is a fourth-year statistics student studying at the University of Toronto. Throughout the past year she has combined her love for theatre and statistics to analyze trends in the theatre community. She volunteers as a member of PAIR-CG to create a representational framework for the international theatre community. She currently works at WOMBO, an app developed by former U of T students, as head of music content.  
 	Topic: Data cleaning and Broadway analysis.  
 	Recording: TBA.  
 * Friday, 4 June 2021, Noon - 1pm  
-	**Heather Krause**, We All Count, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/datassist)    
+	**Heather Krause**, We All Count, [`r fa("twitter", fill = "black")`](https://twitter.com/datassist)    
 	Bio: [Heather](www.weallcount.com) remains unconvinced. As a statistician with decades of global experience working on complex data problems and producing real-world knowledge, she has developed the Data Equity Framework to address the equity issues in data products and research projects. Her emphasis is on combining strong statistical analysis with clear and meaningful communication. She is currently working on implementing tools for equity and ethics in data. As the founder of two successful data science companies, she attacks the largest questions facing societies today, working with both civic and corporate organizations to improve outcomes and lives. Her relentless pursuit of clarity and realism in these projects pushed her beyond pure analysis to mastering the entire data ecosystem including award-winning work in data sourcing, modeling, and data storytelling, each incorporating bleeding edge theory and technologies. Heather is the founder of We All Count, a project for equity in data working with teams across the globe to embed a lens of ethics into their data products from funding to data collection to statistical analysis and algorithmic accountability. Her unique set of tools and contributions have been sought across a range of clients from MasterCard and Volkswagen to the United Nations, the Syrian Refugee Resettlement Secretariat, Airbnb, and the Bill and Melinda Gates Foundation. She is on the Data Advisory Board of the UNHCR.   
 	Topic: Equity in Data (or, how not to accidentally use data like a racist, sexist, colonialist, etc).  
 	Recording: TBA.  
 * Friday, 11 June 2021, Noon - 1pm  
-	**Laura Bronner**, FiveThirtyEight, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/laurabronner)    
+	**Laura Bronner**, FiveThirtyEight, [`r fa("twitter", fill = "black")`](https://twitter.com/laurabronner)    
 	Bio: [Laura](www.laurabronner.com) is the quantitative editor at FiveThirtyEight. More generally, I’m a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, I was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, I completed a PhD in Political Science at the London School of Economics' Department of Government.    
 	Topic: TBA.  
 	Recording: TBA.  
 * Friday, 18 June 2021, Noon - 1pm  
-	**Jacob Matson**, Transforming Age, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/matsonj)    
+	**Jacob Matson**, Transforming Age, [`r fa("twitter", fill = "black")`](https://twitter.com/matsonj)    
 	Bio: [Jacob](dataduel.co) is the Director of Digital Transformation at Transforming Age, leading the charge of bringing a modern technology stack into the non-profit space. He spends time doing SMB analytics consulting via his agency, Elliot Point LLC.  
 	Topic: Data ask to Dashboard.  
 	Recording: TBA.  
 * Friday, 25 June 2021, Noon - 1pm  
-	**Nick Huntington-Klein**, Seattle University, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/nickchk)    
+	**Nick Huntington-Klein**, Seattle University, [`r fa("twitter", fill = "black")`](https://twitter.com/nickchk)    
 	Bio: [Nick](https://nickchk.com) is an economics professor at Seattle University.  
 	Topic: Data cleaning, replication, and researcher decisions.  
 	Recording: TBA.  
@@ -95,41 +97,47 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Topic: TBD.  
 	Recording: TBA.  
 * Friday, 9 July 2021, Noon - 1pm  
-	**Laura Derksen**, University of Toronto Mississauga, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/lauraderksen)    
+	**Laura Derksen**, University of Toronto Mississauga, [`r fa("twitter", fill = "black")`](https://twitter.com/lauraderksen)    
 	Bio: [Laura](https://sites.google.com/site/lauraderksen) is a global health/development economist in the Management Dept at UTM.  
 	Topic: TBD.  
 	Recording: TBA.  
 * Friday, 16 July 2021, Noon - 1pm  
-	**Leslie Root**, University of Colorado Boulder, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/les_ja)    
+	**Leslie Root**, University of Colorado Boulder, [`r fa("twitter", fill = "black")`](https://twitter.com/les_ja)    
 	Bio: [Leslie](https://leslieroot.net/about/) is a postdoctoral scholar in the Institute of Behavioral Science at CU Boulder, where she works on the RIPL (Reproduction in People's Lives) project. She holds a PhD in Demography from UC Berkeley.  
 	Topic: TBD.  
 	Recording: TBA.  
 * Friday, 23 July 2021, Noon - 1pm  
-	**Maria Kamenetsky**, University of Wisconsin-Madison, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/mkamenets)  
+	**Maria Kamenetsky**, University of Wisconsin-Madison, [`r fa("twitter", fill = "black")`](https://twitter.com/mkamenets)  
 	Bio: [Maria](https://mariakamenetsky.com/) is a PhD candidate in Epidemiology at the University of Wisconsin-Madison, where she also received her MS in Statistics. Her research focuses on methods in spatial epidemiology, specifically working on statistical methods for spatial cluster detection and applications to disease surveillance.	  
 	Topic: TBD.  
 	Recording: TBA.  
+| Tue 27 July 2021, noon-1pm | Irena Papst, *Cornell University* | TBD | |
+* Tuesday, 27 July 2021, Noon - 1pm  
+	**Irena Papst**, Cornell University, [`r fa("twitter", fill = "black")`](https://twitter.com/irenapapst/)  
+	Bio: [Irena](https://papsti.github.io) is an applied mathematician, currently working on her PhD in Cornell's Center for Applied Mathematics with Steve Strogatz. She earned her MSc in Mathematics at McMaster University with David Earn. She is interested in how infectious diseases spread between people, how people make choices, and the interaction between these two processes.  
+	Topic: Covid modelling.  
+	Recording: TBA.  
 * Friday, 30 July 2021, Noon - 1pm  
-	**Vincent Arel-Bundock**, Université de Montréal, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/VincentAB)  
+	**Vincent Arel-Bundock**, Université de Montréal, [`r fa("twitter", fill = "black")`](https://twitter.com/VincentAB)  
 	Bio: [Vincent](http://arelbundock.com) is a political scientist at the Université de Montréal, where I read on comparative and international political economy. I am particularly interested in the politics of international taxation and foreign direct investment, but I have also worked on economic voting, monetary policy, foreign aid, and research methods. My articles have appeared in peer-reviewed journals such as International Organization, the Journal of Politics, the British Journal of Political Science, International Studies Quarterly and Political Analysis.  
 	Topic: The 'modelsummary' R package.  
 	Recording: TBA.  
 * Friday, 6 August 2021, 12:30pm - 1pm  
-	**Ijeamaka Anyene**, Kaiser Permanente Division of Research, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/ijeamaka_a)  
+	**Ijeamaka Anyene**, Kaiser Permanente Division of Research, [`r fa("twitter", fill = "black")`](https://twitter.com/ijeamaka_a)  
 	Bio: [Ijeamaka](https://ijeamaka-anyene.netlify.app) is a data analyst working in healthcare research. I specialize in using R and SAS for data analysis, epidemiological research, and data visualizations. I am also passionate about computational art, knowledge sharing / dissemination, and how to mix the two.    
 	Topic: Taking the next step past standard charts.  
 	Recording: TBA.  
 * Friday, 13 August 2021, Noon - 1pm  
-	**Silvia Canelón**, University of Pennsylvania, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/spcanelon)  
+	**Silvia Canelón**, University of Pennsylvania, [`r fa("twitter", fill = "black")`](https://twitter.com/spcanelon)  
 	Bio: [Silvia](https://silvia.rbind.io) is a postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania where she applies biomedical informatics to population health research. She uses R to work on projects that develop novel data mining methods to extract pregnancy-related information from Electronic Health Records (EHR) and study the relationship between environment and disease. She is also certified as an RStudio Tidyverse Instructor and is passionate about R education as a way to build power in communities.   
 	Topic: Lessons Learned from EHR Data.  
 	Recording: TBA.  
 * Friday, 20 August 2021, 9am - 1pm  
   Undergraduate research panel.
 * Friday 27 August 2021, noon - 1pm  
-  **Lisa Lendway**, Macalester College,  [`r fa("twitter", fill = "steelblue")`](https://twitter.com/lisalendway)  
-  **Vincenzo Coia**, University of British Columbia, Vancouver, [`r fa("twitter", fill = "steelblue")`](https://twitter.com/VincenzoCoia)  
-  **Jingchen (Monika) Hu**, Vassar College,  [`r fa("twitter", fill = "steelblue")`](https://twitter.com/monika76five)   
+  **Lisa Lendway**, Macalester College,  [`r fa("twitter", fill = "black")`](https://twitter.com/lisalendway)  
+  **Vincenzo Coia**, University of British Columbia, Vancouver, [`r fa("twitter", fill = "black")`](https://twitter.com/VincenzoCoia)  
+  **Jingchen (Monika) Hu**, Vassar College,  [`r fa("twitter", fill = "black")`](https://twitter.com/monika76five)   
   Bios: [Lisa](https://lisalendway.netlify.app) is a professor of statistics and data science at Macalester College and an R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher.   
   [Vincenzo](https://vincenzocoia.com/) is an Assistant Professor of Teaching at the University of British Columbia, Vancouver. He holds a PhD in Statistics from UBC, and his priority is to develop data science initiatives through the Department of Statistics.   
   [Jingchen (Monika)](https://pages.vassar.edu/jihu/) is a statistician and an Assistant Professor in the Department of Mathematics and Statistics at Vassar College. I received my Ph.D. in statistics from Duke University Department of Statistical Science in 2015.   
