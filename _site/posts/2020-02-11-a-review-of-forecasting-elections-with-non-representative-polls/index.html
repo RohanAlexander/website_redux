@@ -52,17 +52,11 @@
 <meta property="twitter:image:height" content="1594"/>
 <meta property="twitter:site" content="@RohanAlexander"/>
 
-<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Rohan Alexander: A review of &#39;Forecasting elections with non-representative polls&#39;"/>
-<meta name="citation_fulltext_html_url" content="https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/"/>
-<meta name="citation_online_date" content="2020/02/11"/>
-<meta name="citation_publication_date" content="2020/02/11"/>
-<meta name="citation_author" content="Rohan Alexander"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","collections","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["A review of 'Forecasting elections with non-representative polls'"]},{"type":"character","attributes":{},"value":["This brief review of Wang, Rothschild, Goel, and Gelman, (2015) 'Forecasting elections with non-representative polls' is designed to motivate discussion during [Lauren Kennedy](https://jazzystats.com/)'s weekly MRP Discussion Group."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["02-11-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["citations"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","collections","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["A review of 'Forecasting elections with non-representative polls'"]},{"type":"character","attributes":{},"value":["This brief review of Wang, Rothschild, Goel, and Gelman, (2015) 'Forecasting elections with non-representative polls' is designed to motivate discussion during [Lauren Kennedy](https://jazzystats.com/)'s weekly MRP Discussion Group."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["02-11-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["citations"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]},{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1561,10 +1555,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1814,7 +1805,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"A review of 'Forecasting elections with non-representative polls'","description":"This brief review of Wang, Rothschild, Goel, and Gelman, (2015) 'Forecasting elections with non-representative polls' is designed to motivate discussion during [Lauren Kennedy](https://jazzystats.com/)'s weekly MRP Discussion Group.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2020-02-11T00:00:00.000-05:00","citationText":"Alexander, 2020"}
+{"title":"A review of 'Forecasting elections with non-representative polls'","description":"This brief review of Wang, Rothschild, Goel, and Gelman, (2015) 'Forecasting elections with non-representative polls' is designed to motivate discussion during [Lauren Kennedy](https://jazzystats.com/)'s weekly MRP Discussion Group.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2020-02-11T00:00:00.000+00:00","citationText":"Alexander, 2020"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2186,18 +2177,7 @@ Figure 13: (This is Figure 10 in the paper.) ‘The projected distribution of el
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom">
-  <h3 id="citation">Citation</h3>
-  <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Alexander (2020, Feb. 11). Rohan Alexander: A review of 'Forecasting elections with non-representative polls'. Retrieved from https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/</pre>
-  <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{alexander2020a,
-  author = {Alexander, Rohan},
-  title = {Rohan Alexander: A review of 'Forecasting elections with non-representative polls'},
-  url = {https://rohanalexander.com/posts/2020-02-11-a-review-of-forecasting-elections-with-non-representative-polls/},
-  year = {2020}
-}</pre>
-</div>
+<div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

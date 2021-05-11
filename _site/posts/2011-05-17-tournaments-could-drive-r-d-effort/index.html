@@ -49,18 +49,11 @@
 <meta property="twitter:image" content="https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/images/DSCF4403.jpg"/>
 <meta property="twitter:site" content="@RohanAlexander"/>
 
-<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Rohan Alexander: Tournaments Could Drive R&amp;D Effort"/>
-<meta name="citation_fulltext_html_url" content="https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/"/>
-<meta name="citation_online_date" content="2011/05/17"/>
-<meta name="citation_publication_date" content="2011/05/17"/>
-<meta name="citation_author" content="Rohan Alexander"/>
-<meta name="citation_author" content="Andrew Barnes"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","preview","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Tournaments Could Drive R&D Effort"]},{"type":"character","attributes":{},"value":["The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Andrew Barnes"]}]}]},{"type":"character","attributes":{},"value":["2011-05-17"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["images/DSCF4403.jpg"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","preview","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Tournaments Could Drive R&D Effort"]},{"type":"character","attributes":{},"value":["The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Andrew Barnes"]}]}]},{"type":"character","attributes":{},"value":["2011-05-17"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["images/DSCF4403.jpg"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1559,10 +1552,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1812,7 +1802,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Tournaments Could Drive R&D Effort","description":"The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Andrew Barnes","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2011-05-17T00:00:00.000-04:00","citationText":"Alexander & Barnes, 2011"}
+{"title":"Tournaments Could Drive R&D Effort","description":"The government should use tournaments to stimulate research and development in Australia. They have been largely overlooked since the Cutler Review of Innovation, but when structured properly, they encourage out-standing achievement and promote creative destruction.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Andrew Barnes","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2011-05-17T00:00:00.000+00:00","citationText":"Alexander & Barnes, 2011"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1914,18 +1904,7 @@ Figure 1: Tournaments bring out the best of us in sport, why not also R&amp;D? P
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom">
-  <h3 id="citation">Citation</h3>
-  <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Alexander &amp; Barnes (2011, May 17). Rohan Alexander: Tournaments Could Drive R&amp;D Effort. Retrieved from https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/</pre>
-  <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{alexander2011tournaments,
-  author = {Alexander, Rohan and Barnes, Andrew},
-  title = {Rohan Alexander: Tournaments Could Drive R&amp;D Effort},
-  url = {https://rohanalexander.com/posts/2011-05-17-tournaments-could-drive-r-d-effort/},
-  year = {2011}
-}</pre>
-</div>
+<div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

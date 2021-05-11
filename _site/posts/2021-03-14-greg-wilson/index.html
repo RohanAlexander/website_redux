@@ -118,17 +118,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="twitter:image:height" content="1334"/>
 <meta property="twitter:site" content="@RohanAlexander"/>
 
-<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Rohan Alexander: In Appreciation of Greg Wilson"/>
-<meta name="citation_fulltext_html_url" content="https://rohanalexander.com/posts/2021-03-14-greg-wilson/"/>
-<meta name="citation_online_date" content="2021/03/14"/>
-<meta name="citation_publication_date" content="2021/03/14"/>
-<meta name="citation_author" content="Rohan Alexander"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output","draft","collections","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["In Appreciation of Greg Wilson"]},{"type":"character","attributes":{},"value":["As he moves on from his role at R Studio Education, a few words of appreciation for Greg Wilson."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["rohanalexander.com"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]}]},{"type":"character","attributes":{},"value":["2021-03-14"]},{"type":"character","attributes":{},"value":["certificate.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["citations"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2021-03-14-greg-wilson/"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2021-03-14-greg-wilson/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","preview","output","draft","collections","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["In Appreciation of Greg Wilson"]},{"type":"character","attributes":{},"value":["As he moves on from his role at R Studio Education, a few words of appreciation for Greg Wilson."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["rohanalexander.com"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]}]},{"type":"character","attributes":{},"value":["2021-03-14"]},{"type":"character","attributes":{},"value":["certificate.png"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained","toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[3]}]}]},{"type":"logical","attributes":{},"value":[false]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["citations"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2021-03-14-greg-wilson/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1627,10 +1621,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1886,7 +1877,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"In Appreciation of Greg Wilson","description":"As he moves on from his role at R Studio Education, a few words of appreciation for Greg Wilson.","authors":[{"author":"Rohan Alexander","authorURL":{"rohanalexander.com":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-14T00:00:00.000-05:00","citationText":"Alexander, 2021"}
+{"title":"In Appreciation of Greg Wilson","description":"As he moves on from his role at R Studio Education, a few words of appreciation for Greg Wilson.","authors":[{"author":"Rohan Alexander","authorURL":{"rohanalexander.com":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-14T00:00:00.000+00:00","citationText":"Alexander, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1994,18 +1985,7 @@ Other
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom">
-  <h3 id="citation">Citation</h3>
-  <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Alexander (2021, March 14). Rohan Alexander: In Appreciation of Greg Wilson. Retrieved from https://rohanalexander.com/posts/2021-03-14-greg-wilson/</pre>
-  <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{alexander2021in,
-  author = {Alexander, Rohan},
-  title = {Rohan Alexander: In Appreciation of Greg Wilson},
-  url = {https://rohanalexander.com/posts/2021-03-14-greg-wilson/},
-  year = {2021}
-}</pre>
-</div>
+<div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

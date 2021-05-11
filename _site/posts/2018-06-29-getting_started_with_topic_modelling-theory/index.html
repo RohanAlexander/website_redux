@@ -52,12 +52,6 @@
 <meta property="twitter:image:height" content="768"/>
 <meta property="twitter:site" content="@RohanAlexander"/>
 
-<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Rohan Alexander: Topic Modelling - Theory"/>
-<meta name="citation_fulltext_html_url" content="https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/"/>
-<meta name="citation_online_date" content="2018/06/29"/>
-<meta name="citation_publication_date" content="2018/06/29"/>
-<meta name="citation_author" content="Rohan Alexander"/>
 <!--/radix_placeholder_meta_tags-->
   
   <meta name="citation_reference" content="citation_title=Topic models;citation_publication_date=2009;citation_publisher=Chapman; Hall/CRC;citation_author=David M Blei;citation_author=John D Lafferty"/>
@@ -70,7 +64,7 @@
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","bibliography","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Topic Modelling - Theory"]},{"type":"character","attributes":{},"value":["Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["2018-06-29"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["bibliography.bib"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","bibliography","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Topic Modelling - Theory"]},{"type":"character","attributes":{},"value":["Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["2018-06-29"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["bibliography.bib"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1569,10 +1563,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1822,7 +1813,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Topic Modelling - Theory","description":"Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2018-06-29T00:00:00.000-04:00","citationText":"Alexander, 2018"}
+{"title":"Topic Modelling - Theory","description":"Each statement in Hansard needs to be classified by its topic. Sometimes Hansard includes titles that make the topic clear. But not every statement has a title and the titles do not always define topics in a well-defined and consistent way. One way to get consistent estimates of the topics of each statement in Hansard is to use the latent Dirichlet allocation (LDA) method of Blei, Ng, Jordan, @Blei2003latent, as implemented by the R package 'topicmodels' by Grun @Grun2011.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2018-06-29T00:00:00.000+00:00","citationText":"Alexander, 2018"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1991,16 +1982,6 @@ Figure 2: Probability distributions over terms
 <div class="appendix-bottom">
   <h3 id="references">References</h3>
   <div id="references-listing"></div>
-  <h3 id="citation">Citation</h3>
-  <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Alexander (2018, June 29). Rohan Alexander: Topic Modelling - Theory. Retrieved from https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/</pre>
-  <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{alexander2018topic,
-  author = {Alexander, Rohan},
-  title = {Rohan Alexander: Topic Modelling - Theory},
-  url = {https://rohanalexander.com/posts/2018-06-29-getting_started_with_topic_modelling-theory/},
-  year = {2018}
-}</pre>
 </div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->

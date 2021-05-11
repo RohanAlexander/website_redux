@@ -48,17 +48,11 @@
 <meta property="twitter:image" content="https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/images/DSCF0213.jpg"/>
 <meta property="twitter:site" content="@RohanAlexander"/>
 
-<!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Rohan Alexander: Home Buyers Will Be Hurt by Aid Plan"/>
-<meta name="citation_fulltext_html_url" content="https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/"/>
-<meta name="citation_online_date" content="2008/05/08"/>
-<meta name="citation_publication_date" content="2008/05/08"/>
-<meta name="citation_author" content="Rohan Alexander"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","preview","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Home Buyers Will Be Hurt by Aid Plan"]},{"type":"character","attributes":{},"value":["The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["2008-05-08"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["images/DSCF0213.jpg"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","preview","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Home Buyers Will Be Hurt by Aid Plan"]},{"type":"character","attributes":{},"value":["The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Rohan Alexander"]}]}]},{"type":"character","attributes":{},"value":["2008-05-08"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["images/DSCF0213.jpg"]},{"type":"character","attributes":{},"value":["https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1557,10 +1551,7 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refs = $(this).attr('data-cites').split(" ");
-      var refHtml = refs.map(function(ref) {
-        return "<p>" + $('#ref-' + ref).html() + "</p>";
-      }).join("\n");
+      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1810,7 +1801,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Home Buyers Will Be Hurt by Aid Plan","description":"The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2008-05-08T00:00:00.000-04:00","citationText":"Alexander, 2008"}
+{"title":"Home Buyers Will Be Hurt by Aid Plan","description":"The Government's First Home Saver Accounts policy, announced during the last federal election, is a promise that should never have been made. It will place upward pressure upon inflation and increase the potential for domestic financial turbulence. It will be the individuals that the policy is designed to help (young Australians with a still-insecure financial foundation) that will be most hurt in the long-run.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2008-05-08T00:00:00.000+00:00","citationText":"Alexander, 2008"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1908,18 +1899,7 @@ Figure 1: A view of the Harbour apparently adds c.$100,000 to the price of an ap
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom">
-  <h3 id="citation">Citation</h3>
-  <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Alexander (2008, May 8). Rohan Alexander: Home Buyers Will Be Hurt by Aid Plan. Retrieved from https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/</pre>
-  <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{alexander2008home,
-  author = {Alexander, Rohan},
-  title = {Rohan Alexander: Home Buyers Will Be Hurt by Aid Plan},
-  url = {https://rohanalexander.com/posts/2008-05-08-home-buyers-will-be-hurt-by-aid-plan/},
-  year = {2008}
-}</pre>
-</div>
+<div class="appendix-bottom"></div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

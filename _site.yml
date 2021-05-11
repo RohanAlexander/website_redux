@@ -7,6 +7,9 @@ twitter:
 description: |
   Welcome to Rohan Alexander's website.
 output_dir: "_site"
+collections:
+  posts:
+    citations: false
 navbar:
   search: false
   right:
