@@ -78,7 +78,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Recording: TBA.  
 * Friday, 11 June 2021, Noon - 1pm  
 	**Laura Bronner**, FiveThirtyEight, [`r fa("twitter", fill = "black")`](https://twitter.com/laurabronner)    
-	Bio: [Laura](www.laurabronner.com) is the quantitative editor at FiveThirtyEight. More generally, I’m a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, I was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, I completed a PhD in Political Science at the London School of Economics' Department of Government.    
+	Bio: [Laura](www.laurabronner.com) is the quantitative editor at FiveThirtyEight. More generally, she is a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, she was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, she completed a PhD in Political Science at the London School of Economics' Department of Government.    
 	Topic: TBA.  
 	Recording: TBA.  
 * Friday, 18 June 2021, Noon - 1pm  
@@ -111,7 +111,6 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Bio: [Maria](https://mariakamenetsky.com/) is a PhD candidate in Epidemiology at the University of Wisconsin-Madison, where she also received her MS in Statistics. Her research focuses on methods in spatial epidemiology, specifically working on statistical methods for spatial cluster detection and applications to disease surveillance.	  
 	Topic: TBD.  
 	Recording: TBA.  
-| Tue 27 July 2021, noon-1pm | Irena Papst, *Cornell University* | TBD | |
 * Tuesday, 27 July 2021, Noon - 1pm  
 	**Irena Papst**, Cornell University, [`r fa("twitter", fill = "black")`](https://twitter.com/irenapapst/)  
 	Bio: [Irena](https://papsti.github.io) is an applied mathematician, currently working on her PhD in Cornell's Center for Applied Mathematics with Steve Strogatz. She earned her MSc in Mathematics at McMaster University with David Earn. She is interested in how infectious diseases spread between people, how people make choices, and the interaction between these two processes.  
@@ -119,12 +118,12 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Recording: TBA.  
 * Friday, 30 July 2021, Noon - 1pm  
 	**Vincent Arel-Bundock**, Université de Montréal, [`r fa("twitter", fill = "black")`](https://twitter.com/VincentAB)  
-	Bio: [Vincent](http://arelbundock.com) is a political scientist at the Université de Montréal, where I read on comparative and international political economy. I am particularly interested in the politics of international taxation and foreign direct investment, but I have also worked on economic voting, monetary policy, foreign aid, and research methods. My articles have appeared in peer-reviewed journals such as International Organization, the Journal of Politics, the British Journal of Political Science, International Studies Quarterly and Political Analysis.  
+	Bio: [Vincent](http://arelbundock.com) is a political scientist at the Université de Montréal, where he reads on comparative and international political economy. He is particularly interested in the politics of international taxation and foreign direct investment, but he has also worked on economic voting, monetary policy, foreign aid, and research methods.   
 	Topic: The 'modelsummary' R package.  
 	Recording: TBA.  
 * Friday, 6 August 2021, 12:30pm - 1pm  
 	**Ijeamaka Anyene**, Kaiser Permanente Division of Research, [`r fa("twitter", fill = "black")`](https://twitter.com/ijeamaka_a)  
-	Bio: [Ijeamaka](https://ijeamaka-anyene.netlify.app) is a data analyst working in healthcare research. I specialize in using R and SAS for data analysis, epidemiological research, and data visualizations. I am also passionate about computational art, knowledge sharing / dissemination, and how to mix the two.    
+	Bio: [Ijeamaka](https://ijeamaka-anyene.netlify.app) is a data analyst working in healthcare research. She specializes in using R and SAS for data analysis, epidemiological research, and data visualizations. She is also passionate about computational art, knowledge sharing / dissemination, and how to mix the two.    
 	Topic: Taking the next step past standard charts.  
 	Recording: TBA.  
 * Friday, 13 August 2021, Noon - 1pm  
@@ -138,9 +137,9 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
   **Lisa Lendway**, Macalester College,  [`r fa("twitter", fill = "black")`](https://twitter.com/lisalendway)  
   **Vincenzo Coia**, University of British Columbia, Vancouver, [`r fa("twitter", fill = "black")`](https://twitter.com/VincenzoCoia)  
   **Jingchen (Monika) Hu**, Vassar College,  [`r fa("twitter", fill = "black")`](https://twitter.com/monika76five)   
-  Bios: [Lisa](https://lisalendway.netlify.app) is a professor of statistics and data science at Macalester College and an R Studio certified instructor of tidyverse. I have used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher.   
+  Bios: [Lisa](https://lisalendway.netlify.app) is a professor of statistics and data science at Macalester College and an R Studio certified instructor of tidyverse. She has used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher.   
   [Vincenzo](https://vincenzocoia.com/) is an Assistant Professor of Teaching at the University of British Columbia, Vancouver. He holds a PhD in Statistics from UBC, and his priority is to develop data science initiatives through the Department of Statistics.   
-  [Jingchen (Monika)](https://pages.vassar.edu/jihu/) is a statistician and an Assistant Professor in the Department of Mathematics and Statistics at Vassar College. I received my Ph.D. in statistics from Duke University Department of Statistical Science in 2015.   
+  [Jingchen (Monika)](https://pages.vassar.edu/jihu/) is a statistician and an Assistant Professor in the Department of Mathematics and Statistics at Vassar College. She received my Ph.D. in statistics from Duke University Department of Statistical Science in 2015.   
 	Topic: Panel on teaching data-focused topics.   
 	Recording: TBA.  
 
