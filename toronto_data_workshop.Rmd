@@ -12,6 +12,7 @@ output:
 library(fontawesome)
 ```
 
+*The University of Toronto is under censure from the Canadian Association of University Teachers. The Faculty of Information has issued a statement: https://ischool.utoronto.ca/news/faculty-of-information-statement-on-caut-censure-of-u-of-t/.*
 
 # Overview
 
@@ -45,14 +46,14 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 21 May 2021, noon-1pm | David Shor, *OpenLabs* | TBD | |
 | Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | Broadway data. | |
 | Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | |
-| Fri 11 June 2021, noon-1pm | Laura Bronner, *FiveThirtyEight* | TBD | |
+| Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | TBD | |
 | Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to dashboard. | |
 | Fri 25 June 2021, noon-1pm | Nick Huntington-Klein, *Seattle University* | Data cleaning, replication, and researcher decisions. | |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* | TBD | |
 | Fri 9 July 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | TBD |  |
 | Fri 16 July 2021, noon-1pm | Leslie Root, *University of Colorado Boulder* | TBD | |
 | Fri 23 July 2021, noon-1pm | Maria Kamenetsky, *University of Wisconsin-Madison* | TBD | |
-| Tue 27 July 2021, noon-1pm | Irena Papst, *Cornell University* | TBD | |
+| Tue 27 July 2021, noon-1pm | Irena Papst, *Cornell University* | Covid modelling | |
 | Fri 30 July 2021, noon-1pm | Vincent Arel-Bundock, *Université de Montréal* | The 'modelsummary' R package. | |
 | Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
 | Fri 13 August 2021, noon-1pm | Silvia Canelón, *University of Pennsylvania* | Lessons from EHR data. | |
@@ -77,8 +78,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Topic: Equity in Data (or, how not to accidentally use data like a racist, sexist, colonialist, etc).  
 	Recording: TBA.  
 * Friday, 11 June 2021, Noon - 1pm  
-	**Laura Bronner**, FiveThirtyEight, [`r fa("twitter", fill = "black")`](https://twitter.com/laurabronner)    
-	Bio: [Laura](www.laurabronner.com) is the quantitative editor at FiveThirtyEight. More generally, she is a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, she was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, she completed a PhD in Political Science at the London School of Economics' Department of Government.    
+	**Laura Bronner**, Data scientist, [`r fa("twitter", fill = "black")`](https://twitter.com/laurabronner)    
+	Bio: [Laura](www.laurabronner.com) is a data scientist, who most recently worked as the quantitative editor at FiveThirtyEight. More generally, she is a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, she was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, she completed a PhD in Political Science at the London School of Economics' Department of Government.    
 	Topic: TBA.  
 	Recording: TBA.  
 * Friday, 18 June 2021, Noon - 1pm  
