@@ -1,5 +1,5 @@
 ---
-title: "University of Toronto Data Workshop"
+title: "Toronto Data Workshop"
 description: |
   We share best practice for doing data science, and are especially interested in the data munging/cleaning/prep/comms stages that folks typically don't talk about. We meet for an hour each week and are interested in anything that is data-focused across academia and industry. Typically, Fridays at noon (Toronto time) via Zoom, with most talks recorded and shared. All welcome. Free. Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 output:
@@ -12,11 +12,11 @@ output:
 library(fontawesome)
 ```
 
-*The University of Toronto is under censure from the Canadian Association of University Teachers. The Faculty of Information has issued a statement: https://ischool.utoronto.ca/news/faculty-of-information-statement-on-caut-censure-of-u-of-t/.*
+*The University of Toronto is under censure from the Canadian Association of University Teachers. The Faculty of Information has issued a resource page: https://ischool.utoronto.ca/news/faculty-of-information-resource-page-re-caut-censure-of-u-of-t/.*
 
 # Overview
 
-The University of Toronto Data Workshop (TDW) brings together academia and industry to consider, collate, share, and disseminate best practices in doing data science, especially in the data-centric steps of a data science project: collection; cleaning; storage; retrieval; dissemination; protection; and communication. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
+The Toronto Data Workshop (TDW) brings together academia and industry to consider, collate, share, and disseminate best practices in doing data science, especially in the data-centric steps of a data science project: collection; cleaning; storage; retrieval; dissemination; protection; and communication. We meet weekly for an hour and aim to have a roughly even split of participants from academia and industry over the course of each term. For an invitation please sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8). Anyone is welcome to attend - you don't need to be affiliated with the university. 
 
 Current organising committee: 
 
