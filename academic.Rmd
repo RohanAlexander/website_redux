@@ -15,6 +15,7 @@ My work is arranged around three tranches:
 
 # Papers
 
+* Rohan Alexander, Samantha-Jo Caetano, Haoluan Chen, Michael Chong, Annie Collins, Shirley Deng, Isaac Ehrlich, Paul Hodgetts, Yena Joo, Marija Pejcinovska, Mariam Walaa, and Matthew Wankiewicz, 2021, 'An Introduction to DoSStoolkit', *arXiv*, 19 May, https://arxiv.org/abs/2105.09347.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'Detecting Hate Speech with GPT-3', *arXiv*, 23 March, https://arxiv.org/abs/2103.12407.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
 * Paul A. Hodgetts and Rohan Alexander, 2020, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
@@ -22,10 +23,14 @@ My work is arranged around three tranches:
 
 <!-- * [Monica Alexander](monicaalexander.com) and Rohan Alexander, '[The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)](pdfs/AlexanderAlexander-EffectofElectionsandPrimeMinisters.pdf)'.   -->
 
+# Software
+
+* Rohan Alexander and A Mahfouz, 2021, `heapsofpapers`, https://rohanalexander.github.io/heapsofpapers/.
+
 
 # Datasets
 
-```{r, out.width= "35%"}
+```{r, out.width= "35%", echo = FALSE}
 knitr::include_graphics("images/AustralianPoliticians.png") 
 ```
 
