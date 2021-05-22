@@ -12,7 +12,16 @@
       <link>https://rohanalexander.com/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 04 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The opportunities provided by open data and reproducibility</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2021-05-22-baby-steps</link>
+      <description>Some thoughts on getting started with open data and reproducibility. A talk delivered to the University of Toronto Stellar Stats Workshop, 28 May 2021, organised by Gwen Eadie &amp; Josh Speagle.</description>
+      <guid>https://rohanalexander.com/posts/2021-05-22-baby-steps</guid>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2021-05-22-baby-steps/if_the_shoes_fit.png" medium="image" type="image/png" width="1280" height="1025"/>
+    </item>
     <item>
       <title>On work-life balance</title>
       <dc:creator>Rohan Alexander</dc:creator>
