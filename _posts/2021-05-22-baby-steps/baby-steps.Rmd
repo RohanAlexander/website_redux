@@ -52,11 +52,11 @@ By way of background, @monicasrostockreprotalk says 'research is reproducible if
 
 ### Improved diversity
 
-The first benefit that I see is improved diversity, broadly, in our fields. By making our work accessible to more people, we help to to make education and research resources more equitable. In Canadian STEM fields diversity at an undergraduate level is not great, but it's also not too bad---we reflect broader Canadian society to some extent---but that at each successive level we significantly worsen [@villemurewebb]. In my own Department of Statistical Sciences, University Professor Nancy Reid was the only tenured research-track woman in the department for decades. And in astronomy, speaking more broadly, @prescordweinstein [p. 132] says 'I've never met a Black woman professor in the field of theoretical cosmology because I am the first---not just the first professor, but also the first Black woman cosmology theory PhD'^[Thanks very much to Vianey Leos Barajas for gifting me this book.].
+The first benefit that I see is improved diversity, broadly, in our fields. By making our work accessible to more people, we help to to make education and research resources more equitable. In Canadian STEM fields diversity at an undergraduate level is not great, but it's also not too bad---we reflect broader Canadian society to some extent---but at each successive level we significantly worsen [@villemurewebb]. In my own Department of Statistical Sciences, University Professor Nancy Reid was the only tenured research-track woman in the department for decades. And in astronomy, speaking more broadly, @prescordweinstein [p. 132] says 'I've never met a Black woman professor in the field of theoretical cosmology because I am the first---not just the first professor, but also the first Black woman cosmology theory PhD'^[Thanks very much to Vianey Leos Barajas for gifting me this book.].
 
 Improving diversity is important because diverse teams are associated with higher performance [@mckinsey]. That's just a correlation, but thinking about my own experiences, I do think that diversity in my own team improved my productivity. For instance, I've found that students with different experiences push back and criticize me about things that I haven't considered. Improving those aspects makes the work better.
 
-I also think that as Canada's best university, and a public one at that, we have a duty to be more reflective of Canada. There's a quote from one of my favourite books that I thought this audience would like, because it features an astronomer is talking to a child, trying to convince him that humanities are important, and the astronomer says:
+As an aside, I also think that as Canada's best university, and a public one at that, we have a duty to be more reflective of Canada. There's a quote from one of my favourite books that I thought this audience would like, because it features an astronomer is talking to a child, trying to convince him that humanities are important, and the astronomer says:
 
 > Any science is expensive and astronomy is more expensive than most.... If you need hundreds of millions of pounds sooner or later you are going to have to talk to people who don't understand what you're doing and don't want to understand because they hated science at school.
 >
@@ -79,7 +79,7 @@ I don't think of myself as a scary or intimidating person, but I'm regularly tol
 
 ## Three baby steps
 
-Right, so you're convinced! You want these great benefits! How can you go about getting them? I'm not asking for anything big from you, and I'm not asking you to advocate, or even change much of anything that you do. (Indeed, if you're faculty then I'm just asking you to spend some research funds and hire some undergrads! Statistical Sciences has something in the order of 4,000 undergrads, which is quite a lot, but the great thing about it is that the top 5 per cent are just incredibly strong. You could hire a few of them for literally $25 an hour, and then just get them to do these three things! Possibly that hiring would even add to the diversity of your team.)
+Right, so you're convinced! You want these great benefits! How can you go about getting them? I'm not asking for anything big from you, and I'm not asking you to advocate, or even change much of anything that you do. (Indeed, if you're faculty then I'm just asking you to spend some research funds and hire some undergrads!^[Statistical Sciences has something in the order of 4,000 undergrads, which is quite a lot, but the great thing about it is that the top 5 per cent are just incredibly strong. You could hire a few of them for literally $25 an hour, and then just get them to do these three things! Possibly that hiring would even add to the diversity of your team.])
 
 
 ### Buy a bunch of notebooks
@@ -98,7 +98,10 @@ Instead of telling you how unhealthy various foods are, a datasheet tells you th
 - 'Does the dataset contain all possible instances or is it a sample (not necessarily random) of instances from a larger set?'
 - 'Is any information missing from individual instances?'
 
-I've integrated datasheets into my teaching and an example of one that a student wrote earlier in Winter is @rosenthal. I'm not saying that this isn't helpful for the student who made it---I *hope* it was---but it's especially helpful for me when I think about how best to use the dataset that he created. 
+I've integrated datasheets into my teaching and an example of one that a student wrote earlier in Winter 2021 is @rosenthal. I'm not saying that this isn't helpful for the student who made it---I *hope* it was---but it's especially helpful for me when I think about how best to use the dataset that he created. 
+
+The speaker after me, [Renée Hlozek](https://www.dunlap.utoronto.ca/~hlozek/), has a bunch of papers documenting datasets, for instance @lsstdarkenergysciencecollaboration2021desc, and another about data challenges [@Hlo_ek_2019] that I think would be interesting to combine with the idea of backfilling datasheets.
+
 
 ### Make a software package.
 
@@ -106,13 +109,17 @@ The third and final thing is to build out internal APIs for your code and then m
 
 Last summer I found myself asking a student to go and write code to do that same task and I finally decided that enough was enough. Instead, I had them put together an R package. Now this was literally only the work of a week for them. So instead of everyone in the lab writing code each time they needed to download a PDF, they could just call this R package and use that instead: we wrote an internal API. I decided that I wanted to make it external facing and there's now an R package---'heapsofpapers'---that anyone can use [@heapsofpapers]. 
 
-If you want to do this and you use R then just follow 'Chapter 2 - The Whole Game' from @rpackages. Within a few hours you can have a workable solution and within a month or two you can have a great external API. Making internal APIs external is one reason that Amazon is worth a trillion dollars [@benzell2017impact], and while I can't promise that it'll make you a millionaire, I can promise that you'll get a paper out of it, and more importantly, help your field.
+If you want to do this and you use R then just follow 'Chapter 2 - The Whole Game' from @rpackages. Within a few hours you can have a workable solution and within a month or two you can have a great external API. 
+
+And for those of you who are more Python focused, the speaker before me, [Jo Bovy](http://astro.utoronto.ca/~bovy/), has all these great Python packages on his [GitHub](https://github.com/jobovy), including a whole course on writing Python packages [@bovypython]. 
+
+Making internal APIs external is one reason that Amazon is worth a trillion dollars [@benzell2017impact], and while I can't promise that it'll make you a millionaire, I can promise that you'll get a paper out of it, and more importantly, help your field.
 
 ## Concluding remarks
 
-Right, so that's three baby steps, so I'll stop there. I think that open data and reproducibility can be intimidating. I have a two-year-old and I imagine that when he first started to walk he was pretty intimidated also. But he did take his first steps and now he runs around the whole day. And I assure you that it's the same for open data and reproducibility. Just take those first few baby steps!
+I think that open data and reproducibility can be intimidating. I have a two-year-old and I imagine that when he first started to walk he was pretty intimidated also. But he did take his first steps and now he runs around the whole day. And I assure you that it's the same for open data and reproducibility. 
 
-Thanks very much to Gwen and Josh for having me.
+I'm looking forward to diving further into the work of the other speakers at this workshop, and thank Gwen and Josh for bringing these two communities together, and for letting me speak today.
 
 
 
