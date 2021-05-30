@@ -44,13 +44,13 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Date | Speaker | Topic | Recording |
 | --------- | --------------- | ------------- | ----- |
 | Fri 21 May 2021, noon-1pm | David Shor, *OpenLabs* | Political data science. | https://youtu.be/_IEPKapa9_0 |
-| Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | Broadway data. | |
+| Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | The Effects of a Tony Award | https://youtu.be/rFojvBN0qGk |
 | Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | |
 | Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | TBD | |
 | Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to dashboard. | |
-| Fri 25 June 2021, noon-1pm | ~~Nick Huntington-Klein, *Seattle University*~~ Postponed due to CAUT censure. | Data cleaning, replication, and researcher decisions. | |
+| Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | TBD |  |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* | TBD | |
-| Fri 9 July 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | TBD |  |
+| Fri 9 July 2021, noon-1pm | ~~Nick Huntington-Klein, *Seattle University*~~ Postponed due to CAUT censure. | Data cleaning, replication, and researcher decisions. | |
 | Fri 16 July 2021, noon-1pm | ~~Leslie Root, *University of Colorado Boulder*~~ Postponed due to CAUT censure. | TBD | |
 | Fri 23 July 2021, noon-1pm | ~~Maria Kamenetsky, *University of Wisconsin-Madison*~~ Postponed due to CAUT censure. | - | |
 | Tue 27 July 2021, noon-1pm | ~~Irena Papst, *Cornell University*~~ Postponed due to CAUT censure. | ~~Covid modelling~~ | |
@@ -70,8 +70,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 * Friday, 28 May 2021, Noon - 1pm  
 	**Samantha Pierre**, University of Toronto, [`r fa("twitter", fill = "black")`](https://twitter.com/whambamgam)    
 	Bio: Samantha is a fourth-year statistics student studying at the University of Toronto. Throughout the past year she has combined her love for theatre and statistics to analyze trends in the theatre community. She volunteers as a member of PAIR-CG to create a representational framework for the international theatre community. She currently works at WOMBO, an app developed by former U of T students, as head of music content.  
-	Topic: Data cleaning and Broadway analysis.  
-	Recording: TBA.  
+	Topic: And The Nominees Are... An Empirical Study of the Effects of a Tony Aaard Win and Nomination on a Show's Success  
+	Recording: https://youtu.be/rFojvBN0qGk  
 * Friday, 4 June 2021, Noon - 1pm  
 	**Heather Krause**, We All Count, [`r fa("twitter", fill = "black")`](https://twitter.com/datassist)    
 	Bio: [Heather](www.weallcount.com) remains unconvinced. As a statistician with decades of global experience working on complex data problems and producing real-world knowledge, she has developed the Data Equity Framework to address the equity issues in data products and research projects. Her emphasis is on combining strong statistical analysis with clear and meaningful communication. She is currently working on implementing tools for equity and ethics in data. As the founder of two successful data science companies, she attacks the largest questions facing societies today, working with both civic and corporate organizations to improve outcomes and lives. Her relentless pursuit of clarity and realism in these projects pushed her beyond pure analysis to mastering the entire data ecosystem including award-winning work in data sourcing, modeling, and data storytelling, each incorporating bleeding edge theory and technologies. Heather is the founder of We All Count, a project for equity in data working with teams across the globe to embed a lens of ethics into their data products from funding to data collection to statistical analysis and algorithmic accountability. Her unique set of tools and contributions have been sought across a range of clients from MasterCard and Volkswagen to the United Nations, the Syrian Refugee Resettlement Secretariat, Airbnb, and the Bill and Melinda Gates Foundation. She is on the Data Advisory Board of the UNHCR.   
@@ -88,19 +88,19 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Topic: Data ask to Dashboard.  
 	Recording: TBA.  
 * Friday, 25 June 2021, Noon - 1pm  
-	~~**Nick Huntington-Klein**, Seattle University, [`r fa("twitter", fill = "black")`](https://twitter.com/nickchk)~~    
-	~~Bio: [Nick](https://nickchk.com) is an economics professor at Seattle University.~~  
-	~~Topic: Data cleaning, replication, and researcher decisions.~~  
+	**Laura Derksen**, University of Toronto Mississauga, [`r fa("twitter", fill = "black")`](https://twitter.com/lauraderksen)    
+	Bio: [Laura](https://sites.google.com/site/lauraderksen) is a global health/development economist in the Management Dept at UTM.  
+	Topic: TBD.  
+	Recording: TBA.  
 * Friday, 2 July 2021, Noon - 1pm  
 	**Zachary McCaw**, Google  
 	Bio: Zachary McCaw is a data scientist at Google.  
 	Topic: TBD.  
 	Recording: TBA.  
 * Friday, 9 July 2021, Noon - 1pm  
-	**Laura Derksen**, University of Toronto Mississauga, [`r fa("twitter", fill = "black")`](https://twitter.com/lauraderksen)    
-	Bio: [Laura](https://sites.google.com/site/lauraderksen) is a global health/development economist in the Management Dept at UTM.  
-	Topic: TBD.  
-	Recording: TBA.  
+	~~**Nick Huntington-Klein**, Seattle University, [`r fa("twitter", fill = "black")`](https://twitter.com/nickchk)~~    
+	~~Bio: [Nick](https://nickchk.com) is an economics professor at Seattle University.~~  
+	~~Topic: Data cleaning, replication, and researcher decisions.~~  
 * Friday, 16 July 2021, Noon - 1pm  
 	~~**Leslie Root**, University of Colorado Boulder, [`r fa("twitter", fill = "black")`](https://twitter.com/les_ja)~~    
 	~~Bio: [Leslie](https://leslieroot.net/about/) is a postdoctoral scholar in the Institute of Behavioral Science at CU Boulder, where she works on the RIPL (Reproduction in People's Lives) project. She holds a PhD in Demography from UC Berkeley.~~  
