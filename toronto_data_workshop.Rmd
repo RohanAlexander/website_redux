@@ -12,7 +12,7 @@ output:
 library(fontawesome)
 ```
 
-*21 May 2021. The University of Toronto is under censure from the Canadian Association of University Teachers. The Faculty of Information has provided a [resource page](https://ischool.utoronto.ca/news/faculty-of-information-resource-page-re-caut-censure-of-u-of-t/) of links. Where it was reasonable to do so, we have postponed talks by academics due to this censure. We intend to try to fill these spots with talks by students.*
+*21 May 2021. The University of Toronto is under censure from the Canadian Association of University Teachers (CAUT). The Faculty of Information has provided a [resource page](https://ischool.utoronto.ca/news/faculty-of-information-resource-page-re-caut-censure-of-u-of-t/) of links. After seeking advice from CAUT, where it was reasonable to do so, we have postponed talks by external academics due to this censure. We thank the following external academic speakers for their understanding and hope to host them then the censure is resolved: Nick Huntington-Klein, Seattle University; Leslie Root, University of Colorado Boulder; Maria Kamenetsky, University of Wisconsin-Madison; Irena Papst, Cornell University; Vincent Arel-Bundock, Université de Montréal; Silvia Canelón, University of Pennsylvania; Jingchen (Monika) Hu, Vassar College; Lisa Lendway, Macalester College; Vincenzo Coia, University of British Columbia, Vancouver. We intend to try to fill these spots with talks by students.*
 
 # Overview
 
@@ -37,7 +37,7 @@ The TDW is a joint initiative between the Faculty of Information and the Departm
 
 
 ```{r, out.width= "33%", echo = FALSE}
-knitr::include_graphics(c("images/tdw_cn_tower.png")) 
+knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshopMapleLeafs.png")) 
 ```
 
 
@@ -45,21 +45,20 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | --------- | --------------- | ------------- | ----- |
 | Fri 21 May 2021, noon-1pm | David Shor, *OpenLabs* | Political data science. | https://youtu.be/_IEPKapa9_0 |
 | Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | The Effects of a Tony Award | https://youtu.be/rFojvBN0qGk |
-| Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | |
-| Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | TBD | |
+| Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | https://youtu.be/Yu_l8MpKK-E |
+| Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* |  | |
 | Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to dashboard. | |
-| Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | TBD |  |
-| Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* | TBD | |
-| Fri 9 July 2021, noon-1pm | ~~Nick Huntington-Klein, *Seattle University*~~ Postponed due to CAUT censure. | Data cleaning, replication, and researcher decisions. | |
-| Fri 16 July 2021, noon-1pm | ~~Leslie Root, *University of Colorado Boulder*~~ Postponed due to CAUT censure. | TBD | |
-| Fri 23 July 2021, noon-1pm | ~~Maria Kamenetsky, *University of Wisconsin-Madison*~~ Postponed due to CAUT censure. | - | |
-| Tue 27 July 2021, noon-1pm | ~~Irena Papst, *Cornell University*~~ Postponed due to CAUT censure. | ~~Covid modelling~~ | |
-| Fri 30 July 2021, noon-1pm | ~~Vincent Arel-Bundock, *Université de Montréal*~~ Postponed due to CAUT censure. | ~~The 'modelsummary' R package.~~ | |
+| Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) |  |  |
+| Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
+| Fri 9 July 2021, noon-1pm |  |  | |
+| Fri 16 July 2021, noon-1pm | Kamilah Ebrahim, *University of Toronto* |  | |
+| Fri 23 July 2021, noon-1pm |  |  | |
+| Tue 27 July 2021, noon-1pm |  |  | |
+| Fri 30 July 2021, noon-1pm |  |  | |
 | Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
-| Fri 13 August 2021, noon-1pm | ~~Silvia Canelón, *University of Pennsylvania*~~ Postponed due to CAUT censure. | ~~Lessons from EHR data.~~ | |
-| Fri 20 August 2021, 9am-1pm | Undergraduate research day | | |
-| Fri 27 August 2021, noon-1pm | ~~Jingchen (Monika) Hu, *Vassar College*, Lisa Lendway, *Macalester College*, Vincenzo Coia, *University of British Columbia, Vancouver*~~ Postponed due to CAUT censure. | ~~Panel on teaching data-focused topics.~~ | |
-
+| Fri 13 August 2021, noon-1pm | |  | |
+| Fri 20 August 2021, 9am-1pm |  | | |
+| Fri 27 August 2021, noon-1pm |  |  | |
 
 
 * Friday, 21 May 2021, Noon - 1pm  
@@ -76,7 +75,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	**Heather Krause**, We All Count, [`r fa("twitter", fill = "black")`](https://twitter.com/datassist)    
 	Bio: [Heather](https://weallcount.com) remains unconvinced. As a statistician with decades of global experience working on complex data problems and producing real-world knowledge, she has developed the Data Equity Framework to address the equity issues in data products and research projects. Her emphasis is on combining strong statistical analysis with clear and meaningful communication. She is currently working on implementing tools for equity and ethics in data. As the founder of two successful data science companies, she attacks the largest questions facing societies today, working with both civic and corporate organizations to improve outcomes and lives. Her relentless pursuit of clarity and realism in these projects pushed her beyond pure analysis to mastering the entire data ecosystem including award-winning work in data sourcing, modeling, and data storytelling, each incorporating bleeding edge theory and technologies. Heather is the founder of We All Count, a project for equity in data working with teams across the globe to embed a lens of ethics into their data products from funding to data collection to statistical analysis and algorithmic accountability. Her unique set of tools and contributions have been sought across a range of clients from MasterCard and Volkswagen to the United Nations, the Syrian Refugee Resettlement Secretariat, Airbnb, and the Bill and Melinda Gates Foundation. She is on the Data Advisory Board of the UNHCR.   
 	Topic: Equity in Data (or, how not to accidentally use data like a racist, sexist, colonialist, etc).  
-	Recording: TBA.  
+	Recording: https://youtu.be/Yu_l8MpKK-E  
 * Friday, 11 June 2021, Noon - 1pm  
 	**Laura Bronner**, Data scientist, [`r fa("twitter", fill = "black")`](https://twitter.com/laurabronner)    
 	Bio: [Laura](https://www.laurabronner.com) is a data scientist, who most recently worked as the quantitative editor at FiveThirtyEight. More generally, she is a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, she was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, she completed a PhD in Political Science at the London School of Economics' Department of Government.    
@@ -98,42 +97,22 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	Topic: TBD.  
 	Recording: TBA.  
 * Friday, 9 July 2021, Noon - 1pm  
-	~~**Nick Huntington-Klein**, Seattle University, [`r fa("twitter", fill = "black")`](https://twitter.com/nickchk)~~    
-	~~Bio: [Nick](https://nickchk.com) is an economics professor at Seattle University.~~  
-	~~Topic: Data cleaning, replication, and researcher decisions.~~  
 * Friday, 16 July 2021, Noon - 1pm  
-	~~**Leslie Root**, University of Colorado Boulder, [`r fa("twitter", fill = "black")`](https://twitter.com/les_ja)~~    
-	~~Bio: [Leslie](https://leslieroot.net/about/) is a postdoctoral scholar in the Institute of Behavioral Science at CU Boulder, where she works on the RIPL (Reproduction in People's Lives) project. She holds a PhD in Demography from UC Berkeley.~~  
+  **Kamilah Ebrahim**, University of Toronto, [`r fa("twitter", fill = "black")`](https://twitter.com/kamilahebrahim)    
+  Bio: Kamilah Ebrahim received a B.A. in Economics from the University of Waterloo in 2019 and is currently pursuing a Masters of Information in Human Centred Data Science at the University of Toronto. Kamilah is a 2020-21 Graduate Fellow at the University of Toronto Centre for Ethics focusing on the intersection between race, economics and data monopolies in Canada. Prior to joining the University of Toronto she held roles at the United Nation Economic and Social Commission for Asia and the Pacific (UN ESCAP), as well as the Canadian federal government.
+  Topic: TBD.  
+	Recording: TBA.  
 * Friday, 23 July 2021, Noon - 1pm  
-	~~**Maria Kamenetsky**, University of Wisconsin-Madison, [`r fa("twitter", fill = "black")`](https://twitter.com/mkamenets)~~  
-	~~Bio: [Maria](https://mariakamenetsky.com/) is a PhD candidate in Epidemiology at the University of Wisconsin-Madison, where she also received her MS in Statistics. Her research focuses on methods in spatial epidemiology, specifically working on statistical methods for spatial cluster detection and applications to disease surveillance.~~	  
 * Tuesday, 27 July 2021, Noon - 1pm  
-	~~**Irena Papst**, Cornell University, [`r fa("twitter", fill = "black")`](https://twitter.com/irenapapst/)~~  
-	~~Bio: [Irena](https://papsti.github.io) is an applied mathematician, currently working on her PhD in Cornell's Center for Applied Mathematics with Steve Strogatz. She earned her MSc in Mathematics at McMaster University with David Earn. She is interested in how infectious diseases spread between people, how people make choices, and the interaction between these two processes.~~  
-	~~Topic: Covid modelling.~~  
 * Friday, 30 July 2021, Noon - 1pm  
-	~~**Vincent Arel-Bundock**, Université de Montréal, [`r fa("twitter", fill = "black")`](https://twitter.com/VincentAB)~~  
-	~~Bio: [Vincent](http://arelbundock.com) is a political scientist at the Université de Montréal, where he reads on comparative and international political economy. He is particularly interested in the politics of international taxation and foreign direct investment, but he has also worked on economic voting, monetary policy, foreign aid, and research methods.~~   
-	~~Topic: The 'modelsummary' R package.~~  
 * Friday, 6 August 2021, 12:30pm - 1pm  
 	**Ijeamaka Anyene**, Kaiser Permanente Division of Research, [`r fa("twitter", fill = "black")`](https://twitter.com/ijeamaka_a)  
 	Bio: [Ijeamaka](https://ijeamaka-anyene.netlify.app) is a data analyst working in healthcare research. She specializes in using R and SAS for data analysis, epidemiological research, and data visualizations. She is also passionate about computational art, knowledge sharing / dissemination, and how to mix the two.    
 	Topic: Taking the next step past standard charts.  
 	Recording: TBA.  
 * Friday, 13 August 2021, Noon - 1pm  
-	~~**Silvia Canelón**, University of Pennsylvania, [`r fa("twitter", fill = "black")`](https://twitter.com/spcanelon)~~  
-	~~Bio: [Silvia](https://silvia.rbind.io) is a postdoctoral research scientist in the Department of Biostatistics, Epidemiology, and Informatics at the University of Pennsylvania where she applies biomedical informatics to population health research. She uses R to work on projects that develop novel data mining methods to extract pregnancy-related information from Electronic Health Records (EHR) and study the relationship between environment and disease. She is also certified as an RStudio Tidyverse Instructor and is passionate about R education as a way to build power in communities.~~   
-	~~Topic: Lessons Learned from EHR Data.~~  
 * Friday, 20 August 2021, 9am - 1pm  
-  Undergraduate research panel.
 * Friday 27 August 2021, noon - 1pm  
-  ~~**Lisa Lendway**, Macalester College,  [`r fa("twitter", fill = "black")`](https://twitter.com/lisalendway)~~  
-  ~~**Vincenzo Coia**, University of British Columbia, Vancouver, [`r fa("twitter", fill = "black")`](https://twitter.com/VincenzoCoia)~~  
-  ~~**Jingchen (Monika) Hu**, Vassar College,  [`r fa("twitter", fill = "black")`](https://twitter.com/monika76five)~~   
-  ~~Bios: [Lisa](https://lisalendway.netlify.app) is a professor of statistics and data science at Macalester College and an R Studio certified instructor of tidyverse. She has used R since 2003 (whoa!) in many different roles: student, statistician/data scientist, and teacher.~~   
-  ~~[Vincenzo](https://vincenzocoia.com/) is an Assistant Professor of Teaching at the University of British Columbia, Vancouver. He holds a PhD in Statistics from UBC, and his priority is to develop data science initiatives through the Department of Statistics.~~   
-  ~~[Jingchen (Monika)](https://pages.vassar.edu/jihu/) is a statistician and an Assistant Professor in the Department of Mathematics and Statistics at Vassar College. She received my Ph.D. in statistics from Duke University Department of Statistical Science in 2015.~~   
-	~~Topic: Panel on teaching data-focused topics.~~   
 
   
 
