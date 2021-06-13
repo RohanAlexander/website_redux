@@ -1,29 +1,32 @@
 ---
-title: "Home"
+title: "Rohan Alexander"
+image: "images/portrait_mask.jpeg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/RohanAlexander"
+  - label: GitHub
+    url: "https://github.com/RohanAlexander"
+  - label: CV
+    url: "pdfs/cv-academic-Rohan_Alexander.pdf"
+  - label: Email
+    url: "mailto:rohan.alexander@utoronto.ca"
 site: distill::distill_website
+output:
+  postcards::trestles
 ---
 
-<!-- *25 April 2021: If you gather lots of PDFs, CSVs, and similar files from the internet, you might be interested in my R package 'heapsofpapers', available here: https://rohanalexander.github.io/heapsofpapers/.* -->
+*7 June 2021: I am on leave through to September.*
 
 
-::: {.floating}
+I am an assistant professor at the University of Toronto, in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander). I am also a faculty affiliate at the [Schwartz Reisman Institute for Technology and Society](https://sr-institute.utoronto.ca/). I hold a PhD in Economics from the Australian National University where I was supervised by [John Tang](https://sites.google.com/view/john-tang/home) (chair), [Martine Mariotti](https://researchers.anu.edu.au/researchers/mariotti-m), [Tim Hatton](https://researchers.anu.edu.au/researchers/hatton-tj), and [Zach Ward](https://sites.google.com/site/zachaward/).
 
-```{r out.width='25%', out.extra='style="float:right; padding:10px"', echo = FALSE}
-knitr::include_graphics("images/portrait_mask.jpeg")
-```
+I am interested in using statistical models to try to understand the world. And particularly how we get the data that go into those models; whose data are systematically missing; how we clean, prepare, and tidy data before they are modelled; the effects of all this on the implications of our models; and how we can reproducibly share the totality of this process. This research interest has a few different applications. One of those is Natural Language Processing (NLP), where I am interested in understanding the effects of bringing together large, biased datasets and enormous models, and how this can be improved. Another is Multilevel Regression with Post-stratification (MRP), where I examine the effects of trying to establish a correspondence between two datasets. 
 
-Rohan Alexander is an assistant professor at the University of Toronto, Canada, jointly appointed in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander). He is also a faculty affiliate at the [Schwartz Reisman Institute for Technology and Society](https://sr-institute.utoronto.ca/). He holds a PhD in Economics from the Australian National University where he was supervised by [John Tang](https://sites.google.com/view/john-tang/home) (chair), [Martine Mariotti](https://researchers.anu.edu.au/researchers/mariotti-m), [Tim Hatton](https://researchers.anu.edu.au/researchers/hatton-tj), and [Zach Ward](https://sites.google.com/site/zachaward/).
-:::
+I try to develop students in my [research group](https://rohanalexander.com/group.html) that are skilled not only in using statistical methods across various disciplines, but also appreciate their limitations, and think deeply about their broader contexts of their work. I consider students in my group to be colleagues. Examples of some recent [academic papers](https://rohanalexander.com/academic.html) includes: ['heapsofpapers'](https://rohanalexander.github.io/heapsofpapers/), ['Detecting Hate Speech with GPT-3'](https://arxiv.org/abs/2103.12407), and ['On consistency scores in text data with an implementation in R'](https://arxiv.org/abs/2101.05225).
 
-He is interested in using statistical models to try to understand the world. And particularly how we get the data that go into those models; whose data are systematically missing; how we clean, prepare, and tidy data before they are modelled; the effects of all this on the implications of our models; and how we can reproducibly share the totality of this process. This research interest has a few different applications. One of those is natural language processing (NLP), where he is interested in understanding the effects of bringing together large, biased datasets and enormous models, and how this can be improved. Another is Multilevel Regression with Post-stratification (MRP), where he examines the effects of trying to establish a correspondence between two datasets. 
+My book, tentatively titled *[Telling Stories With Data](https://www.tellingstorieswithdata.com/)*, was accepted for publication by CRC Press in May 2021. I enjoy [teaching](https://rohanalexander.com/teaching.html) and aim to help students from a wide range of backgrounds learn how to use data to tell convincing stories. In the Faculty of Information, I have taught ['Experimental Design'](https://rohanalexander.com/inf2178.html) and lead reading courses in ['Ethics and Data Science'](https://rohanalexander.com/reading_course-ethics.html), 'Information Management in Interdisciplinary Research' and 'Reproducible Data Science'. In Statistical Sciences I have taught ['Surveys, Sampling, and Observational Data'](https://rohanalexander.com/sta304.html) and lead a reading course in ['Natural Language Processing'](https://rohanalexander.com/reading_course-nlp.html). I am a [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers).
 
-He tries to develop students in his [research group](https://rohanalexander.com/group.html) that are skilled not only in using statistical methods across various disciplines, but also appreciate their limitations, and think deeply about their broader contexts of their work.
-
-Examples of his recent [academic work](https://rohanalexander.com/academic.html) include: ['heapsofpapers'](https://rohanalexander.github.io/heapsofpapers/), ['Detecting Hate Speech with GPT-3'](https://arxiv.org/abs/2103.12407), and ['On consistency scores in text data with an implementation in R'](https://arxiv.org/abs/2101.05225).
-
-His teaching notes are available: [Telling Stories With Data](https://www.tellingstorieswithdata.com/). He enjoys [teaching](https://rohanalexander.com/teaching.html) and aims to help students from a wide range of backgrounds learn how to use data to tell convincing stories. In Information he has taught ['Experimental Design'](https://rohanalexander.com/inf2178.html) and lead reading courses in ['Ethics and Data Science'](https://rohanalexander.com/reading_course-ethics.html), 'Information Management in Interdisciplinary Research' and 'Reproducible Data Science'. In Statistical Sciences he has taught ['Surveys, Sampling, and Observational Data'](https://rohanalexander.com/sta304.html) and lead a reading course in ['Natural Language Processing'](https://rohanalexander.com/reading_course-nlp.html). He is a [RStudio Certified Tidyverse Trainer](https://education.rstudio.com/trainers).
-
-He co-organizes the weekly [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html), which is more fun than it sounds. All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+I co-organize the weekly [Toronto Data Workshop](https://rohanalexander.com/toronto_data_workshop.html). All welcome! Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 
 <!-- I am organizing a conference on reproducibility in applied statistics that will be held via Zoom on Thursday and Friday 25-26 February 2021. You can learn more [here](https://rohanalexander.com/reproducibility.html).  -->
 
@@ -31,7 +34,5 @@ He co-organizes the weekly [Toronto Data Workshop](https://rohanalexander.com/to
 
 <!-- Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling. -->
 
-He is married to [Monica Alexander](https://www.monicaalexander.com) and they have a 2-year-old. He probably spends too much money on books, and certainly too much time at libraries (in a pre-COVID world). You can see some of the books that he recommends [here](https://rohanalexander.com/bookshelf.html). If you have any book recommendations of your own, then he'd love to hear them.
+I am married to [Monica Alexander](https://www.monicaalexander.com), and we have two young children. I probably spend too much money on books, and certainly too much time at libraries (in a pre-COVID world). You can see some of the books that I recommend [here](https://rohanalexander.com/bookshelf.html). If you have any book recommendations of your own, then I'd love to hear them.
 
-[Academic CV](pdfs/cv-academic-Rohan_Alexander.pdf)  
-<!-- [Professional CV](pdfs/cv-professional-RohanAlexander.pdf) -->

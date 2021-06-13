@@ -7,7 +7,7 @@
 
 
 .nav-dropdown-content {
-  color: #00f5d4;
+  color: #fdfcdc;
   background-color: #14213d;
 }
 
@@ -16,16 +16,16 @@
 }
 
 .nav-dropdown-content a{
-  color: #00f5d4;
+  color: #fdfcdc;
 }
 
 .nav-dropdown .nav-dropbtn {
-  color: #283044;
+  color: #fdfcdc;
 }
 
 .distill-site-nav {
-  color: #283044;
-  background-color: #00f5d4;
+  color: #fdfcdc;
+  background-color: #14213d;
   font-weight: bold;
 }
 

@@ -44,20 +44,19 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Date | Speaker | Topic | Recording |
 | --------- | --------------- | ------------- | ----- |
 | Fri 21 May 2021, noon-1pm | David Shor, *OpenLabs* | Political data science. | https://youtu.be/_IEPKapa9_0 |
-| Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | The Effects of a Tony Award | https://youtu.be/rFojvBN0qGk |
+| Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | The Effects of a Tony Award. | https://youtu.be/rFojvBN0qGk |
 | Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | https://youtu.be/Yu_l8MpKK-E |
-| Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* |  | |
+| Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | Quantitative editing.  | https://youtu.be/LI5m9RzJgWc |
 | Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to dashboard. | |
 | Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) |  |  |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
 | Fri 9 July 2021, noon-1pm |  |  | |
 | Fri 16 July 2021, noon-1pm | Kamilah Ebrahim, *University of Toronto* |  | |
 | Fri 23 July 2021, noon-1pm |  |  | |
-| Tue 27 July 2021, noon-1pm |  |  | |
-| Fri 30 July 2021, noon-1pm |  |  | |
+| Fri 30 July 2021, noon-1pm | Keli Chiu, *University of Toronto* |  | |
 | Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
 | Fri 13 August 2021, noon-1pm | |  | |
-| Fri 20 August 2021, 9am-1pm |  | | |
+| Fri 20 August 2021, 9am-1pm | Students from [Vianey Leos Barajas'](https://vleosbarajas.com) research group, *University of Toronto* |  | |
 | Fri 27 August 2021, noon-1pm |  |  | |
 
 
@@ -79,8 +78,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 * Friday, 11 June 2021, Noon - 1pm  
 	**Laura Bronner**, Data scientist, [`r fa("twitter", fill = "black")`](https://twitter.com/laurabronner)    
 	Bio: [Laura](https://www.laurabronner.com) is a data scientist, who most recently worked as the quantitative editor at FiveThirtyEight. More generally, she is a data scientist with an interest in causal inference, political science and quantitative text analysis. Before FiveThirtyEight, she was a Senior Analyst at the Analyst Institute, designing and analyzing field experiments for the 2018 election cycle. In September 2018, she completed a PhD in Political Science at the London School of Economics' Department of Government.    
-	Topic: TBA.  
-	Recording: TBA.  
+	Topic: Quantitative editing.  
+	Recording: https://youtu.be/LI5m9RzJgWc  
 * Friday, 18 June 2021, Noon - 1pm  
 	**Jacob Matson**, Transforming Age, [`r fa("twitter", fill = "black")`](https://twitter.com/matsonj)    
 	Bio: [Jacob](https://www.dataduel.co) is the Director of Digital Transformation at Transforming Age, leading the charge of bringing a modern technology stack into the non-profit space. He spends time doing SMB analytics consulting via his agency, Elliot Point LLC.  
@@ -103,8 +102,11 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
   Topic: TBD.  
 	Recording: TBA.  
 * Friday, 23 July 2021, Noon - 1pm  
-* Tuesday, 27 July 2021, Noon - 1pm  
 * Friday, 30 July 2021, Noon - 1pm  
+  **Keli Chiu**, University of Toronto    
+  Bio: TBD
+  Topic: TBD.  
+	Recording: TBA.  
 * Friday, 6 August 2021, 12:30pm - 1pm  
 	**Ijeamaka Anyene**, Kaiser Permanente Division of Research, [`r fa("twitter", fill = "black")`](https://twitter.com/ijeamaka_a)  
 	Bio: [Ijeamaka](https://ijeamaka-anyene.netlify.app) is a data analyst working in healthcare research. She specializes in using R and SAS for data analysis, epidemiological research, and data visualizations. She is also passionate about computational art, knowledge sharing / dissemination, and how to mix the two.    
@@ -112,6 +114,10 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 	Recording: TBA.  
 * Friday, 13 August 2021, Noon - 1pm  
 * Friday, 20 August 2021, 9am - 1pm  
+  **Students from Vianey Leos Barajas' research group**, University of Toronto    
+  Bio: TBD
+  Topic: TBD.  
+	Recording: TBA.  
 * Friday 27 August 2021, noon - 1pm  
 
   

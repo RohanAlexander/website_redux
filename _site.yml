@@ -27,9 +27,9 @@ navbar:
           href: inf2178.html
         - text: "Surveys, Sampling and Observational Data"
           href: sta304.html
-        - text: "Reading course: 'Ethics and Data Science'"
+        - text: "Ethics and Data Science"
           href: reading_course-ethics.html
-        - text: "Reading course: 'Natural Language Processing'"
+        - text: "Natural Language Processing"
           href: reading_course-nlp.html
     - text: "Toronto Data Workshop"
       href: toronto_data_workshop.html
@@ -39,16 +39,8 @@ navbar:
       menu: 
         - text: "Bookshelf"
           href: bookshelf.html
-        - text: "Professional"
-          href: bookshelf.html
         - text: "2021 Toronto Workshop on Reproducibility"
           href: reproducibility.html
-    - icon: fab fa-twitter
-      href: https://twitter.com/RohanAlexander
-    - icon: fab fa-github
-      href: https://github.com/RohanAlexander
-    - icon: far fa-paper-plane
-      href: mailto:rohan.alexander@utoronto.ca
 output: 
   distill::distill_article:
     css: styles.css
