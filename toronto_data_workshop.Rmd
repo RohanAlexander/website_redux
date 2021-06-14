@@ -47,7 +47,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | The Effects of a Tony Award. | https://youtu.be/rFojvBN0qGk |
 | Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | https://youtu.be/Yu_l8MpKK-E |
 | Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | Quantitative editing.  | https://youtu.be/LI5m9RzJgWc |
-| Fri 18 June 2021, noon-1pm | Jacob Matson, *Transforming Age* | Data to dashboard. | |
+| Fri 18 June 2021, noon-1pm | Jacob Matson, *Simetric, Inc.* | Data to dashboard. | |
 | Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) |  |  |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
 | Fri 9 July 2021, noon-1pm |  |  | |
@@ -81,8 +81,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 	Topic: Quantitative editing.  
 	Recording: https://youtu.be/LI5m9RzJgWc  
 * Friday, 18 June 2021, Noon - 1pm  
-	**Jacob Matson**, Transforming Age, [`r fa("twitter", fill = "black")`](https://twitter.com/matsonj)    
-	Bio: [Jacob](https://www.dataduel.co) is the Director of Digital Transformation at Transforming Age, leading the charge of bringing a modern technology stack into the non-profit space. He spends time doing SMB analytics consulting via his agency, Elliot Point LLC.  
+	**Jacob Matson**, Simetric, [`r fa("twitter", fill = "black")`](https://twitter.com/matsonj)    
+	Bio: [Jacob](https://www.linkedin.com/in/jacobmatson) is VP of Finance & Operations at [Simetric, Inc.](https://simetric.com).  
 	Topic: Data ask to Dashboard.  
 	Recording: TBA.  
 * Friday, 25 June 2021, Noon - 1pm  
