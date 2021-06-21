@@ -25,7 +25,7 @@ Current organising committee:
 - Lorena Almaraz De La Garza, and 
 - Rohan Alexander. 
 
-Former committee members: 
+Past committee members: 
 
 - Faria Khandaker. 
 
@@ -47,7 +47,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Fri 28 May 2021, noon-1pm | Samantha Pierre, *University of Toronto* | The Effects of a Tony Award. | https://youtu.be/rFojvBN0qGk |
 | Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | https://youtu.be/Yu_l8MpKK-E |
 | Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | Quantitative editing.  | https://youtu.be/LI5m9RzJgWc |
-| Fri 18 June 2021, noon-1pm | Jacob Matson, *Simetric, Inc.* | Data to dashboard. | |
+| Fri 18 June 2021, noon-1pm | Jacob Matson, *Simetric, Inc.* | From data to dashboard. | https://youtu.be/U8-6QKtWXCQ |
 | Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) |  |  |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
 | Fri 9 July 2021, noon-1pm |  |  | |
@@ -56,7 +56,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Fri 30 July 2021, noon-1pm | Keli Chiu, *University of Toronto* |  | |
 | Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
 | Fri 13 August 2021, noon-1pm | |  | |
-| Fri 20 August 2021, 9am-1pm | Students from [Vianey Leos Barajas'](https://vleosbarajas.com) research group, *University of Toronto* |  | |
+| Fri 20 August 2021, noon-1pm | Students from [Vianey Leos Barajas'](https://vleosbarajas.com) research group, *University of Toronto* |  | |
 | Fri 27 August 2021, noon-1pm |  |  | |
 
 
@@ -83,8 +83,8 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 * Friday, 18 June 2021, Noon - 1pm  
 	**Jacob Matson**, Simetric, [`r fa("twitter", fill = "black")`](https://twitter.com/matsonj)    
 	Bio: [Jacob](https://www.linkedin.com/in/jacobmatson) is VP of Finance & Operations at [Simetric, Inc.](https://simetric.com).  
-	Topic: Data ask to Dashboard.  
-	Recording: TBA.  
+	Topic: From data ask to dashboard.  
+	Recording: https://youtu.be/U8-6QKtWXCQ  
 * Friday, 25 June 2021, Noon - 1pm  
 	**Laura Derksen**, University of Toronto Mississauga, [`r fa("twitter", fill = "black")`](https://twitter.com/lauraderksen)    
 	Bio: [Laura](https://sites.google.com/site/lauraderksen) is a global health/development economist in the Management Dept at UTM.  
@@ -113,12 +113,13 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 	Topic: Taking the next step past standard charts.  
 	Recording: TBA.  
 * Friday, 13 August 2021, Noon - 1pm  
-* Friday, 20 August 2021, 9am - 1pm  
+* Friday, 20 August 2021, Noon - 1pm  
   **Students from Vianey Leos Barajas' research group**, University of Toronto    
   Bio: TBD
   Topic: TBD.  
 	Recording: TBA.  
 * Friday 27 August 2021, noon - 1pm  
+
 
   
 
