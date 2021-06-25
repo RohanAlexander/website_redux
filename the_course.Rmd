@@ -1,7 +1,7 @@
 ---
 title: "The Course"
 description: |
-  This is the data science course.
+  This is a course on the fundamentals of data science.
 output:
   distill::distill_article:
     toc: true
@@ -12,36 +12,40 @@ output:
 
 ### Overview
 
-The course will be an enormous amount of work and cause you a large amount of stress.This is unfortunate, but there's little way around it. All I can tell you is that having done this course, it'll be easier in the future.
+The course will be an enormous amount of work and cause you a large amount of stress. This is unfortunate, but there's little way around it. All I can tell you is that having done this course, it'll be easier in the future.
 
-The purpose of this course is to develop students who can...
+The purpose of this course is to develop students who appreciate, and can iterate on, the fundamentals of data science.
 
  
 This course will require students to:
 
-- TBD
+- actively read and consider a large amount of literature;
+- actively learn the statistical programming language R and apply it to real-world conditions;
+- gather, clean, and prepare their own datasets; and
+- develop killer statistics skills, including the critical aspect of being able to communicate.
 
-Essentially this course provides students with the freedom to conduct original research on a topic of interest to them within certain guidelines.
+Essentially this course provides students with everything that they need to know to be able to do the most exciting thing in the world: use data to tell convincing stories.
 
 
 ### FAQ
 
 - Can I audit this course? Sure, but it's pointless, because the only way to learn this stuff is to do the work.
 - Can I attend lectures? Sure, but it's just me running through code.
-- What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a tutorial where you discuss it with them.
+- What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a meeting 'tutorial' where you discuss it with them.
+- Why is there so much assessment? The only way to learn is to actually do the work, and students only do the work when they are assessed. It's unfortunate, but there's no way around it.
 
-
-### Course learning objectives
-
-- Collect real-world data.
-- Clean and prepare real-world data
-- 
 
 ### Pre-requisites
 
 None.
 
+### Textbook
+
+Alexander, 2022, *Telling Stories with Data*, CRC Press, https://www.tellingstorieswithdata.com.
+
 ### Acknowledgements
+
+Thank you to Monica Alexander.
 
 
 
@@ -52,56 +56,68 @@ None.
 
 'Drinking from a fire hose'.
 
-- Content: [Drinking from a fire hose](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html), [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html).
+- Content:
+  - *Telling Stories with Data*, Chapter 1: [Drinking from a fire hose](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
+  - *Telling Stories with Data*, Chapter 2: [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html).
 
 
 ### Week 2
 
 'Science-ing'.
 
-- Content: [Workflow](https://www.tellingstorieswithdata.com/workflow.html), [Writing](https://www.tellingstorieswithdata.com/on-writing.html).
+- Content: 
+  - *Telling Stories with Data*, Chapter 4: [Workflow](https://www.tellingstorieswithdata.com/workflow.html), 
+  - *Telling Stories with Data*, Chapter 5: [Writing](https://www.tellingstorieswithdata.com/on-writing.html).
 
 
 ### Week 3
 
 'Communicating'.
 
-- Content: [Static communication](https://www.tellingstorieswithdata.com/static-communication.html), [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html).
+- Content: 
+  - *Telling Stories with Data*, Chapter 6: [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
+  - *Telling Stories with Data*, Chapter 7: [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html).
 
 
 
 ### Week 4
 
-'Gathering'.
+'Gathering data'.
 
-- Content: [Gathering data](https://www.tellingstorieswithdata.com/gather-data.html).
+- Content: 
+  - *Telling Stories with Data*, Chapter 8: [Gathering data](https://www.tellingstorieswithdata.com/gather-data.html).
 
 ### Week 5
 
-'Hunting'.
+'Hunting data'.
 
-- Content: [Hunting data](https://www.tellingstorieswithdata.com/hunt-data.html).
+- Content: 
+  - *Telling Stories with Data*, Chapter 9: [Hunting data](https://www.tellingstorieswithdata.com/hunt-data.html).
 
 
 ### Week 6
 
-'Cleaning'.
+'Cleaning data'.
 
-- Content: [Clean and prepare data](https://www.tellingstorieswithdata.com/cleaning-and-preparing-data.html)
+- Content: 
+  - *Telling Stories with Data*, Chapter 11: [Clean and prepare data](https://www.tellingstorieswithdata.com/cleaning-and-preparing-data.html)
 
 
 ### Week 7
 
 'Store, retrieve, disseminate and protect'.
 
-- Content: [Storing and retrieving data](https://www.tellingstorieswithdata.com/storing-and-retrieving-data.html), [Disseminating and protecting data](https://www.tellingstorieswithdata.com/disseminating-and-protecting-data.html)
+- Content: 
+  - *Telling Stories with Data*, Chapter 12: [Storing and retrieving data](https://www.tellingstorieswithdata.com/storing-and-retrieving-data.html), 
+  - *Telling Stories with Data*, Chapter 13: [Disseminating and protecting data](https://www.tellingstorieswithdata.com/disseminating-and-protecting-data.html)
 
 
 ### Week 8
 
 'Whoops, I forgot EDA'.
 
-- Content: [Exploratory Data Analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html).
+- Content: 
+  - *Telling Stories with Data*, Chapter 14: [Exploratory Data Analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html).
 
 
 
@@ -109,31 +125,33 @@ None.
 
 'IJALM - It's Just A Linear Model'.
 
-- Content: [Linear models](https://www.tellingstorieswithdata.com/ijalm.html)
-- Special guest: [Kathy Ge on experiments at Uber](https://youtu.be/UYzXElJTovg).
+- Content: 
+  - *Telling Stories with Data*, Chapter 15: [It's just a linear model](https://www.tellingstorieswithdata.com/ijalm.html)
+
 
 
 ### Week 10
 
 'Such a shame they'll never meet'.
 
-- Content: [Matching and difference in differences](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#difference-in-differences), [Regression discontinuity](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#regression-discontinuity-design) and [instrumental variables](https://www.tellingstorieswithdata.com/causality-from-observational-data.html#instrumental-variables). 
-- Special guest: [Emily Riederer on observational causal inference](https://youtu.be/VP3BBZ7poc0).
-- Special guest: [Tamar Oostrom on funding of clinical trials](https://youtu.be/DdnpWS9Km5U).
+- Content: 
+  - *Telling Stories with Data*, Chapter 16: [Causality from observational data](https://www.tellingstorieswithdata.com/causality.html)
 
 
 
 ### Week 11
 
-'MRP'.
+'Multilevel regression with post-stratification'.
 
-- Content: [MRP](https://www.tellingstorieswithdata.com/mrp.html)
+- Content: 
+  - *Telling Stories with Data*, Chapter 17: [MRP](https://www.tellingstorieswithdata.com/mrp.html)
 
 ### Week 12
 
 'Lorem ipsum'.
 
-- Content: [Text-as-data](https://www.tellingstorieswithdata.com/text-as-data.html).
+- Content: 
+  - *Telling Stories with Data*, Chapter 18: [Text-as-data](https://www.tellingstorieswithdata.com/text-as-data.html).
 
 
 
@@ -159,9 +177,9 @@ None.
 ### Weekly quizzes
 
 - Due date: Weekly before the lecture.
-- Weight: 20 per cent (no quiz in Week 1 or Week 12 and only best eight out of ten count.)
+- Weight: 20 per cent (only best eight out of twelve count.)
 - Task: Please complete a weekly quiz in Quercus.
-- Questions: The questions that form the quiz are drawn from those in the course notes.
+- Questions: The questions that form the quiz are drawn from those in the Quiz sections *Telling Stories with Data*.
 
 
 ### Professional conduct

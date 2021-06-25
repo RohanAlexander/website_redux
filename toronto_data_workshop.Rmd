@@ -48,7 +48,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Fri 4 June 2021, noon-1pm | Heather Krause, *We All Count* | Equity in data. | https://youtu.be/Yu_l8MpKK-E |
 | Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | Quantitative editing.  | https://youtu.be/LI5m9RzJgWc |
 | Fri 18 June 2021, noon-1pm | Jacob Matson, *Simetric, Inc.* | From data to dashboard. | https://youtu.be/U8-6QKtWXCQ |
-| Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) |  |  |
+| Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | Effect of Wikipedia  | https://youtu.be/Coz-HFesTsw  |
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
 | Fri 9 July 2021, noon-1pm |  |  | |
 | Fri 16 July 2021, noon-1pm | Kamilah Ebrahim, *University of Toronto* |  | |
@@ -87,9 +87,9 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 	Recording: https://youtu.be/U8-6QKtWXCQ  
 * Friday, 25 June 2021, Noon - 1pm  
 	**Laura Derksen**, University of Toronto Mississauga, [`r fa("twitter", fill = "black")`](https://twitter.com/lauraderksen)    
-	Bio: [Laura](https://sites.google.com/site/lauraderksen) is a global health/development economist in the Management Dept at UTM.  
-	Topic: TBD.  
-	Recording: TBA.  
+	Bio: [Laura](https://sites.google.com/site/lauraderksen) is the Amgen Canada Professor in Health System Strategy at the University of Toronto Mississauga and assistant professor in Strategic Management at the Rotman School of Management. Her research interests are development and global health education, information and networks.  
+	Topic: The impact of student access to Wikipedia.
+	Recording: https://youtu.be/Coz-HFesTsw  
 * Friday, 2 July 2021, Noon - 1pm  
 	**Zachary McCaw**, Google  
 	Bio: Zachary McCaw is a data scientist at Google.  
