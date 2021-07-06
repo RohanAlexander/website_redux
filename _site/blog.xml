@@ -12,7 +12,16 @@
       <link>https://rohanalexander.com/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Getting to turn our world into data</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2021-07-06-turning-our-world-into-data</link>
+      <description>A talk delivered at the Harvard Biostatistics Data Science in Action Summer Camp, 7 July 2021, organised by Jesse Gronsbell.</description>
+      <guid>https://rohanalexander.com/posts/2021-07-06-turning-our-world-into-data</guid>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2021-07-06-turning-our-world-into-data/ed_draws.jpeg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Opportunities Provided by Open Data and Reproducibility</title>
       <dc:creator>Rohan Alexander</dc:creator>
