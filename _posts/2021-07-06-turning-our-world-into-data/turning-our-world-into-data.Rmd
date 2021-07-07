@@ -64,7 +64,7 @@ What is data science? There's not one agreed on definition, but a lot of people 
 
 > This unsureness isn't necessarily the weakness many consider it. After all, who can really say what makes someone a poet or a scientist? Even so, some things can be said. In broad strokes, ... someone with a data driven research agenda, who adheres to or aspires to using a principled implementation of statistical methods and uses efficient computation skills.
 
-I like this definition, but I also think there's value in having a simple definition, even if we lose a bit of specificity in the process. Probability, which is related to statistics, is often informally defined as 'counting things' [@mcelreath, p. 10]. In a similar informal sense, I think that data science can be defined as something like 'measuring stuff and averaging it, with purpose'. 
+I like this definition, but I also think there's value in having a simple definition, even if we lose a bit of specificity in the process. Probability, which is related to statistics, is often informally defined as 'counting things' [@mcelreath, p. 10]. In a similar informal sense, I'm currently playing around with a definition of data science that is something like 'measuring stuff and averaging it, with purpose'. 
 
 One reason that I like this definition is that it doesn't treat data as *terra nullius*, or nobody's land. Statisticians tend to see data as the result of some data generating process, which we can never know, but that we try to use data to come to understand. I'm oversimplifying here, and many statisticians care deeply about data, but at the same time, there's a lot of cases in statistics where the data kind of just appear; they belong to no one. But that's just never the case. 
 
@@ -87,7 +87,9 @@ b) some skills.
 
 One way to do this is through demonstrating your interest in coding and the data science skills that you're developing at this camp. For instance, these days a lot of papers in the fields that I'm interested in need some type of R package to go alongside them, and it can be hard to find students who can do this. If a student emailed having made an R package, that would show a lot of interest and skills, and it would be clear how I could involve them. Another thing that is increasingly needed is a datasheet [@gebru2020datasheets]. So again, you could put together documentation for a dataset and email that. Again, it shows that you've got a genuine interest and that you've got a base of skills that would enable you to be useful.
 
-Thanks very much for letting me speak. I know that everyone says this to you, but being 17 is just such an exciting time of one's life, and I'm glad to see that you're making the most of it. I'd be happy to take any questions.
+Thanks very much for letting me speak. I know that everyone says this to you, and with apologies to Olivia Rodrigo, but being 17 is just such an exciting time of one's life, and I'm glad to see that you're making the most of it. One seems to go straight from being the youngest in the room to being the oldest, without any middle. And, just so that you know, you kind of never work life out--- everyone is just making it up as they go. 
+
+I'd be happy to take any questions.
 
 
 
