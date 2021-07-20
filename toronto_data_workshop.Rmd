@@ -104,7 +104,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 	Recording: https://youtu.be/f_3bpEeRdhI  
 * Friday, 23 July 2021, Noon - 1pm  
   **Annie Collins & Rohan Alexander**, University of Toronto    
-  Bio: Annie Collins recently graduated from the University of Toronto specializing in applied mathematics and statistics with a minor in history and philosophy of science. In her free time, she focusses her efforts on student governance, promoting women’s representation in STEM, and working with data in the non-profit and charitable sector. Rohan Alexander is an assistant professor at the University of Toronto in Information and Statistical Sciences, and a faculty affiliate at the Schwartz Reisman Institute for Technology and Society. He holds a PhD in Economics from the Australian National University.  
+  Bio: Annie Collins is an undergraduate student at the University of Toronto specializing in applied mathematics and statistics with a minor in history and philosophy of science. In her free time, she focusses her efforts on student governance, promoting women’s representation in STEM, and working with data in the non-profit and charitable sector. Rohan Alexander is an assistant professor at the University of Toronto in Information and Statistical Sciences, and a faculty affiliate at the Schwartz Reisman Institute for Technology and Society. He holds a PhD in Economics from the Australian National University.  
   Topic: Reproducibility of COVID-19 pre-prints.  
 	Recording: TBA.  
 * Friday, 30 July 2021, Noon - 1pm  
