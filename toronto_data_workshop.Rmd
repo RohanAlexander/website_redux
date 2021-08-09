@@ -52,10 +52,10 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
 | Fri 9 July 2021, noon-1pm | No meeting |  | |
 | Fri 16 July 2021, noon-1pm | Kamilah Ebrahim, *University of Toronto* | Trust in contact tracing apps. | https://youtu.be/f_3bpEeRdhI |
-| Fri 23 July 2021, noon-1pm | Annie Collins & Rohan Alexander, *University of Toronto*  | Reproducibility of COVID-19 pre-prints | |
-| Fri 30 July 2021, noon-1pm | Keli Chiu, *University of Toronto* | Detecting and explaining sexist and racist text with GPT-3 | |
-| Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  |  |
-| Fri 13 August 2021, noon-1pm | |  | |
+| Fri 23 July 2021, noon-1pm | Annie Collins & Rohan Alexander, *University of Toronto*  | Reproducibility of COVID-19 pre-prints | https://youtu.be/_ncpTbhe8qA |
+| Fri 30 July 2021, noon-1pm | Keli Chiu, *University of Toronto* | Detecting and explaining sexist and racist text with GPT-3 | https://youtu.be/xmmoVD5zTOQ |
+| Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  | https://youtu.be/LlVf8foXUmM |
+| Fri 13 August 2021, noon-1pm | Students from the Independent Summer Statistics Community |  Analysis of Toronto data |  |
 | Fri 20 August 2021, noon-1pm | Students from [Vianey Leos Barajas'](https://vleosbarajas.com) research group, *University of Toronto* |  | |
 | Fri 27 August 2021, noon-1pm | Students from Rohan Alexander's research group, *University of Toronto* |  | |
 
@@ -106,18 +106,23 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
   **Annie Collins & Rohan Alexander**, University of Toronto    
   Bio: Annie Collins is an undergraduate student at the University of Toronto specializing in applied mathematics and statistics with a minor in history and philosophy of science. In her free time, she focusses her efforts on student governance, promoting women’s representation in STEM, and working with data in the non-profit and charitable sector. Rohan Alexander is an assistant professor at the University of Toronto in Information and Statistical Sciences, and a faculty affiliate at the Schwartz Reisman Institute for Technology and Society. He holds a PhD in Economics from the Australian National University.  
   Topic: Reproducibility of COVID-19 pre-prints.  
-	Recording: TBA.  
+	Recording: https://youtu.be/_ncpTbhe8qA  
 * Friday, 30 July 2021, Noon - 1pm  
   **Keli Chiu**, University of Toronto    
   Bio: [Keli Chiu](http://kelichiu.com/) is a recent graduate of master in Information at the University of Toronto with the concentration in Human-Centred Data Science. Prior to pursuing her master in the information fields, she worked as a web developer and fell in love with data. Her research interests are natural language processing applications, text analysis and ethics in AI and machine learning. She received rstudio::global Diversity Scholarships in the year of 2021.  
   Topic: Detecting sexist and racist text contents with explanations accompanied with GPT-3  
-	Recording: TBA.  
+	Recording: https://youtu.be/xmmoVD5zTOQ  
 * Friday, 6 August 2021, 12:30pm - 1pm  
 	**Ijeamaka Anyene**, Kaiser Permanente Division of Research, [`r fa("twitter", fill = "black")`](https://twitter.com/ijeamaka_a)  
 	Bio: [Ijeamaka](https://ijeamaka-anyene.netlify.app) is a data analyst working in healthcare research. She specializes in using R and SAS for data analysis, epidemiological research, and data visualizations. She is also passionate about computational art, knowledge sharing / dissemination, and how to mix the two.    
 	Topic: Taking the next step past standard charts.  
-	Recording: TBA.  
+	Recording: https://youtu.be/LlVf8foXUmM
 * Friday, 13 August 2021, Noon - 1pm  
+  **Student groups from the Independent Summer Statistics Community**, University of Toronto    
+  'Prospective Analytics' comprised of Ashley Zhang, Eric Zhu, Muhammad Tsany and Sergio Zheng Zhou.  
+  'Statistically Significant' comprised of Aliza Lakho, Chloris Jiang, Janhavi Agarwal, and José Casas on whether young professionals should move to Toronto.  
+  'Point Zero Five' comprised of Pan Chen, Xiaoxuan Han, Yi Qin, and Yini Mao on the livability of Toronto for newcomers.  
+	Recording: TBA.  
 * Friday, 20 August 2021, Noon - 1pm  
   **Students from Vianey Leos Barajas' research group**, University of Toronto    
   Bio: TBD

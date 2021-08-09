@@ -15,6 +15,7 @@ My work is arranged around three tranches:
 
 # Papers
 
+* Annie Collins and Rohan Alexander, 2021, 'Reproducibility of COVID-19 pre-prints', *arXiv*, 22 July, https://arxiv.org/abs/2107.10724.
 * Rohan Alexander, Samantha-Jo Caetano, Haoluan Chen, Michael Chong, Annie Collins, Shirley Deng, Isaac Ehrlich, Paul Hodgetts, Yena Joo, Marija Pejcinovska, Mariam Walaa, and Matthew Wankiewicz, 2021, 'An Introduction to DoSStoolkit', *arXiv*, 19 May, https://arxiv.org/abs/2105.09347.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'Detecting Hate Speech with GPT-3', *arXiv*, 23 March, https://arxiv.org/abs/2103.12407.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
@@ -40,6 +41,8 @@ knitr::include_graphics("images/AustralianPoliticians.png")
 
 
 # Presentations
+* Turning Our World Into Data   
+    7 July 2021, Harvard Biostatistics Data Science in Action Summer Camp.  
 * Forecasting Parliamentary Elections  
     10 December 2019, Monash University, Department of Econometrics & Business Statistics, Melbourne.  
     9 December 2019, Australian Society for Quantitative Political Science Conference, Melbourne.  

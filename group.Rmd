@@ -28,11 +28,13 @@ We organize the Toronto Data Workshop, which everyone is welcome to attend - sig
 
 ### Faculty affiliates
 
-- [Professor Kelly Lyons](http://individual.utoronto.ca/klyons/).
+- [Kelly Lyons](http://individual.utoronto.ca/klyons/).
+- [Samantha-Jo Caetano](https://www.statistics.utoronto.ca/people/directories/all-faculty/samantha-jo-caetano).
 
 ### Industry affiliates
 
 - [Sharla Gelfand](https://sharla.party/).
+- [Hareem Naveed](https://github.com/harnav).
 
 ### Students
 
@@ -45,8 +47,9 @@ knitr::include_graphics(c("images/cesR_hex.png"))
 #### Current
 
 - **Amy Farrow** is a Master of Information student at the University of Toronto. 
+- **Annie Collins** is an undergraduate student at the University of Toronto specializing in applied mathematics and statistics with a minor in history and philosophy of science. Annie worked on ['An Introduction to DoSStoolkit'](https://arxiv.org/abs/2105.09347) and ['Reproducibility of COVID-19 pre-prints'](https://arxiv.org/abs/2107.10724).
 - **Dan Xu** is a doctoral student in the Faculty of Information at the University of Toronto. His research focus is on misinformation propagation in politics.
-- **Ke-Li Chiu** is a Master of Information student at the University of Toronto. She is interested in natural language processing (NLP) and put together the `aRianna` R package and Shiny app for text cleaning and preparation described here: https://arxiv.org/abs/2101.05225. Work in progress involves GPT-3.
+- **Ke-Li Chiu** is a Master of Information student at the University of Toronto interested in natural language processing. Ke-Li worked on: ['On consistency scores in text data with an implementation in R'](https://arxiv.org/abs/2101.05225) and ['Detecting Hate Speech with GPT-3'](https://arxiv.org/abs/2103.12407).
 - **Paul Hodgetts** is a Master of Information student at the University of Toronto. Paul put together `cesR`, which is an R package that makes it easier to gather and use the Canadian Election Study surveys from 1965 through to 2019, described here: https://osf.io/preprints/socarxiv/a29h8/. Work in progress involves estimates of stateless populations.
 - **Yian Wang** is an undergraduate student studying for an Honours Bachelor of Science degree with majors in statistics and economics and a minor in mathematics. Yian is interested in surveys and current work involves understanding the effect of COVID shutdowns on the restaurant industry.
 
