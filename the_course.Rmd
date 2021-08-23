@@ -30,14 +30,14 @@ Essentially this course provides students with everything that they need to know
 ### FAQ
 
 - Can I audit this course? Sure, but it's pointless, because the only way to learn this stuff is to do the work.
-- Can I attend lectures? Sure, but it's just me running through code.
-- What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a meeting 'tutorial' where you discuss it with them.
+- What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a meeting, 'tutorial', where you discuss it with them.
 - Why is there so much assessment? The only way to learn is to actually do the work, and students only do the work when they are assessed. It's unfortunate, but there's no way around it.
 
 
 ### Pre-requisites
 
-None.
+- *Telling Stories with Data*, Chapter 1: [Telling Stories with Data](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
+
 
 ### Textbook
 
@@ -57,8 +57,8 @@ Thank you to Monica Alexander.
 'Drinking from a fire hose'.
 
 - Content:
-  - *Telling Stories with Data*, Chapter 1: [Drinking from a fire hose](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
-  - *Telling Stories with Data*, Chapter 2: [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html).
+  - *Telling Stories with Data*, Chapter 2: [Drinking from a fire hose](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
+  - *Telling Stories with Data*, Chapter 3: [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html).
 
 
 ### Week 2
@@ -163,7 +163,8 @@ Thank you to Monica Alexander.
 
 | Item 								| Weight (%) | Due date |
 | ------------- | -------------:| -----:|
-| Weekly quiz 						| 20 		 | Weekly before the lecture |
+| Weekly quiz 						| 10 		 | Weekly before the lecture |
+| Tutorial 						| 10 		 | Weekly before the lecture |
 | Professional conduct			| 1 		 | Anytime during the teaching term |
 | Paper 1 							| 25 		 | End of Week 3 |
 | Paper 2 							| 25 		 | End of Week 6 |
@@ -177,9 +178,17 @@ Thank you to Monica Alexander.
 ### Weekly quizzes
 
 - Due date: Weekly before the lecture.
-- Weight: 20 per cent (only best eight out of twelve count.)
+- Weight: 10 per cent (only best eight out of twelve count.)
 - Task: Please complete a weekly quiz in Quercus.
-- Questions: The questions that form the quiz are drawn from those in the Quiz sections *Telling Stories with Data*.
+- Questions: The questions that form the quiz are drawn from those in the Quiz sections of *Telling Stories with Data*.
+
+
+### Tutorial
+
+- Due date: Weekly before the lecture.
+- Weight: 10 per cent (only best five out of twelve count.)
+- Task: Please complete a tutorial question and submit it via Quercus.
+- Questions: Tutorial questions are drawn from those in the Tutorials sections of *Telling Stories with Data*.
 
 
 ### Professional conduct

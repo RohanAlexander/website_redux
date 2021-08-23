@@ -49,15 +49,13 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 | Fri 11 June 2021, noon-1pm | Laura Bronner, *Data scientist* | Quantitative editing.  | https://youtu.be/LI5m9RzJgWc |
 | Fri 18 June 2021, noon-1pm | Jacob Matson, *Simetric, Inc.* | From data to dashboard. | https://youtu.be/U8-6QKtWXCQ |
 | Fri 25 June 2021, noon-1pm | Laura Derksen, *University of Toronto Mississauga*  (jointly hosted with the UTM Collaborative Digital Research Space.) | Effect of Wikipedia  | https://youtu.be/Coz-HFesTsw  |
-| Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* |  | |
-| Fri 9 July 2021, noon-1pm | No meeting |  | |
+| Fri 2 July 2021, noon-1pm | Zachary McCaw, *Google* | - | - |
 | Fri 16 July 2021, noon-1pm | Kamilah Ebrahim, *University of Toronto* | Trust in contact tracing apps. | https://youtu.be/f_3bpEeRdhI |
 | Fri 23 July 2021, noon-1pm | Annie Collins & Rohan Alexander, *University of Toronto*  | Reproducibility of COVID-19 pre-prints | https://youtu.be/_ncpTbhe8qA |
 | Fri 30 July 2021, noon-1pm | Keli Chiu, *University of Toronto* | Detecting and explaining sexist and racist text with GPT-3 | https://youtu.be/xmmoVD5zTOQ |
 | Fri 6 August 2021, 12:30-1:30pm | Ijeamaka Anyene, *Kaiser Permanente Division of Research*  | Taking the next step past standard charts.  | https://youtu.be/LlVf8foXUmM |
-| Fri 13 August 2021, noon-1pm | Students from the Independent Summer Statistics Community |  Analysis of Toronto data |  |
-| Fri 20 August 2021, noon-1pm | Students from [Vianey Leos Barajas'](https://vleosbarajas.com) research group, *University of Toronto* |  | |
-| Fri 27 August 2021, noon-1pm | Students from Rohan Alexander's research group, *University of Toronto* |  | |
+| Fri 13 August 2021, noon-1pm | Students from the Independent Summer Statistics Community |  Analysis of Toronto data | https://youtu.be/zkuMedB23f8 |
+| Fri 20 August 2021, noon-1pm | Students from [Vianey Leos Barajas'](https://vleosbarajas.com) research group, *University of Toronto* | Sharks, lizards, and basketball! | https://youtu.be/p697exbcMZE |
 
 
 * Friday, 21 May 2021, Noon - 1pm  
@@ -93,10 +91,6 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 * Friday, 2 July 2021, Noon - 1pm  
 	**Zachary McCaw**, Google  
 	Bio: Zachary McCaw is a data scientist at Google.  
-	Topic: TBD.  
-	Recording: TBA.  
-* Friday, 9 July 2021, Noon - 1pm  
-*No meeting*
 * Friday, 16 July 2021, Noon - 1pm  
   **Kamilah Ebrahim**, University of Toronto, [`r fa("twitter", fill = "black")`](https://twitter.com/kamilahebrahim)    
   Bio: Kamilah Ebrahim received a B.A. in Economics from the University of Waterloo in 2019 and is currently pursuing a Masters of Information in Human Centred Data Science at the University of Toronto. Kamilah is a 2020-21 Graduate Fellow at the University of Toronto Centre for Ethics focusing on the intersection between race, economics and data monopolies in Canada. Prior to joining the University of Toronto she held roles at the United Nation Economic and Social Commission for Asia and the Pacific (UN ESCAP), as well as the Canadian federal government.  
@@ -122,17 +116,13 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
   'Prospective Analytics' comprised of Ashley Zhang, Eric Zhu, Muhammad Tsany and Sergio Zheng Zhou.  
   'Statistically Significant' comprised of Aliza Lakho, Chloris Jiang, Janhavi Agarwal, and José Casas on whether young professionals should move to Toronto.  
   'Point Zero Five' comprised of Pan Chen, Xiaoxuan Han, Yi Qin, and Yini Mao on the livability of Toronto for newcomers.  
-	Recording: TBA.  
+	Recording: https://youtu.be/zkuMedB23f8  
 * Friday, 20 August 2021, Noon - 1pm  
   **Students from Vianey Leos Barajas' research group**, University of Toronto    
-  Bio: TBD
-  Topic: TBD.  
-	Recording: TBA.  
-* Friday 27 August 2021, noon - 1pm  
-  **Students from Rohan Alexander's research group**, University of Toronto    
-  Bio: TBD
-  Topic: TBD.  
-	Recording: TBA.  
+  Bio: Jessica Long, Simone Collier, Vinky Wang, Sophie Berkowitz, and Yun-Hsiang Chan are undergraduate students at the University of Toronto.  
+  Topic: The presentations will use statistical model to analyzing shark, lizard, and basketball movement data. The data was collected through drones, accelerometers or video tracking software.  
+	Recording: https://youtu.be/p697exbcMZE  
+
 
 
   
