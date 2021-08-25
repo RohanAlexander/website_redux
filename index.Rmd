@@ -15,7 +15,7 @@ output:
   postcards::trestles
 ---
 
-*7 June 2021: I am on leave through to September.*
+*24 August 2021: A Mahfouz and I had [`heapsofpapers`](https://rohanalexander.github.io/heapsofpapers/) accepted onto CRAN. It's an R package that makes it easier to respectfully download files from the internet. .*
 
 
 I am an assistant professor at the University of Toronto in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander). 

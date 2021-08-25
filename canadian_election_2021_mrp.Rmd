@@ -1,7 +1,7 @@
 ---
 title: "Forecasting the 2021 Canadian Election with MRP"
 description: |
-  Supported by the Canadian Election Study and TODO
+  Supported by the Canadian Election Study, CANSSI Ontario, and TODO
 output:
   distill::distill_article:
     toc: true
@@ -10,17 +10,15 @@ output:
 
 ## Overview
 
-The 2021 Canadian Election will be held on 20 September. Multilevel regression with post-stratification (MRP) is one way to forecast an election. It trains a model on a survey, and then applies that trained model to another dataset. It can be used to generate estimates for all 338 ridings, however the tradeoff is increased uncertainty. 
+The 2021 Canadian Election will be held on 20 September. Multilevel regression with post-stratification (MRP) is one way to forecast an election. It trains a model on a survey, and then applies that trained model to another dataset. It can be used to generate estimates for all 338 ridings, however the trade-off is increased uncertainty. 
 
-The Canadian Election Study - http://www.ces-eec.ca - is partnering with TODO to provide students with an opportunity to use MRP to forecast the 2021 Canadian election.
+The Canadian Election Study - http://www.ces-eec.ca - is partnering with CANSSI Ontario, and TODO to provide students with an opportunity to use MRP to forecast the 2021 Canadian election.
 
-This page contains links to code and data that you need to get started. How you go further with this is up to you. We are providing simulated survey data that you should use to when deciding on your model. 
+Please register your interest by filling out this form: TODO ADD LINK.
 
-Please register your interest by filling out this form: : TODO ADD LINK.
+This page contains links to code and data that you need to get started. How you improve on that foundation is up to you. We are providing simulated survey data and real post-stratification data that you should use to when building on your model. Develop your model and then push it to a GitHub and register it with us. Before the polls close, you should commit the final version of your model to GitHub. After the polls close, we will provide the real survey dataset so that you can evaluate how your model did.
 
-We recommend working as part of a team. Develop your model and then push it to a GitHub. Register your final model with us. Before the polls close, you should commit the final version of your model to GitHub. After the polls close, we will provide the real dataset so that you can evaluate how your model did.
-
-The three teams that have the most accurate forecast will be invited to present their work at a special meeting of the Toronto Data Workshop to be held in early October.
+We recommend working as part of a team. The three teams that have the most accurate forecast will be invited to present their work at a special meeting of the Toronto Data Workshop to be held in early October.
 
 
 
