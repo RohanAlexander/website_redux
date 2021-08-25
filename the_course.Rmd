@@ -12,7 +12,7 @@ output:
 
 ### Overview
 
-The course will be an enormous amount of work and cause you a large amount of stress. This is unfortunate, but there's little way around it. All I can tell you is that having done this course, it'll be easier in the future.
+The course will be an enormous amount of work and cause you some amount of stress. This is unfortunate, but there's little way around it. All I can tell you is that having done this course, it'll be easier in the future.
 
 The purpose of this course is to develop students who appreciate, and can iterate on, the fundamentals of data science.
 
