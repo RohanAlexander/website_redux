@@ -13,15 +13,15 @@ output:
 
 The 2021 Canadian Election will be held on 20 September. The [Canadian Election Study](http://www.ces-eec.ca), [CANSSI Ontario](https://canssiontario.utoronto.ca/), Faculty of Information, and Department of Statistical Sciences are calling for your best forecast for the winner of each of the 338 ridings. The three submissions will be invited to present their work at a special meeting of the Toronto Data Workshop to be held in early October.
 
-To submit your forecast, please fill out this form: https://forms.gle/Kz22435v2Z9hVJJW7.
-
 We are interested in exciting approaches that blend Canadian political understanding, statistical modelling, and data in innovative ways. We have provided some examples below, but ultimately, the approach is up to you. We are interested in who you think will win each riding, and the reasoning that underpins your approach. The full methodology must be public and reproducible to be considered.
 
-To submit, before the polls close, please submit a link to a GitHub repository that contains your data, model, and a brief write up of your approach. For ease of comparision, please also include the following CSV with your riding-specific forecasts: https://rohanalexander.com/images/forecast_summary.csv.
+Before the polls close, please submit a link to a GitHub repository that contains your data, model, and a brief write up of your approach. For ease of comparison, please also include the following [CSV](https://rohanalexander.com/images/forecast_summary.csv) with your riding-specific forecasts.
+
+To submit your forecast, please fill out [this](https://forms.gle/Kz22435v2Z9hVJJW7) form.
 
 The three invited groups will be:
 
-1. The student team with the most greatest of seats correctly forecast.
+1. The student team with the greatest number of seats correctly forecast.
 2. The undergraduate team with the greatest number of seats correctly forecast (or the second closest team if the undergraduate team wins).
 3. The team with the most innovative and exciting approach.
 
