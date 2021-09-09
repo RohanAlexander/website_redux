@@ -15,7 +15,7 @@ The 2021 Canadian Election will be held on 20 September. The [Canadian Election 
 
 We are interested in exciting approaches that blend Canadian political understanding, statistical modelling, and data in innovative ways. We have provided some examples below, but ultimately, the approach is up to you. We are interested in who you think will win each riding, and the reasoning that underpins your approach. The full methodology must be public and reproducible to be considered.
 
-Before the polls close, please submit a link to a GitHub repository that contains your data, model, and a brief write up of your approach. For ease of comparison, please also include the following [CSV](https://rohanalexander.com/images/forecast_summary.csv) with your riding-specific forecasts.
+Before the polls close, please submit a link to a GitHub repository, or Dropbox folder, that contains your data, model, and a brief write up of your approach. For ease of comparison, please also include the following [CSV](https://rohanalexander.com/images/forecast_summary.csv) with your riding-specific forecasts.
 
 To submit your forecast, please fill out [this](https://forms.gle/Kz22435v2Z9hVJJW7) form.
 
