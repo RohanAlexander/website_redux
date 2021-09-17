@@ -1,7 +1,7 @@
 ---
 title: "Introduction to Andrew Gelman"
 description: |
-  Introductory remarks about Andrew Gelman delivered at the University of Toronto Data Sciences Initiative (DSI) launch on 17 September 2021.
+  Introductory remarks about Andrew Gelman delivered at the University of Toronto Data Sciences Institute (DSI) launch on 17 September 2021.
 author:
   - name: Rohan Alexander
     url:
@@ -28,11 +28,11 @@ The slides are [here](https://rohanalexander.com/pdfs/dsi_gelman_intro.pdf).
 
 ## Introduction 
 
-Hi, my name is Rohan Alexander. I'm an assistant professor in Information and Statistical Sciences. I'm also the Assistant Director of the Canadian Statistical Sciences Institute, Ontario, which strengthens research and training in data science. And in that capacity it is a pleasure to introduce our next speaker, Andrew Gelman.
+Hi, my name is Rohan Alexander. I'm an assistant professor jointly across Information and Statistical Sciences. I'm also the Assistant Director of the Canadian Statistical Sciences Institute (CANSSI), Ontario, which strengthens research and training in data science. And in that capacity it is a pleasure to introduce our next speaker, Andrew Gelman.
 
 ## Andrew Gelman
 
-Andrew Gelman is Higgins Professor of Statistics and Professor of Political Science at Columbia University. He believes ‘the #1 neglected topic in statistics is measurement' 
+Andrew Gelman is Higgins Professor of Statistics and Professor of Political Science at Columbia University. He believes 'the #1 neglected topic in statistics is measurement' 
 
 ## Rent
 
@@ -44,27 +44,27 @@ I've been unable to verify his coffee consumption, but by any other measure, And
 
 He has published many books and I'll just touch on two.
 
-With co-authors, his foundational Bayesian statistics textbook - Bayesian Data Analysis - was first published in 1995. That book has been cited something like 30,000 times. And now on its 3rd edition, it is the basis for many foundational courses on Bayesian statistics.
+With co-authors, his foundational Bayesian statistics textbook---*Bayesian Data Analysis*---was first published in 1995. It has been cited something like 30,000 times. And now on its 3rd edition, it is the basis for many foundational courses on Bayesian statistics.
 
-A more applied textbook, co-authored with Jennifer Hill - Data Analysis using Regression and Multilevel Models - was published in 2007. That book has been cited something like 14,000 times, and forms the foundation for many applied statistics courses.
+A more applied textbook, co-authored with Jennifer Hill---*Data Analysis using Regression and Multilevel Models*---was published in 2006. That book has been cited something like 14,000 times, and forms the foundation for many applied statistics courses.
 
-My wife, Monica, is an assistant professor in statistical sciences and sociology, and in my household these are known, respectively, as the Old and New Testament.
+My wife, Monica, is an assistant professor jointly in statistical sciences and sociology, and in my household these are known, respectively, as the Old and New Testament.
 
 ## Blog
 
-Gelman's blog - Statistical Modeling, Causal Inference, and Social Science - launched in 2004 - is the go-to place for a fun mix of somewhat-nerdy statistics-focused content. The very first post promised to ‘...report on recent research and ongoing half-baked ideas, including … Bayesian statistics, multilevel modeling, causal inference, and political science.' 17 years on, the site has very much kept its promise.
+Gelman's blog---Statistical Modeling, Causal Inference, and Social Science---launched in 2004---is the go-to place for a fun mix of somewhat-nerdy statistics-focused content. The very first post promised to '...report on recent research and ongoing half-baked ideas, including … Bayesian statistics, multilevel modeling, causal inference, and political science.' 17 years on, the site has very much kept its promise.
 
 ## Reproducibility
 
 One thing the blog does is enable Gelman to make contributions and influence debate in a way that isn't possible in papers or books. For instance, it enables him to share short snippets of code, explain how he approaches problems, and sketch solutions.
 
-Gelman's blog is where he's done a lot of writing about reproducibility - one of the DSI's Thematic Programs. Arguably Andrew's blog posts brought the replication crisis that enveloped social sciences to the fore. A lot of my colleagues now push reproducibility; both in their teaching and in their research. And that's in large part because we intellectually grew up reading Gelman's blog posts about it. 
+Gelman's blog is where he's done a lot of writing about reproducibility---one of the DSI's Thematic Programs. Arguably Andrew's blog posts brought the replication crisis that enveloped social sciences to the fore. A lot of my colleagues now push reproducibility; both in their teaching and in their research. And that's in large part because we intellectually grew up reading Gelman's blog posts about it.
 
 ## Papers
 
-By any measure, Andrew Gelman is a prolific author of papers, with something like 400 based on a recent count. My favourite of these is affectionately known as ‘the XBox paper' which was published in 2015.
+By any measure, Andrew Gelman is a prolific author of papers, with something like 400 based on a recent count. My favourite of these is affectionately known as 'the XBox paper' which was published in 2015.
 
-These days the statistical approach that underpinned that paper - multilevel regression with post-stratification or MRP - is used by almost every major polling company to some extent. And teams of undergraduates at the U of T used MRP to correctly forecast a Biden victory last year. If you're interested in learning more about MRP, Andrew Gelman, Lauren Kennedy and I are putting together a book about MRP that is forthcoming with Cambridge University Press next year, so keep an eye out for that!
+These days the statistical approach that underpinned that paper---multilevel regression with post-stratification or MRP---is used by almost every major polling company to some extent. And teams of undergraduates at the UofT used MRP to correctly forecast a Biden victory last year. If you're interested in learning more about MRP, Andrew Gelman, Lauren Kennedy and I are putting together a book about MRP that is forthcoming with Cambridge University Press next year.
 
 Another very interesting and accessible recent paper is ‘What are the most important statistical ideas of the past 50 years?'. And another of our speakers - Rob Tibshirani - will be happy to hear that his work features prominently there.
 
@@ -72,13 +72,13 @@ Another very interesting and accessible recent paper is ‘What are the most imp
 
 Andrew was foundational in the development of Stan - a probabilistic programming language, which has become the predominant way to implement Bayesian models.
 
-Funnily enough the origin of Stan is that Gelman was trying to expand on some of the models in his book with Jennifer Hill that I mentioned earlier. He found that the software was struggling to do it. With co-authors he found that a change to Hamiltonian Monte Carlo worked well, especially when combined with a few other innovations. One thing led to another, and a revolution in scientific computing ensued.
+Funnily enough the origin of Stan is that Gelman was trying to expand on some of the models in his book with Jennifer Hill that I mentioned earlier. He found that the software was struggling to do it. With co-authors he found that a change in the way random samples were obtained worked well, especially when combined with a few other innovations. One thing led to another, and a revolution in scientific computing ensued.
 
 ## Impact on others
 
-Andrew Gelman is someone who has made incredible contributions in a range of data science and perfectly characterises what we're trying to do with this Data Sciences Institute. To this point, I've stuck with things that are relatively easy to measure. Following the spirit of our guest, I'd like to close with something less easy to measure - and that is, the impact on others. 
+Andrew Gelman is someone who has made incredible contributions in a range of data science and perfectly characterises what we're trying to do with this Data Sciences Institute. To this point, I've stuck with things that are relatively easy to measure. Following the spirit of our guest, I'd like to close with something less easy to measure; and that is, the impact on others. 
 
-In my own case, I wouldn't be speaking here today if it weren't for Andrew - I learnt statistics from his books, his XBox paper gave my career purpose, I copy-paste his code most days, his blog provided me with a community when I was intellectually isolated, and from his example I learnt the type of academic I wanted to be.
+In my own case, I wouldn't be speaking here today if it weren't for Andrew: I learnt statistics from his books, his XBox paper gave my career purpose, I copy-paste his code most days, his blog provided me with a community, and from his example I learnt the type of academic I wanted to be.
 
 And when I asked a few others it seems that feeling was unanimous. 
 
@@ -98,11 +98,11 @@ And when I asked a few others it seems that feeling was unanimous.
 >
 > Shira Mitchell
 
-> Andrew's my Obi-Wan-Kenobi.”
+> Andrew's my Obi-Wan-Kenobi.
 >
 > Bob Carpenter
 
-> Andrew's blog made me aware of the shortcomings in my training and research, and gave me motivation to improve. It also gave me the motivation to get out of projects that could become posts in the Zombies category.”
+> Andrew's blog made me aware of the shortcomings in my training and research, and gave me motivation to improve. It also gave me the motivation to get out of projects that could become posts in the Zombies category.
 >
 > Marta Kołczyńska
 
@@ -114,7 +114,7 @@ And when I asked a few others it seems that feeling was unanimous.
 >
 > Isaac Maddow-Zimet
 
-So it's a very warm virtual welcome to Toronto, Professor Andrew Gelman. Thank you for everything you've done for data science, and thank you for helping us to launch our Data Sciences Initiative.
+So it's a very warm virtual welcome to Toronto, Professor Andrew Gelman. Thank you for everything you've done for data science, and thank you for helping us to launch our Data Sciences Institute.
 
 
 
@@ -122,5 +122,5 @@ So it's a very warm virtual welcome to Toronto, Professor Andrew Gelman. Thank y
 
 ## Acknowledgments {.appendix}
 
-Thank you very much to Monica Alexander, and members of my research group, for reading a draft of this. And to Jonah Gabry for the Stan historical background.
+Thank you very much to Monica Alexander, and members of my research group, for reading a draft of this. And to Jonah Gabry for the Stan historical background. And thank you to Isaac, Jonah, Marta, Bob, Shira, James, Lauren, and Monica for providing quotes.
 
