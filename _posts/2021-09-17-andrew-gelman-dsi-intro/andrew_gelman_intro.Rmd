@@ -66,7 +66,6 @@ By any measure, Andrew Gelman is a prolific author of papers, with something lik
 
 These days the statistical approach that underpinned that paper---multilevel regression with post-stratification or MRP---is used by almost every major polling company to some extent. And teams of undergraduates at the UofT used MRP to correctly forecast a Biden victory last year. If you're interested in learning more about MRP, Andrew Gelman, Lauren Kennedy and I are putting together a book about MRP that is forthcoming with Cambridge University Press next year.
 
-Another very interesting and accessible recent paper is ‘What are the most important statistical ideas of the past 50 years?'. And another of our speakers - Rob Tibshirani - will be happy to hear that his work features prominently there.
 
 ## Stan
 
