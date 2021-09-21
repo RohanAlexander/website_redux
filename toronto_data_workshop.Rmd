@@ -1,7 +1,7 @@
 ---
 title: "Toronto Data Workshop"
 description: |
-  We share best practice for doing data science, and are especially interested in the data munging/cleaning/prep/comms stages that folks typically don't talk about. We meet for an hour each week and are interested in anything that is data-focused across academia and industry. Typically, Fridays at noon (Toronto time) via Zoom, with most talks recorded and shared. All welcome. Free. Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
+  We share best practice for data science, and are especially interested in the data munging/cleaning/prep/comms stages that folks typically don't talk about. We meet for an hour each week and are interested in anything that is data-focused across academia and industry. Typically, Fridays at noon (Toronto time) via Zoom, with most talks recorded and shared. All welcome. Free. Sign up [here](https://forms.gle/sXbEixoa1iJR4Q7A8).
 output:
   distill::distill_article:
     toc: true
@@ -11,8 +11,6 @@ output:
 ```{r, echo = FALSE}
 library(fontawesome)
 ```
-
-*21 May 2021. The University of Toronto is under censure from the Canadian Association of University Teachers (CAUT). The Faculty of Information has provided a [resource page](https://ischool.utoronto.ca/news/faculty-of-information-resource-page-re-caut-censure-of-u-of-t/) of links. After seeking advice from CAUT, where it was reasonable to do so, we have postponed talks by external academics due to this censure. We thank the following external academic speakers for their understanding and hope to host them then the censure is resolved: Nick Huntington-Klein, Seattle University; Leslie Root, University of Colorado Boulder; Maria Kamenetsky, University of Wisconsin-Madison; Irena Papst, Cornell University; Vincent Arel-Bundock, Université de Montréal; Silvia Canelón, University of Pennsylvania; Jingchen (Monika) Hu, Vassar College; Lisa Lendway, Macalester College; Vincenzo Coia, University of British Columbia, Vancouver. We intend to try to fill these spots with talks by students.*
 
 # Overview
 
@@ -32,6 +30,73 @@ Past committee members:
 The TDW is a joint initiative between the Faculty of Information and the Department of Statistical Sciences at the University of Toronto and we especially thank Dean Wendy Duff and Chair Radu Craiu for their support.
 
 # Current schedule
+
+
+## Fall 2021
+
+
+```{r, out.width= "33%", echo = FALSE}
+knitr::include_graphics(c("images/tdw_cn_tower.png")) 
+```
+
+This term is a special series of talks featuring University of Toronto speakers on the relationship between data science and their other field of expertise.
+
+| Date | Speaker |  Recording |
+| --------- | --------------- |  ----- |
+| Fri 24 September 2021, noon - 1pm | Karen Chapple, Geography, planning, cities | |
+| Fri 1 October 2021, noon - 1pm | Special on 2021 Canadian Election | |
+| Fri 8 October 2021, noon - 1pm | Fedor Dokshin, Sociology | |
+| Fri 15 October 2021, noon - 1pm | TBA | |
+| Fri 22 October 2021, noon - 1pm | Tegan Maharaj, Information | |
+| Fri 29 October 2021, noon - 1pm | Josh Speagle, Astronomy | |
+| Fri 5 November 2021, noon - 1pm | Yun William Yu, Math | |
+| Fri 12 November 2021, noon - 1pm | Reading Week | |
+| Fri 19 November 2021, noon - 1pm | Radu Craiu, Statistical Sciences | |
+| Fri 26 November 2021, noon - 1pm | Kieran Campbell, Biomedicine | |
+| Fri 3 December 2021, noon - 1pm | Leanne Trimble, Libraries | |
+| Fri 10 December 2021, noon - 1pm | Nathan Taback, Teaching | |
+
+
+* Friday, 24 September 2021, noon - 1pm  
+	**Karen Chapple**, Department of Geography and Planning/School of Cities    
+	[Karen Chapple](http://karenchapple.com) is the inaugural Director of the School of Cities and Professor of Geography and Planning at the University of Toronto. Her research uses data science methods to identify and predict gentrifcation and displacement in cities. She is Professor Emerita at the University of California, Berkeley, where she helped to launch the undergraduate data science program.
+* Friday, 1 October 2021, noon - 1pm  
+	**Special on 2021 Canadian Election**
+* Friday, 8 October 2021, noon - 1pm  
+	**Fedor Dokshin**, Department of Sociology    
+	[Fedor Dokshin](fedordokshin.org) is an Assistant Professor of Sociology at the University of Toronto. He is a computational social scientist with research interests in social networks, organizations, and energy and the environment. Across these domains, Fedor leverages data science methods and novel data sources to improve existing measurement strategies.	
+* Friday, 15 October 2021, noon - 1pm  
+	**TBD**			
+* Friday, 22 October 2021, noon - 1pm  
+	**Tegan Maharaj**, Faculty of Information    
+	I study AI systems and "what goes into" them, e.g. their real-world deployment context, and the effects that has on learning behaviour and generalization. I do that because I want to be able to use AI systems responsibly for problems I think are important, like impact and risk assessments for climate change, AI alignment, ecological management and other common-good problems. My website is: teganmaharaj.org.	
+* Friday, 29 October 2021, noon - 1pm  
+	**Josh Speagle**, Astronomy & Astrophysics, Dunlap Institute, Statistical Sciences    
+	[Josh](joshspeagle.github.io) is a Banting & Dunlap Postdoctoral Fellow at the University of Toronto whose research focuses on using astrostatistics and "data science" to understand how galaxies like our own Milky Way form, behave, and evolve.	
+* Friday, 5 November 2021, noon - 1pm  
+	**Yun William**, Yu	Math Department, UofT; UTSC Computer & Mathematical Sciences    
+	[Yun William Yu](yunwilliamyu.net) is an assistant professor in the math department at UofT whose research focuses on algorithmic methods for computational biology and medical informatics.	
+* Friday, 12 November 2021, noon - 1pm  
+	**Reading Week**    			
+* Friday, 19 November 2021, noon - 1pm  
+	**Radu Craiu**, Statistical Sciences @ U of T    
+	[Dr. Radu V. Craiu](www.utstat.toronto.edu/craiu/) is Professor and Chair of Statistical Sciences at the University of Toronto.  His main research interests are in computational methods in statistics, especially, Markov chain Monte Carlo algorithms (MCMC), Bayesian inference, copula models, model selection procedures and statistical genetics.	
+* Friday, 26 November 2021, noon - 1pm  
+	**Kieran Campbell**, Lunenfeld Tanenbaum Research Institute    
+	[Dr. Kieran Campbell](www.camlab.ca) is an investigator at the Lunenfeld-Tanenbaum Research Institute and an assistant professor at the Departments of Molecular Genetics and Statistical Sciences, University of Toronto. His research focusses on Bayesian models and machine learning for high dimensional biomedical data, including single-cell and cancer genomics. Recently, he has led efforts to develop statistical machine learning methodology to integrate single-cell RNA and DNA sequencing data to uncover the effects of tumour clonal identity on gene expression, as well as methods to automatically delineate the tumour microenvironment from single-cell RNA-sequencing data. Such findings can improve our understanding of cancer progression and of why certain tumours are resistant to therapies, leading to relapse.
+* Friday, 3 December 2021, noon - 1pm  
+	**Leanne Trimble**, UofT libraries    
+	*TBD*
+* Friday, 10 December 2021, noon - 1pm  
+	**Nathan Taback**, Departments of Statistical Sciences    
+	[Nathan Taback](https://utstat.toronto.edu/nathan/) is the director of Data Science programs and an Associate Professor, Teaching Stream in the Department of Statistical Sciences, and Computer Science (cross-appointed) at the University of Toronto. He currently serves as a Special Advisor to the Dean of Arts and Science on Computational and Data Science Education.	
+
+
+  
+
+
+
+# Past schedules
 
 ## Summer 2021
 
@@ -124,12 +189,6 @@ knitr::include_graphics(c("images/tdw_cn_tower.png", "images/TorontoDataWorkshop
 	Recording: https://youtu.be/p697exbcMZE  
 
 
-
-  
-
-
-
-# Past schedules
 
 ## Winter 2021
 
