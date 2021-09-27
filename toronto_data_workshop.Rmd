@@ -41,14 +41,14 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 
 This term is a special series of talks featuring University of Toronto speakers on the relationship between data science and their other field of expertise.
 
-| Date | Speaker |  Recording |
-| --------- | --------------- |  ----- |
-| Fri 24 Sep 2021, noon - 1pm | Karen Chapple, Geography, planning, cities | |
+| Date | Speaker | |  Recording |
+| ------ | ---------------  | ----- |
+| Fri 24 Sep 2021, noon - 1pm | Karen Chapple, Geography, planning, cities | https://youtu.be/rNRwOStrb9o |
 | Fri 1 Oct 2021, noon - 1pm | Special on 2021 Canadian Election | |
-| Fri 8 Oct 2021, noon - 1pm | Fedor Dokshin, Sociology | |
+| Fri 8 Oct 2021, noon - 1pm | Fedor Dokshin, Sociology |  |
 | Fri 15 Oct 2021, noon - 1pm | TBA | |
 | Fri 22 Oct 2021, noon - 1pm | Tegan Maharaj, Information | |
-| Fri 29 Oct 2021, noon - 1pm | Josh Speagle, Astronomy | |
+| Fri 29 Oct 2021, noon - 1pm | Josh Speagle, Astronomy |  |
 | Fri 5 Nov 2021, noon - 1pm | Yun William Yu, Math | |
 | Fri 12 Nov 2021, noon - 1pm | Reading Week | |
 | Fri 19 Nov 2021, noon - 1pm | Radu Craiu, Statistical Sciences | |
@@ -61,7 +61,11 @@ This term is a special series of talks featuring University of Toronto speakers 
 	**Karen Chapple**, Department of Geography and Planning/School of Cities    
 	[Karen Chapple](http://karenchapple.com) is the inaugural Director of the School of Cities and Professor of Geography and Planning at the University of Toronto. Her research uses data science methods to identify and predict gentrifcation and displacement in cities. She is Professor Emerita at the University of California, Berkeley, where she helped to launch the undergraduate data science program.
 * Friday, 1 October 2021, noon - 1pm  
-	**Special on 2021 Canadian Election**
+	**Special meeting on 2021 Canadian Election**    
+	Discussion and presentations by:
+    * Professor David Andrews on elections forecasting.
+    * Johnson Vo on his model of the 2021 election.
+    * Eric Zhu, Brian Diep, Ashely (Jing Yuan) Zhang, Kristin (Xi Yu Huang), and Tanvir Hyder on their model of the 2021 election.
 * Friday, 8 October 2021, noon - 1pm  
 	**Fedor Dokshin**, Department of Sociology    
 	[Fedor Dokshin](fedordokshin.org) is an Assistant Professor of Sociology at the University of Toronto. He is a computational social scientist with research interests in social networks, organizations, and energy and the environment. Across these domains, Fedor leverages data science methods and novel data sources to improve existing measurement strategies.	
@@ -85,8 +89,8 @@ This term is a special series of talks featuring University of Toronto speakers 
 	**Kieran Campbell**, Lunenfeld Tanenbaum Research Institute    
 	[Dr. Kieran Campbell](www.camlab.ca) is an investigator at the Lunenfeld-Tanenbaum Research Institute and an assistant professor at the Departments of Molecular Genetics and Statistical Sciences, University of Toronto. His research focusses on Bayesian models and machine learning for high dimensional biomedical data, including single-cell and cancer genomics. Recently, he has led efforts to develop statistical machine learning methodology to integrate single-cell RNA and DNA sequencing data to uncover the effects of tumour clonal identity on gene expression, as well as methods to automatically delineate the tumour microenvironment from single-cell RNA-sequencing data. Such findings can improve our understanding of cancer progression and of why certain tumours are resistant to therapies, leading to relapse.
 * Friday, 3 December 2021, noon - 1pm  
-	**Leanne Trimble**, UofT libraries    
-	*TBD*
+	**Leanne Trimble**, UofT Libraries    
+	Leanne Trimble is a data librarian at the Map & Data Library, University of Toronto Libraries.
 * Friday, 10 December 2021, noon - 1pm  
 	**Nathan Taback**, Departments of Statistical Sciences    
 	[Nathan Taback](https://utstat.toronto.edu/nathan/) is the director of Data Science programs and an Associate Professor, Teaching Stream in the Department of Statistical Sciences, and Computer Science (cross-appointed) at the University of Toronto. He currently serves as a Special Advisor to the Dean of Arts and Science on Computational and Data Science Education.	
