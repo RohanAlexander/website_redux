@@ -59,7 +59,7 @@ This term is a special series of talks featuring University of Toronto speakers 
 
 * Friday, 24 September 2021, noon - 1pm  
 	**Karen Chapple**, Department of Geography and Planning/School of Cities    
-	[Karen Chapple](http://karenchapple.com) is the inaugural Director of the School of Cities and Professor of Geography and Planning at the University of Toronto. Her research uses data science methods to identify and predict gentrifcation and displacement in cities. She is Professor Emerita at the University of California, Berkeley, where she helped to launch the undergraduate data science program.
+	[Karen Chapple](http://karenchapple.com) is the inaugural Director of the School of Cities and Professor of Geography and Planning at the University of Toronto. Her research uses data science methods to identify and predict gentrification and displacement in cities. She is Professor Emerita at the University of California, Berkeley, where she helped to launch the undergraduate data science program.
 * Friday, 1 October 2021, noon - 1pm  
 	**Special meeting on 2021 Canadian Election**    
 	Discussion and presentations by:
