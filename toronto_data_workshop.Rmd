@@ -39,14 +39,14 @@ The TDW is a joint initiative between the Faculty of Information and the Departm
 knitr::include_graphics(c("images/tdw_cn_tower.png")) 
 ```
 
-This term is a special series of talks featuring University of Toronto speakers on the relationship between data science and their other field of expertise.
+This term is mostly a special series of talks featuring University of Toronto speakers on the relationship between data science and their other field of expertise.
 
 | Date | Speaker | |  Recording |
 | ------ | ---------------  | ----- |
 | Fri 24 Sep 2021, noon - 1pm | Karen Chapple, Geography, planning, cities | https://youtu.be/rNRwOStrb9o |
-| Fri 1 Oct 2021, noon - 1pm | Special on 2021 Canadian Election | |
+| Fri 1 Oct 2021, noon - 1pm | Special on 2021 Canadian Election | https://youtu.be/pCwJXgR7V5k |
 | Fri 8 Oct 2021, noon - 1pm | Fedor Dokshin, Sociology |  |
-| Fri 15 Oct 2021, noon - 1pm | TBA | |
+| Fri 15 Oct 2021, noon - 1pm | Drew Stommes, Yale University | |
 | Fri 22 Oct 2021, noon - 1pm | Tegan Maharaj, Information | |
 | Fri 29 Oct 2021, noon - 1pm | Josh Speagle, Astronomy |  |
 | Fri 5 Nov 2021, noon - 1pm | Yun William Yu, Math | |
@@ -63,14 +63,16 @@ This term is a special series of talks featuring University of Toronto speakers 
 * Friday, 1 October 2021, noon - 1pm  
 	**Special meeting on 2021 Canadian Election**    
 	Discussion and presentations by:
-    * Professor David Andrews on elections forecasting.
+    * Professor [David Andrews](https://utstat.toronto.edu/david/) on elections forecasting.
+    * Professor [Daniel Rubenson](https://www.rubenson.org) on the Canadian Election Study.
     * Johnson Vo on his model of the 2021 election.
     * Eric Zhu, Brian Diep, Ashely (Jing Yuan) Zhang, Kristin (Xi Yu Huang), and Tanvir Hyder on their model of the 2021 election.
 * Friday, 8 October 2021, noon - 1pm  
 	**Fedor Dokshin**, Department of Sociology    
 	[Fedor Dokshin](fedordokshin.org) is an Assistant Professor of Sociology at the University of Toronto. He is a computational social scientist with research interests in social networks, organizations, and energy and the environment. Across these domains, Fedor leverages data science methods and novel data sources to improve existing measurement strategies.	
 * Friday, 15 October 2021, noon - 1pm  
-	**TBD**			
+	**Drew Stommes**, Department of Political Science, Yale University    
+	[Drew Stommes](https://drew-stommes.github.io) is a doctoral candidate in the Department of Political Science at Yale University, where he researches democracy, political violence, and quantitative methods. He will talk about a recent [working paper](https://arxiv.org/abs/2109.14526), 'On the reliability of published findings using the regression discontinuity design in political science'.
 * Friday, 22 October 2021, noon - 1pm  
 	**Tegan Maharaj**, Faculty of Information    
 	I study AI systems and "what goes into" them, e.g. their real-world deployment context, and the effects that has on learning behaviour and generalization. I do that because I want to be able to use AI systems responsibly for problems I think are important, like impact and risk assessments for climate change, AI alignment, ecological management and other common-good problems. My website is: teganmaharaj.org.	
