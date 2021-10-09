@@ -45,7 +45,7 @@ This term is mostly a special series of talks featuring University of Toronto sp
 | ------ | ---------------  | ----- |
 | Fri 24 Sep 2021, noon - 1pm | Karen Chapple, Geography, planning, cities | https://youtu.be/rNRwOStrb9o |
 | Fri 1 Oct 2021, noon - 1pm | Special on 2021 Canadian Election | https://youtu.be/pCwJXgR7V5k |
-| Fri 8 Oct 2021, noon - 1pm | Fedor Dokshin, Sociology |  |
+| Fri 8 Oct 2021, noon - 1pm | Fedor Dokshin, Sociology | https://youtu.be/QjTsDbH6MxM |
 | Fri 15 Oct 2021, noon - 1pm | Drew Stommes, Yale University | |
 | Fri 22 Oct 2021, noon - 1pm | Tegan Maharaj, Information | |
 | Fri 29 Oct 2021, noon - 1pm | Josh Speagle, Astronomy |  |
@@ -69,7 +69,7 @@ This term is mostly a special series of talks featuring University of Toronto sp
     * Eric Zhu, Brian Diep, Ashely (Jing Yuan) Zhang, Kristin (Xi Yu Huang), and Tanvir Hyder on their model of the 2021 election.
 * Friday, 8 October 2021, noon - 1pm  
 	**Fedor Dokshin**, Department of Sociology    
-	[Fedor Dokshin](fedordokshin.org) is an Assistant Professor of Sociology at the University of Toronto. He is a computational social scientist with research interests in social networks, organizations, and energy and the environment. Across these domains, Fedor leverages data science methods and novel data sources to improve existing measurement strategies.	
+	[Fedor Dokshin](http://www.fedordokshin.org/) is an Assistant Professor of Sociology at the University of Toronto. He is a computational social scientist with research interests in social networks, organizations, and energy and the environment. Across these domains, Fedor leverages data science methods and novel data sources to improve existing measurement strategies.	
 * Friday, 15 October 2021, noon - 1pm  
 	**Drew Stommes**, Department of Political Science, Yale University    
 	[Drew Stommes](https://drew-stommes.github.io) is a doctoral candidate in the Department of Political Science at Yale University, where he researches democracy, political violence, and quantitative methods. He will talk about a recent [working paper](https://arxiv.org/abs/2109.14526), 'On the reliability of published findings using the regression discontinuity design in political science'.

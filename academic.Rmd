@@ -3,16 +3,6 @@ title: "Academic"
 ---
 
 
-[Academic CV](pdfs/cv-academic-Rohan_Alexander.pdf)
-
-My academic interests are multidisciplinary but fall at the intersection of information and statistical science. I use quantitative methods to explore human-centered questions with an emphasis on data concerns. I am interested in not only statistical science, that is, drawing quantitative inferences from real-world data, but also in information science, through my emphasis on all aspects of obtaining, preparing, storing, and sharing data.
-
-My work is arranged around three tranches:
-
-- Multilevel regression with post-stratification (MRP).
-- Natural language processing (NLP).
-- Statistical workflow.
-
 # Papers
 
 * Annie Collins and Rohan Alexander, 2021, 'Reproducibility of COVID-19 pre-prints', *arXiv*, 22 July, https://arxiv.org/abs/2107.10724.
@@ -41,6 +31,19 @@ knitr::include_graphics("images/AustralianPoliticians.png")
 
 
 # Presentations
+
+### Upcoming
+
+- 17 December 2021, University of Toronto Statistics and MachIne LEarning (SMILE) Journal Club.
+- 16 December 2021, Young Irish Statisticians.
+- 19 October 2021, Trinity College High Table.
+
+### Past
+
+* Introduction to Andrew Gelman   
+    17 September 2021, University of Toronto, Data Sciences Institute launch.
+* Introduction to R   
+    22 December 2020, University of Toronto, Global Society for Genetics and Genome Biology.
 * Turning Our World Into Data   
     7 July 2021, Harvard Biostatistics Data Science in Action Summer Camp.  
 * Forecasting Parliamentary Elections  
