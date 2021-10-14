@@ -1,7 +1,7 @@
 ---
-title: "History of the data sciences"
+title: "History of statistics and the data sciences"
 description: |
-  The data sciences have a long and robust history.
+  Statistics and the data sciences have a long and robust history. Understanding that history provides students with a better appreciation for the methods that they are applying today.
 output:
   distill::distill_article:
     toc: true
@@ -30,17 +30,19 @@ output:
 
 ### Week 1
 
-Overview
+Overview. Also early astronomical and gambling underpinnings. Least squares, combining observations, and uncertainty. Legendre, Laplace, Bernoulli, De Moivre, Simpson.
 
 - Content:
   - Stephen E. Fienberg, 1992, 'A Brief History of Statistics in Three and One-Half Chapters: A Review Essay', *Statistical Science*.
   - M. G. Kendall, 1960, 'Studies in the History of Probability and Statistics. Where Shall the History of Statistics Begin?', *Biometrika*.
   - Stigler, 1986, Chs 1-2.
+  - Ian Hacking, 2006, *The Emergence of Probability*.
+  
 
 
 ### Week 2
 
-1700s and earlier
+Focuses on the 1700s, especially inverse probability. Gauss, Laplace, Central Limit Theorem.
 
 - Content:
   - Stigler, 1986, Chs 3-4
@@ -48,7 +50,7 @@ Overview
 
 ### Week 3
 
-Early 1800s
+Early 1800s, and moves to the social sciences. Quetelet, Poisson, Cournot, Lexis, binomials and Law of Large Numbers.
 
 - Content: 
   - Stigler, 1986, Chs 5-6.
@@ -57,26 +59,32 @@ Early 1800s
 
 ### Week 4
 
-Late 1800s
+Late 1800s and heredity. Galton, Edgeworth, and Pearson. Regression and correlation.
 
 - Content: 
   - Stigler, 1986, Chs 7-8.
   - Sheynin, 2017, Chs 10-11.
+  - David Salsburg, 2002, *The Lady Tasting Tea*.
 
 ### Week 5
 
-Late 1800s and early 1900s
+Late 1800s and early 1900s. Edgeworth, Pearson, and Yule. Regression, and correlation.
 
 - Content: 
   - Stigler, 1986, Chs 9-10.
   - David Freedman, 1999, 'From association to causation: some remarks on the history of statistics'. 
+  - Donald MacKenzie, 1981, *Statistics in Britain, 1865-1930: The Social Construction of Scientific Knowledge*.
+  - Erich Lehmann, 2011, *Fisher, Neyman, and the Creation of Classical Statistics*, Springer.
 
 ### Week 6
 
 Early 1900s
 
-- Stephen M. Stigler, 1996, 'The History of Statistics in 1933', *Statistical Science*
-- Sheynin, 2017, Chs 12-15.
+  - Stephen M. Stigler, 1996, 'The History of Statistics in 1933', *Statistical Science*
+  - Sheynin, 2017, Chs 12-15.
+  - Stephen M. Stigler, 2016, *The Seven Pillars of Statistical Wisdom*.
+  - Jan von Plato, 1994, *Creating Modern Probability*.
+  - Erich Lehmann, 2007, *Reminiscences of a Statistician*.
 
 ### Week 7
 
@@ -87,18 +95,23 @@ Special topic: Data visualization
 
 ### Week 8
 
-Special topic: Computers
-
-- Content: 
-  - William D. Nordhaus, 'An Economic History of Computing'.
-
-### Week 9
-
 Special topic: Bayesian methods
 
 - Content: 
   - Stephen E. Fienberg, 2006, 'When Did Bayesian Inference Become "Bayesian"?', *Bayesian Analysis*.
   - Thomas Hoskyns Leonard, 2014, 'A personal history of Bayesian statistics', *WIREs Computational Statistics*.
+  - Sharon Bertsch McGrayne, 2012, *The Theory That Would Not Die*.
+  - William D. Nordhaus, 'An Economic History of Computing'.
+  - Dennis V. Lindley, 2001, 'The Philosophy of Statistics', *Journal of the Royal Statistical Society: Series D*.
+  
+
+### Week 9
+
+Special topic: Causal inference
+
+
+- Content: 
+  - Judea Pearl and Dana Mackenzie, 2018, *Book of Why*, Ch 2.
 
 ### Week 10
 
@@ -107,7 +120,8 @@ Special topic: Whither statistics? The rise of data science
 - Content: 
   - Leo Breiman, 2001, 'Statistical Modeling: The Two Cultures', *Statistical Sciences*.
   - David J. Hand, 2015, 'Statistics and computing: the genesis of data science', *Statistics and Computing*.
-
+  - David Donoho, 2017, '50 Years of Data Science', *Journal of Computational and Graphical Statistics*.
+  
 ### Week 11
 
 Special topic: Overlooked contributors
@@ -115,14 +129,23 @@ Special topic: Overlooked contributors
 - Content: 
   - Margo Anderson, 1992, 'The History of Women and the History of Statistics', *Journal of Women's History*
   - Katie Hafner, 2021, 'Arianna Rosenbluth Dies at 93; Pioneering Figure in Data Science', *New York Times*.
+  - Kitagawa–Blinder–Oaxaca decomposition.
+  - Mary E. Thompson, 'Reflections on women in statistics in Canada', in Xihong Lin, et al., eds, 2014, *Past, present, and future of statistical science*, CRC Press.
+  - Nancy M. Reid, 'The whole women thing', in Xihong Lin, et al., eds, 2014, *Past, present, and future of statistical science*, CRC Press.
+  - Louise M. Ryan, 'Reflections on diversity', in Xihong Lin, et al., eds, 2014, *Past, present, and future of statistical science*, CRC Press.
 
 
 ### Week 12
 
-Special topic: Reckoning with the past
+Special topic: Reckoning with the past and thinking about the future. Statistics and society.
 
 - Content: 
   - How to consider our history?
+  - Alain Desrosières, 2002, *The Politics of Large Numbers*, Harvard University Press.
+  - Xihong Lin, et al., eds, 2014, *Past, present, and future of statistical science*, CRC Press.
+
+
+
   
   
 
