@@ -14,6 +14,8 @@ output:
 
 Often students are taught, say, linear regression in such a way that they come to believe that statisticians simply stumbled upon it one day. In fact, the idea of combining different observations in this way, took the work of decades and even centuries to come to terms with. Understanding the history of statistics and data sciences, more generally, provides a more solid foundation for applying those skills today. We are interested in why certain methods were developed, and became popular, and the circumstances under which this occurred because that provides us with a nuanced knowledge of when we should apply them ourselves.
 
+We study history because we want to understand how our predecessors solved their problems. That means understanding, not just what they did, but the circumstances in which they did it, and the choices they faced. That knowledge allows us to better solve our own problems. At the very least, it helps us to avoid repeating mistakes; and, if fully accomplished, can even allow to improve our own approaches.
+
 The history of statistics and the data sciences is one of greatness, and we will cover that extensively. But it also one in which that greatness was sometimes developed for abhorrent purposes, and there were many contributors, actual or potential, who were overlooked. We will cover these aspects too.
 
 The hope is that having taken this course, you will understand what you have been studying in statistics and the data sciences with fresh eyes, and bring this deeper appreciation with you throughout the rest of your career.
