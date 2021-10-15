@@ -1,5 +1,5 @@
 ---
-title: "Foundations of the data sciences"
+title: "Foundations of data sciences"
 description: |
   The data sciences have a common concern: How can others be confident that our statistical approaches have been brought to bear on appropriate datasets? This course focuses on the 'data' of the data sciences. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings.
 output:
@@ -32,16 +32,27 @@ Essentially this course provides students with everything that they need to know
 - What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a meeting, 'tutorial', where you discuss it with them.
 - Why is there so much assessment? The only way to learn is to actually do the work, and students only do the work when they are assessed. It's unfortunate, but there's no way around it.
 
+### Learning objectives
+
+The purpose of the course is to develop the core skills common to all of the data sciences across academia and industry. By the end of the course, you should be able to:
+
+1. Engage critically with ideas and readings in data science.
+2. Conduct research in data science in a reproducible and ethical way.
+3. Write and present your research.
+4. Understand what constitutes ethical high-quality data science practice, especially reproducibility and respect for those that underpin our data.
+5. Respectfully identify strengths and weaknesses in the data science research conducted by others.
+6. Develop the ability to appropriately choose and apply statistical models to real-world situations.
+7. Conduct all aspects of the typical data science workflow including deployment.
+8. Reflect effectively on your own learning and professional development.
 
 ### Pre-requisites
 
-- *Telling Stories with Data*, Chapter 1: [Telling Stories with Data](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
+- None.
 
 
 ### Textbook
 
-Alexander, 2022, *Telling Stories with Data*, CRC Press, https://www.tellingstorieswithdata.com.
-
+Alexander, 2022, *Telling Stories with Data*, CRC Press.
 
 
 
