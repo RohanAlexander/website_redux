@@ -12,7 +12,16 @@
       <link>https://rohanalexander.com/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Remarks at Trinity College</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2021-10-19-trinity_remarks</link>
+      <description>Introductory remarks delivered at Trinity College High Table panel on data science at the University of Toronto on 19 October 2021.</description>
+      <guid>https://rohanalexander.com/posts/2021-10-19-trinity_remarks</guid>
+      <pubDate>Tue, 19 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2021-10-19-trinity_remarks/IMG_9136.png" medium="image" type="image/png" width="640" height="480"/>
+    </item>
     <item>
       <title>Introduction to Andrew Gelman</title>
       <dc:creator>Rohan Alexander</dc:creator>

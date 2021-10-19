@@ -75,7 +75,7 @@ This term is mostly a special series of talks featuring University of Toronto sp
 	[Drew Stommes](https://drew-stommes.github.io) is a doctoral candidate in the Department of Political Science at Yale University, where he researches democracy, political violence, and quantitative methods. He will talk about a recent [working paper](https://arxiv.org/abs/2109.14526), 'On the reliability of published findings using the regression discontinuity design in political science'.
 * Friday, 22 October 2021, noon - 1pm  
 	**Tegan Maharaj**, Faculty of Information    
-	I study AI systems and "what goes into" them, e.g. their real-world deployment context, and the effects that has on learning behaviour and generalization. I do that because I want to be able to use AI systems responsibly for problems I think are important, like impact and risk assessments for climate change, AI alignment, ecological management and other common-good problems. My website is: teganmaharaj.org.	
+	I study AI systems and "what goes into" them, e.g. their real-world deployment context, and the effects that has on learning behaviour and generalization. I do that because I want to be able to use AI systems responsibly for problems I think are important, like impact and risk assessments for climate change, AI alignment, ecological management and other common-good problems. My website is: http://www.teganmaharaj.com/.	
 * Friday, 29 October 2021, noon - 1pm  
 	**Josh Speagle**, Astronomy & Astrophysics, Dunlap Institute, Statistical Sciences    
 	[Josh](joshspeagle.github.io) is a Banting & Dunlap Postdoctoral Fellow at the University of Toronto whose research focuses on using astrostatistics and "data science" to understand how galaxies like our own Milky Way form, behave, and evolve.	

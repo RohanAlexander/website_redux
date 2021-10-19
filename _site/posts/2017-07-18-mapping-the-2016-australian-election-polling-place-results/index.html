@@ -401,7 +401,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1549,7 +1549,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1800,7 +1803,7 @@ html, body, p {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Mapping the 2016 Australian Election Polling Place Results","description":"The note that follows introduces Australia's political system, and then details the process of downloading and merging first-preference votes by polling place, and then plotting it on an interactive map.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2017-07-18T00:00:00.000+00:00","citationText":"Alexander, 2017"}
+{"title":"Mapping the 2016 Australian Election Polling Place Results","description":"The note that follows introduces Australia's political system, and then details the process of downloading and merging first-preference votes by polling place, and then plotting it on an interactive map.","authors":[{"author":"Rohan Alexander","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2017-07-18T00:00:00.000-04:00","citationText":"Alexander, 2017"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
