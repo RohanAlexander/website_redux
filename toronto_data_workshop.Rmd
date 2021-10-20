@@ -50,7 +50,7 @@ This term is mostly a special series of talks featuring University of Toronto sp
 | Fri 22 Oct 2021, noon - 1pm | Tegan Maharaj, Information | |
 | Fri 29 Oct 2021, noon - 1pm | Josh Speagle, Astronomy |  |
 | Fri 5 Nov 2021, noon - 1pm | Yun William Yu, Math | |
-| Fri 12 Nov 2021, noon - 1pm | Reading Week | |
+| Fri 12 Nov 2021, noon - 1pm | Ann Glusker, Berkeley | |
 | Fri 19 Nov 2021, noon - 1pm | Radu Craiu, Statistical Sciences | |
 | Fri 26 Nov 2021, noon - 1pm | Kieran Campbell, Biomedicine | |
 | Fri 3 Dec 2021, noon - 1pm | Leanne Trimble, Libraries | |
@@ -80,10 +80,11 @@ This term is mostly a special series of talks featuring University of Toronto sp
 	**Josh Speagle**, Astronomy & Astrophysics, Dunlap Institute, Statistical Sciences    
 	[Josh](joshspeagle.github.io) is a Banting & Dunlap Postdoctoral Fellow at the University of Toronto whose research focuses on using astrostatistics and "data science" to understand how galaxies like our own Milky Way form, behave, and evolve.	
 * Friday, 5 November 2021, noon - 1pm  
-	**Yun William**, Yu	Math Department, UofT; UTSC Computer & Mathematical Sciences    
+	**Yun William Yu**,	Math Department, UofT; UTSC Computer & Mathematical Sciences    
 	[Yun William Yu](yunwilliamyu.net) is an assistant professor in the math department at UofT whose research focuses on algorithmic methods for computational biology and medical informatics.	
 * Friday, 12 November 2021, noon - 1pm  
-	**Reading Week**    			
+	**Ann Glusker**, Doe Library, University of California Berkeley     
+	Dr Ann Glusker is Librarian for Sociology, Demography, Public Policy, Psychology (fall 2021) & Quantitative Research at the Doe Library, University of California, Berkeley. She will discuss a recently released [report](https://escholarship.org/uc/item/4403c0f4) 'Supporting Big Data Research at the University of California, Berkeley'. This report provides insights on researcher practices and challenges in six thematic areas: data collection & processing; analysis: methods, tools, infrastructure; research outputs; collaboration; training; and balancing domain vs data science expertise.	
 * Friday, 19 November 2021, noon - 1pm  
 	**Radu Craiu**, Statistical Sciences @ U of T    
 	[Dr. Radu V. Craiu](www.utstat.toronto.edu/craiu/) is Professor and Chair of Statistical Sciences at the University of Toronto.  His main research interests are in computational methods in statistics, especially, Markov chain Monte Carlo algorithms (MCMC), Bayesian inference, copula models, model selection procedures and statistical genetics.	

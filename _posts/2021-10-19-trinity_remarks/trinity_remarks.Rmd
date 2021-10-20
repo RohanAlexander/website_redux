@@ -62,6 +62,7 @@ GPT-3, like any language model, can generate racist/sexist text. With a student 
 One way to contribute in data science is to be at the intersection of two areas. Typically statistics and something else. Then you need to immerse yourself in the data. One of the most successful 'Trinnies' - Michael Ignatieff (IG-NAH-TEE-UHF) - says about politics that
 
 > The grind of politics, the endless travel, the meetings, the impossible schedule, the constant being on show are all in search of an authority that can be acquired in no other way. You have to learn the country.
+
 And it's the same in data science - you need to become an expert in some dataset by doing the grinding, endless, impossible schlep to understand it. Only then can you even begin to consider inference and prediction.
 
 A lot of what you do in class is play house; when what you need to do is actually build something. One thing that helped me in this regard was getting to work with professors. 
