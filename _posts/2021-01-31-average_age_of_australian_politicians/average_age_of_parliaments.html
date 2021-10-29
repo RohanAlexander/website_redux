@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -55,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -76,12 +77,34 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+<style>
+  div.csl-bib-body { }
+  div.csl-entry {
+    clear: both;
+    }
+  .hanging div.csl-entry {
+    margin-left:2em;
+    text-indent:-2em;
+  }
+  div.csl-left-margin {
+    min-width:2em;
+    float:left;
+  }
+  div.csl-right-inline {
+    margin-left:2em;
+    padding-left:1em;
+  }
+  div.csl-indent {
+    margin-left: 2em;
+  }
 </style>
 
   <!--radix_placeholder_meta_tags-->
@@ -1269,7 +1292,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -1440,8 +1466,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="average_age_of_parliaments_files/header-attrs-2.6/header-attrs.js"></script>
-  <script src="average_age_of_parliaments_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="average_age_of_parliaments_files/header-attrs-2.11/header-attrs.js"></script>
+  <script src="average_age_of_parliaments_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="average_age_of_parliaments_files/popper-2.6.0/popper.min.js"></script>
   <link href="average_age_of_parliaments_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="average_age_of_parliaments_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1461,7 +1487,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"The average age of politicians in the Australian Federal Parliament (1901-2020)","description":"I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.","authors":[{"author":"Rohan Alexander","authorURL":{"rohanalexander.com":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-01-31T00:00:00.000+00:00","citationText":"Alexander, 2021"}
+{"title":"The average age of politicians in the Australian Federal Parliament (1901-2020)","description":"I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.","authors":[{"author":"Rohan Alexander","authorURL":{"rohanalexander.com":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-01-31T00:00:00.000-05:00","citationText":"Alexander, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1513,7 +1539,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/RohanAlexander/AustralianElections'>AustralianElections</a></span><span class='op'>)</span>
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/RohanAlexander/AustralianPoliticians'>AustralianPoliticians</a></span><span class='op'>)</span>
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://lubridate.tidyverse.org'>lubridate</a></span><span class='op'>)</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
@@ -1559,7 +1585,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>australian_politicians</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 6 x 4
+<pre><code># A tibble: 6 × 4
   uniqueID   from       to         house
   &lt;chr&gt;      &lt;date&gt;     &lt;date&gt;     &lt;chr&gt;
 1 Abbott1869 1913-05-31 1919-11-03 HoR  
@@ -1572,8 +1598,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>For each day, I would like to know the average age of everyone sitting in the parliament. There are a variety of ways to do this, but one is to create a dataset of two columns: <code>date</code> and <code>uniqueID.</code> Both of these are repeated, so that for every <code>date</code> there is every <code>uniqueID.</code></p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>start_date</span> <span class='op'>&lt;-</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"1901-01-01"</span><span class='op'>)</span>
-<span class='va'>end_date</span> <span class='op'>&lt;-</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2019-12-31"</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>start_date</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"1901-01-01"</span><span class='op'>)</span>
+<span class='va'>end_date</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/ymd.html'>ymd</a></span><span class='op'>(</span><span class='st'>"2019-12-31"</span><span class='op'>)</span>
 
 <span class='va'>politicians_by_date</span> <span class='op'>&lt;-</span> <span class='fu'>tibble</span><span class='op'>(</span>
   uniqueID <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span><span class='op'>(</span><span class='va'>australian_politicians</span><span class='op'>$</span><span class='va'>uniqueID</span> <span class='op'>%&gt;%</span> <span class='fu'><a href='https://rdrr.io/r/base/unique.html'>unique</a></span><span class='op'>(</span><span class='op'>)</span>,
@@ -1586,7 +1612,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>politicians_by_date</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 6 x 2
+<pre><code># A tibble: 6 × 2
   uniqueID   date      
   &lt;chr&gt;      &lt;date&gt;    
 1 Abbott1869 1901-01-01
@@ -1611,7 +1637,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <span class='va'>politicians_by_date</span> <span class='op'>&lt;-</span> 
   <span class='va'>politicians_by_date</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>in_parliament_interval <span class='op'>=</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/interval.html'>interval</a></span><span class='op'>(</span><span class='va'>from</span>, <span class='va'>to</span><span class='op'>)</span>,
+  <span class='fu'>mutate</span><span class='op'>(</span>in_parliament_interval <span class='op'>=</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/interval.html'>interval</a></span><span class='op'>(</span><span class='va'>from</span>, <span class='va'>to</span><span class='op'>)</span>,
          in_parliament_at_date <span class='op'>=</span> <span class='fu'>if_else</span><span class='op'>(</span><span class='va'>date</span> <span class='op'>%within%</span> <span class='va'>in_parliament_interval</span>, 
                                          <span class='fl'>1</span>, 
                                          <span class='fl'>0</span><span class='op'>)</span>
@@ -1625,7 +1651,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>politicians_by_date</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 6 x 3
+<pre><code># A tibble: 6 × 3
   uniqueID     date       house
   &lt;chr&gt;        &lt;date&gt;     &lt;chr&gt;
 1 Bonython1848 1901-04-13 HoR  
@@ -1672,22 +1698,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>politicians_by_date</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 6 x 5
-  uniqueID    date       house birthDate  age_as_at_that_da…
-  &lt;chr&gt;       &lt;date&gt;     &lt;chr&gt; &lt;date&gt;     &lt;drtn&gt;            
-1 Bonython18… 1901-04-13 HoR   1848-10-15 19172 days        
-2 Braddon1829 1901-04-25 HoR   1829-06-11 26250 days        
-3 Brown1861   1901-05-11 HoR   1861-10-06 14461 days        
-4 Cameron1851 1901-06-13 HoR   1851-11-03 18119 days        
-5 Chanter1845 1901-07-13 HoR   1845-02-11 20605 days        
-6 Chapman1864 1901-07-14 HoR   1864-07-10 13517 days        </code></pre>
+<pre><code># A tibble: 6 × 5
+  uniqueID     date       house birthDate  age_as_at_that_d…
+  &lt;chr&gt;        &lt;date&gt;     &lt;chr&gt; &lt;date&gt;     &lt;drtn&gt;           
+1 Bonython1848 1901-04-13 HoR   1848-10-15 19172 days       
+2 Braddon1829  1901-04-25 HoR   1829-06-11 26250 days       
+3 Brown1861    1901-05-11 HoR   1861-10-06 14461 days       
+4 Cameron1851  1901-06-13 HoR   1851-11-03 18119 days       
+5 Chanter1845  1901-07-13 HoR   1845-02-11 20605 days       
+6 Chapman1864  1901-07-14 HoR   1864-07-10 13517 days       </code></pre>
 </div>
 <p>I need to work out the average age for each day. There are some politicians for whom we do not know their exact birthdate. Those have been removed in this calculation.</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>average_age_by_date</span> <span class='op'>&lt;-</span> 
   <span class='va'>politicians_by_date</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>mutate</span><span class='op'>(</span>age_as_at_that_date <span class='op'>=</span> <span class='va'>age_as_at_that_date</span> <span class='op'>/</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/duration.html'>ddays</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> <span class='co'># This just </span>
+  <span class='fu'>mutate</span><span class='op'>(</span>age_as_at_that_date <span class='op'>=</span> <span class='va'>age_as_at_that_date</span> <span class='op'>/</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/duration.html'>ddays</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> <span class='co'># This just </span>
   <span class='co'># converts it into a days count</span>
   <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>date</span>, <span class='va'>house</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>summarise</span><span class='op'>(</span>average_age <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/stats/median.html'>median</a></span><span class='op'>(</span><span class='va'>age_as_at_that_date</span>, na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span><span class='op'>)</span> 
@@ -1699,7 +1725,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>average_age_by_date</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 6 x 4
+<pre><code># A tibble: 6 × 4
 # Groups:   date [3]
   date       house  average_age average_age_in_years
   &lt;date&gt;     &lt;chr&gt;        &lt;dbl&gt;                &lt;dbl&gt;
@@ -1730,7 +1756,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <span class='va'>average_age_by_election</span> <span class='op'>&lt;-</span> 
   <span class='va'>average_age_by_election</span> <span class='op'>%&gt;%</span>
   <span class='fu'>ungroup</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>age_as_at_that_date <span class='op'>=</span> <span class='va'>age_as_at_that_date</span> <span class='op'>/</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/duration.html'>ddays</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> <span class='co'># This just </span>
+  <span class='fu'>mutate</span><span class='op'>(</span>age_as_at_that_date <span class='op'>=</span> <span class='va'>age_as_at_that_date</span> <span class='op'>/</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/duration.html'>ddays</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> <span class='co'># This just </span>
   <span class='co'># converts it into a days count</span>
   <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>election_counter</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>summarise</span><span class='op'>(</span>average_age <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/stats/median.html'>median</a></span><span class='op'>(</span><span class='va'>age_as_at_that_date</span>, na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span>,
@@ -1755,7 +1781,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <span class='fu'>scale_color_brewer</span><span class='op'>(</span>palette <span class='op'>=</span> <span class='st'>"Set1"</span><span class='op'>)</span>
 </code></pre>
 </div>
-<div class="figure"><span id="fig:maingraph"></span>
+<div class="figure"><span style="display:block;" id="fig:maingraph"></span>
 <img src="average_age_of_parliaments_files/figure-html5/maingraph-1.png" alt="Average age in the Australian Federal Parliament" width="624" />
 <p class="caption">
 Figure 1: Average age in the Australian Federal Parliament
@@ -2062,8 +2088,8 @@ Figure 1: Average age in the Australian Federal Parliament
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>average_age_by_year</span> <span class='op'>&lt;-</span> 
   <span class='va'>politicians_by_date</span> <span class='op'>%&gt;%</span>
   <span class='fu'>ungroup</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>year <span class='op'>=</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/year.html'>year</a></span><span class='op'>(</span><span class='va'>date</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
-  <span class='fu'>mutate</span><span class='op'>(</span>age_as_at_that_date <span class='op'>=</span> <span class='va'>age_as_at_that_date</span> <span class='op'>/</span> <span class='fu'><a href='http://lubridate.tidyverse.org/reference/duration.html'>ddays</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> <span class='co'># This just </span>
+  <span class='fu'>mutate</span><span class='op'>(</span>year <span class='op'>=</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/year.html'>year</a></span><span class='op'>(</span><span class='va'>date</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
+  <span class='fu'>mutate</span><span class='op'>(</span>age_as_at_that_date <span class='op'>=</span> <span class='va'>age_as_at_that_date</span> <span class='op'>/</span> <span class='fu'><a href='https://lubridate.tidyverse.org/reference/duration.html'>ddays</a></span><span class='op'>(</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> <span class='co'># This just </span>
   <span class='co'># converts it into a days count</span>
   <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>year</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>summarise</span><span class='op'>(</span>average_age <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/stats/median.html'>median</a></span><span class='op'>(</span><span class='va'>age_as_at_that_date</span>, na.rm <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 

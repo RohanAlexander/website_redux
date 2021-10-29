@@ -31,7 +31,7 @@ library(knitr)
 
 ## Overview
 
-The average age of politicians in a parliament may have implications for the types of issues that are emphasised and the policies that are put in place. I examine the average age of Australian politicians in the Senate and the House of Representatives. In general the Senate tends to be slightly older than the House of Representatives. I find a gradual increase in the average age from Federation through to the 1940s. In 1949 there was an expansion of the parliament and the average age noticeably declined. After a period of relative stability in the 1950s and 1960s, there was another noticeable decrease in the 1970s, followed by a gradual aging.
+The average age of politicians in a parliament may have implications for the types of issues that are emphasised and the policies that are put in place. I examine the average age of Australian politicians in the Senate and the House of Representatives. In general, the Senate tends to be slightly older than the House of Representatives. I find a gradual increase in the average age from Federation through to the 1940s. In 1949 there was an expansion of the parliament and the average age noticeably declined. After a period of relative stability in the 1950s and 1960s, there was another noticeable decrease in the 1970s, followed by a gradual aging.
 
 
 
@@ -52,10 +52,10 @@ library(tidyverse)
 
 The other packages that are required for the analysis are `lubridate` [@citeLubridate], the `tidyverse` [@citeTidyverse]. Additionally this note draws on the `knitr` [@citeKnitr] and `distill` [@citedistill] packages. All analysis is conducted in the statistical programming language R [@citeR]. 
 
-I'm not going to spend a lot of time on descriptives about the dataset here because that's needed for a paper, and this is meant to be fun. But briefly, there are 1,776 politicians in the dataset, with 1,203 having sat in the House of Representatives, which is the lower house, and 623 having sat in the Senate, which is the upper house. There is some overlap because there are people who sat in both houses.^[There are a handful of politicians who sat in the parliament, but were never elected - when the first parliament sat, there were initially some who were just appointed, and never went on to seek election. Conversely, there is one politician - Heather Hill - who was elected, but whose election was reversed before she could take her seat. While she never served in either house, she is included in the dataset for purposes of being able to link it to the elections dataset. However she is not included in the numebr of Australian politicians.]
+I'm not going to spend a lot of time on descriptives about the dataset here because that's needed for a paper, and this is meant to be fun. But briefly, there are 1,776 politicians in the dataset, with 1,203 having sat in the House of Representatives, which is the lower house, and 623 having sat in the Senate, which is the upper house. There is some overlap because there are people who sat in both houses.^[There are a handful of politicians who sat in the parliament, but were never elected - when the first parliament sat, there were initially some who were just appointed, and never went on to seek election. Conversely, there is one politician - Heather Hill - who was elected, but whose election was reversed before she could take her seat. While she never served in either house, she is included in the dataset for purposes of being able to link it to the elections dataset. However she is not included in the number of Australian politicians.]
 
 
-The AustralianPoliticians package contains a number of datasets that are related by the `uniqueID` variable. This note requires the main dataset - 'all' - as well as two supporting datasets that provide more detailed information about the members - 'by_division_mps' - and the senators - 'by_state_senators'.
+The `AustralianPoliticians` package contains a number of datasets that are related by the `uniqueID` variable. This note requires the main dataset - 'all' - as well as two supporting datasets that provide more detailed information about the members - 'by_division_mps' - and the senators - 'by_state_senators'.
 
 ```{r}
 # Get the members and the dates they were in the house
@@ -263,7 +263,7 @@ average_age_by_election %>%
 
 ### Compare with average age
 
-To get a sense of whether the parliament is unusual we need know what is happening the broader population over this time. Fortunately I know someone who is fairly handy when it comes to demography who can help.^[If you're interested in this sort of thing, then a PhD with [Monica Alexander](https://www.monicaalexander.com) is probably the way to go.]
+To get a sense of whether the parliament is unusual we need know what is happening the broader population over this time. Fortunately, I know someone who is fairly handy when it comes to demography who can help.^[If you're interested in this sort of thing, then a PhD with [Monica Alexander](https://www.monicaalexander.com) is probably the way to go.]
 
 Although it's going to average over elections, which we've seen is a big source of variation, we can create an average age for each year, and then compare that against data from the Australian Bureau of Statistics (ABS). The ABS provides an estimate of historical population statistics in 3105.0.65.001 - Australian Historical Population Statistics, 2016, which was released in 2019. I want the second data cube - 2 - Population Age and Sex Structure - and within that I want Table 2.18 - Median age by sex, states and territories, 30 June, 1861 onwards.
 
@@ -344,7 +344,12 @@ I've had a brief look at the average age of politicians in the Australian Parlia
 
 More generally, I've shown one of the advantages of putting data onto GitHub, and wrapping that in an R Package where possible. If you don't like my analysis then you can grab the data yourself and play around with it.
 
-In general, it would be worthwhile trying to model this. Last week's post didn't end up having much modelling either. I think maybe trying to do data and modelling in one nap is too much and might try to revisit the data from this post next time just focusing on the modelling.
+[Florence Vallée-Dubois])(https://florencevdubois.github.io) does a lot more of this type of work in her thesis 'Growing old : Population ageing and democratic representation in Canada' where she looks at 'whether the social changes brought about by population ageing also have implications for electoral politics and democratic representation.'
+
+
+
+
+
 
 
 
