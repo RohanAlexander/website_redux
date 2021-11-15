@@ -50,7 +50,7 @@ This term is mostly a special series of talks featuring University of Toronto sp
 | Fri 22 Oct 2021, noon - 1pm | Tegan Maharaj, Information | https://youtu.be/SP3bZ3uHyTg |
 | Fri 29 Oct 2021, noon - 1pm | Josh Speagle, Astronomy | https://youtu.be/fHk3Fy1TxQY |
 | Fri 5 Nov 2021, noon - 1pm | Yun William Yu, Math | https://youtu.be/-1jpjM2nP2Y |
-| Fri 12 Nov 2021, noon - 1pm | Ann Glusker, Berkeley | |
+| Fri 12 Nov 2021, noon - 1pm | Ann Glusker, Berkeley | https://youtu.be/139xCz-e0tg |
 | Fri 19 Nov 2021, noon - 1pm | Radu Craiu, Statistical Sciences | |
 | Fri 26 Nov 2021, noon - 1pm | Kieran Campbell, Biomedicine | |
 | Fri 3 Dec 2021, noon - 1pm | Leanne Trimble, Libraries | |
@@ -78,19 +78,19 @@ This term is mostly a special series of talks featuring University of Toronto sp
 	I study AI systems and "what goes into" them, e.g. their real-world deployment context, and the effects that has on learning behaviour and generalization. I do that because I want to be able to use AI systems responsibly for problems I think are important, like impact and risk assessments for climate change, AI alignment, ecological management and other common-good problems. My website is: http://www.teganmaharaj.com/.	
 * Friday, 29 October 2021, noon - 1pm  
 	**Josh Speagle**, Astronomy & Astrophysics, Dunlap Institute, Statistical Sciences    
-	[Josh](joshspeagle.github.io) is a Banting & Dunlap Postdoctoral Fellow at the University of Toronto whose research focuses on using astrostatistics and "data science" to understand how galaxies like our own Milky Way form, behave, and evolve.	
+	[Josh](https://joshspeagle.github.io) is a Banting & Dunlap Postdoctoral Fellow at the University of Toronto whose research focuses on using astrostatistics and "data science" to understand how galaxies like our own Milky Way form, behave, and evolve.	
 * Friday, 5 November 2021, noon - 1pm  
 	**Yun William Yu**,	Math Department, UofT; UTSC Computer & Mathematical Sciences    
-	[Yun William Yu](yunwilliamyu.net) is an assistant professor in the math department at UofT whose research focuses on algorithmic methods for computational biology and medical informatics.	
+	[Yun William Yu](https://www.math.toronto.edu/cms/people/faculty/yu-yun-william/) is an assistant professor in the math department at UofT whose research focuses on algorithmic methods for computational biology and medical informatics.	
 * Friday, 12 November 2021, noon - 1pm  
 	**Ann Glusker**, Doe Library, University of California Berkeley     
 	Dr Ann Glusker is Librarian for Sociology, Demography, Public Policy, Psychology (fall 2021) & Quantitative Research at the Doe Library, University of California, Berkeley. She will discuss a recently released [report](https://escholarship.org/uc/item/4403c0f4) 'Supporting Big Data Research at the University of California, Berkeley'. This report provides insights on researcher practices and challenges in six thematic areas: data collection & processing; analysis: methods, tools, infrastructure; research outputs; collaboration; training; and balancing domain vs data science expertise.	
 * Friday, 19 November 2021, noon - 1pm  
 	**Radu Craiu**, Statistical Sciences @ U of T    
-	[Dr. Radu V. Craiu](www.utstat.toronto.edu/craiu/) is Professor and Chair of Statistical Sciences at the University of Toronto.  His main research interests are in computational methods in statistics, especially, Markov chain Monte Carlo algorithms (MCMC), Bayesian inference, copula models, model selection procedures and statistical genetics.	
+	[Dr. Radu V. Craiu](https://utstat.toronto.edu/craiu/) is Professor and Chair of Statistical Sciences at the University of Toronto.  His main research interests are in computational methods in statistics, especially, Markov chain Monte Carlo algorithms (MCMC), Bayesian inference, copula models, model selection procedures and statistical genetics.	
 * Friday, 26 November 2021, noon - 1pm  
 	**Kieran Campbell**, Lunenfeld Tanenbaum Research Institute    
-	[Dr. Kieran Campbell](www.camlab.ca) is an investigator at the Lunenfeld-Tanenbaum Research Institute and an assistant professor at the Departments of Molecular Genetics and Statistical Sciences, University of Toronto. His research focusses on Bayesian models and machine learning for high dimensional biomedical data, including single-cell and cancer genomics. Recently, he has led efforts to develop statistical machine learning methodology to integrate single-cell RNA and DNA sequencing data to uncover the effects of tumour clonal identity on gene expression, as well as methods to automatically delineate the tumour microenvironment from single-cell RNA-sequencing data. Such findings can improve our understanding of cancer progression and of why certain tumours are resistant to therapies, leading to relapse.
+	[Dr. Kieran Campbell](https://www.camlab.ca) is an investigator at the Lunenfeld-Tanenbaum Research Institute and an assistant professor at the Departments of Molecular Genetics and Statistical Sciences, University of Toronto. His research focusses on Bayesian models and machine learning for high dimensional biomedical data, including single-cell and cancer genomics. Recently, he has led efforts to develop statistical machine learning methodology to integrate single-cell RNA and DNA sequencing data to uncover the effects of tumour clonal identity on gene expression, as well as methods to automatically delineate the tumour microenvironment from single-cell RNA-sequencing data. Such findings can improve our understanding of cancer progression and of why certain tumours are resistant to therapies, leading to relapse.
 * Friday, 3 December 2021, noon - 1pm  
 	**Leanne Trimble**, UofT Libraries    
 	Leanne Trimble is a data librarian at the Map & Data Library, University of Toronto Libraries.
