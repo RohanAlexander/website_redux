@@ -12,9 +12,9 @@ title: "Academic"
 
 # Pre-prints
 
-* Rohan Alexander and [Monica Alexander](monicaalexander.com), 2021, 'The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)', *arXiv*, 17 November, https://arxiv.org/abs/2111.09299.
-* Ke-Li Chiu and Rohan Alexander, 2021, 'Detecting Hate Speech with GPT-3', *arXiv*, 23 March [4 November], https://arxiv.org/abs/2103.12407.
-* Annie Collins and Rohan Alexander, 2021, 'Reproducibility of COVID-19 pre-prints', *arXiv*, 22 July, https://arxiv.org/abs/2107.10724.
+* Rohan Alexander and [Monica Alexander](monicaalexander.com), 2021, 'The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)', *arXiv*, 17 November, https://arxiv.org/abs/2111.09299. *Under review at PSRM.*
+* Ke-Li Chiu and Rohan Alexander, 2021, 'Detecting Hate Speech with GPT-3', *arXiv*, 23 March [4 November], https://arxiv.org/abs/2103.12407. *Under review at EPJ Data Science.*
+* Annie Collins and Rohan Alexander, 2021, 'Reproducibility of COVID-19 pre-prints', *arXiv*, 22 July, https://arxiv.org/abs/2107.10724. *Under review at Scientometrics.*
 * Rohan Alexander, Samantha-Jo Caetano, Haoluan Chen, Michael Chong, Annie Collins, Shirley Deng, Isaac Ehrlich, Paul Hodgetts, Yena Joo, Marija Pejcinovska, Mariam Walaa, and Matthew Wankiewicz, 2021, 'An Introduction to DoSStoolkit', *arXiv*, 19 May, https://arxiv.org/abs/2105.09347.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
 * Paul A. Hodgetts and Rohan Alexander, 2020, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
@@ -22,13 +22,15 @@ title: "Academic"
 
 # Software
 
-```{r, out.width= "35%", echo = FALSE}
-knitr::include_graphics("images/AustralianPoliticians.png") 
+```{r, out.width= "33%", echo = FALSE}
+knitr::include_graphics(c("images/AustralianPoliticians.png", "images/cesR_hex.png", "images/heapsofpapers_hex.png")) 
 ```
 
-* Rohan Alexander and Paul A. Hodgetts, 2021, `AustralianPoliticians`, https://github.com/RohanAlexander/AustralianPoliticians. `AustralianPoliticians` is an R package that consists of a collection of datasets related to Australian politicians. The datasets are up-to-date as of 30 November 2021. You can install the package from CRAN.
-* Paul A. Hodgetts and Rohan Alexander, 2021, `cesR`, https://hodgettsp.github.io/cesR/.
-* Rohan Alexander and A Mahfouz, 2021, `heapsofpapers`, https://rohanalexander.github.io/heapsofpapers/.
+* Rohan Alexander and Paul A. Hodgetts, 2021, `AustralianPoliticians`, https://rohanalexander.github.io/heapsofpapers/. This R package is a series of functions that load datasets of biographical and political information about Australian federal politicians between 1901 and 2021. The datasets are up-to-date as of 30 November 2021.
+* Paul A. Hodgetts and Rohan Alexander, 2021, `cesR`, https://hodgettsp.github.io/cesR/. This R package provides access to the Canadian Election Study Datasets.
+* Rohan Alexander and A Mahfouz, 2021, `heapsofpapers`, https://rohanalexander.github.io/heapsofpapers/. This R package makes it easy to respectfully download heaps of papers (and CSVs, and websites, and similar). It is essentially a wrapper around a for loop and `utils::download.file()`, but there are a bunch of small things that make things easier compared with writing that out each time. For instance, the package automatically slows down your requests, lets you know where it is up to, and adjusts for papers that you’ve already downloaded.
+
+
 
 
 
@@ -46,7 +48,7 @@ knitr::include_graphics("images/AustralianPoliticians.png")
 ### Past
 
 * A super opinionated talk about data science, APIs, and grad school applications   
-    18 November 2021, University of Toronto, Undergraduate Statistical Sciences Union Workshop.
+    18 November 2021, University of Toronto, Undergraduate Statistical Sciences Union Workshop. https://youtu.be/P1yvnq2Rojk
 * Remarks at Trinity College   
     19 October 2021, University of Toronto, Trinity College High Table.
 * Introduction to Andrew Gelman   
