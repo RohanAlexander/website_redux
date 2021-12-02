@@ -12,7 +12,16 @@
       <link>https://rohanalexander.com/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>The average age of politicians in the Australian Federal Parliament (1901-2021)</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2021-12-02-average_age_of_australian_politicians</link>
+      <description>I examine the average age of politicians in the Australian Federal Parliament on a daily basis. Using a publicly available dataset I find that generally the Senate is older than the House of Representatives. The average age increased from Federation in 1901 through to 1949, when an expansion of the parliament's size likely brought many new politicians. I am unable to explain a sustained decline that occurred during the 1970s. From the 1980s onward there has been a gradual aging of both houses.</description>
+      <guid>https://rohanalexander.com/posts/2021-12-02-average_age_of_australian_politicians</guid>
+      <pubDate>Thu, 02 Dec 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2021-12-02-average_age_of_australian_politicians/average_age_of_parliaments_files/figure-html5/maingraph-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Review of 'Data Science: A First Introduction'</title>
       <dc:creator>Rohan Alexander</dc:creator>

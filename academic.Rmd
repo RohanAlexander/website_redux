@@ -26,7 +26,7 @@ title: "Academic"
 knitr::include_graphics(c("images/AustralianPoliticians.png", "images/cesR_hex.png", "images/heapsofpapers_hex.png")) 
 ```
 
-* Rohan Alexander and Paul A. Hodgetts, 2021, `AustralianPoliticians`, https://rohanalexander.github.io/heapsofpapers/. This R package is a series of functions that load datasets of biographical and political information about Australian federal politicians between 1901 and 2021. The datasets are up-to-date as of 30 November 2021.
+* Rohan Alexander and Paul A. Hodgetts, 2021, `AustralianPoliticians`, https://rohanalexander.github.io/AustralianPoliticians/. This R package is a series of functions that load datasets of biographical and political information about Australian federal politicians between 1901 and 2021. The datasets are up-to-date as of 30 November 2021.
 * Paul A. Hodgetts and Rohan Alexander, 2021, `cesR`, https://hodgettsp.github.io/cesR/. This R package provides access to the Canadian Election Study Datasets.
 * Rohan Alexander and A Mahfouz, 2021, `heapsofpapers`, https://rohanalexander.github.io/heapsofpapers/. This R package makes it easy to respectfully download heaps of papers (and CSVs, and websites, and similar). It is essentially a wrapper around a for loop and `utils::download.file()`, but there are a bunch of small things that make things easier compared with writing that out each time. For instance, the package automatically slows down your requests, lets you know where it is up to, and adjusts for papers that you’ve already downloaded.
 
