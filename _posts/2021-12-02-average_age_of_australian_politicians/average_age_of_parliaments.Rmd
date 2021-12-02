@@ -395,7 +395,7 @@ I've had a brief look at the average age of politicians in the Australian Parlia
 
 More generally, I've shown one of the advantages of putting data onto GitHub, and wrapping that in an R Package where possible. If you don't like my analysis then you can grab the data yourself and play around with it!
 
-As I mentioned at the top, [Florence Vallée-Dubois])(https://florencevdubois.github.io) does a lot more of this type of work in her thesis 'Growing old : Population ageing and democratic representation in Canada' where she looks at 'whether the social changes brought about by population ageing also have implications for electoral politics and democratic representation.' There's probably a lot of similar work that could be done for Australia.
+As I mentioned at the top, [Florence Vallée-Dubois](https://florencevdubois.github.io) does a lot more of this type of work in her thesis 'Growing old : Population ageing and democratic representation in Canada' where she looks at 'whether the social changes brought about by population ageing also have implications for electoral politics and democratic representation.' There's probably a lot of similar work that could be done for Australia.
 
 
 

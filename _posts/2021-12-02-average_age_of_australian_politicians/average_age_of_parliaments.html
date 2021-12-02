@@ -1859,7 +1859,7 @@ Figure 2: Average age in the lower house on a daily basis
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>average_age_by_date</span> <span class='op'>%&gt;%</span> 
   <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>house</span> <span class='op'>==</span> <span class='st'>"Senate"</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>date</span>, y <span class='op'>=</span> <span class='va'>average_age_in_years</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_point</span><span class='op'>(</span>alpha <span class='op'>=</span> <span class='fl'>0.5</span>, color <span class='op'>=</span>  <span class='st'>"#F90000"</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>geom_point</span><span class='op'>(</span>alpha <span class='op'>=</span> <span class='fl'>0.5</span>, color <span class='op'>=</span> <span class='st'>"#F90000"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>labs</span><span class='op'>(</span>x <span class='op'>=</span> <span class='st'>"Date"</span>,
        y <span class='op'>=</span> <span class='st'>"Average age (years)"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
@@ -2226,7 +2226,7 @@ Figure 4: Average age in the Australian Federal Parliament, by election period
 <h2 id="concluding-remarks">Concluding remarks</h2>
 <p>I’ve had a brief look at the average age of politicians in the Australian Parliament. In general, I’ve found that they’re older than the general population, and that there’s a lot of variation.</p>
 <p>More generally, I’ve shown one of the advantages of putting data onto GitHub, and wrapping that in an R Package where possible. If you don’t like my analysis then you can grab the data yourself and play around with it!</p>
-<p>As I mentioned at the top, [Florence Vallée-Dubois])(<a href="https://florencevdubois.github.io" class="uri">https://florencevdubois.github.io</a>) does a lot more of this type of work in her thesis ‘Growing old : Population ageing and democratic representation in Canada’ where she looks at ‘whether the social changes brought about by population ageing also have implications for electoral politics and democratic representation.’ There’s probably a lot of similar work that could be done for Australia.</p>
+<p>As I mentioned at the top, <a href="https://florencevdubois.github.io">Florence Vallée-Dubois</a> does a lot more of this type of work in her thesis ‘Growing old : Population ageing and democratic representation in Canada’ where she looks at ‘whether the social changes brought about by population ageing also have implications for electoral politics and democratic representation.’ There’s probably a lot of similar work that could be done for Australia.</p>
 <h2 class="appendix" id="acknowledgments">Acknowledgments</h2>
 <p>Thanks very much to Ben Readshaw and Florence Vallée-Dubois for motivating this note, and to Monica Alexander for her thoughtful comments.</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
