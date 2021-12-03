@@ -99,7 +99,7 @@ australian_senators <-
          to = senatorTo)
 
 australian_politicians <- rbind(australian_mps, australian_senators)
-rm(australian_senators, australian_mps)
+rm(australian_senators, australian_mps, mps, senators)
 
 # Change the names so that they print nicely in graphs/tables
 australian_politicians <- 
@@ -111,21 +111,24 @@ australian_politicians <-
              TRUE ~ "OH NO")
          )
 head(australian_politicians)
+
+# australian_politicians$house %>% table()
 ```
 
 For each day, I would like to know the average age of everyone sitting in the parliament. There are a variety of ways to do this, but one is to create a dataset of two columns: `date` and `uniqueID.` Both of these are repeated, so that for every `date` there is every `uniqueID.` 
 
 ```{r}
 start_date <- ymd("1901-01-01")
-end_date <- ymd("2021-12-02")
+end_date <- ymd("2021-12-31")
 
-politicians_by_date <- tibble(
-  uniqueID = rep(australian_politicians$uniqueID %>% unique(),
-                 end_date - start_date + 1),
-  date = rep(seq.Date(start_date, end_date, by = "day"),
-             australian_politicians$uniqueID %>% unique() %>% length()
-             )
-  )
+politicians_by_date <- 
+  tibble(
+    uniqueID = rep(australian_politicians$uniqueID %>% unique(),
+                   end_date - start_date + 1),
+    date = rep(seq.Date(start_date, end_date, by = "day"),
+               australian_politicians$uniqueID %>% unique() %>% length()
+               )
+    )
 
 head(politicians_by_date)
 ```
@@ -205,6 +208,7 @@ average_age_by_date <-
   group_by(date, house) %>% 
   summarise(average_age = median(age_as_at_that_date, na.rm = TRUE)) 
 
+
 average_age_by_date <- 
   average_age_by_date %>% 
   mutate(average_age_in_years = average_age/365) 
@@ -253,6 +257,9 @@ There are considerable changes over time (Figure \@ref(fig:maingraph)).
 
 ```{r maingraph, fig.cap="Average age in the Australian Federal Parliament on a daily basis"}
 average_age_by_date %>% 
+  # filter(year(date) == 1904) %>%
+  # filter(month(date) == 2) %>%
+  # filter(house == "HoR") %>%
   ggplot(aes(x = date, y = average_age_in_years, colour = house)) +
   geom_point(alpha = 0.5) +
   labs(x = "Date",
