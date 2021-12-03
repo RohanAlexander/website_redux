@@ -2300,7 +2300,7 @@ Figure 1: Average age in the Australian Federal Parliament on a daily basis
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>average_age_by_date</span> <span class='op'>%&gt;%</span> 
   <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>house</span> <span class='op'>==</span> <span class='st'>"HoR"</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>date</span>, y <span class='op'>=</span> <span class='va'>average_age_in_years</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_point</span><span class='op'>(</span>alpha <span class='op'>=</span> <span class='fl'>0.5</span>, color <span class='op'>=</span> <span class='st'>"#0080BD"</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>geom_point</span><span class='op'>(</span>alpha <span class='op'>=</span> <span class='fl'>0.5</span>, color <span class='op'>=</span> <span class='st'>"#F90000"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>labs</span><span class='op'>(</span>x <span class='op'>=</span> <span class='st'>"Date"</span>,
        y <span class='op'>=</span> <span class='st'>"Average age (years)"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
@@ -2319,7 +2319,7 @@ Figure 2: Average age in the lower house on a daily basis
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>average_age_by_date</span> <span class='op'>%&gt;%</span> 
   <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>house</span> <span class='op'>==</span> <span class='st'>"Senate"</span><span class='op'>)</span> <span class='op'>%&gt;%</span> 
   <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>date</span>, y <span class='op'>=</span> <span class='va'>average_age_in_years</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_point</span><span class='op'>(</span>alpha <span class='op'>=</span> <span class='fl'>0.5</span>, color <span class='op'>=</span> <span class='st'>"#F90000"</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>geom_point</span><span class='op'>(</span>alpha <span class='op'>=</span> <span class='fl'>0.5</span>, color <span class='op'>=</span> <span class='st'>"#0080BD"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>labs</span><span class='op'>(</span>x <span class='op'>=</span> <span class='st'>"Date"</span>,
        y <span class='op'>=</span> <span class='st'>"Average age (years)"</span><span class='op'>)</span> <span class='op'>+</span>
   <span class='fu'>theme_minimal</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>

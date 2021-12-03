@@ -275,7 +275,7 @@ I'll just separate each of the houses because there's a lot going on there (Figu
 average_age_by_date %>% 
   filter(house == "HoR") %>% 
   ggplot(aes(x = date, y = average_age_in_years)) +
-  geom_point(alpha = 0.5, color = "#0080BD") +
+  geom_point(alpha = 0.5, color = "#F90000") +
   labs(x = "Date",
        y = "Average age (years)") +
   theme_minimal() +
@@ -286,7 +286,7 @@ average_age_by_date %>%
 average_age_by_date %>% 
   filter(house == "Senate") %>% 
   ggplot(aes(x = date, y = average_age_in_years)) +
-  geom_point(alpha = 0.5, color = "#F90000") +
+  geom_point(alpha = 0.5, color = "#0080BD") +
   labs(x = "Date",
        y = "Average age (years)") +
   theme_minimal() +
