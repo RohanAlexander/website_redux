@@ -12,7 +12,16 @@
       <link>https://rohanalexander.com/</link>
     </image>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 16 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>What data science can learn from the James Webb Space Telescope</title>
+      <dc:creator>Rohan Alexander</dc:creator>
+      <link>https://rohanalexander.com/posts/2021-12-17-james_webb_space_telescope</link>
+      <description>A talk at the Statistics and MachIne LEarning (SMILE) Journal Club.</description>
+      <guid>https://rohanalexander.com/posts/2021-12-17-james_webb_space_telescope</guid>
+      <pubDate>Fri, 17 Dec 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rohanalexander.com/posts/2021-12-17-james_webb_space_telescope/stigler.png" medium="image" type="image/png" width="1044" height="496"/>
+    </item>
     <item>
       <title>On the privilege of turning our world into data</title>
       <dc:creator>Rohan Alexander</dc:creator>
