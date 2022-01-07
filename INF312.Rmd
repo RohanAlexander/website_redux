@@ -1,0 +1,200 @@
+---
+title: "Worlds become data"
+description: |
+  INF312 is an upper-level undergraduate course at the University of Toronto's Faculty of Information.
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3  
+---
+
+## Preamble 
+
+### Overview
+
+
+To a certain extent we are wasting our time. We have a perfect model of the world--it is the world! But it is too complicated. Because of this we must simplify the world in order for it to become data. In this course we explore how we do this, and the implications.
+
+
+### FAQ
+
+- Can I audit this course? Sure, but it is pointless, because the only way to learn this stuff is to do the work.
+- What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a meeting, 'tutorial', where you discuss it with them.
+- Why is there so much assessment? The only way to learn is to actually do the work, and students only do the work when they are assessed. It is unfortunate, but there's no way around it.
+
+
+## Content
+
+### Week 1
+
+'Drinking from a fire hose'.
+
+- Content:
+  - Several end-to-end worked examples
+
+### Week 2
+
+'Learning how to hammer'.
+
+- Content: 
+  - Develop essential skills in R.
+
+### Week 3
+
+'Science-ing'.
+
+- Content: 
+  - Establish a workflow for data sciences, including R Markdown, R Projects, Git and GitHub. 
+
+### Week 4
+
+'Communicating'.
+
+- Content: 
+  - Put in place a framework for writing.
+  - How to effectively use graphs, tables, and maps.
+
+### Week 5
+
+'Communicating II'.
+
+- Content: 
+  - How to make a website and use Shiny.
+
+### Week 6
+
+'Gathering data'.
+
+- Content: 
+  - Using APIs, scraping.
+
+### Week 7
+
+'Gathering data II'.
+
+- Content: 
+  - OCR, semi-structured datasets, and text.
+
+
+### Week 8
+
+'Hunting data'.
+
+- Content: 
+  - Experiments, sampling,
+
+### Week 9
+
+'Hunting data II'.
+
+- Content: 
+  - Surveys, and A/B testing.
+
+### Week 10
+
+'Cleaning data'.
+
+- Content: 
+  - Workflow for cleaning data. 
+  - Effective naming, checks, and testing.
+
+### Week 11
+
+'Store, retrieve, disseminate and protect'.
+
+- Content: 
+  - R packages for data, and documentation including datasheets.
+
+### Week 12
+
+'Share, but not too much'.
+
+- Content: 
+  - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
+
+
+
+
+## Assessment
+
+### Summary
+
+
+| Item 								| Weight (%) | Due date |
+| ------------- | -------------:| -----:|
+| Quiz 						| 20 		 | Weekly before the lecture |
+| Tutorial 						| 20 		 | Weekly the day before the tutorial |
+| Paper 1 							| 25 		 | End of Week 3 |
+| Paper 2 							| 25 		 | End of Week 5 |
+| Paper 3 							| 25 		 | End of Week 7 |
+| Paper 4 							| 25 		 | End of Week 9 |
+| Paper 5 							| 25 		 | End of Week 11 |
+| Final Paper (initial submission)  | 1 		 | Middle of Week 12 |
+| Final Paper (peer review) 		| 4 		 | End of Week 12 |
+| Final Paper 						| 25 		 | Two weeks after that |
+
+You must submit Paper 1. And you must submit the Final Paper.
+
+Beyond that, you have leeway to pick an assessment schedule that works for you. We will take your best 3 of the 11 tutorials, or your best 8 of 11 quizzes for that 20 per cent---whichever results in a better grade for you. And we will take your two best papers from Papers 1-5 for that 50 per cent (25 per cent for each). The remainder is made up of 1 per cent for submitting a draft of the Final Paper, 4 per cent for peer reviewing other people's drafts, and 25 per cent for the Final Paper.
+
+
+
+### Quizz
+
+- Due date: Weekly before the lecture.
+- Weight: 20 per cent. Only best eight out of eleven count and only if that is better for you than counting tutorials.
+- Task: Please complete a weekly quiz in Quercus.
+- Questions: The questions that form the quiz are drawn from those in the Quiz sections of *Telling Stories with Data*.
+
+
+### Tutorial
+
+- Due date: Weekly the day before the tutorial.
+- Weight: 20 per cent. Only best three out of eleven count and only if that is better for you than counting quizzes.
+- Task: Please complete a tutorial question and submit it via Quercus.
+- Questions: Tutorial questions are drawn from those in the Tutorials sections of *Telling Stories with Data*.
+
+
+### Paper #1
+
+- You must submit this paper.
+- Due date: End of Week 3.
+- Weight: 25 per cent (for Papers #1-#5 the best two of five count).
+
+
+### Paper #2
+
+- Due date: End of Week 5.
+- Weight: 25 per cent (for Papers #1-#5 the best two of five counts).
+
+
+### Paper #3
+
+- Due date: End of Week 7.
+- Weight: 25 per cent (for Papers #1-#5 the best two of five counts).
+
+### Paper #4
+
+- Due date: End of Week 9.
+- Weight: 25 per cent (for Papers #1-#5 the best two of five counts).
+
+### Paper #5
+
+- Due date: End of Week 11.
+- Weight: 25 per cent (for Papers #1-#5 the best two of five counts).
+
+
+
+### Final Paper
+
+- Due dates: 
+  - Initial submission: Middle of Week 12.
+  - Peer review: End of Week 12.
+  - Final Paper: Two weeks after that.
+- Weight: 30 per cent
+  - Initial submission: 1 per cent
+  - Peer review: 4 per cent
+  - Final Paper: 25 per cent
+
+
+
