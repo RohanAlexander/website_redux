@@ -12,8 +12,9 @@ output:
 
 I have designed and taught the following courses:
 
-- [Experimental Design](inf2178.html)
+- [Worlds Become Data](inf312.html)
 - [Surveys, Sampling and Observational Data](sta304.html)
+- [Experimental Design](inf2178.html)
 - [Ethics and Data Science](reading_course-ethics.html)
 - [Natural Language Processing](reading_course-nlp.html)
 - [Foundations of Data Sciences](foundations_of_the_data_sciences.html)
@@ -24,8 +25,8 @@ I have designed and taught the following courses:
 
 ### University of Toronto
 
-* *(Upcoming)* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Winter 2022.
-* *(Upcoming)* Instructor, 'INF312: Worlds Become Data', Winter 2022.
+* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Winter 2022.
+* Instructor, 'INF312: Worlds Become Data', Winter 2022.
 * Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2021
 * Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020, [evaluations](pdfs/2020-STA304_student_evals.pdf)
 * Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf)

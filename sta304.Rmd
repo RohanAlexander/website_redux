@@ -112,14 +112,14 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 1
 
-'Drinking from a fire hose'.
+'Drinking from a fire hose' and 'R essentials'
 
 - Content:
   - Several end-to-end worked examples, and review of R.
 
 ### Week 2
 
-'Science-ing'.
+'R essentials' and 'Workflow'.
 
 - Content: 
   - Establish a workflow for data sciences, including R Markdown, R Projects, Git and GitHub. 
