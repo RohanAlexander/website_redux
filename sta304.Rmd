@@ -55,15 +55,15 @@ This is not a 'bird course'. Typically, after the term is finished, students say
 
 ### How we'll work
 
-This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available here: https://www.tellingstorieswithdata.com. Those contain notes and other material that you could go over. There is a course Slack for discussion. We'll use Quercus really only for assessment submission and grading. I expect you to work professionally, and so we'll try to use professional tools to the extent possible. 
+This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available here: https://www.tellingstorieswithdata.com. Those contain notes and other material that you could go over. We'll use Quercus really only for assessment submission and grading. 
 
 A rough weekly flow for the course would be something like:
 
 1. Read the week's course notes.
-2. Read/watch/listen to the compulsory materials.
-3. Complete the weekly quiz.
-4. Attend the lecture.
-5. Attend the lab.
+2. Read/watch/listen to the required materials.
+3. Attend the lecture.
+4. Attend the lab.
+5. Complete the weekly quiz.
 6. Make progress on a paper.
 
 
@@ -112,24 +112,28 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 1
 
-'Drinking from a fire hose' and 'R essentials'
+'Telling Stories with Data', 'Drinking from a fire hose' and 'R essentials'.
 
 - Content:
-  - Several end-to-end worked examples, and review of R.
+  - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
+  - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
+  - [R essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
 
 ### Week 2
 
-'R essentials' and 'Workflow'.
+'R essentials' and 'Reproducible workflows'.
 
 - Content: 
-  - Establish a workflow for data sciences, including R Markdown, R Projects, Git and GitHub. 
-  - Put in place a framework for writing papers.
+  - [R essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
+  - [Reproducible workflows](https://www.tellingstorieswithdata.com/reproducible-workflows.html)
+
 
 ### Week 3
 
 'Communicating'.
 
 - Content: 
+  - Writing
   - How to effectively use graphs, tables, and maps.
   - How to make a website and use Shiny.
 
@@ -153,7 +157,7 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 6
 
-'Cleaning data'.
+'Cleaning and preparing data'.
 
 - Content: 
   - Workflow for cleaning data. 
@@ -161,7 +165,7 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 7
 
-'Store, retrieve, disseminate and protect' and 'share, but not too much'.
+'Storing and retrieving data' and 'disseminating and protecting data'.
 
 - Content: 
   - R packages for data, and documentation including datasheets.
@@ -169,7 +173,7 @@ Thank you to the following people for generously providing comments, references,
   
 ### Week 8
 
-'Whoops, I forgot EDA'.
+'Exploratory data analysis'.
 
 - Content: 
   - Coming to terms with a dataset and understanding what is in it.
@@ -191,7 +195,7 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 11
 
-'Such a shame they'll never meet' and 'why does it always rain on me?'.
+'Causality from observational data'.
 
 - Content: 
   - Matching and difference in differences.
@@ -199,7 +203,7 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 12
 
-'Deployment'
+'Using the cloud' and 'Deploying models'
 
 - Content: 
   - R packages for models, Shiny, and Plumber and model APIs
