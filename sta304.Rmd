@@ -167,6 +167,9 @@ Thank you to the following people for generously providing comments, references,
 
 'Storing and retrieving data' and 'disseminating and protecting data'.
 
+- Guest lecture: Chris Henry, Bank of Canada
+  - Christopher Henry (Chris) is a Senior Economist at the Bank of Canada. He serves as lead economist for the consumer survey research program on the Currency Department’s Economic Research and Analysis team.  Chris first joined the Bank as a Research Assistant in 2012, and recently rejoined in 2021 after completing his PhD in Economics. In his role, Chris contributes to the design, implementation, and analysis of a range of surveys that measure the use of cash and alternative methods of payment.  He holds an PhD in Economics from Université Clermont Auvergne (France), and an MSc in Mathematics from McMaster University.
+
 - Content: 
   - R packages for data, and documentation including datasheets.
   - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
