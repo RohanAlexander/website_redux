@@ -34,8 +34,6 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 ### Week 1
 
-'Telling Stories with Data' and 'Drinking from a fire hose'.
-
 - Content:
   - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
   - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
@@ -43,10 +41,9 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 ### Week 2
 
-'R essentials'.
-
 - Content: 
-  - Develop essential skills in R.
+  - [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
+- Recording: https://youtu.be/913PTDgBbWE
 
 ### Week 3
 
