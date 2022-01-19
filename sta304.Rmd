@@ -122,15 +122,15 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - [R essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
   - [Reproducible workflows](https://www.tellingstorieswithdata.com/reproducible-workflows.html)
-
+- Recording: https://youtu.be/EgOrUk752Fw 
 
 ### Week 3
 
 'Communicating'.
 
 - Content: 
-  - Writing
-  - How to effectively use graphs, tables, and maps.
+  - [Writing](https://www.tellingstorieswithdata.com/on-writing.html)
+  - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
   - How to make a website and use Shiny.
 
 ### Week 4
