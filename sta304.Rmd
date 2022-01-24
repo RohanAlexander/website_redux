@@ -253,6 +253,12 @@ Additional details:
 - Due date: Weekly the day before the tutorial.
 - Weight: 20 per cent. Only best three out of eleven count and only if that is better for you than counting quizzes.
 - Task: Please complete a tutorial question and submit it via Quercus.
+- Rubric: 
+  - 0 - Any typos, major grammatical errors, other table stakes issues for this level. 
+  - 0.25 - Grammatical errors, if relevant: tables/graphs not properly labeled, no references, other aspects that affect credibility. Too short. 
+  - 0.6 - Makes some interesting and relevant points, related to course material (including required materials), but lacking in terms of structure and story/argument. 
+  - 0.80 - Interesting paper that is well-structured, coherent, and credible. 
+  - 1 - As with 0.80, but exceptional in some way.
 
 ### Paper #1
 
