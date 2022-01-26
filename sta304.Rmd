@@ -131,13 +131,14 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - [Writing](https://www.tellingstorieswithdata.com/on-writing.html)
   - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
-  - How to make a website and use Shiny.
+Recording: Part I: https://youtu.be/y7dvIo79i-I and Part II: https://youtu.be/sDQDChK537A
 
 ### Week 4
 
 'Gathering data'.
 
 - Content: 
+  - How to make a website and use Shiny.
   - Using APIs, scraping, OCR, semi-structured datasets, and text.
   - Observational data; correlation vs. causation, missing data, sources of bias.
 
