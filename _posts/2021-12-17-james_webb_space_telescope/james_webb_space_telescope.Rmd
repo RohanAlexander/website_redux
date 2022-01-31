@@ -96,7 +96,7 @@ On the other hand, @stigler criticism of Mayer is that '...He made no attempt to
 
 
 
-In any case, by around 1800, least squares became more widely appreciated. But, oddly, not in my own area of interest---amely social sciences, where we would take another 70 or 80 years, a veritable lifetime, before we widely applied it. 
+In any case, by around 1800, least squares became more widely appreciated. But, oddly, not in my own area of interest---namely social sciences, where we would take another 70 or 80 years, a veritable lifetime, before we widely applied it. 
 
 Before we return to the present, I'd be remiss if I didn't mention one final historical astronomer, Quetelet. In this talk I'm arguing that it is your foundation in data gathering that makes you such great data scientists. And this is going to be an example where that feature held back social sciences.
 
