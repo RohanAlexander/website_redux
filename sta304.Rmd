@@ -136,14 +136,21 @@ Thank you to the following people for generously providing comments, references,
 
 ### Week 4
 
-'Gathering data'.
+'Interactive communication'.
 
 - Content: 
   - How to make a website and use Shiny.
+- Recording: https://youtu.be/-GfUTkPmuZk
+
+### Week 5
+
+'Gathering data'.
+
+- Content: 
   - Using APIs, scraping, OCR, semi-structured datasets, and text.
   - Observational data; correlation vs. causation, missing data, sources of bias.
 
-### Week 5
+### Week 6
 
 'Hunting data'.
 
@@ -153,9 +160,12 @@ Thank you to the following people for generously providing comments, references,
   - Techniques of sampling; stratification, clustering, unequal probability selection. 
   - Sampling inference, estimates of population mean and variances, ratio estimation. 
 
-### Week 6
+### Week 7
 
 'Cleaning and preparing data'.
+
+- Guest lecture: Chris Henry, Bank of Canada
+  - Christopher Henry (Chris) is a Senior Economist at the Bank of Canada. He serves as lead economist for the consumer survey research program on the Currency Department’s Economic Research and Analysis team.  Chris first joined the Bank as a Research Assistant in 2012, and recently rejoined in 2021 after completing his PhD in Economics. In his role, Chris contributes to the design, implementation, and analysis of a range of surveys that measure the use of cash and alternative methods of payment.  He holds an PhD in Economics from Université Clermont Auvergne (France), and an MSc in Mathematics from McMaster University.
 
 - Content: 
   - Workflow for cleaning data. 
@@ -164,9 +174,6 @@ Thank you to the following people for generously providing comments, references,
 ### Week 7
 
 'Storing and retrieving data' and 'disseminating and protecting data'.
-
-- Guest lecture: Chris Henry, Bank of Canada
-  - Christopher Henry (Chris) is a Senior Economist at the Bank of Canada. He serves as lead economist for the consumer survey research program on the Currency Department’s Economic Research and Analysis team.  Chris first joined the Bank as a Research Assistant in 2012, and recently rejoined in 2021 after completing his PhD in Economics. In his role, Chris contributes to the design, implementation, and analysis of a range of surveys that measure the use of cash and alternative methods of payment.  He holds an PhD in Economics from Université Clermont Auvergne (France), and an MSc in Mathematics from McMaster University.
 
 - Content: 
   - R packages for data, and documentation including datasheets.
