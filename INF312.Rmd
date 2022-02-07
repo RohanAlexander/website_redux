@@ -65,6 +65,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html)
+- Recording: https://youtu.be/q3wKjdZIq0A
 
 ### Week 6
 

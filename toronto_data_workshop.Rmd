@@ -40,16 +40,16 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 
 | Date | Speaker | |  Recording |
 | ------- | ---------------  | ----- |
-| Fri 28 Jan 2022, noon - 1pm | Ashok Chaurasia, University of Waterloo | |
-| Fri 4 Feb 2022, noon - 1pm | Nick Huntington-Klein, Seattle University | |
+| Fri 28 Jan 2022, noon - 1pm | Ashok Chaurasia, University of Waterloo | https://youtu.be/qFCHjNH9HLc |
+| Fri 4 Feb 2022, noon - 1pm | Nick Huntington-Klein, Seattle University | https://youtu.be/dOJvE3C2KrY |
 | Fri 11 Feb 2022, noon - 1pm | Silvia Canelón, University of Pennsylvania | |
 | Fri 18 Feb 2022, noon - 1pm | Vincent Arel-Bundock, Université de Montréal | |
 | Fri 25 Feb 2022, noon - 1pm | Reading week break | |
 | Fri 4 Mar 2022, noon - 1pm | Maria Kamenetsky, University of Wisconsin-Madison | |
 | Fri 11 Mar 2022, noon - 1pm | Irena Papst, McMaster University | |
-| Fri 18 Mar 2022, noon - 1pm | TBA  | |
+| Fri 18 Mar 2022, noon - 1pm | May Chan and Ramses Van Zon, U of T Libraries and SciNet, respectively.  | |
 | Thu 24 Mar 2022, 5pm - 6pm | Emi Tanaka, Monash University | |
-| Fri 1 Apr 2022, noon - 1pm | TBA  | |
+| Fri 1 Apr 2022, noon - 1pm | Brittany Witham, Geopolitica  | |
 | Fri 8 Apr 2022, noon - 1pm | Special on teaching  | |
 
 
@@ -75,12 +75,12 @@ His background/training is in Statistics, with research interests in topics of M
 	**Irena Papst**, McMaster University, *'Some or all of: COVID-19 data, modelling, experiences using models to help guide pandemic response'*    
 	I'm a postdoctoral fellow in McMaster's Mathematics & Statistics department, where I work on mathematical modelling, especially of infectious disease dynamics. I did my PhD in Cornell's Center for Applied Mathematics. I care deeply about reproducible research, clear scientific communication, good teaching, and big salads.
 * Fri 18 Mar 2022, noon - 1pm, 
-	**TBA**     
+	**May Chan and Ramses Van Zon**     
 * Thu 24 Mar 2022, 5pm - 6pm, 
 	**Emi Tanaka**, Monash University, *'An anthology of experimental designs'*    
 	Dr. Emi Tanaka is an assistant professor in statistics at Monash University whose primary interest is to develop impactful statistical methods and tools that can readily be used by practitioners. Her research area include data visualisation, mixed models and experimental designs, motivated primarily by problems in bioinformatics and agricultural sciences. She is currently the President of the Statistical Society of Australia Victorian Branch and the recipient of the Distinguished Presenter's Award from the Statistical Society of Australia for her delivery of a wide-range of R workshops.
 * Fri 1 Apr 2022, noon - 1pm, 
-	**TBA**     
+	**Brittany Witham**,	Geopolitica     
 * Fri 8 Apr 2022, noon - 1pm, 
 	**Special on teaching     
 
