@@ -147,8 +147,8 @@ Thank you to the following people for generously providing comments, references,
 'Gathering data'.
 
 - Content: 
-  - Using APIs, scraping, OCR, semi-structured datasets, and text.
-  - Observational data; correlation vs. causation, missing data, sources of bias.
+  - Sampling, using APIs, scraping, OCR, semi-structured datasets, and text.
+- Recording: https://youtu.be/PUIl5znqtbI
 
 ### Week 6
 
