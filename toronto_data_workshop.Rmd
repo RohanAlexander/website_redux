@@ -42,7 +42,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | ------- | ---------------  | ----- |
 | Fri 28 Jan 2022, noon - 1pm | Ashok Chaurasia, University of Waterloo | https://youtu.be/qFCHjNH9HLc |
 | Fri 4 Feb 2022, noon - 1pm | Nick Huntington-Klein, Seattle University | https://youtu.be/dOJvE3C2KrY |
-| Fri 11 Feb 2022, noon - 1pm | Silvia Canelón, University of Pennsylvania | |
+| Fri 11 Feb 2022, noon - 1pm | Silvia Canelón, University of Pennsylvania | https://youtu.be/4M8Op1oCN5U |
 | Fri 18 Feb 2022, noon - 1pm | Vincent Arel-Bundock, Université de Montréal | |
 | Fri 25 Feb 2022, noon - 1pm | Reading week break | |
 | Fri 4 Mar 2022, noon - 1pm | Maria Kamenetsky, University of Wisconsin-Madison | |
