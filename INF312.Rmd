@@ -73,6 +73,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - Using APIs, scraping.
+- Recording: https://youtu.be/KsuDwCRn1vc
 
 ### Week 7
 

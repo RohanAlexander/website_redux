@@ -157,8 +157,10 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - Experiments, sampling and surveys, and A/B testing.
   - Design of surveys, sources of bias, randomized response surveys.
-  - Techniques of sampling; stratification, clustering, unequal probability selection. 
-  - Sampling inference, estimates of population mean and variances, ratio estimation. 
+- Recording: https://youtu.be/d0Kg6vK6Pq4
+
+  <!-- - Techniques of sampling; stratification, clustering, unequal probability selection.  -->
+  <!-- - Sampling inference, estimates of population mean and variances, ratio estimation.  -->
 
 ### Week 7
 
