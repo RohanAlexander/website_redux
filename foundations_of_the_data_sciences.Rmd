@@ -1,7 +1,7 @@
 ---
 title: "Foundations of data sciences"
 description: |
-  The data sciences have a common concern: How can others be confident that our statistical approaches have been brought to bear on appropriate datasets? This course focuses on the 'data' of the data sciences. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings.
+  The data sciences have a common concern: How can others be confident that our statistical approaches have been brought to bear on appropriate datasets? This course focuses on the 'data' of the data sciences. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings. It focuses on everything that comes before modelling, and by focusing on those steps places modelling and analysis on a more firm foundation.
 output:
   distill::distill_article:
     toc: true
@@ -41,7 +41,7 @@ The purpose of the course is to develop the core skills common to all of the dat
 4. Understand what constitutes ethical high-quality data science practice, especially reproducibility and respect for those that underpin our data.
 5. Respectfully identify strengths and weaknesses in the data science research conducted by others.
 6. Develop the ability to appropriately choose and apply statistical models to real-world situations.
-7. Conduct all aspects of the typical data science workflow including deployment.
+7. Conduct all aspects of the typical data science workflow.
 8. Reflect effectively on your own learning and professional development.
 
 ### Pre-requisites
@@ -50,74 +50,61 @@ The purpose of the course is to develop the core skills common to all of the dat
 
 ### Textbook
 
-Alexander, 2022, *Telling Stories with Data*, CRC Press.
-
+[Telling Stories with Data](https://www.tellingstorieswithdata.com)
 
 
 ## Content
 
 ### Week 1
 
-- Content:
-  - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
-  - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html): Canadian elections; Toronto homelessness; and neonatal mortality.
+- [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
+- [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html): Canadian elections; Toronto homelessness; and neonatal mortality.
 
 ### Week 2
 
-- Content: 
-  - [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html): R, R Studio, and R Studio Cloud; the `dplyr` verbs; base; `ggplot2`; and `tidyverse`.
+- [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html): R, R Studio, and R Studio Cloud; the `dplyr` verbs; base; `ggplot2`; and `tidyverse`.
   
 ### Week 3
 
-- Content: 
-  - [Reproducible workflow](https://www.tellingstorieswithdata.com/reproducible-workflows.html): Reproducibility; R Markdown; R projects and file structure; Git and GitHub; and R in practice.
+- [Reproducible workflow](https://www.tellingstorieswithdata.com/reproducible-workflows.html): Reproducibility; R Markdown; R projects and file structure; Git and GitHub; and R in practice.
 
 ### Week 4
 
-- Content: 
-  - [Writing](https://www.tellingstorieswithdata.com/on-writing.html): Developing research questions; and writing.
+- [Writing](https://www.tellingstorieswithdata.com/on-writing.html): Developing research questions; and writing.
   
 ### Week 5
 
-- Content: 
-  - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html): Graphs; tables; and maps.
+- [Static communication](https://www.tellingstorieswithdata.com/static-communication.html): Graphs; tables; and maps.
 
 ### Week 6
 
-- Content: 
-  - [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html): Websites; interactive maps; and `Shiny`.
+- [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html): Websites; interactive maps; and `Shiny`.
 
 ### Week 7
 
-- Content: 
-  - [Gather data](https://www.tellingstorieswithdata.com/gather-data.html): Sampling essentials; APIs; web scraping; and PDFs.
+- [Gather data](https://www.tellingstorieswithdata.com/gather-data.html): Sampling essentials; APIs; web scraping; and PDFs.
 
 ### Week 8
 
-- Content: 
-  - [Hunt data](https://www.tellingstorieswithdata.com/hunt-data.html): Experiments and randomized controlled trials; A/B testing; and implementing surveys.
-  - [Farm data](https://www.tellingstorieswithdata.com/farm-data.html): Censuses.
+- [Hunt data](https://www.tellingstorieswithdata.com/hunt-data.html): Experiments and randomized controlled trials; A/B testing; and implementing surveys.
+- [Farm data](https://www.tellingstorieswithdata.com/farm-data.html): Censuses.
 
 ### Week 9
 
-- Content: 
-  - [Clean and prepare data](https://www.tellingstorieswithdata.com/clean-and-prepare.html): Workflow; case study; checks and tests; and names.
+- [Clean and prepare data](https://www.tellingstorieswithdata.com/clean-and-prepare.html): Workflow; case study; checks and tests; and names.
 
 ### Week 10
 
-- Content: 
-  - [Store and share data](https://www.tellingstorieswithdata.com/store-and-share.html): GitHub; R packages; depositing data; documentation; and personally identifying information.
+- [Store and share data](https://www.tellingstorieswithdata.com/store-and-share.html): GitHub; R packages; depositing data; documentation; and personally identifying information.
 
 
 ### Week 11
 
-- Content: 
-  - [Exploratory data analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html): Exploring individual variables; relationships between variables; and multiple relationships.
+- [Exploratory data analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html): Exploring individual variables; relationships between variables; and multiple relationships.
 
 ### Week 12
 
-- Content: 
-  - [It’s Just A Linear Model](https://www.tellingstorieswithdata.com/ijalm.html): Simple linear regression; multiple linear regression; logistic regression; and Poisson regression.
+- [It’s Just A Linear Model](https://www.tellingstorieswithdata.com/ijalm.html): Simple linear regression; multiple linear regression; logistic regression; and Poisson regression.
 
 
 ## Assessment

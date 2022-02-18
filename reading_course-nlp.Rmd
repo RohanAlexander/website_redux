@@ -44,8 +44,8 @@ Students are expected to develop:
   - Jurafsky, Dan, and James H. Martin, 2020, *Speech and Language Processing*, 3rd ed., Chapters 4 and 5, https://web.stanford.edu/~jurafsky/slp3/.
   - Tatman, Rachel, 2020, 'What I Won't Build', *Widening NLP Workshop 2020*, Keynote address, 5 July, https://slideslive.com/38929585/what-i-wont-build and http://www.rctatman.com/talks/what-i-wont-build.
 - Week 6: *NLP intermediate III* 
+  - (Read this one first) Jurafsky, Dan, and James H. Martin, 2020, *Speech and Language Processing*, 3rd ed., Chapters 6 and 7, https://web.stanford.edu/~jurafsky/slp3/.
   - Hvitfeldt, Emil & Julia Silge, 2020, *Supervised Machine Learning for Text Analysis in R*, Chapters 7-9, https://smltar.com.
-  - Jurafsky, Dan, and James H. Martin, 2020, *Speech and Language Processing*, 3rd ed., Chapters 6 and 7, https://web.stanford.edu/~jurafsky/slp3/.
   - Zhao, Jieyu, Tianlu Wang, Mark Yatskar, Vicente Ordonez and Kai-Wei Chang,2017, 'Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints', *Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing*, pp. 2979–2989, https://aclweb.org/anthology/D17-1323.pdf.
 - Week 7: *Deep learning I* 
   - François Chollet with J. J. Allaire, 2018, *Deep Learning with R*, Chapters 1-4.
