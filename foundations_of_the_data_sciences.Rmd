@@ -60,63 +60,64 @@ Alexander, 2022, *Telling Stories with Data*, CRC Press.
 
 - Content:
   - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
-  - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
+  - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html): Canadian elections; Toronto homelessness; and neonatal mortality.
 
 ### Week 2
 
 - Content: 
-  - [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
+  - [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html): R, R Studio, and R Studio Cloud; the `dplyr` verbs; base; `ggplot2`; and `tidyverse`.
   
 ### Week 3
 
 - Content: 
-  - [Reproducible workflow](https://www.tellingstorieswithdata.com/reproducible-workflows.html)
+  - [Reproducible workflow](https://www.tellingstorieswithdata.com/reproducible-workflows.html): Reproducibility; R Markdown; R projects and file structure; Git and GitHub; and R in practice.
 
 ### Week 4
 
 - Content: 
-  - [Writing](https://www.tellingstorieswithdata.com/on-writing.html)
+  - [Writing](https://www.tellingstorieswithdata.com/on-writing.html): Developing research questions; and writing.
   
 ### Week 5
 
 - Content: 
-  - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
+  - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html): Graphs; tables; and maps.
 
 ### Week 6
 
 - Content: 
-  - [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html)
+  - [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html): Websites; interactive maps; and `Shiny`.
 
 ### Week 7
 
 - Content: 
-  - [Gather data](https://www.tellingstorieswithdata.com/gather-data.html)
+  - [Gather data](https://www.tellingstorieswithdata.com/gather-data.html): Sampling essentials; APIs; web scraping; and PDFs.
 
 ### Week 8
 
 - Content: 
-  - [Hunt data](https://www.tellingstorieswithdata.com/hunt-data.html)
+  - [Hunt data](https://www.tellingstorieswithdata.com/hunt-data.html): Experiments and randomized controlled trials; A/B testing; and implementing surveys.
+  - [Farm data](https://www.tellingstorieswithdata.com/farm-data.html): Censuses.
 
 ### Week 9
 
 - Content: 
-  - [Farm data](https://www.tellingstorieswithdata.com/farm-data.html)
+  - [Clean and prepare data](https://www.tellingstorieswithdata.com/clean-and-prepare.html): Workflow; case study; checks and tests; and names.
 
 ### Week 10
 
 - Content: 
-  - [Clean and prepare data](https://www.tellingstorieswithdata.com/clean-and-prepare.html)
+  - [Store and share data](https://www.tellingstorieswithdata.com/store-and-share.html): GitHub; R packages; depositing data; documentation; and personally identifying information.
 
 
 ### Week 11
 
 - Content: 
-  - [Store and share data](https://www.tellingstorieswithdata.com/store-and-share.html)
+  - [Exploratory data analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html): Exploring individual variables; relationships between variables; and multiple relationships.
 
 ### Week 12
 
 - Content: 
-  - [Exploratory data analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html)
+  - [It’s Just A Linear Model](https://www.tellingstorieswithdata.com/ijalm.html): Simple linear regression; multiple linear regression; logistic regression; and Poisson regression.
 
 
 ## Assessment
@@ -127,8 +128,8 @@ Alexander, 2022, *Telling Stories with Data*, CRC Press.
 
 | Item 								| Weight (%) | Due date |
 | ------------- | -------------:| -----:|
-| Quiz 						| 20 		 | Weekly before the lecture |
-| Tutorial 						| 20 		 | Weekly the day before the tutorial |
+| Quiz 						| 20 		 | Weekly, end of each week |
+| Tutorial 						| 20 		 | Weekly, end of each week |
 | Paper 1 							| 25 		 | End of Week 4 |
 | Paper 2 							| 25 		 | End of Week 6 |
 | Paper 3 							| 25 		 | End of Week 8 |
