@@ -81,6 +81,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - OCR, semi-structured datasets, and text.
+- Recording: https://youtu.be/VeWDSVsPrmA
 
 ### Week 8
 
@@ -88,6 +89,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - Experiments, sampling,
+- Recording: https://youtu.be/bbYwKoO0jYA
 
 ### Week 9
 

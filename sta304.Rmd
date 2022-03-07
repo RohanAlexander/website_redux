@@ -172,6 +172,7 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - Workflow for cleaning data. 
   - Effective naming, checks, and testing.
+- Recording: https://youtu.be/1C0GxmPaBYM
 
 ### Week 7
 
