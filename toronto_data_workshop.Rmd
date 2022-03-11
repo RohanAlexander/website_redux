@@ -46,7 +46,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 18 Feb 2022, noon - 1pm | Vincent Arel-Bundock, Université de Montréal | https://youtu.be/zrBhtXwZnB8 |
 | Fri 25 Feb 2022, noon - 1pm | [Toronto Workshop on Reproducibility](https://canssiontario.utoronto.ca/toronto_workshop_on_reproducibility_2022/) | |
 | Fri 4 Mar 2022, noon - 1pm | Maria Kamenetsky, University of Wisconsin-Madison | https://youtu.be/cjpoa59-obU |
-| Fri 11 Mar 2022, noon - 1pm | Irena Papst, McMaster University | |
+| Fri 11 Mar 2022, noon - 1pm | Irena Papst, McMaster University | https://youtu.be/Oxk5Dulhnpw |
 | Fri 18 Mar 2022, noon - 1pm | May Chan and Ramses Van Zon, U of T Libraries and SciNet, respectively.  | |
 | Thu 24 Mar 2022, 5pm - 6pm | Emi Tanaka, Monash University | |
 | Fri 1 Apr 2022, noon - 1pm | Brittany Witham, Geopolitica  | |

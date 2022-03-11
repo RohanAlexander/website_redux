@@ -174,7 +174,16 @@ Thank you to the following people for generously providing comments, references,
   - Effective naming, checks, and testing.
 - Recording: https://youtu.be/1C0GxmPaBYM
 
-### Week 7
+### Week 8
+
+'Lost due to sickness'
+
+- Content:
+  - Brief overview of GSS data.
+- Recording: TBD
+
+
+### Week 9
 
 'Storing and retrieving data' and 'disseminating and protecting data'.
 
@@ -182,21 +191,34 @@ Thank you to the following people for generously providing comments, references,
   - R packages for data, and documentation including datasheets.
   - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
   
-### Week 8
+<!-- ### Week 10 -->
 
-'Exploratory data analysis'.
+<!-- 'Exploratory data analysis'. -->
 
-- Content: 
-  - Coming to terms with a dataset and understanding what is in it.
+<!-- - Content:  -->
+<!--   - Coming to terms with a dataset and understanding what is in it. -->
 
-### Week 9
+### Week 10
 
 'IJALM - It's Just A Linear Model'.
 
 - Content: 
   - Simple linear regression, multiple linear regression, logistic regression, Poisson regression.
+  
+### Week 11
 
-### Week 10
+'Causality from observational data'.
+
+- Guest lecture: Sue Ince
+  - Sue Ince has many years experience in research and forecasting in North America and the U.K., with a statistics background and very strong quantitative and research design skills. Sue was the principal and co-founder of Epic Consulting and directed large-scale projects for major corporations and small and medium enterprises. Sue specialized in segmentation, multivariate analysis and data mining integrating primary and secondary research with client’s internal sales and marketing data.  Her career spans from the age of slide rules, log tables and graph paper to digital computing. In every age and whatever the analytical tools available it is critical to be able to communicate the meaning of data to an audience who often have poor statistical literacy. Good data storytelling is a very important skill for statisticians. 
+Sue holds an B.Sc. Social Sciences; Combined Honours: Economics & Politics, Statistics, University of Southampton, England and was active professional member of Canada’s Market Research community before her retirement. Sue presented papers at research conferences in Canada and in Europe, lectured  on Quantitative Methods in the Federated Press Market Courses and guest lectured at George Brown and Seneca Colleges on market research.
+
+- Content: 
+  - Matching and difference in differences.
+  - Regression discontinuity and instrumental variables
+
+
+### Week 12
 
 'Multilevel regression with post-stratification'
 
@@ -204,20 +226,13 @@ Thank you to the following people for generously providing comments, references,
   - MRP
 
 
-### Week 11
 
-'Causality from observational data'.
+<!-- ### Week 12 -->
 
-- Content: 
-  - Matching and difference in differences.
-  - Regression discontinuity and instrumental variables
+<!-- 'Using the cloud' and 'Deploying models' -->
 
-### Week 12
-
-'Using the cloud' and 'Deploying models'
-
-- Content: 
-  - R packages for models, Shiny, and Plumber and model APIs
+<!-- - Content:  -->
+<!--   - R packages for models, Shiny, and Plumber and model APIs -->
 
 
 
