@@ -50,7 +50,6 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 18 Mar 2022, noon - 1pm | May Chan and Ramses Van Zon, U of T Libraries and SciNet, respectively.  | |
 | Thu 24 Mar 2022, 5pm - 6pm | Emi Tanaka, Monash University | |
 | Fri 1 Apr 2022, noon - 1pm | Brittany Witham, Geopolitica  | |
-| Fri 8 Apr 2022, noon - 1pm | Special on teaching  | |
 
 
 * Fri 28 Jan 2022, noon - 1pm, 
@@ -81,8 +80,6 @@ His background/training is in Statistics, with research interests in topics of M
 	Dr. Emi Tanaka is an assistant professor in statistics at Monash University whose primary interest is to develop impactful statistical methods and tools that can readily be used by practitioners. Her research area include data visualisation, mixed models and experimental designs, motivated primarily by problems in bioinformatics and agricultural sciences. She is currently the President of the Statistical Society of Australia Victorian Branch and the recipient of the Distinguished Presenter's Award from the Statistical Society of Australia for her delivery of a wide-range of R workshops.
 * Fri 1 Apr 2022, noon - 1pm, 
 	**Brittany Witham**,	Geopolitica     
-* Fri 8 Apr 2022, noon - 1pm, 
-	**Special on teaching     
 
 
 

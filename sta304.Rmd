@@ -180,7 +180,7 @@ Thank you to the following people for generously providing comments, references,
 
 - Content:
   - Brief overview of GSS data.
-- Recording: TBD
+- Recording: https://youtu.be/NCvof6HVLpg
 
 
 ### Week 9
@@ -190,6 +190,7 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - R packages for data, and documentation including datasheets.
   - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
+- Recording: https://youtu.be/0IsghECP8MI
   
 <!-- ### Week 10 -->
 
