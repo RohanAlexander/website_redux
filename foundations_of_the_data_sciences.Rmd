@@ -115,42 +115,38 @@ The purpose of the course is to develop the core skills common to all of the dat
 
 | Item 								| Weight (%) | Due date |
 | ------------- | -------------:| -----:|
-| Quiz 						| 20 		 | Weekly, end of each week |
-| Tutorial 						| 20 		 | Weekly, end of each week |
-| Paper 1 							| 25 		 | End of Week 4 |
-| Paper 2 							| 25 		 | End of Week 6 |
-| Paper 3 							| 25 		 | End of Week 8 |
-| Paper 4 							| 25 		 | End of Week 10 |
-| Final Paper (initial submission)  | 1 		 | Middle of Week 12 |
-| Final Paper (peer review) 		| 4 		 | End of Week 12 |
+| Quiz 						| 10 		 | Weekly, end of each week |
+| Tutorial 						| 10 		 | Weekly, end of each week |
+| Paper 1 							| 25 		 | Friday, noon, Week 4 |
+| Paper 2 							| 25 		 | Friday, noon, Week 6 |
+| Paper 3 							| 25 		 | Friday, noon, Week 8 |
+| Paper 4 							| 25 		 | Friday, noon, Week 10 |
+| Final Paper (initial submission)  | 1 		 | Wednesday, noon Week 12 |
+| Final Paper (peer review) 		| 4 		 | Friday, noon, Week 12 |
 | Final Paper 						| 25 		 | Two weeks after that |
 
 You must submit Paper 1. And you must submit the Final Paper.
 
-'End of' means Sunday 11:59pm.
-
-Beyond that, you have scope to pick an assessment schedule that works for you. We will take your best 3 of the 11 tutorials, or your best 8 of 11 quizzes for that 20 per cent---whichever results in a better grade for you (i.e. you can choose to do either quizzes or tutorials). And we will take your two best papers from Papers 1-4 for that 50 per cent (25 per cent for each). The remainder is made up of 1 per cent for submitting a draft of the Final Paper, 4 per cent for peer reviewing other people's drafts of the Final Paper, and 25 per cent for the Final Paper.
+Beyond that, you have scope to pick an assessment schedule that works for you. We will take your best two of the eleven tutorials for that 10 per cent, and your best four of eleven quizzes for that 10 per cent. And we will take your two best papers from Papers 1-4 for that 50 per cent (25 per cent for each). The remainder is made up of 1 per cent for submitting a draft of the Final Paper, 4 per cent for peer reviewing other people's drafts of the Final Paper, and 25 per cent for the Final Paper.
 
 Additional details: 
 
-- Quiz questions are drawn from those in the Quiz section that follows each chapter of *Telling Stories with Data*. Almost all of them are multiple choice, and you should expect to know the mark within two days of submission.
-- Tutorial questions are drawn from those in the Tutorial section that follows each chapter of *Telling Stories with Data*. The general expectation (although this differs from week to week) is about two pages of written content, which the tutor will read, discuss with you, and then provide a mark. You should expect to know the mark within three days of the tutorial.
+- Quiz questions are drawn from those in the Quiz section that follows each chapter of *Telling Stories with Data*. Almost all of them are multiple choice, and you should expect to know the mark within a few days of submission.
+- Tutorial questions are drawn from those in the Tutorial section that follows each chapter of *Telling Stories with Data*. The general expectation (although this differs from week to week) is about two pages of written content, which the tutor will read, discuss with you, and then provide a mark. You should expect to know the mark within a few days of the tutorial.
 - In general papers require a considerable amount of work, and are due after the material has been covered in quizzes and tutorials (i.e. you would draw on knowledge tested in the quizzes, and potentially material could be re-used from the tutorial material). In general, they require original work to some extent. Papers are taken from the Papers appendix of *Telling Stories with Data* and students have access to the grading rubrics before submission. 
 
 
 ### Quiz
 
-- You should choose to do either tutorials or quizzes.
-- Due date: Weekly before the lecture.
-- Weight: 20 per cent. Only best eight out of eleven count and only if that is better for you than counting tutorials.
-- Task: Please complete a weekly quiz in Quercus.
+- Due date: Friday, noon, weekly (with grace period through to Sunday, midnight, to submit without penalty).
+- Weight: 10 per cent. Only best four out of eleven count.
+- Task: Please complete a weekly quiz.
 
 ### Tutorial
 
-- You should choose to do either tutorials or quizzes.
-- Due date: Weekly the day before the tutorial.
-- Weight: 20 per cent. Only best three out of eleven count and only if that is better for you than counting quizzes.
-- Task: Please complete a tutorial question and submit it via Quercus.
+- Due date: Friday, noon, weekly (with grace period through to Sunday, midnight, to submit without penalty).
+- Weight: 10 per cent. Only best two out of eleven count.
+- Task: Please complete a tutorial question.
 - Rubric: 
   - 0 - Any typos, major grammatical errors, other table stakes issues for this level. Too short. 
   - 0.25 - Grammatical errors, if relevant: tables/graphs not properly labeled, no references, other aspects that affect credibility. 
@@ -163,25 +159,25 @@ Additional details:
 
 - You must submit this paper.
 - Task: [Paper One](https://www.tellingstorieswithdata.com/papers.html#paper-one)
-- Due date: End of Week 4.
+- Due date: Friday, noon, Week 4 (with grace period through to Sunday, midnight, to submit without penalty).
 - Weight: 25 per cent (for Papers #1-#4 the best two of four count).
 
 
 ### Paper #2
 
-- Due date: End of Week 6.
+- Due date: Friday, noon, Week 6 (with grace period through to Sunday, midnight, to submit without penalty).
 - Task: [Paper Two](https://www.tellingstorieswithdata.com/papers.html#paper-two)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Paper #3
 
-- Due date: End of Week 8.
+- Due date: Friday, noon, Week 8 (with grace period through to Sunday, midnight, to submit without penalty).
 - Task: [Paper Three](https://www.tellingstorieswithdata.com/papers.html#paper-three)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Paper #4
 
-- Due date: End of Week 10.
+- Due date: Friday, noon, Week 10 (with grace period through to Sunday, midnight, to submit without penalty).
 - Task: [Paper Four](https://www.tellingstorieswithdata.com/papers.html#paper-four)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
@@ -191,9 +187,9 @@ Additional details:
 - Task: [Final Paper](https://www.tellingstorieswithdata.com/papers.html#final-paper)
 - You must submit this paper.
 - Due dates: 
-  - Initial submission: Middle of Week 12.
-  - Peer review: End of Week 12.
-  - Final Paper: Two weeks after that.
+  - Initial submission: Wednesday, noon, Week 12 (no grace period and no late submissions accepted).
+  - Peer review: Friday, noon, Week 12 (no grace period and no late submissions accepted).
+  - Final Paper: Two weeks after that (with grace period through to Sunday, midnight, to submit without penalty).
 - Weight: 30 per cent
   - Initial submission: 1 per cent
   - Peer review: 4 per cent
@@ -210,19 +206,19 @@ Babies (bottle-feeding, nursing, etc) are welcome in class as often as necessary
 
 ### Accommodations with regard to assessment
 
-You do **not** need to reveal your personal or medical information to me. I understand that illness or personal emergencies can happen from time to time. The following accommodations to assessment requirements exist to provide for those situations. 
+Please do **not** reveal your personal or medical information to me. I understand that illness or personal emergencies can happen from time to time. The following accommodations to assessment requirements exist to provide for those situations. 
 
 Straight-forward (will automatically apply to all students - there's no need to ask for these):
 
-- Quiz: Worst three quizzes are dropped.
-- Tutorial: Worst eight tutorials are dropped.
+- Quiz: Only best four quizzes count.
+- Tutorial: Only best two tutorials count.
 - Papers #1-#4: Worst two are dropped.
 
 So for those (with the exception of Paper #1), if you have a situation, then just don't submit.
 
 Slightly more involved: 
 
-- Paper #1: I'm open to a day or two without penalty to account for situations. Beyond that it begins to slow down the class. You must submit something for Paper #1.
+- Paper #1: You must submit something for Paper #1, even if it gets zero. If you have a medical reason that makes it impossible for you to submit Paper #1, then you are welcome to continue with the class, but then one of the remaining term papers (Papers #2 - #4), must be done individually to ensure fairness with the rest of the class.
 - Peer review: No accommodation or late submission is possible for this because it would hold up the rest of the class. If you cannot submit then email me before the deadline and the weight will be shifted to the final paper.
 - Final paper: The final paper is a critical piece of assessment. It's also up against deadlines for submission of grades. Extensions for valid reasons may be granted for a maximum of three days, however this isn't possible for all students (i.e. there are restrictions around graduating students). Hence, the exact extension need to be at my discretion. To be considered, an extension request must be sent to rohan.alexander@utoronto.ca by the business day before the due date so there is time to get advice from the Faculty about your particular circumstance.
 
@@ -254,4 +250,4 @@ Papers and reports should be well-written, well-organized, and easy to follow. T
 
 ### Minimum submission requirement
 
-If you are going to not be able to submit at least two problem sets, and/or be unable to submit the final paper then it would be unfair on the other students to allow you to pass the course. Please ensure you and your registrar get in touch with me as early as possible if this may be the case for you.
+If you are going to not be able to submit at least two term papers, and/or be unable to submit the final paper then it would be unfair on the other students to allow you to pass the course. Please ensure you and your registrar get in touch with me as early as possible if this may be the case for you.

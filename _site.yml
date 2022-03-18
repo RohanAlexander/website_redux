@@ -29,7 +29,7 @@ navbar:
       menu: 
         - text: "Bookshelf"
           href: bookshelf.html
-        - text: "2021 Toronto Workshop on Reproducibility"
+        - text: "Toronto Workshop on Reproducibility"
           href: reproducibility.html
 output: 
   distill::distill_article:
