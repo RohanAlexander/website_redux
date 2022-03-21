@@ -44,7 +44,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 4 Feb 2022, noon - 1pm | Nick Huntington-Klein, Seattle University | https://youtu.be/dOJvE3C2KrY |
 | Fri 11 Feb 2022, noon - 1pm | Silvia Canelón, University of Pennsylvania | https://youtu.be/4M8Op1oCN5U |
 | Fri 18 Feb 2022, noon - 1pm | Vincent Arel-Bundock, Université de Montréal | https://youtu.be/zrBhtXwZnB8 |
-| Fri 25 Feb 2022, noon - 1pm | [Toronto Workshop on Reproducibility](https://canssiontario.utoronto.ca/toronto_workshop_on_reproducibility_2022/) | |
+| Fri 25 Feb 2022, noon - 1pm | [Toronto Workshop on Reproducibility](https://rohanalexander.com/reproducibility.html) | |
 | Fri 4 Mar 2022, noon - 1pm | Maria Kamenetsky, University of Wisconsin-Madison | https://youtu.be/cjpoa59-obU |
 | Fri 11 Mar 2022, noon - 1pm | Irena Papst, McMaster University | https://youtu.be/Oxk5Dulhnpw |
 | Fri 18 Mar 2022, noon - 1pm | May Chan and Ramses Van Zon, U of T Libraries and SciNet, respectively.  | https://youtu.be/92vir6ZX1mg |

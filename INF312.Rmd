@@ -93,33 +93,34 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 ### Week 9
 
-'Hunting data II'.
-
-- Content: 
-  - Surveys, and A/B testing.
-
-### Week 10
-
 'Cleaning data'.
 
 - Content: 
   - Workflow for cleaning data. 
   - Effective naming, checks, and testing.
+- Recording: https://youtu.be/Huryp6pUxRE
 
-### Week 11
+
+### Week 10
 
 'Store, retrieve, disseminate and protect' and 'share, but not too much'.
 
 - Content: 
   - R packages for data, and documentation including datasheets.
   - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
+- Recording: https://youtu.be/ocOvCMJEWOY
+
+### Week 11
+
+
+- Content: 
 
 ### Week 12
 
-'Whoops, I forgot EDA'.
+'Final paper'.
 
 - Content: 
-  - Coming to terms with a dataset and understanding what is in it.
+  - 
 
 
 
