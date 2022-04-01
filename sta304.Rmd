@@ -213,12 +213,13 @@ Thank you to the following people for generously providing comments, references,
 'IJALM - It's Just A Linear Model'.
 
 - Content: 
-  - Simple linear regression, multiple linear regression, logistic regression, Poisson regression.
+  - Overview
+- Recording: https://youtu.be/IvPfkLUfiow
 
 - Guest lecture: Sue Ince
   - Sue Ince has many years experience in research and forecasting in North America and the U.K., with a statistics background and very strong quantitative and research design skills. Sue was the principal and co-founder of Epic Consulting and directed large-scale projects for major corporations and small and medium enterprises. Sue specialized in segmentation, multivariate analysis and data mining integrating primary and secondary research with client’s internal sales and marketing data.  Her career spans from the age of slide rules, log tables and graph paper to digital computing. In every age and whatever the analytical tools available it is critical to be able to communicate the meaning of data to an audience who often have poor statistical literacy. Good data storytelling is a very important skill for statisticians. 
 Sue holds an B.Sc. Social Sciences; Combined Honours: Economics & Politics, Statistics, University of Southampton, England and was active professional member of Canada’s Market Research community before her retirement. Sue presented papers at research conferences in Canada and in Europe, lectured  on Quantitative Methods in the Federated Press Market Courses and guest lectured at George Brown and Seneca Colleges on market research.
-
+- Recording: https://youtu.be/aDBY7-F_8D0
 
 
 ### Week 12
