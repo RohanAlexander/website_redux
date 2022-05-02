@@ -116,14 +116,12 @@ Thank you to the following people for generously providing comments, references,
 - Content:
   - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
   - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
-- Recording: https://youtu.be/MM8-71Q2rpo
 
 ### Week 2
 
 - Content: 
   - [R essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
   - [Reproducible workflows](https://www.tellingstorieswithdata.com/reproducible-workflows.html)
-- Recording: https://youtu.be/EgOrUk752Fw 
 
 ### Week 3
 
@@ -132,7 +130,6 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - [Writing](https://www.tellingstorieswithdata.com/on-writing.html)
   - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
-- Recording: Part I: https://youtu.be/y7dvIo79i-I and Part II: https://youtu.be/sDQDChK537A
 
 ### Week 4
 
@@ -140,7 +137,6 @@ Thank you to the following people for generously providing comments, references,
 
 - Content: 
   - How to make a website and use Shiny.
-- Recording: https://youtu.be/-GfUTkPmuZk
 
 ### Week 5
 
@@ -148,7 +144,6 @@ Thank you to the following people for generously providing comments, references,
 
 - Content: 
   - Sampling, using APIs, scraping, OCR, semi-structured datasets, and text.
-- Recording: https://youtu.be/PUIl5znqtbI
 
 ### Week 6
 
@@ -157,7 +152,6 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - Experiments, sampling and surveys, and A/B testing.
   - Design of surveys, sources of bias, randomized response surveys.
-- Recording: https://youtu.be/d0Kg6vK6Pq4
 
   <!-- - Techniques of sampling; stratification, clustering, unequal probability selection.  -->
   <!-- - Sampling inference, estimates of population mean and variances, ratio estimation.  -->
@@ -172,7 +166,6 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - Workflow for cleaning data. 
   - Effective naming, checks, and testing.
-- Recording: https://youtu.be/1C0GxmPaBYM
 
 ### Week 8
 
@@ -180,7 +173,6 @@ Thank you to the following people for generously providing comments, references,
 
 - Content:
   - Brief overview of GSS data.
-- Recording: https://youtu.be/NCvof6HVLpg
 
 
 ### Week 9
@@ -190,7 +182,6 @@ Thank you to the following people for generously providing comments, references,
 - Content: 
   - R packages for data, and documentation including datasheets.
   - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
-- Recording: https://youtu.be/0IsghECP8MI
   
 <!-- ### Week 10 -->
 
@@ -205,7 +196,6 @@ Thank you to the following people for generously providing comments, references,
 
 - Content: 
   - MRP
-- Recording: https://youtu.be/T0Uy15p0c8I
   
 ### Week 11
 
@@ -214,7 +204,6 @@ Thank you to the following people for generously providing comments, references,
 
 - Content: 
   - Overview
-- Recording: https://youtu.be/IvPfkLUfiow
 
 - Guest lecture: Sue Ince
   - Sue Ince has many years experience in research and forecasting in North America and the U.K., with a statistics background and very strong quantitative and research design skills. Sue was the principal and co-founder of Epic Consulting and directed large-scale projects for major corporations and small and medium enterprises. Sue specialized in segmentation, multivariate analysis and data mining integrating primary and secondary research with client’s internal sales and marketing data.  Her career spans from the age of slide rules, log tables and graph paper to digital computing. In every age and whatever the analytical tools available it is critical to be able to communicate the meaning of data to an audience who often have poor statistical literacy. Good data storytelling is a very important skill for statisticians. 

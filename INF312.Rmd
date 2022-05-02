@@ -40,32 +40,32 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 - Content:
   - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
   - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
-- Recording: https://youtu.be/KDDk7yGehUE
+
 
 ### Week 2
 
 - Content: 
   - [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
-- Recording: https://youtu.be/913PTDgBbWE
+
 
 ### Week 3
 
 - Content: 
   - [Reproducible workflow](https://www.tellingstorieswithdata.com/reproducible-workflows.html)
-- Recording: https://youtu.be/NQdOHqIjPJE
+
 
 ### Week 4
 
 - Content: 
   - [Writing](https://www.tellingstorieswithdata.com/on-writing.html)
   - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
-- Recording: https://youtu.be/WvcnR-GPg80
+
 
 ### Week 5
 
 - Content: 
   - [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html)
-- Recording: https://youtu.be/q3wKjdZIq0A
+
 
 ### Week 6
 
@@ -73,7 +73,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - Using APIs, scraping.
-- Recording: https://youtu.be/KsuDwCRn1vc
+
 
 ### Week 7
 
@@ -81,7 +81,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - OCR, semi-structured datasets, and text.
-- Recording: https://youtu.be/VeWDSVsPrmA
+
 
 ### Week 8
 
@@ -89,7 +89,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 
 - Content: 
   - Experiments, sampling,
-- Recording: https://youtu.be/bbYwKoO0jYA
+
 
 ### Week 9
 
@@ -98,7 +98,7 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 - Content: 
   - Workflow for cleaning data. 
   - Effective naming, checks, and testing.
-- Recording: https://youtu.be/Huryp6pUxRE
+
 
 
 ### Week 10
@@ -108,13 +108,13 @@ Almost all content will closely follow [*Telling Stories with Data*](https://www
 - Content: 
   - R packages for data, and documentation including datasheets.
   - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
-- Recording: https://youtu.be/ocOvCMJEWOY
+
 
 ### Week 11
 
 
 - Content: Overview
-- Recording: https://youtu.be/AVbTkWY6Adk
+
 
 ### Week 12
 
