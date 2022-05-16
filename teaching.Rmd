@@ -25,11 +25,11 @@ I have designed and taught the following courses:
 
 ### University of Toronto
 
-* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Winter 2022.
-* Instructor, 'INF312: Worlds Become Data', Winter 2022.
-* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2021
-* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020, [evaluations](pdfs/2020-STA304_student_evals.pdf)
-* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/2020-06-15-2020-INF2178.pdf)
+* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Winter 2022, [evaluations](pdfs/STA304-2022-evals.pdf).
+* Instructor, 'INF312: Worlds Become Data', Winter 2022, [evaluations](pdfs/INF312-2022-evals.pdf).
+* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2021, [evaluations](pdfs/INF2178-2021-evals.pdf).
+* Instructor, 'STA304: Surveys, Sampling and Observational Data', Department of Statistical Sciences, Fall 2020, [evaluations](pdfs/STA304-2020-evals.pdf).
+* Instructor, 'INF2178: Experimental Design for Data Science', Faculty of Information, Winter 2020, [evaluations](pdfs/INF2178-2020-evals.pdf).
 
 
 ### Australian National University
