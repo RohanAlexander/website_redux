@@ -6,15 +6,15 @@ title: "Academic"
 
 # Peer-reviewed papers
 
+* Annie Collins and Rohan Alexander, 2022, 'Reproducibility of COVID-19 pre-prints', *Scientometrics*, (accepted), https://arxiv.org/abs/2107.10724.
 * Rohan Alexander and Zach Ward, 2018, '[Age at Arrival and Assimilation During the Age of Mass Migration](https://www.cambridge.org/core/journals/journal-of-economic-history/article/age-at-arrival-and-assimilation-during-the-age-of-mass-migration/85FDB674232C30BDD889711D343F22FE)', *The Journal of Economic History*, 78(3), 904-937. [Working paper version](pdfs/2018_02_21-Age_at_arrival.pdf).
 
 
 
 # Pre-prints
 
-* Rohan Alexander and [Monica Alexander](monicaalexander.com), 2021, 'The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)', *arXiv*, 17 November, https://arxiv.org/abs/2111.09299. *Under review at PSRM.*
+* Rohan Alexander and [Monica Alexander](monicaalexander.com), 2021, 'The Effect of Elections and Prime Ministers on Discussion in the Australian Federal Parliament (1901—2018)', *arXiv*, 17 November, https://arxiv.org/abs/2111.09299.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'Detecting Hate Speech with GPT-3', *arXiv*, 23 March [4 November], https://arxiv.org/abs/2103.12407. *Under review at EPJ Data Science.*
-* Annie Collins and Rohan Alexander, 2021, 'Reproducibility of COVID-19 pre-prints', *arXiv*, 22 July, https://arxiv.org/abs/2107.10724. *Under review at Scientometrics.*
 * Rohan Alexander, Samantha-Jo Caetano, Haoluan Chen, Michael Chong, Annie Collins, Shirley Deng, Isaac Ehrlich, Paul Hodgetts, Yena Joo, Marija Pejcinovska, Mariam Walaa, and Matthew Wankiewicz, 2021, 'An Introduction to DoSStoolkit', *arXiv*, 19 May, https://arxiv.org/abs/2105.09347.
 * Ke-Li Chiu and Rohan Alexander, 2021, 'On consistency scores in text data with an implementation in R', *arXiv*, 13 January, https://arxiv.org/abs/2101.05225.
 * Paul A. Hodgetts and Rohan Alexander, 2020, 'cesR: An R package for the Canadian Election Study', *SocArXiv*, 3 September, https://osf.io/preprints/socarxiv/a29h8/.
