@@ -15,7 +15,7 @@ output:
   postcards::trestles
 ---
 
-<!-- *30 November 2021: Paul Hodgetts and I had [`AustralianPoliticians`](https://rohanalexander.github.io/AustralianPoliticians/) accepted onto CRAN.* -->
+*20 May 2022: Annie Collins and I had [`Reproducibility of COVID-19 pre-prints`](https://arxiv.org/abs/2107.10724) accepted at Scientometrics*
 
 I am an assistant professor at the University of Toronto in [Information](https://ischool.utoronto.ca/profile/rohan-alexander/) and [Statistical Sciences](https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander). I am also the assistant director of [CANSSI Ontario](https://canssiontario.utoronto.ca), a senior fellow at [Massey College](https://www.masseycollege.ca), a faculty affiliate at the [Schwartz Reisman Institute for Technology and Society](https://sr-institute.utoronto.ca/), and a co-lead of the [DSI](https://datasciences.utoronto.ca) Thematic Program in Reproducibility.
 
