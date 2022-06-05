@@ -55,7 +55,7 @@ This is not a 'bird course'. Typically, after the term is finished, students say
 
 ### How we'll work
 
-This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available here: https://www.tellingstorieswithdata.com. Those contain notes and other material that you could go over. We'll use Quercus really only for assessment submission and grading. 
+This webpage will provide almost all the guiding materials that you need and links to the relevant parts of the notes. The course notes are available [here](https://www.tellingstorieswithdata.com). Those contain notes and other material that you could go over. We'll use Quercus really only for assessment submission and grading. 
 
 A rough weekly flow for the course would be something like:
 
@@ -114,117 +114,87 @@ Thank you to the following people for generously providing comments, references,
 ### Week 1
 
 - Content:
-  - [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
-  - [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html)
+  - [Introduction](https://tellingstorieswithdata.com/01-introduction.html)
+  - [Several end-to-end worked examples](https://tellingstorieswithdata.com/02-drinking_from_a_fire_hose.html)
 
 ### Week 2
 
 - Content: 
-  - [R essentials](https://www.tellingstorieswithdata.com/r-essentials.html)
-  - [Reproducible workflows](https://www.tellingstorieswithdata.com/reproducible-workflows.html)
+  - [R essentials](https://tellingstorieswithdata.com/03-r_essentials.html)
+  - [Reproducible workflows](https://tellingstorieswithdata.com/04-workflow.html)
 
 ### Week 3
 
-'Communicating'.
-
 - Content: 
-  - [Writing](https://www.tellingstorieswithdata.com/on-writing.html)
-  - [Static communication](https://www.tellingstorieswithdata.com/static-communication.html)
+  - [Writing](https://tellingstorieswithdata.com/05-on_writing.html)
+  - [Static communication](https://tellingstorieswithdata.com/06-static_communication.html)
+
+- (Optional) R bootcamp (please allow six hours)
 
 ### Week 4
 
-'Interactive communication'.
-
 - Content: 
-  - How to make a website and use Shiny.
+  - [Interactive communication](https://tellingstorieswithdata.com/07-interactive_communication.html)
+
+- (Optional) Git and GitHub bootcamp (please allow six hours)
 
 ### Week 5
 
-'Gathering data'.
-
 - Content: 
-  - Sampling, using APIs, scraping, OCR, semi-structured datasets, and text.
+  - [Farm data](https://tellingstorieswithdata.com/08-farm.html)
+  - [Gather data](https://tellingstorieswithdata.com/09-gather.html)
 
 ### Week 6
 
-'Hunting data'.
-
 - Content: 
-  - Experiments, sampling and surveys, and A/B testing.
-  - Design of surveys, sources of bias, randomized response surveys.
+  - [Hunt data](https://tellingstorieswithdata.com/10-hunt.html)
 
   <!-- - Techniques of sampling; stratification, clustering, unequal probability selection.  -->
   <!-- - Sampling inference, estimates of population mean and variances, ratio estimation.  -->
 
 ### Week 7
 
-'Cleaning and preparing data'.
+- Content: 
+  - [Clean and prepare data](https://tellingstorieswithdata.com/11-clean_and_prepare.html)
+  - [Store and share data](https://tellingstorieswithdata.com/12-store_and_share.html)
 
 - Guest lecture: Chris Henry, Bank of Canada
   - Christopher Henry (Chris) is a Senior Economist at the Bank of Canada. He serves as lead economist for the consumer survey research program on the Currency Department’s Economic Research and Analysis team.  Chris first joined the Bank as a Research Assistant in 2012, and recently rejoined in 2021 after completing his PhD in Economics. In his role, Chris contributes to the design, implementation, and analysis of a range of surveys that measure the use of cash and alternative methods of payment.  He holds an PhD in Economics from Université Clermont Auvergne (France), and an MSc in Mathematics from McMaster University.
 
-- Content: 
-  - Workflow for cleaning data. 
-  - Effective naming, checks, and testing.
 
 ### Week 8
 
-'Lost due to sickness'
-
 - Content:
-  - Brief overview of GSS data.
+  - [EDA](https://tellingstorieswithdata.com/13-eda.html)
 
 
 ### Week 9
 
-'Storing and retrieving data' and 'disseminating and protecting data'.
-
-- Content: 
-  - R packages for data, and documentation including datasheets.
-  - Personally identifying information, hashing and salting, GDPR and HIPPA, simulated data, and differential privacy.
-  
-<!-- ### Week 10 -->
-
-<!-- 'Exploratory data analysis'. -->
-
-<!-- - Content:  -->
-<!--   - Coming to terms with a dataset and understanding what is in it. -->
+- Content:
+  - [Linear Models](https://tellingstorieswithdata.com/14-ijalm.html)
 
 ### Week 10
 
-'Multilevel regression with post-stratification'
+- Content:
+  - [Causality](https://tellingstorieswithdata.com/15-causality_from_obs.html)
 
-- Content: 
-  - MRP
-  
+
 ### Week 11
 
-
-'IJALM - It's Just A Linear Model'.
-
 - Content: 
-  - Overview
+  - [MRP](https://tellingstorieswithdata.com/16-mrp.html)
 
-- Guest lecture: Sue Ince
+- Guest lecture: Sue Ince and Alex Ince-Cushman
+  - Alex Ince-Cushman is Chief Executive Officer of Branch Energy. He holds a Ph.D. in nuclear fusion from MIT and an undergraduate degree from the University of Toronto.
   - Sue Ince has many years experience in research and forecasting in North America and the U.K., with a statistics background and very strong quantitative and research design skills. Sue was the principal and co-founder of Epic Consulting and directed large-scale projects for major corporations and small and medium enterprises. Sue specialized in segmentation, multivariate analysis and data mining integrating primary and secondary research with client’s internal sales and marketing data.  Her career spans from the age of slide rules, log tables and graph paper to digital computing. In every age and whatever the analytical tools available it is critical to be able to communicate the meaning of data to an audience who often have poor statistical literacy. Good data storytelling is a very important skill for statisticians. 
 Sue holds an B.Sc. Social Sciences; Combined Honours: Economics & Politics, Statistics, University of Southampton, England and was active professional member of Canada’s Market Research community before her retirement. Sue presented papers at research conferences in Canada and in Europe, lectured  on Quantitative Methods in the Federated Press Market Courses and guest lectured at George Brown and Seneca Colleges on market research.
-- Recording: https://youtu.be/aDBY7-F_8D0
+
 
 
 ### Week 12
 
-
-
-
-
-<!-- ### Week 12 -->
-
-<!-- 'Using the cloud' and 'Deploying models' -->
-
-<!-- - Content:  -->
-<!--   - R packages for models, Shiny, and Plumber and model APIs -->
-
-
+- Content: 
+  - TBD based on class progress and interest.
 
 
 
