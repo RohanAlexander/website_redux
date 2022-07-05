@@ -57,54 +57,56 @@ The purpose of the course is to develop the core skills common to all of the dat
 
 ### Week 1
 
-- [Introduction](https://www.tellingstorieswithdata.com/telling-stories-with-data.html)
-- [Several end-to-end worked examples](https://www.tellingstorieswithdata.com/drinking-from-a-fire-hose.html): Canadian elections; Toronto homelessness; and neonatal mortality.
+- [Introduction](https://tellingstorieswithdata.com/01-introduction.html)
+- [Several end-to-end worked examples](https://tellingstorieswithdata.com/02-drinking_from_a_fire_hose.html): Canadian elections; Toronto homelessness; and neonatal mortality.
 
 ### Week 2
 
-- [R Essentials](https://www.tellingstorieswithdata.com/r-essentials.html): R, R Studio, and R Studio Cloud; the `dplyr` verbs; base; `ggplot2`; and `tidyverse`.
+- [R Essentials](https://tellingstorieswithdata.com/03-r_essentials.html): R, R Studio, and R Studio Cloud; the `dplyr` verbs; base; `ggplot2`; and `tidyverse`.
   
 ### Week 3
 
-- [Reproducible workflow](https://www.tellingstorieswithdata.com/reproducible-workflows.html): Reproducibility; R Markdown; R projects and file structure; Git and GitHub; and R in practice.
+- [Reproducible workflow](https://tellingstorieswithdata.com/04-workflow.html): Reproducibility; Quarto; R projects and file structure; Git and GitHub; and R in practice.
+- [Writing research](https://tellingstorieswithdata.com/05-on_writing.html): Developing research questions; and writing.
 
 ### Week 4
 
-- [Writing](https://www.tellingstorieswithdata.com/on-writing.html): Developing research questions; and writing.
+- [Static communication](https://tellingstorieswithdata.com/06-static_communication.html): Graphs; tables; and maps.
+
   
 ### Week 5
 
-- [Static communication](https://www.tellingstorieswithdata.com/static-communication.html): Graphs; tables; and maps.
+- [Interactive communication](https://tellingstorieswithdata.com/07-interactive_communication.html): Websites; interactive maps; and `Shiny`.
+
 
 ### Week 6
 
-- [Interactive communication](https://www.tellingstorieswithdata.com/interactive-communication.html): Websites; interactive maps; and `Shiny`.
+- [Farm data](https://tellingstorieswithdata.com/08-farm.html): Censuses and sampling.
 
 ### Week 7
 
-- [Gather data](https://www.tellingstorieswithdata.com/gather-data.html): Sampling essentials; APIs; web scraping; and PDFs.
+- [Gather data](https://tellingstorieswithdata.com/09-gather.html): Sampling essentials; APIs; web scraping; and PDFs.
 
 ### Week 8
 
-- [Hunt data](https://www.tellingstorieswithdata.com/hunt-data.html): Experiments and randomized controlled trials; A/B testing; and implementing surveys.
-- [Farm data](https://www.tellingstorieswithdata.com/farm-data.html): Censuses.
+- [Hunt data](https://tellingstorieswithdata.com/10-hunt.html): Experiments and randomized controlled trials; A/B testing; and implementing surveys.
 
 ### Week 9
 
-- [Clean and prepare data](https://www.tellingstorieswithdata.com/clean-and-prepare.html): Workflow; case study; checks and tests; and names.
+- [Clean and prepare data](https://tellingstorieswithdata.com/11-clean_and_prepare.html): Workflow; case study; checks and tests; and names.
 
 ### Week 10
 
-- [Store and share data](https://www.tellingstorieswithdata.com/store-and-share.html): GitHub; R packages; depositing data; documentation; and personally identifying information.
-
+- [Store and share data](https://tellingstorieswithdata.com/12-store_and_share.html): GitHub; R packages; depositing data; documentation; and personally identifying information.
 
 ### Week 11
 
-- [Exploratory data analysis](https://www.tellingstorieswithdata.com/exploratory-data-analysis.html): Exploring individual variables; relationships between variables; and multiple relationships.
+- [Exploratory data analysis](https://tellingstorieswithdata.com/13-eda.html): Exploring individual variables; relationships between variables; and multiple relationships.
+
 
 ### Week 12
 
-- [It’s Just A Linear Model](https://www.tellingstorieswithdata.com/ijalm.html): Simple linear regression; multiple linear regression; logistic regression; and Poisson regression.
+- [It’s Just A Linear Model](https://tellingstorieswithdata.com/14-ijalm.html)
 
 
 ## Assessment
