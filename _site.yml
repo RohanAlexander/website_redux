@@ -6,7 +6,7 @@ twitter:
   site: "@RohanAlexander"
 description: |
   Welcome to Rohan Alexander's website.
-output_dir: "_site"
+output_dir: "docs"
 collections:
   posts:
     citations: false
