@@ -18,18 +18,86 @@ The Toronto Data Workshop (TDW) brings together academia and industry to conside
 
 Current organizing committee: 
 
-- Amy Farrow,
 - [Kelly Lyons](http://individual.utoronto.ca/klyons/), 
-- Lorena Almaraz De La Garza, and 
 - Rohan Alexander. 
 
 Past committee members: 
 
-- Faria Khandaker. 
+- Amy Farrow (2021-22)
+- Faria Khandaker (2020-21)
+- Lorena Almaraz De La Garza (2021-22)
 
 The TDW is a joint initiative between the Faculty of Information and the Department of Statistical Sciences at the University of Toronto and we especially thank Dean Wendy Duff and Chair Radu Craiu for their support.
 
 # Current schedule
+
+## Fall 2022
+
+
+```{r, out.width= "33%", echo = FALSE}
+knitr::include_graphics(c("images/tdw_cn_tower.png")) 
+```
+
+| Date | Speaker |  Recording |
+| ------- | ---------------  | ----- |
+| Fri 9 Sep 2022, noon - 1pm | Ryan Briggs, *University of Guelph* | https://youtu.be/dyLtxZM89iE |
+| Thu 22 Sep 2022, 5pm - 6pm | Melina Vidoni, *Australian National University* | |
+| Fri 30 Sep 2022, noon - 1pm | Emily Giambalvo and Ence Morse, *The Washington Post* | |
+| Fri 7 Oct 2022, noon - 1pm | Rohan Alexander, University of Toronto | |
+| Fri 14 Oct 2022, noon - 1pm | April Wang, *University of Michigan* | |
+| Fri 21 Oct 2022, noon - 1pm | Meg Risdal, *Kaggle (Google)* | |
+| Fri 28 Oct 2022, noon - 1pm | Derek Beaton, *St. Michael's Hospital, Unity Health Toronto* | |
+| Fri 4 Nov 2022, noon - 1pm | -  | |
+| Thu 10 Nov 2022, noon - 1pm | CANSSI Ontario Statistical Software Conference | |
+| Fri 18 Nov 2022, noon - 1pm | Lindsay Katz, *University of Toronto* | |
+| Fri 25 Nov 2022, noon - 1pm | Marcel Fortin and Leanne Trimble *U of T Map & Data Library* | |
+| Fri 2 Dec 2022, noon - 1pm | Zane Schwartz, *Investigative Journalism Foundation* | |
+
+
+
+* Friday 9 September 2022, noon - 1pm	
+	**Ryan Briggs**,	University of Guelph    
+	*Statistical power in political science*    
+	[Ryan Briggs](www.ryancbriggs.net) is a social scientist at the University of Guelph
+* Thursday 22 September 2022, 5pm - 6pm  
+  **Melina Vidoni**, Australian National University    
+	[Dr Vidoni](https://melvidoni.rbind.io) is a Lecturer at the Australian National University in the CECS School of Computing, where she continues her domestic and international collaborations with Canada and Germany. Dr Vidoni's main research interests are mining software repositories, technical debt, software development, and empirical software engineering when applied to data science and scientific software.	
+* Friday 30 September 2022, noon - 1pm  
+	**Emily Giambalvo** and **Ence Morse**, The Washington Post    
+	*How the NFL blocks Black coaches*    
+	Emily Giambalvo covers University of Maryland athletics for The Washington Post, where she has worked since June 2018. Emily grew up in South Carolina and graduated from the University of Georgia.    
+	Clara Ence Morse is an Investigative Reporting Workshop intern with The Washington Post's data desk. She is a student at Columbia University and the editor in chief of the Columbia Daily Spectator.	
+* Friday 7 October 2022, noon - 1pm  
+	**Rohan Alexander**,	University of Toronto    
+	*Rethinking data science*
+* Friday 14 October 2022, noon - 1pm  
+	**April Wang**, University of Michigan    
+	*Reimagine Tools for Collaborative Data Science*    
+	[April Wang](https://aprilwang.me/) is a Ph.D. candidate at University of Michigan School of Information, advised by Dr. Steve Oney and Dr. Christopher Brooks. Her research in human-computer interaction (HCI) explores barriers in real-world data science programming practices, and reimagines the workflow and interfaces for collaborative data science environments.	
+* Friday 21 October 2022, noon - 1pm	
+	**Meg Risdal**, Kaggle (Google)    
+	[Meg Risdal](twitter.com/meganrisdal) is a lead Product Manager for Kaggle (a Google company) where she works with software developers, designers, and researchers to create great experiences for people learning ML, ML practitioners, and ML researchers.	
+* Friday 28 October 2022, noon - 1pm	
+	**Derek Beaton**, St. Michael's Hospital, Unity Health Toronto    
+	[Derek](https://twitter.com/derek__beaton) is the Director of Advanced Analytics in the Data Science & Advanced Analytics (DSAA) unit at St. Michael's Hospital in Toronto. DSAA is a multiteam unit in the hospital that provides data sciecne and machine learning solutions across a variety of problems: clinical prediciton tools, staffing optimization, imaging, and more. DSAA works very closely with others in the hospital to collaborate on understanding problems and providing solutions.	 
+* Friday 4 November 2022, noon - 1pm	
+	- TBD
+* Thursday 10 November 2022, noon - 1pm    
+	**CANSSI Ontario Statistical Software Conference**
+* Friday 18 November 2022, noon - 1pm	
+	**Lindsay Katz**, University of Toronto		
+* Friday 25 November 2022, noon - 1pm	
+	**Marcel Fortin** and **Leanne Trimble**, U of T Map & Data Library
+* Friday 2 December 2022, noon - 1pm	
+	**Zane Schwartz**, [Investigative Journalism Foundation](www.theijf.org)    
+	Zane Schwartz is the editor-in-chief of the Investigative Journalism Foundation.
+
+
+  
+
+
+
+# Past schedules
 
 ## Winter 2022
 
@@ -38,7 +106,7 @@ The TDW is a joint initiative between the Faculty of Information and the Departm
 knitr::include_graphics(c("images/tdw_cn_tower.png")) 
 ```
 
-| Date | Speaker | |  Recording |
+| Date | Speaker | Recording |
 | ------- | ---------------  | ----- |
 | Fri 28 Jan 2022, noon - 1pm | Ashok Chaurasia, University of Waterloo | https://youtu.be/qFCHjNH9HLc |
 | Fri 4 Feb 2022, noon - 1pm | Nick Huntington-Klein, Seattle University | https://youtu.be/dOJvE3C2KrY |
@@ -84,11 +152,6 @@ His background/training is in Statistics, with research interests in topics of M
 
 
 
-  
-
-
-
-# Past schedules
 
 ## Fall 2021
 
@@ -99,7 +162,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 
 This term is mostly a special series of talks featuring University of Toronto speakers on the relationship between data science and their other field of expertise.
 
-| Date | Speaker | |  Recording |
+| Date | Speaker | Recording |
 | ------ | ---------------  | ----- |
 | Fri 24 Sep 2021, noon - 1pm | Karen Chapple, Geography, planning, cities | https://youtu.be/rNRwOStrb9o |
 | Fri 1 Oct 2021, noon - 1pm | Special on 2021 Canadian Election | https://youtu.be/pCwJXgR7V5k |
