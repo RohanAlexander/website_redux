@@ -42,7 +42,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | ------- | ---------------  | ----- |
 | Fri 9 Sep 2022, noon - 1pm | Ryan Briggs, *University of Guelph* | https://youtu.be/dyLtxZM89iE |
 | Thu 22 Sep 2022, 5pm - 6pm | Melina Vidoni, *Australian National University* | |
-| Fri 30 Sep 2022, noon - 1pm | Emily Giambalvo and Ence Morse, *The Washington Post* | |
+| Fri 30 Sep 2022, 1pm - 2pm | Emily Giambalvo and Ence Morse, *The Washington Post* | |
 | Fri 7 Oct 2022, noon - 1pm | Rohan Alexander, University of Toronto | |
 | Fri 14 Oct 2022, noon - 1pm | April Wang, *University of Michigan* | |
 | Fri 21 Oct 2022, noon - 1pm | Meg Risdal, *Kaggle (Google)* | |
