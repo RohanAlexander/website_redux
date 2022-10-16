@@ -33,14 +33,15 @@ Essentially this course provides students with everything that they need to know
 
 The purpose of the course is to develop the core skills of data science that are applicable across academia and industry. By the end of the course, you should be able to:
 
-1. Engage critically with ideas and readings in data science.
-2. Conduct research in data science in a reproducible and ethical way.
-3. Clearly communicate what was done, what was found, and why in writing.
-4. Understand what constitutes ethical high-quality data science practice, especially reproducibility and respect for those that underpin our data.
-5. Respectfully identify strengths and weaknesses in the data science research conducted by others.
-6. Develop the ability to appropriately choose and apply statistical models to real-world situations.
-7. Conduct all aspects of the typical data science workflow.
-8. Reflect effectively on your own learning and professional development.
+1.  Engage critically with ideas and readings in data science (demonstrated in all papers but also tutorials and quizzes).
+2.  Conduct research in data science in a reproducible and ethical way (demonstrated in all papers).
+3.  Clearly communicate what was done, what was found, and why in writing (demonstrated in all papers).
+4.  Understand what constitutes ethical high-quality data science practice, especially reproducibility and respect for those that underpin our data (demonstrated in all papers and selected quizzes).
+5.  Respectfully identify strengths and weaknesses in the data science research conducted by others (demonstrated in quizzes, and the peer review).
+6.  Develop the ability to appropriately choose and apply statistical models to real-world situations (demonstrated in the final paper)
+7.  Conduct all aspects of the typical data science workflow (demonstrated in all papers).
+8.  Reflect effectively on your own learning and professional development (demonstrated in some tutorials and quizzes).
+
 
 ### Pre-requisites
 
@@ -98,11 +99,11 @@ Before class starts you should go through Chapters 1 and 2 of *Telling Stories w
 
 ### Week 11
 
-- [Linear models I](https://tellingstorieswithdata.com/14-ijalm.html)
+- [Linear models](https://tellingstorieswithdata.com/14-ijalm.html)
 
 ### Week 12
 
-- [Linear models II](https://tellingstorieswithdata.com/14-ijalm.html)
+- [Generalized linear models](https://tellingstorieswithdata.com/14-ijalm.html)
 
 ## Assessment
 
