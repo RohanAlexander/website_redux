@@ -45,9 +45,9 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 30 Sep 2022, 1pm - 2pm | Emily Giambalvo and Ence Morse, *The Washington Post* | - |
 | Fri 7 Oct 2022, noon - 1pm | Rohan Alexander, University of Toronto | https://youtu.be/omvXLYpcKEY |
 | Fri 14 Oct 2022, noon - 1pm | April Wang, *University of Michigan* | https://youtu.be/SD1Ofp0F5is |
-| Fri 21 Oct 2022, noon - 1pm | Meg Risdal, *Kaggle (Google)* | |
-| Fri 28 Oct 2022, noon - 1pm | Derek Beaton, *St. Michael's Hospital, Unity Health Toronto* | |
-| Fri 4 Nov 2022, noon - 1pm | -  | |
+| Fri 21 Oct 2022, noon - 1pm | Meg Risdal, *Kaggle (Google)* | - |
+| Fri 28 Oct 2022, noon - 1pm | *Break*  | |
+| Fri 4 Nov 2022, noon - 1pm | Meggie Debnath and Maitreyee Sidhaye, *St. Michael's Hospital, Unity Health Toronto* | |
 | Thu 10 Nov 2022, noon - 1pm | CANSSI Ontario Statistical Software Conference | |
 | Fri 18 Nov 2022, noon - 1pm | Lindsay Katz, *University of Toronto* | |
 | Fri 25 Nov 2022, noon - 1pm | Marcel Fortin and Leanne Trimble *U of T Map & Data Library* | |
@@ -72,16 +72,17 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 	*Rethinking data science*
 * Friday 14 October 2022, noon - 1pm  
 	**April Wang**, University of Michigan    
-	*Reimagine Tools for Collaborative Data Science*    
+	*Reimagining Tools for Collaborative Data Science*    
 	[April Wang](https://aprilwang.me/) is a Ph.D. candidate at University of Michigan School of Information, advised by Dr. Steve Oney and Dr. Christopher Brooks. Her research in human-computer interaction (HCI) explores barriers in real-world data science programming practices, and reimagines the workflow and interfaces for collaborative data science environments.	
 * Friday 21 October 2022, noon - 1pm	
 	**Meg Risdal**, Kaggle (Google)    
 	[Meg Risdal](twitter.com/meganrisdal) is a lead Product Manager for Kaggle (a Google company) where she works with software developers, designers, and researchers to create great experiences for people learning ML, ML practitioners, and ML researchers.	
 * Friday 28 October 2022, noon - 1pm	
-	**Derek Beaton**, St. Michael's Hospital, Unity Health Toronto    
-	[Derek](https://twitter.com/derek__beaton) is the Director of Advanced Analytics in the Data Science & Advanced Analytics (DSAA) unit at St. Michael's Hospital in Toronto. DSAA is a multiteam unit in the hospital that provides data sciecne and machine learning solutions across a variety of problems: clinical prediciton tools, staffing optimization, imaging, and more. DSAA works very closely with others in the hospital to collaborate on understanding problems and providing solutions.	 
+	- *Break*
 * Friday 4 November 2022, noon - 1pm	
-	- TBD
+	**Maitreyee Sidhaye** and **Meggie Debnath**, St. Michael's Hospital, Unity Health Toronto    
+	*The Things We Learned from Deploying AI in Healthcare*    
+	Maitreyee and Meggie are data scientists in the Data Science & Advanced Analytics (DSAA) unit at St. Michael's Hospital in Toronto. DSAA is a multiteam unit in the hospital that provides data sciecne and machine learning solutions across a variety of problems: clinical prediction tools, staffing optimization, imaging, and more. DSAA works very closely with others in the hospital to collaborate on understanding problems and providing solutions. Maitreyee and Meggie will share their experiences and learnings from building and deploying machine learning tools in the hospital.	 
 * Thursday 10 November 2022, noon - 1pm    
 	**CANSSI Ontario Statistical Software Conference**
 * Friday 18 November 2022, noon - 1pm	
