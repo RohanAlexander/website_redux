@@ -230,11 +230,11 @@ Inside that 1-7 day period if you would like to request a re-grade, please email
 
 Please do not plagiarize. In particular, be careful to acknowledge the source of code - if it's extensive then through proper citation and if it's just a couple of lines from Stack Overflow then in a comment immediately next to the code.
 
-You are responsible for knowing the content of the University of Toronto’s Code of Behaviour on Academic Matters. 
+You are responsible for knowing the content of the University of Toronto's Code of Behaviour on Academic Matters. 
 
 Academic offenses includes (but is not limited to) plagiarism, cheating, copying R code, communication/extra resources during closed book assessments, purchasing labor for assessments (of any kind). Academic offenses will be taken seriously and dealt with accordingly. If you have any questions about what is or is not permitted in this course, please contact me.
 
-Please consult the University’s site on Academic Integrity http://academicintegrity.utoronto.ca/. Please also see the definition of plagiarism in section B.I.1.(d) of the University’s Code of Behaviour on Academic Matters http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ppjun011995.pdf. Please read the Code. Please review Cite it Right and if you require further clarification, consult the site How Not to Plagiarize http://advice.writing.utoronto.ca/wp-content/uploads/sites/2/how-not-to-plagiarize.pdf. 
+Please consult the University's site on Academic Integrity http://academicintegrity.utoronto.ca/. Please also see the definition of plagiarism in section B.I.1.(d) of the University's Code of Behaviour on Academic Matters http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ppjun011995.pdf. Please read the Code. Please review Cite it Right and if you require further clarification, consult the site How Not to Plagiarize http://advice.writing.utoronto.ca/wp-content/uploads/sites/2/how-not-to-plagiarize.pdf. 
 
 ### Late policy
 
@@ -247,3 +247,12 @@ Papers and reports should be well-written, well-organized, and easy to follow. T
 ### Minimum submission requirement
 
 If you are going to not be able to submit at least two term papers, and/or be unable to submit the final paper then it would be unfair on the other students to allow you to pass the course. Please ensure you and your registrar get in touch with me as early as possible if this may be the case for you.
+
+### Relationship to PhD Student Learning Outcomes
+
+- Read broadly across data science to understand the extent of knowledge
+- Conduct original research
+- Work in an independent way
+- Communicate work and findings in written form
+- Be especially aware of the limitations of the data, and methods, they are using.
+
