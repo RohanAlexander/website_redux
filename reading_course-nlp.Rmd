@@ -1,5 +1,5 @@
 ---
-title: "Reading Course: 'Natural Language Processing'"
+title: "Natural Language Processing"
 output:
   distill::distill_article:
     toc: true
@@ -8,7 +8,7 @@ output:
 
 # Overview
 
-The purpose of this reading course is to develop students who can:
+The purpose of this course is to develop students who can:
 
 - engage in thoughtful, ethical, critique of Natural Language Processing (NLP);
 - work productively to implement existing NLP methods; and

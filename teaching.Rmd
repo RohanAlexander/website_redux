@@ -17,7 +17,7 @@ I have designed and taught the following courses:
 - [Experimental Design](inf2178.html)
 - [Ethics and Data Science](reading_course-ethics.html)
 - [Natural Language Processing](reading_course-nlp.html)
-- [Foundations of Data Sciences](foundations_of_the_data_sciences.html)
+- [Data Sciences Foundations](foundations_of_the_data_sciences.html)
 - [The Other Course](the_other_course.html)
 - [History of Statistics and Data Sciences](history_of_the_data_sciences.html)
 

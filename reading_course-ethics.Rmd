@@ -1,7 +1,7 @@
 ---
-title: "Reading Course: Ethics and Data Science"
+title: "Ethics and Data Science"
 description: |
-  This is a reading course focused on the intersection of ethics and data science.
+  This is a course focused on the intersection of ethics and data science.
 output:
   distill::distill_article:
     toc: true
@@ -12,7 +12,7 @@ output:
 
 ### Overview
 
-The purpose of this reading course is to develop students who can:
+The purpose of this course is to develop students who can:
 
 - engage in thoughtful, ethical, critique of data science, its antecedents, current state, and likely evolution; and 
 - work productively to implement existing data science methods, as well as contribute to the creation of novel methods or applications.
@@ -23,7 +23,7 @@ The course outline is available [here](pdfs/2021-ethics_and_data_science.pdf).
 
 ### FAQ
 
-- Can I audit this course? It's a reading course so the concept of auditing doesn't make sense. There are no lectures, we have weekly discussions. You're welcome to come along to the discussions if you'd like but please do the readings first.
+- Can I audit this course? Sure, but the concept of auditing doesn't make sense for this course. There are no lectures, we have weekly discussions. You're welcome to come along to the discussions if you'd like but please do the readings first.
 
 
 ### Acknowledgements

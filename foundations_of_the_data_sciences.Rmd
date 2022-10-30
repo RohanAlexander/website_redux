@@ -148,9 +148,9 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 ### Summary
 
 | Item 								| Weight (%) | Due date |
-| ---------- | -----------:| -----:|
+| -------- | -----:| -----:|
 | Quiz 						| 8 		 | Weekly, end of each week |
-| SQL Quiz 						| 2 		 | Friday, noon, Week 12 |
+| SQL Quiz 						| 2 		 | Friday, noon, Week 11 |
 | Tutorial 						| 10 		 | Weekly, end of each week |
 | Paper 1 							| 25 		 | Friday, noon, Week 3 |
 | Paper 2 							| 25 		 | Friday, noon, Week 6 |
@@ -178,7 +178,7 @@ Additional details:
 
 ### SQL Quiz
 
-- Due date: Available from Week 1, but due Friday, noon, Week 12 (with grace period through to Sunday, midnight, to submit without penalty).
+- Due date: Available from Week 1, but due Friday, noon, Week 11 (with grace period through to Sunday, midnight, to submit without penalty).
 - Weight: 2 per cent. You cannot pass the course if you do not get at least 70 per cent in this quiz
 - Task: Please complete a quiz about SQL.
 
@@ -197,31 +197,31 @@ Additional details:
 ### Paper #1
 
 - You must submit this paper.
-- Task: [Paper One](https://www.tellingstorieswithdata.com/papers.html#paper-one)
+- Task: [Donaldson Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-one)
 - Due date: Friday, noon, Week 3 (with grace period through to Sunday, midnight, to submit without penalty).
 - Weight: 25 per cent (for Papers #1-#4 the best two of four count).
 
 ### Paper #2
 
 - Due date: Friday, noon, Week 6 (with grace period through to Sunday, midnight, to submit without penalty).
-- Task: [Paper Two](https://www.tellingstorieswithdata.com/papers.html#paper-two)
+- Task: [Mawson Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-two)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Paper #3
 
 - Due date: Friday, noon, Week 8 (with grace period through to Sunday, midnight, to submit without penalty).
-- Task: [Paper Three](https://www.tellingstorieswithdata.com/papers.html#paper-three)
+- Task: [Howrah Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-three)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Paper #4
 
 - Due date: Friday, noon, Week 10 (with grace period through to Sunday, midnight, to submit without penalty).
-- Task: [Paper Four](https://www.tellingstorieswithdata.com/papers.html#paper-four)
+- Task: [Dysart Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-four) or [Spofforth Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-five)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Final Paper
 
-- Task: [Final Paper](https://www.tellingstorieswithdata.com/papers.html#final-paper)
+- Task: [Final Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-final-paper)
 - You must submit this paper.
 - Due dates: 
   - Initial submission: Wednesday, noon, Week 12 (no grace period and no late submissions accepted).
@@ -239,7 +239,9 @@ Additional details:
 
 ### Children in the classroom
 
-Babies (bottle-feeding, nursing, etc) are welcome in class as often as necessary. You are welcome to take breaks to feed your infant or express milk as needed, either in the classroom or elsewhere including: https://familycare.utoronto.ca/childcare/breastfeeding-at-u-of-t/. A list of baby change stations is also available: https://familycare.utoronto.ca/childcare/baby-change-stations-at-u-of-t/. Please communicate with me so that I can make sure that we have regular breaks to accommodate this. For older children, I understand that unexpected disruptions in childcare can happen. You are welcome to bring your child to class in order to cover unforeseeable gaps in childcare.
+Babies (bottle-feeding, nursing, etc) are welcome in class as often as necessary. You are welcome to take breaks to feed your infant or express milk as needed, either in the classroom or elsewhere including [here](https://familycare.utoronto.ca/childcare/breastfeeding-at-u-of-t/). A list of baby change stations is also available [here](https://familycare.utoronto.ca/childcare/baby-change-stations-at-u-of-t/). Please communicate with me so that I can make sure that we have regular breaks to accommodate this. 
+
+For older children, I understand that unexpected disruptions in childcare can happen. You are welcome to bring your child to class in order to cover unforeseeable gaps in childcare.
 
 ### Accommodations with regard to assessment
 
@@ -257,7 +259,7 @@ Slightly more involved:
 
 - Paper #1: You must submit something for Paper #1, even if it gets zero. If you have a medical reason that makes it impossible for you to submit Paper #1, then you are welcome to continue with the class, but then one of the remaining term papers (Papers #2 - #4), must be done individually to ensure fairness with the rest of the class.
 - Peer review: No accommodation or late submission is possible for this because it would hold up the rest of the class. If you cannot submit then email me before the deadline and the weight will be shifted to the final paper.
-- Final paper: The final paper is a critical piece of assessment. It's also up against deadlines for submission of grades. Extensions for valid reasons may be granted for a maximum of three days, however this isn't possible for all students (i.e. there are restrictions around graduating students). Hence, the exact extension need to be at my discretion. To be considered, an extension request must be sent to rohan.alexander@utoronto.ca by the business day before the due date so there is time to get advice from the Faculty about your particular circumstance.
+- Final paper: The final paper is a critical piece of assessment. It is also up against deadlines for submission of grades. Extensions for valid reasons may be granted for a maximum of three days, however this isn't possible for all students (i.e. there are restrictions around graduating students). This means the exact extension needs to be at my discretion. To be considered, an extension request must be sent to rohan.alexander@utoronto.ca by the business day before the due date so there is time to get advice from a faculty/department/college advisor about your particular circumstance.
 
 ### Re-grading
 
@@ -265,15 +267,17 @@ Requests to have your work re-graded will not be accepted within 24 hours of the
 
 Inside that 1-7 day period if you would like to request a re-grade, please email rohan.alexander@utoronto.ca. Please specify where the marking error was made in relation to the marking guide. The entire assessment will be re-marked and it is possible that your grade could reduce.
 
+Plenty of students get 0 on the first paper, but go on to get an A+ overall in the course. The nature of the work in this course requires students to adjust from what is expected in other courses, and the forgiving assessment weighting is designed to allow this.
+
 ### Plagiarism and integrity
 
-Please do not plagiarize. In particular, be careful to acknowledge the source of code - if it's extensive then through proper citation and if it's just a couple of lines from Stack Overflow then in a comment immediately next to the code.
+Please do not plagiarize. In particular, be careful to acknowledge the source of code - if it is extensive then through proper citation and if it is just a couple of lines from Stack Overflow then in a comment immediately next to the code.
 
 You are responsible for knowing the content of the University of Toronto's Code of Behaviour on Academic Matters. 
 
 Academic offenses includes (but is not limited to) plagiarism, cheating, copying R code, communication/extra resources during closed book assessments, purchasing labor for assessments (of any kind). Academic offenses will be taken seriously and dealt with accordingly. If you have any questions about what is or is not permitted in this course, please contact me.
 
-Please consult the University's site on Academic Integrity http://academicintegrity.utoronto.ca/. Please also see the definition of plagiarism in section B.I.1.(d) of the University's Code of Behaviour on Academic Matters http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ppjun011995.pdf. Please read the Code. Please review Cite it Right and if you require further clarification, consult the site How Not to Plagiarize http://advice.writing.utoronto.ca/wp-content/uploads/sites/2/how-not-to-plagiarize.pdf. 
+Please consult the University's [site](http://academicintegrity.utoronto.ca/) on Academic Integrity. Please also see the definition of plagiarism in section B.I.1.(d) of the University's Code of Behaviour on Academic Matters available [here](http://www.governingcouncil.utoronto.ca/Assets/Governing+Council+Digital+Assets/Policies/PDF/ppjun011995.pdf). Please read the Code. Please review Cite it Right and if you require further clarification, consult the site [How Not to Plagiarize](http://advice.writing.utoronto.ca/wp-content/uploads/sites/2/how-not-to-plagiarize.pdf). 
 
 ### Late policy
 
@@ -285,7 +289,7 @@ Papers and reports should be well-written, well-organized, and easy to follow. T
 
 ### Minimum submission requirement
 
-If you are going to not be able to submit at least two term papers, and/or be unable to submit the final paper then it would be unfair on the other students to allow you to pass the course. Please ensure you and your registrar get in touch with me as early as possible if this may be the case for you.
+If you are going to not be able to submit at least two term papers, and/or be unable to submit the final paper then it would be unfair on the other students to allow you to pass the course. Please ensure you and your college registrar or faculty/department advisor get in touch with me as early as possible if this may be the case for you.
 
 ### Relationship to PhD Student Learning Outcomes
 
