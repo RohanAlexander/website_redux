@@ -1,7 +1,7 @@
 ---
 title: "Data Science Foundations"
 description: |
-  Quantitative approaches have a common concern: How can others be confident that our statistical approaches have been brought to bear on appropriate datasets? This course focuses on the 'data' of the data sciences. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings. It focuses not only on statistical modelling, but also on everything that comes before modelling, and by focusing on those steps places modelling and analysis on a more firm foundation. In assessment, students will conduct end-to-end data science projects using real-world data, enabling them to fulling understand potential pitfalls. 
+  Quantitative approaches have a common concern: How can others be confident that our statistical models have been brought to bear on appropriate datasets? This course focuses on the 'data' of data science. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings. It touches not only statistical modelling, but everything that comes before modelling, and by focusing on those steps places modelling and analysis on a firmer foundation. In assessment, students will conduct end-to-end data science projects using real-world data, enabling them to fully understand potential pitfalls, and build a portfolio. 
 output:
   distill::distill_article:
     toc: true
@@ -285,7 +285,7 @@ You are expected to manage your time effectively. If no extension has been grant
 
 ### Writing
 
-Papers and reports should be well-written, well-organized, and easy to follow. They should flow easily from one point to the next. They should have proper sentence structure, spelling, vocabulary, and grammar. Each point should be articulated clearly and completely without being overly verbose. Papers should demonstrate your understanding of the topics you are studying in the course and your confidence in using the terms, techniques and issues you have learned. As always, references must be properly included and cited. If you have concerns about your ability to do any of this then please make use of the writing support provided to the faculty, colleges  and the SGS Graduate Centre for Academic Communication. 
+Papers and reports should be well-written, well-organized, and easy to follow. They should flow easily from one point to the next. They should have proper sentence structure, spelling, vocabulary, and grammar. Each point should be articulated clearly and completely without being overly verbose. Papers should demonstrate your understanding of the topics you are studying in the course and your confidence in using the terms, techniques and issues you have learned. As always, references must be properly included and cited. If you have concerns about your ability to do any of this then please make use of the writing support provided to the faculty, colleges and the SGS Graduate Centre for Academic Communication. 
 
 ### Minimum submission requirement
 
