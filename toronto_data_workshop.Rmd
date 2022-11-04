@@ -47,7 +47,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 14 Oct 2022, noon - 1pm | April Wang, *University of Michigan* | https://youtu.be/SD1Ofp0F5is |
 | Fri 21 Oct 2022, noon - 1pm | Meg Risdal, *Kaggle (Google)* | - |
 | Fri 28 Oct 2022, noon - 1pm | *Break*  | |
-| Fri 4 Nov 2022, noon - 1pm | Meggie Debnath and Maitreyee Sidhaye, *St. Michael's Hospital, Unity Health Toronto* | |
+| Fri 4 Nov 2022, noon - 1pm | Meggie Debnath and Maitreyee Sidhaye, *St. Michael's Hospital, Unity Health Toronto* | https://youtu.be/ltA_vOwrIWc |
 | Thu 10 Nov 2022, noon - 1pm | CANSSI Ontario Statistical Software Conference | |
 | Fri 18 Nov 2022, noon - 1pm | Lindsay Katz, *University of Toronto* | |
 | Fri 25 Nov 2022, noon - 1pm | Marcel Fortin and Leanne Trimble *U of T Map & Data Library* | |

@@ -1,7 +1,7 @@
 ---
 title: "Data Science Foundations"
 description: |
-  Quantitative approaches have a common concern: How can others be confident that our statistical models have been brought to bear on appropriate datasets? This course focuses on the 'data' of data science. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings. It touches not only statistical modelling, but everything that comes before modelling, and by focusing on those steps places modelling and analysis on a firmer foundation. In assessment, students will conduct end-to-end data science projects using real-world data, enabling them to fully understand potential pitfalls, and build a portfolio. 
+  Quantitative approaches have a common concern: How can others be confident that our statistical models have been brought to bear on appropriate datasets? This course focuses on the 'data' of data science. It develops in students an appreciation for the many ways in which dealing with a dataset can get out-of-hand, and establishes approaches to ensure data science is conducted in ways that engenders trusted findings. It touches on statistical modelling, but focuses on everything that comes before and after modelling, and in doing so ensures modelling and analysis are placed on a firmer foundation. In assessment, students will conduct end-to-end data science projects using real-world data, enabling them to fully understand potential pitfalls, and build a portfolio. 
 output:
   distill::distill_article:
     toc: true
