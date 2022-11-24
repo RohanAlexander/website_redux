@@ -27,7 +27,11 @@ Essentially this course provides students with everything that they need to know
 
 - Can I audit this course? Sure, but it is pointless, because the only way to learn this stuff is to do the work.
 - What is a tutorial? You write a paper. Then you send it to your tutor. The next day you have a meeting, 'tutorial', where you discuss it with them.
-- Why is there so much assessment? The only way to learn is to actually do the work, and students only do the work when they are assessed. It is unfortunate, but there is no way around it.
+- Why is there so much assessment? The only way to learn this stuff is to actually do the work, and students only do the work when they are assessed. It is unfortunate, but there is no way around it.
+- How difficult is the course? Of students that enrol, the median student drops the course. But the mode overall grade at the end of the course is an A+. The course is not difficult, but the hands-on-projects mean it is a lot of work. 
+- What is the format of the class? There are rarely old-school lectures because those are not effective. You should read the relevant chapter before class. During class we will focus on tutorials and discussion. We will also have industry guests discuss their experience.
+- How mature is the course? This is the fifth iteration of this course. A lot of the materials are well-developed but there is still a long way to go. Your feedback is appreciated.
+
 
 ### Learning objectives
 
