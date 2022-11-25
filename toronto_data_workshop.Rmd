@@ -19,6 +19,7 @@ The Toronto Data Workshop (TDW) brings together academia and industry to conside
 Current organizing committee: 
 
 - [Kelly Lyons](http://individual.utoronto.ca/klyons/), 
+- [Michaela Drouillard](https://ca.linkedin.com/in/michaela-drouillard-b29172164),
 - Rohan Alexander. 
 
 Past committee members: 
@@ -35,7 +36,7 @@ The TDW is a joint initiative between the Faculty of Information and the Departm
 
 
 ```{r, out.width= "33%", echo = FALSE}
-knitr::include_graphics(c("images/tdw_cn_tower.png")) 
+knitr::include_graphics(c("images/tdw_100.png")) 
 ```
 
 | Date | Speaker |  Recording |
@@ -48,7 +49,7 @@ knitr::include_graphics(c("images/tdw_cn_tower.png"))
 | Fri 21 Oct 2022, noon - 1pm | Meg Risdal, *Kaggle (Google)* | - |
 | Fri 4 Nov 2022, noon - 1pm | Meggie Debnath and Maitreyee Sidhaye, *St. Michael's Hospital, Unity Health Toronto* | https://youtu.be/ltA_vOwrIWc |
 | Fri 18 Nov 2022, noon - 1pm | Lindsay Katz, *University of Toronto* | https://youtu.be/lYOdCNJOusg |
-| Fri 25 Nov 2022, noon - 1pm | Marcel Fortin and Leanne Trimble *U of T Map & Data Library* | |
+| Fri 25 Nov 2022, noon - 1pm | Marcel Fortin and Leanne Trimble *U of T Map & Data Library* | https://youtu.be/_Ec40JPOxcA |
 | Fri 16 Dec 2022, noon - 1pm | Zane Schwartz, *Investigative Journalism Foundation* | |
 
 
