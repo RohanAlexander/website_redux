@@ -208,31 +208,31 @@ Additional details:
 ### Paper #1
 
 - You must submit this paper.
-- Task: [Donaldson Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-one)
+- Task: [Donaldson Paper](https://tellingstorieswithdata.com/23-assessment.html#sec-paper-one)
 - Due date: Friday, noon, Week 3 (with grace period through to Sunday, midnight, to submit without penalty).
 - Weight: 25 per cent (for Papers #1-#4 the best two of four count).
 
 ### Paper #2
 
 - Due date: Friday, noon, Week 6 (with grace period through to Sunday, midnight, to submit without penalty).
-- Task: [Mawson Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-two)
+- Task: [Mawson Paper](https://tellingstorieswithdata.com/23-assessment.html#sec-paper-two)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Paper #3
 
 - Due date: Friday, noon, Week 8 (with grace period through to Sunday, midnight, to submit without penalty).
-- Task: [Howrah Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-three)
+- Task: [Howrah Paper](https://tellingstorieswithdata.com/23-assessment.html#sec-paper-three)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Paper #4
 
 - Due date: Friday, noon, Week 10 (with grace period through to Sunday, midnight, to submit without penalty).
-- Task: [Dysart Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-four) or [Spofforth Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-paper-five)
+- Task: [Dysart Paper](https://tellingstorieswithdata.com/23-assessment.html#sec-paper-four) or [Spofforth Paper](https://tellingstorieswithdata.com/23-assessment.html#sec-paper-five)
 - Weight: 25 per cent (for Papers #1-#4 the best two of four counts).
 
 ### Final Paper
 
-- Task: [Final Paper](https://tellingstorieswithdata.com/24-assessment.html#sec-final-paper)
+- Task: [Final Paper](https://tellingstorieswithdata.com/23-assessment.html#sec-final-paper)
 - You must submit this paper.
 - Due dates: 
   - Initial submission: Wednesday, noon, Week 12 (no grace period and no late submissions accepted).
