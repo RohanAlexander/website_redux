@@ -58,7 +58,7 @@ The purpose of the course is to develop the core skills of data science that are
 
 ## Content
 
-Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stories with Data*.
+Before class starts you should go through Chapter 1 and Appendix A of *Telling Stories with Data*.
 
 ### Week 1
 
@@ -70,7 +70,7 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 
 ### Week 2
 
-- [Reproducible workflows](https://tellingstorieswithdata.com/04-workflow.html)
+- [Reproducible workflows](https://tellingstorieswithdata.com/03-workflow.html)
   - Reproducibility typically begins as something that someone imposes on you. It can be onerous and annoying. This typically lasts until you need to revisit a project after a small break. At that point you typically realize that reproducibility is not just a requirement for data science because it is the only way that we can make genuine progress, but because it actually helps ourselves.
   - Essentially reproducibility implies sharing data, code, and environment. And this is enhanced by using Quarto, R Projects, and Git and GitHub. We use Quarto to build documents that integrate normal text and R code. R Projects enable a file structure that is not dependent on a directory set-up that is user-specific. And Git and GitHub make it easier to share code and data.
   - This is not an unimpeachable workflow, but one that is good enough and provides many of the benefits. We will improve various aspect of it through various tools, but improving code structure and comments goes a long way.
@@ -78,7 +78,7 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 
 ### Week 3
 
-- [Writing research](https://tellingstorieswithdata.com/05-writing_research.html)
+- [Writing research](https://tellingstorieswithdata.com/04-writing_research.html)
   - Writing is a key skill, perhaps the most important skill, of all the skills required of a data scientist. The only way to get better at writing, is to write, ideally every day.
   - When we write, although the benefits typically accrue to ourselves, we must nonetheless write for the reader. This means having one key message that we want to communicate, and thinking about where they are, rather than where we are.
   - The key is that we get to a first draft as quickly as possible. Even if it is horrible, the difference between a first draft existing and not is enormous. At that point we start to rewrite brutally and removing as many words as possible.
@@ -86,26 +86,26 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 
 ### Week 4
 
-- [Static communication](https://tellingstorieswithdata.com/06-static_communication.html)
+- [Static communication](https://tellingstorieswithdata.com/05-static_communication.html)
   - We must show the reader the actual observations in the dataset, or as close as is possible, through graphs and tables. This is because it is only through visualization that we can get a true sense of our data. This means that we need to develop a comfort with a variety of graph options, including: bar charts, scatterplots, line plots, and histograms. We can even consider a map to be a type of graph, especially after geocoding our data.
   - That said, we also must know when to summarize data, for instance using tables. Typical use cases for this include showing part of a dataset, summary statistics, and regression results.
 
 ### Week 5
 
-- [Farm data](https://tellingstorieswithdata.com/08-farm.html)
+- [Farm data](https://tellingstorieswithdata.com/06-farm.html)
   - Before there can be a dataset, there must be measurement, and this brings a whole host of challenges and concerns. One dataset that is designed to be complete, at least in certain respects, is a census. While not perfect, governments spend a lot of money on censuses and other official statistics, and they are a great foundational data source.
   - However even when we cannot obtain such a dataset, we can use sampling to ensure that we can still make sensible claims. There are two varieties of this—probability and non-probability. Both have an important role. Key terminology and concepts include: target population, sampling frame, sample, simple random sampling, systematic sampling, stratified sampling, and cluster sampling.
 
 ### Week 6
 
-- [Gather data](https://tellingstorieswithdata.com/09-gather.html)
+- [Gather data](https://tellingstorieswithdata.com/07-gather.html)
   - Sometimes data are available, but they are not necessarily put together for the purposes of being a dataset. We have to go and gather such data.
   - It can be cumbersome and annoying to have to clean and prepare the datasets that come from these unstructured sources, however, the resulting structured, tidy, data are often especially exciting and useful.
   - We can gather data from a variety of sources, including APIs, both directly, including dealing with semi-structured data, and indirectly through R Packages. We can also gather data through web scraping, although it is important to consider reasonable use and ethical concerns. Finally, we may wish to gather data from PDFs, possibly even needing to OCR them.
 
 ### Week 7
 
-- [Hunt data](https://tellingstorieswithdata.com/10-hunt.html)
+- [Hunt data](https://tellingstorieswithdata.com/08-hunt.html)
   - Establishing treatment and control groups using randomization to estimate average treatment effects and understanding threats to these estimates.
   - Understanding the requirements and implications of internal and external validity.
   - Appreciating why informed consent and establishing the need for an experiment are critical.
@@ -114,7 +114,7 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 
 ### Week 8
 
-- [Clean and prepare](https://tellingstorieswithdata.com/11-clean_and_prepare.html)
+- [Clean and prepare](https://tellingstorieswithdata.com/09-clean_and_prepare.html)
   - Cleaning and preparing a dataset is difficult work that involves a great deal of decision-making. Planning an endpoint and simulating the dataset that we would like to end up with are key elements of cleaning and preparing data.
   - It can help to work in an iterative way, beginning with a small sample of the dataset. Write code to fix some aspect, and then iterate and generalize to additional tranches.
   - During that process we should also develop a series of tests and checks that the dataset should pass. This should focus on key features that we would expect of the dataset.
@@ -122,7 +122,7 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 
 ### Week 9
 
-- [Store and share](https://tellingstorieswithdata.com/12-store_and_share.html)
+- [Store and share](https://tellingstorieswithdata.com/10-store_and_share.html)
   - The FAIR principles provide the foundation from which we consider data sharing and storage. These specify that data should be findable, accessible, interoperable, and reusable.
   - The most important step is the first one, and that is to get the data off our local computer, and to then make it accessible by others. After that, we build documentation, and datasheets, to make it easier for others to understand and use it. Finally, we ideally enable access without our involvement.
   - At the same time as wanting to share our datasets are widely as possible, we must respect those whose information are contained in them. This means, for instance, protecting, to a reasonable extent, and informed by costs and benefits, personally identifying information through selective disclosure, hashing, data simulation, and differential privacy.
@@ -130,19 +130,19 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 
 ### Week 10
 
-- [Exploratory data analysis](https://tellingstorieswithdata.com/13-eda.html)
+- [Exploratory data analysis](https://tellingstorieswithdata.com/11-eda.html)
   - Exploratory data analysis is the process of coming to terms with a new dataset by constructing graphs and tables. We want to explore and understand three critical aspects: 1) each individual variable by itself; 2) each individual in the context of other, relevant, variables; and 3) the data that are not there.
   - During the EDA process we want to come to understand the issues and features of the dataset and how this may affect analysis decisions. We are especially concerned about missing values and outliers.
 
 ### Week 11
 
-- [Linear models](https://tellingstorieswithdata.com/14-ijalm.html)
+- [Linear models](https://tellingstorieswithdata.com/12-ijalm.html)
   - Linear models are a key component of statistical inference and enable us to consider a wide range of circumstance. Simple and multiple linear regression refer to the situation in which we consider some continuous dependent variable as a function of one, and multiple, independent variables, respectively. 
   - We are concerned with two different aspects: prediction and inference. We use machine learning approaches for the former, and Bayesian methods for the latter.
 
 ### Week 12
 
-- [Generalized linear models](https://tellingstorieswithdata.com/14-ijalm.html)
+- [Generalized linear models](https://tellingstorieswithdata.com/13-ijaglm.html)
   - Logistic and Poisson regression are used when the dependent variable is a binary variable, and a count variable, respectively.
   - Finally, putting a model into production requires a different set of skills to building it. This includes a familiarity with a cloud provider and the ability to create an API.
 
@@ -154,7 +154,8 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 | Item 								| Weight (%) | Due date |
 | -------- | -----:| -----:|
 | Quiz 						| 8 		 | Weekly, end of each week |
-| SQL Quiz 						| 2 		 | Friday, noon, Week 11 |
+| SQL quiz 						| 1 		 | Friday, noon, Week 11 |
+| Personal website			| 1 		 | Friday, noon, Week 11 |
 | Tutorial 						| 10 		 | Weekly, end of each week |
 | Paper 1 							| 25 		 | Friday, noon, Week 3 |
 | Paper 2 							| 25 		 | Friday, noon, Week 6 |
@@ -164,7 +165,7 @@ Before class starts you should go through Chapters 1, 2, and 3 of *Telling Stori
 | Conduct peer review 		| 3 		 | Friday, noon, Week 12 |
 | Final Paper 						| 25 		 | Two weeks after that |
 
-**You must submit Paper 1. You must submit the Final Paper. You must submit and get at least 70 per cent on the SQL Quiz.**
+**You must submit Paper 1. You must submit the Final Paper. You must submit and get at least 70 per cent on both the SQL quiz and the Personal website.**
 
 Beyond that, you have scope to pick an assessment schedule that works for you. We will take your best three of the twelve tutorials for that 10 per cent, and your best five of twelve quizzes for that 10 per cent. And we will take your two best papers from Papers 1-4 for that 50 per cent (25 per cent for each). The remainder is made up of 2 per cent for submitting a draft of the Final Paper, 3 per cent for conducting peer review of other people's drafts of the Final Paper, and 25 per cent for the Final Paper.
 
@@ -180,11 +181,17 @@ Additional details:
 - Weight: 8 per cent. Only best five out of twelve count.
 - Task: Please complete a weekly quiz.
 
-### SQL Quiz
+### SQL quiz
 
 - Due date: Available from Week 1, but due Friday, noon, Week 11 (with grace period through to Sunday, midnight, to submit without penalty).
-- Weight: 2 per cent. You cannot pass the course if you do not get at least 70 per cent in this quiz
+- Weight: 1 per cent. You cannot pass the course if you do not get at least 70 per cent in this quiz.
 - Task: Please complete a quiz about SQL.
+
+### Personal website
+
+- Due date: Available from Week 1, but due Friday, noon, Week 11 (with grace period through to Sunday, midnight, to submit without penalty).
+- Weight: 1 per cent. You cannot pass the course if you do not get at least 70 per cent on this assessment.
+- Task: Please create a personal website using Quarto and make it live via GitHub Pages. At a minimum, it must include a bio and a CV in PDF form.
 
 ### Tutorial
 
