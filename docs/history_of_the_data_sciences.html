@@ -531,6 +531,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1603,15 +1604,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1810,7 +1817,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1935,9 +1942,7 @@ Other
 <h1>History of statistics and data sciences</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Statistics and the data sciences have a long and robust history.
-Understanding that history provides students with a better appreciation
-for the methods that they are applying today.</p></p>
+<p><p>Statistics and the data sciences have a long and robust history. Understanding that history provides students with a better appreciation for the methods that they are applying today.</p></p>
 </div>
 
 
@@ -1949,10 +1954,8 @@ for the methods that they are applying today.</p></p>
 <li><a href="#preamble" id="toc-preamble">Preamble</a>
 <ul>
 <li><a href="#overview" id="toc-overview">Overview</a></li>
-<li><a href="#learning-objectives" id="toc-learning-objectives">Learning
-objectives</a></li>
-<li><a href="#prerequisites"
-id="toc-prerequisites">Prerequisites</a></li>
+<li><a href="#learning-objectives" id="toc-learning-objectives">Learning objectives</a></li>
+<li><a href="#prerequisites" id="toc-prerequisites">Prerequisites</a></li>
 <li><a href="#textbooks" id="toc-textbooks">Textbooks</a></li>
 </ul></li>
 <li><a href="#content" id="toc-content">Content</a>
@@ -1973,8 +1976,7 @@ id="toc-prerequisites">Prerequisites</a></li>
 <li><a href="#assessment" id="toc-assessment">Assessment</a>
 <ul>
 <li><a href="#summary" id="toc-summary">Summary</a></li>
-<li><a href="#tutorial-papers" id="toc-tutorial-papers">Tutorial
-papers</a></li>
+<li><a href="#tutorial-papers" id="toc-tutorial-papers">Tutorial papers</a></li>
 <li><a href="#final-paper" id="toc-final-paper">Final Paper</a></li>
 </ul></li>
 </ul>
@@ -1982,85 +1984,43 @@ papers</a></li>
 </div>
 <h2 id="preamble">Preamble</h2>
 <h3 id="overview">Overview</h3>
-<p>Often students are taught, say, linear regression in such a way that
-they come to believe that statisticians simply stumbled upon it one day.
-In fact, the idea of combining different observations in this way, took
-the work of decades and even centuries to come to terms with.
-Understanding the history of statistics and data sciences, more
-generally, provides a more solid foundation for applying those skills
-today. We are interested in why certain methods were developed, and
-became popular, and the circumstances under which this occurred because
-that provides us with a nuanced knowledge of when we should apply them
-ourselves.</p>
-<p>We study history because we want to understand how our predecessors
-solved their problems. That means understanding, not just what they did,
-but the circumstances in which they did it, and the choices they faced.
-That knowledge allows us to better solve our own problems. At the very
-least, it helps us to avoid repeating mistakes; and, if fully
-accomplished, can even allow to improve our own approaches.</p>
-<p>The history of statistics and the data sciences is one of greatness,
-and we will cover that extensively. But it also one in which that
-greatness was sometimes developed for abhorrent purposes, and there were
-many contributors, actual or potential, who were overlooked. We will
-cover these aspects too.</p>
-<p>The hope is that having taken this course, you will understand what
-you have been studying in statistics and the data sciences with fresh
-eyes, and bring this deeper appreciation with you throughout the rest of
-your career.</p>
+<p>Often students are taught, say, linear regression in such a way that they come to believe that statisticians simply stumbled upon it one day. In fact, the idea of combining different observations in this way, took the work of decades and even centuries to come to terms with. Understanding the history of statistics and data sciences, more generally, provides a more solid foundation for applying those skills today. We are interested in why certain methods were developed, and became popular, and the circumstances under which this occurred because that provides us with a nuanced knowledge of when we should apply them ourselves.</p>
+<p>We study history because we want to understand how our predecessors solved their problems. That means understanding, not just what they did, but the circumstances in which they did it, and the choices they faced. That knowledge allows us to better solve our own problems. At the very least, it helps us to avoid repeating mistakes; and, if fully accomplished, can even allow to improve our own approaches.</p>
+<p>The history of statistics and the data sciences is one of greatness, and we will cover that extensively. But it also one in which that greatness was sometimes developed for abhorrent purposes, and there were many contributors, actual or potential, who were overlooked. We will cover these aspects too.</p>
+<p>The hope is that having taken this course, you will understand what you have been studying in statistics and the data sciences with fresh eyes, and bring this deeper appreciation with you throughout the rest of your career.</p>
 <h3 id="learning-objectives">Learning objectives</h3>
-<p>The purpose of the course is to develop an appreciation of history of
-statistics and the data sciences to such an extent so as to provide a
-firmer foundation for your conduct of applied statistics and data
-science. By the end of the course, you should be able to:</p>
+<p>The purpose of the course is to develop an appreciation of history of statistics and the data sciences to such an extent so as to provide a firmer foundation for your conduct of applied statistics and data science. By the end of the course, you should be able to:</p>
 <ol type="1">
-<li>Engage critically with ideas and readings in the history of
-statistics and data sciences.</li>
+<li>Engage critically with ideas and readings in the history of statistics and data sciences.</li>
 <li>Conduct research in the history of data science and statistics.</li>
 <li>Write and present your research.</li>
-<li>Understand why the methods and approaches developed when they did,
-and the circumstances under which they developed.</li>
-<li>Appreciate that much of the statistical machinery that we use today
-was developed with respect to eugenics.</li>
-<li>Respectfully identify strengths and weaknesses in the work of
-others.</li>
-<li>Reflect effectively on your own learning and professional
-development.</li>
+<li>Understand why the methods and approaches developed when they did, and the circumstances under which they developed.</li>
+<li>Appreciate that much of the statistical machinery that we use today was developed with respect to eugenics.</li>
+<li>Respectfully identify strengths and weaknesses in the work of others.</li>
+<li>Reflect effectively on your own learning and professional development.</li>
 </ol>
 <h3 id="prerequisites">Prerequisites</h3>
-<p>At least 1.0 FCE 300+ level STA courses with a minimum grade of 80
-per cent in each course.</p>
+<p>At least 1.0 FCE 300+ level STA courses with a minimum grade of 80 per cent in each course.</p>
 <h3 id="textbooks">Textbooks</h3>
 <ul>
-<li>Stigler, S, 1986, <em>The History of Statistics: The Measurement of
-Uncertainty before 1900</em>, Harvard University Press.</li>
-<li>Friendly, M, and Wainer, H, 2021, <em>A History of Data
-Visualization and Graphic Communication</em>, Harvard University
-Press.</li>
-<li>Sheynin, 2017, <em>Theory of Probability. A Historical Essay</em>,
-<a href="https://arxiv.org/abs/1802.09966"
-class="uri">https://arxiv.org/abs/1802.09966</a>,</li>
+<li>Stigler, S, 1986, <em>The History of Statistics: The Measurement of Uncertainty before 1900</em>, Harvard University Press.</li>
+<li>Friendly, M, and Wainer, H, 2021, <em>A History of Data Visualization and Graphic Communication</em>, Harvard University Press.</li>
+<li>Sheynin, 2017, <em>Theory of Probability. A Historical Essay</em>, <a href="https://arxiv.org/abs/1802.09966" class="uri">https://arxiv.org/abs/1802.09966</a>,</li>
 </ul>
 <h2 id="content">Content</h2>
 <h3 id="week-1">Week 1</h3>
-<p>Overview. Also early astronomical and gambling underpinnings. Least
-squares, combining observations, and uncertainty. Legendre, Laplace,
-Bernoulli, De Moivre, Simpson.</p>
+<p>Overview. Also early astronomical and gambling underpinnings. Least squares, combining observations, and uncertainty. Legendre, Laplace, Bernoulli, De Moivre, Simpson.</p>
 <ul>
 <li>Content:
 <ul>
-<li>Stephen E. Fienberg, 1992, ‘A Brief History of Statistics in Three
-and One-Half Chapters: A Review Essay’, <em>Statistical
-Science</em>.</li>
-<li>M. G. Kendall, 1960, ‘Studies in the History of Probability and
-Statistics. Where Shall the History of Statistics Begin?’,
-<em>Biometrika</em>.</li>
+<li>Stephen E. Fienberg, 1992, ‘A Brief History of Statistics in Three and One-Half Chapters: A Review Essay’, <em>Statistical Science</em>.</li>
+<li>M. G. Kendall, 1960, ‘Studies in the History of Probability and Statistics. Where Shall the History of Statistics Begin?’, <em>Biometrika</em>.</li>
 <li>Stigler, 1986, Chs 1-2.</li>
 <li>Ian Hacking, 2006, <em>The Emergence of Probability</em>.</li>
 </ul></li>
 </ul>
 <h3 id="week-2">Week 2</h3>
-<p>Focuses on the 1700s, especially inverse probability. Gauss, Laplace,
-Central Limit Theorem.</p>
+<p>Focuses on the 1700s, especially inverse probability. Gauss, Laplace, Central Limit Theorem.</p>
 <ul>
 <li>Content:
 <ul>
@@ -2069,8 +2029,7 @@ Central Limit Theorem.</p>
 </ul></li>
 </ul>
 <h3 id="week-3">Week 3</h3>
-<p>Early 1800s, and moves to the social sciences. Quetelet, Poisson,
-Cournot, Lexis, binomials and Law of Large Numbers.</p>
+<p>Early 1800s, and moves to the social sciences. Quetelet, Poisson, Cournot, Lexis, binomials and Law of Large Numbers.</p>
 <ul>
 <li>Content:
 <ul>
@@ -2079,41 +2038,33 @@ Cournot, Lexis, binomials and Law of Large Numbers.</p>
 </ul></li>
 </ul>
 <h3 id="week-4">Week 4</h3>
-<p>Late 1800s and heredity. Galton, Edgeworth, and Pearson. Regression
-and correlation.</p>
+<p>Late 1800s and heredity. Galton, Edgeworth, and Pearson. Regression and correlation.</p>
 <ul>
 <li>Content:
 <ul>
 <li>Stigler, 1986, Chs 7-8.</li>
 <li>Sheynin, 2017, Chs 10-11.</li>
 <li>David Salsburg, 2002, <em>The Lady Tasting Tea</em>.</li>
-<li>Theodore M. Porter, 2020, <em>The Rise of Statistical Thinking,
-1820–1900</em>.</li>
+<li>Theodore M. Porter, 2020, <em>The Rise of Statistical Thinking, 1820–1900</em>.</li>
 </ul></li>
 </ul>
 <h3 id="week-5">Week 5</h3>
-<p>Late 1800s and early 1900s. Edgeworth, Pearson, and Yule. Regression,
-and correlation.</p>
+<p>Late 1800s and early 1900s. Edgeworth, Pearson, and Yule. Regression, and correlation.</p>
 <ul>
 <li>Content:
 <ul>
 <li>Stigler, 1986, Chs 9-10.</li>
-<li>David Freedman, 1999, ‘From association to causation: some remarks
-on the history of statistics’.</li>
-<li>Donald MacKenzie, 1981, <em>Statistics in Britain, 1865-1930: The
-Social Construction of Scientific Knowledge</em>.</li>
-<li>Erich Lehmann, 2011, <em>Fisher, Neyman, and the Creation of
-Classical Statistics</em>, Springer.</li>
+<li>David Freedman, 1999, ‘From association to causation: some remarks on the history of statistics’.</li>
+<li>Donald MacKenzie, 1981, <em>Statistics in Britain, 1865-1930: The Social Construction of Scientific Knowledge</em>.</li>
+<li>Erich Lehmann, 2011, <em>Fisher, Neyman, and the Creation of Classical Statistics</em>, Springer.</li>
 </ul></li>
 </ul>
 <h3 id="week-6">Week 6</h3>
 <p>Early 1900s</p>
 <ul>
-<li>Stephen M. Stigler, 1996, ‘The History of Statistics in 1933’,
-<em>Statistical Science</em></li>
+<li>Stephen M. Stigler, 1996, ‘The History of Statistics in 1933’, <em>Statistical Science</em></li>
 <li>Sheynin, 2017, Chs 12-15.</li>
-<li>Stephen M. Stigler, 2016, <em>The Seven Pillars of Statistical
-Wisdom</em>.</li>
+<li>Stephen M. Stigler, 2016, <em>The Seven Pillars of Statistical Wisdom</em>.</li>
 <li>Jan von Plato, 1994, <em>Creating Modern Probability</em>.</li>
 <li>Erich Lehmann, 2007, <em>Reminiscences of a Statistician</em>.</li>
 </ul>
@@ -2130,15 +2081,11 @@ Wisdom</em>.</li>
 <ul>
 <li>Content:
 <ul>
-<li>Stephen E. Fienberg, 2006, ‘When Did Bayesian Inference Become
-“Bayesian”?’, <em>Bayesian Analysis</em>.</li>
-<li>Thomas Hoskyns Leonard, 2014, ‘A personal history of Bayesian
-statistics’, <em>WIREs Computational Statistics</em>.</li>
-<li>Sharon Bertsch McGrayne, 2012, <em>The Theory That Would Not
-Die</em>.</li>
+<li>Stephen E. Fienberg, 2006, ‘When Did Bayesian Inference Become “Bayesian”?’, <em>Bayesian Analysis</em>.</li>
+<li>Thomas Hoskyns Leonard, 2014, ‘A personal history of Bayesian statistics’, <em>WIREs Computational Statistics</em>.</li>
+<li>Sharon Bertsch McGrayne, 2012, <em>The Theory That Would Not Die</em>.</li>
 <li>William D. Nordhaus, ‘An Economic History of Computing’.</li>
-<li>Dennis V. Lindley, 2001, ‘The Philosophy of Statistics’, <em>Journal
-of the Royal Statistical Society: Series D</em>.</li>
+<li>Dennis V. Lindley, 2001, ‘The Philosophy of Statistics’, <em>Journal of the Royal Statistical Society: Series D</em>.</li>
 </ul></li>
 </ul>
 <h3 id="week-9">Week 9</h3>
@@ -2146,8 +2093,7 @@ of the Royal Statistical Society: Series D</em>.</li>
 <ul>
 <li>Content:
 <ul>
-<li>Judea Pearl and Dana Mackenzie, 2018, <em>Book of Why</em>, Ch
-2.</li>
+<li>Judea Pearl and Dana Mackenzie, 2018, <em>Book of Why</em>, Ch 2.</li>
 </ul></li>
 </ul>
 <h3 id="week-10">Week 10</h3>
@@ -2155,12 +2101,9 @@ of the Royal Statistical Society: Series D</em>.</li>
 <ul>
 <li>Content:
 <ul>
-<li>Leo Breiman, 2001, ‘Statistical Modeling: The Two Cultures’,
-<em>Statistical Sciences</em>.</li>
-<li>David J. Hand, 2015, ‘Statistics and computing: the genesis of data
-science’, <em>Statistics and Computing</em>.</li>
-<li>David Donoho, 2017, ‘50 Years of Data Science’, <em>Journal of
-Computational and Graphical Statistics</em>.</li>
+<li>Leo Breiman, 2001, ‘Statistical Modeling: The Two Cultures’, <em>Statistical Sciences</em>.</li>
+<li>David J. Hand, 2015, ‘Statistics and computing: the genesis of data science’, <em>Statistics and Computing</em>.</li>
+<li>David Donoho, 2017, ‘50 Years of Data Science’, <em>Journal of Computational and Graphical Statistics</em>.</li>
 </ul></li>
 </ul>
 <h3 id="week-11">Week 11</h3>
@@ -2168,33 +2111,22 @@ Computational and Graphical Statistics</em>.</li>
 <ul>
 <li>Content:
 <ul>
-<li>Margo Anderson, 1992, ‘The History of Women and the History of
-Statistics’, <em>Journal of Women’s History</em></li>
-<li>Katie Hafner, 2021, ‘Arianna Rosenbluth Dies at 93; Pioneering
-Figure in Data Science’, <em>New York Times</em>.</li>
+<li>Margo Anderson, 1992, ‘The History of Women and the History of Statistics’, <em>Journal of Women’s History</em></li>
+<li>Katie Hafner, 2021, ‘Arianna Rosenbluth Dies at 93; Pioneering Figure in Data Science’, <em>New York Times</em>.</li>
 <li>Kitagawa–Blinder–Oaxaca decomposition.</li>
-<li>Mary E. Thompson, ‘Reflections on women in statistics in Canada’, in
-Xihong Lin, et al., eds, 2014, <em>Past, present, and future of
-statistical science</em>, CRC Press.</li>
-<li>Nancy M. Reid, ‘The whole women thing’, in Xihong Lin, et al., eds,
-2014, <em>Past, present, and future of statistical science</em>, CRC
-Press.</li>
-<li>Louise M. Ryan, ‘Reflections on diversity’, in Xihong Lin, et al.,
-eds, 2014, <em>Past, present, and future of statistical science</em>,
-CRC Press.</li>
+<li>Mary E. Thompson, ‘Reflections on women in statistics in Canada’, in Xihong Lin, et al., eds, 2014, <em>Past, present, and future of statistical science</em>, CRC Press.</li>
+<li>Nancy M. Reid, ‘The whole women thing’, in Xihong Lin, et al., eds, 2014, <em>Past, present, and future of statistical science</em>, CRC Press.</li>
+<li>Louise M. Ryan, ‘Reflections on diversity’, in Xihong Lin, et al., eds, 2014, <em>Past, present, and future of statistical science</em>, CRC Press.</li>
 </ul></li>
 </ul>
 <h3 id="week-12">Week 12</h3>
-<p>Special topic: Reckoning with the past and thinking about the future.
-Statistics and society.</p>
+<p>Special topic: Reckoning with the past and thinking about the future. Statistics and society.</p>
 <ul>
 <li>Content:
 <ul>
 <li>How to consider our history?</li>
-<li>Alain Desrosières, 2002, <em>The Politics of Large Numbers</em>,
-Harvard University Press.</li>
-<li>Xihong Lin, et al., eds, 2014, <em>Past, present, and future of
-statistical science</em>, CRC Press.</li>
+<li>Alain Desrosières, 2002, <em>The Politics of Large Numbers</em>, Harvard University Press.</li>
+<li>Xihong Lin, et al., eds, 2014, <em>Past, present, and future of statistical science</em>, CRC Press.</li>
 </ul></li>
 </ul>
 <h2 id="assessment">Assessment</h2>
@@ -2229,8 +2161,7 @@ statistical science</em>, CRC Press.</li>
 <ul>
 <li>Due date: Fortnightly before the lecture.</li>
 <li>Weight: Each is worth 10 per cent.</li>
-<li>Task: Write a paper of 2-6 pages on a topic covered in the preceding
-two weeks. These will be circulated and discussed in class.</li>
+<li>Task: Write a paper of 2-6 pages on a topic covered in the preceding two weeks. These will be circulated and discussed in class.</li>
 </ul>
 <h3 id="final-paper">Final Paper</h3>
 <ul>
@@ -2238,8 +2169,7 @@ two weeks. These will be circulated and discussed in class.</li>
 <li>Weight: 40 per cent.</li>
 <li>Task: Write an original paper on a topic covered in the class.</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

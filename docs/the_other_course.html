@@ -531,6 +531,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1603,15 +1604,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1810,7 +1817,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1935,8 +1942,7 @@ Other
 <h1>The Other Course</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This is a course that improves your skills in data science and
-gives you the space to write a paper within certain guardrails.</p></p>
+<p><p>This is a course that improves your skills in data science and gives you the space to write a paper within certain guardrails.</p></p>
 </div>
 
 
@@ -1949,12 +1955,9 @@ gives you the space to write a paper within certain guardrails.</p></p>
 <ul>
 <li><a href="#overview" id="toc-overview">Overview</a></li>
 <li><a href="#faq" id="toc-faq">FAQ</a></li>
-<li><a href="#course-learning-objectives"
-id="toc-course-learning-objectives">Course learning objectives</a></li>
-<li><a href="#pre-requisites"
-id="toc-pre-requisites">Pre-requisites</a></li>
-<li><a href="#acknowledgements"
-id="toc-acknowledgements">Acknowledgements</a></li>
+<li><a href="#course-learning-objectives" id="toc-course-learning-objectives">Course learning objectives</a></li>
+<li><a href="#pre-requisites" id="toc-pre-requisites">Pre-requisites</a></li>
+<li><a href="#acknowledgements" id="toc-acknowledgements">Acknowledgements</a></li>
 </ul></li>
 <li><a href="#content" id="toc-content">Content</a>
 <ul>
@@ -1973,14 +1976,10 @@ id="toc-acknowledgements">Acknowledgements</a></li>
 </ul></li>
 <li><a href="#assessment" id="toc-assessment">Assessment</a>
 <ul>
-<li><a href="#learning-diary" id="toc-learning-diary">Learning
-diary</a></li>
-<li><a href="#presentation-i" id="toc-presentation-i">Presentation
-I</a></li>
-<li><a href="#presentation-ii" id="toc-presentation-ii">Presentation
-II</a></li>
-<li><a href="#presentation-iii" id="toc-presentation-iii">Presentation
-III</a></li>
+<li><a href="#learning-diary" id="toc-learning-diary">Learning diary</a></li>
+<li><a href="#presentation-i" id="toc-presentation-i">Presentation I</a></li>
+<li><a href="#presentation-ii" id="toc-presentation-ii">Presentation II</a></li>
+<li><a href="#presentation-iii" id="toc-presentation-iii">Presentation III</a></li>
 <li><a href="#final-paper" id="toc-final-paper">Final Paper</a></li>
 </ul></li>
 </ul>
@@ -1988,67 +1987,36 @@ III</a></li>
 </div>
 <h2 id="preamble">Preamble</h2>
 <h3 id="overview">Overview</h3>
-<p>The course will be an enormous amount of work and cause you a large
-amount of stress because it is likely your first opportunity to do
-unstructured original research. This is unfortunate, but there’s little
-way around it. All I can tell you is that having done this course, it’ll
-be easier in the future. And pressure makes diamonds.</p>
-<p>The purpose of this course is to write an original research paper,
-and in the process of that, to learn some useful skills. The paper will
-incorporate relevant literature, detailed data collection processes, be
-reproducible, use technically and statistically sound methodology, and
-present the outcomes in an informative manner. The work is divided into
-two parts, a report describing the relevant background and technical
-processes (an R Markdown produced pdf) and an interactive layer (either
-Shiny or an R Package).</p>
-<p>The purpose of this course is to explore the technical aspects
-required to design and complete an end-to-end data science project,
-similar to those that students are likely to encounter in a professional
-environment. This course will require students to:</p>
+<p>The course will be an enormous amount of work and cause you a large amount of stress because it is likely your first opportunity to do unstructured original research. This is unfortunate, but there’s little way around it. All I can tell you is that having done this course, it’ll be easier in the future. And pressure makes diamonds.</p>
+<p>The purpose of this course is to write an original research paper, and in the process of that, to learn some useful skills. The paper will incorporate relevant literature, detailed data collection processes, be reproducible, use technically and statistically sound methodology, and present the outcomes in an informative manner. The work is divided into two parts, a report describing the relevant background and technical processes (an R Markdown produced pdf) and an interactive layer (either Shiny or an R Package).</p>
+<p>The purpose of this course is to explore the technical aspects required to design and complete an end-to-end data science project, similar to those that students are likely to encounter in a professional environment. This course will require students to:</p>
 <ul>
 <li>Gather data through scraping and the use of APIs.</li>
-<li>Design supporting architecture to allow the data to gather over
-time.</li>
-<li>Develop machine learning models describing the statistical
-relationship between variables within the dataset.</li>
-<li>Test the outcomes with new data to examine machine learning
-prediction veracity.</li>
-<li>Present the outcomes of a highly specific concept in a meaningful
-manner to a non-technical audience.</li>
+<li>Design supporting architecture to allow the data to gather over time.</li>
+<li>Develop machine learning models describing the statistical relationship between variables within the dataset.</li>
+<li>Test the outcomes with new data to examine machine learning prediction veracity.</li>
+<li>Present the outcomes of a highly specific concept in a meaningful manner to a non-technical audience.</li>
 </ul>
-<p>Essentially this course provides students with the freedom to conduct
-original research on a topic of interest to them within certain
-guidelines.</p>
+<p>Essentially this course provides students with the freedom to conduct original research on a topic of interest to them within certain guidelines.</p>
 <h3 id="faq">FAQ</h3>
 <ul>
-<li>Can I audit this course? No. It’s a reading course so the concept of
-auditing doesn’t make sense.</li>
-<li>Can I attend lectures? No. There are no lectures. Students update
-their GitHub repo on a weekly basis and we meet the next day to talk
-through things.</li>
+<li>Can I audit this course? No. It’s a reading course so the concept of auditing doesn’t make sense.</li>
+<li>Can I attend lectures? No. There are no lectures. Students update their GitHub repo on a weekly basis and we meet the next day to talk through things.</li>
 </ul>
 <h3 id="course-learning-objectives">Course learning objectives</h3>
 <ul>
-<li>Collect real-world data and design systems to allow for the dataset
-to continuously grow.</li>
+<li>Collect real-world data and design systems to allow for the dataset to continuously grow.</li>
 <li>Refine R skills.</li>
-<li>Clean, manage, analyze, and make predictions with data towards the
-project goal.</li>
-<li>Explore and implement modelling options and explore relevant
-assumptions.</li>
+<li>Clean, manage, analyze, and make predictions with data towards the project goal.</li>
+<li>Explore and implement modelling options and explore relevant assumptions.</li>
 <li>Explore relationships within data</li>
-<li>Design an interactive Shiny app or R Package for presentation of the
-results and to allow the model to be deployed and used by others.</li>
-<li>Have a high-quality project to show the culmination of
-learning.</li>
+<li>Design an interactive Shiny app or R Package for presentation of the results and to allow the model to be deployed and used by others.</li>
+<li>Have a high-quality project to show the culmination of learning.</li>
 </ul>
 <h3 id="pre-requisites">Pre-requisites</h3>
-<p>You need to have taken ‘The Course’ or equivalent, such that you’ve
-taken courses such that you’ve covered everything through to (but not
-including) ‘Enrichment’ of <em>Telling Stories with Data</em>.</p>
+<p>You need to have taken ‘The Course’ or equivalent, such that you’ve taken courses such that you’ve covered everything through to (but not including) ‘Enrichment’ of <em>Telling Stories with Data</em>.</p>
 <h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to the following who helped develop this course: Thomas
-William Rosenthal.</p>
+<p>Thanks to the following who helped develop this course: Thomas William Rosenthal.</p>
 <h2 id="content">Content</h2>
 <h3 id="week-1">Week 1</h3>
 <p>Tasks:</p>
@@ -2059,22 +2027,11 @@ William Rosenthal.</p>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>King, Gary, ‘How to Write a Publishable Paper as a Class Project’,
-<a href="https://gking.harvard.edu/papers"
-class="uri">https://gking.harvard.edu/papers</a>.</li>
-<li>Shapiro, Jesse, ‘Four Steps to an Applied Micro Paper’, <a
-href="https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf"
-class="uri">https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf</a>.</li>
-<li>Riederer, Emily, ‘RMarkdown Driven Development (RmdDD)’, <a
-href="https://emilyriederer.netlify.com/post/rmarkdown-driven-development/"
-class="uri">https://emilyriederer.netlify.com/post/rmarkdown-driven-development/</a>.</li>
-<li>Miyakawa, Tsuyoshi, ‘No raw data, no science: another possible
-source of the reproducibility crisis’, <em>Molecular Brain</em>, <a
-href="https://doi.org/10.1186/s13041-020-0552-2"
-class="uri">https://doi.org/10.1186/s13041-020-0552-2</a>.</li>
-<li>Bryan, Jenny, <em>Happy Git and GitHub for the useR</em>, <a
-href="https://happygitwithr.com"
-class="uri">https://happygitwithr.com</a>.</li>
+<li>King, Gary, ‘How to Write a Publishable Paper as a Class Project’, <a href="https://gking.harvard.edu/papers" class="uri">https://gking.harvard.edu/papers</a>.</li>
+<li>Shapiro, Jesse, ‘Four Steps to an Applied Micro Paper’, <a href="https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf" class="uri">https://www.brown.edu/Research/Shapiro/pdfs/foursteps.pdf</a>.</li>
+<li>Riederer, Emily, ‘RMarkdown Driven Development (RmdDD)’, <a href="https://emilyriederer.netlify.com/post/rmarkdown-driven-development/" class="uri">https://emilyriederer.netlify.com/post/rmarkdown-driven-development/</a>.</li>
+<li>Miyakawa, Tsuyoshi, ‘No raw data, no science: another possible source of the reproducibility crisis’, <em>Molecular Brain</em>, <a href="https://doi.org/10.1186/s13041-020-0552-2" class="uri">https://doi.org/10.1186/s13041-020-0552-2</a>.</li>
+<li>Bryan, Jenny, <em>Happy Git and GitHub for the useR</em>, <a href="https://happygitwithr.com" class="uri">https://happygitwithr.com</a>.</li>
 </ul>
 <h3 id="week-2">Week 2</h3>
 <p>Tasks:</p>
@@ -2082,16 +2039,12 @@ class="uri">https://happygitwithr.com</a>.</li>
 <li>Continue literature review.</li>
 <li>Identify relevant data.</li>
 <li>Make first Shiny app.</li>
-<li>Setup GitHub Repo, with appropriate folder structure and
-README.</li>
+<li>Setup GitHub Repo, with appropriate folder structure and README.</li>
 </ul>
 <p>Readings:</p>
 <ul>
 <li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters 2-5.</li>
-<li>Jesse Shapiro, ‘Code and Data for the Social Sciences: A
-Practitioner’s Guide’, <a
-href="https://web.stanford.edu/~gentzkow/research/CodeAndData.xhtml"
-class="uri">https://web.stanford.edu/~gentzkow/research/CodeAndData.xhtml</a></li>
+<li>Jesse Shapiro, ‘Code and Data for the Social Sciences: A Practitioner’s Guide’, <a href="https://web.stanford.edu/~gentzkow/research/CodeAndData.xhtml" class="uri">https://web.stanford.edu/~gentzkow/research/CodeAndData.xhtml</a></li>
 </ul>
 <h3 id="week-3">Week 3</h3>
 <p>Tasks:</p>
@@ -2106,9 +2059,7 @@ class="uri">https://web.stanford.edu/~gentzkow/research/CodeAndData.xhtml</a></l
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Couch, Simon, ‘Running R Scripts on a Schedule with GitHub Actions’,
-<a href="https://blog.simonpcouch.com/blog/r-github-actions-commit/"
-class="uri">https://blog.simonpcouch.com/blog/r-github-actions-commit/</a>.</li>
+<li>Couch, Simon, ‘Running R Scripts on a Schedule with GitHub Actions’, <a href="https://blog.simonpcouch.com/blog/r-github-actions-commit/" class="uri">https://blog.simonpcouch.com/blog/r-github-actions-commit/</a>.</li>
 <li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters 2-5</li>
 </ul>
 <h3 id="week-4">Week 4</h3>
@@ -2129,12 +2080,8 @@ class="uri">https://blog.simonpcouch.com/blog/r-github-actions-commit/</a>.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters 8-9, <a
-href="https://mastering-shiny.org/action-feedback.html"
-class="uri">https://mastering-shiny.org/action-feedback.html</a>.</li>
-<li>Wickham, Hadley and Jenny Bryan, <em>R Packages</em>, Chapter 2, <a
-href="https://r-pkgs.org/whole-game.html"
-class="uri">https://r-pkgs.org/whole-game.html</a>.</li>
+<li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters 8-9, <a href="https://mastering-shiny.org/action-feedback.html" class="uri">https://mastering-shiny.org/action-feedback.html</a>.</li>
+<li>Wickham, Hadley and Jenny Bryan, <em>R Packages</em>, Chapter 2, <a href="https://r-pkgs.org/whole-game.html" class="uri">https://r-pkgs.org/whole-game.html</a>.</li>
 </ul>
 <h3 id="week-6">Week 6</h3>
 <p>Tasks:</p>
@@ -2152,67 +2099,49 @@ class="uri">https://r-pkgs.org/whole-game.html</a>.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Kuhn, Max, and Julia Silge, 2021, <em>Tidy Modeling with R</em>,
-Chapters 1-5.</li>
-<li>Wickham, Hadley, and Garrett Grolemund, 2017, <em>R for Data
-Science</em>, Chapters 2-8.</li>
-<li>Gareth M. James, Daniela Witten, Trevor Hastie, and Robert
-Tibshirani, 2021, <em>An Introduction to Statistical Learning</em>,
-Second Edition, Chapters 1-4.</li>
+<li>Kuhn, Max, and Julia Silge, 2021, <em>Tidy Modeling with R</em>, Chapters 1-5.</li>
+<li>Wickham, Hadley, and Garrett Grolemund, 2017, <em>R for Data Science</em>, Chapters 2-8.</li>
+<li>Gareth M. James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, 2021, <em>An Introduction to Statistical Learning</em>, Second Edition, Chapters 1-4.</li>
 </ul>
 <h3 id="week-7">Week 7</h3>
 <p>Tasks:</p>
 <ul>
-<li>Build model with <code>tidymodels</code> or alternative
-approach.</li>
+<li>Build model with <code>tidymodels</code> or alternative approach.</li>
 <li>Build a second R package that is more involved.</li>
-<li>Continue developing statistics skills, including Bayesian
-methods.</li>
+<li>Continue developing statistics skills, including Bayesian methods.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>,
-Chapters 6-7.</li>
-<li>Wickham, Hadley, and Garrett Grolemund, 2017, <em>R for Data
-Science</em>, Chapters 22-25.</li>
-<li>Gareth M. James, Daniela Witten, Trevor Hastie, and Robert
-Tibshirani, 2021, <em>An Introduction to Statistical Learning</em>,
-Second Edition, Chapters 5-7.</li>
-<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second
-edition, Chapters 1-4.</li>
+<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>, Chapters 6-7.</li>
+<li>Wickham, Hadley, and Garrett Grolemund, 2017, <em>R for Data Science</em>, Chapters 22-25.</li>
+<li>Gareth M. James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, 2021, <em>An Introduction to Statistical Learning</em>, Second Edition, Chapters 5-7.</li>
+<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second edition, Chapters 1-4.</li>
 </ul>
 <h3 id="week-8">Week 8</h3>
 <p>Tasks:</p>
 <ul>
 <li>Continue machine learning development<br />
 </li>
-<li>Explore, script, and compare different machine learning algorithm
-performance</li>
+<li>Explore, script, and compare different machine learning algorithm performance</li>
 <li>Finalize model development and evaluate results.</li>
 <li>Build third Shiny app.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>,
-Chapters 8-9.</li>
-<li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters
-10-12.</li>
-<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second
-edition, Chapters 5-6.</li>
+<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>, Chapters 8-9.</li>
+<li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters 10-12.</li>
+<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second edition, Chapters 5-6.</li>
 </ul>
 <h3 id="week-9">Week 9</h3>
 <p>Tasks:</p>
 <ul>
-<li>Continue improving model and pipeline, especially model evaluation
-and refinement with data augmentation.</li>
+<li>Continue improving model and pipeline, especially model evaluation and refinement with data augmentation.</li>
 <li>Continue developing statistics skills.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>,
-Chapters 10-12.</li>
-<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second
-edition, Chapters 7-8.</li>
+<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>, Chapters 10-12.</li>
+<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second edition, Chapters 7-8.</li>
 </ul>
 <h3 id="week-10">Week 10</h3>
 <p>Tasks:</p>
@@ -2222,10 +2151,8 @@ edition, Chapters 7-8.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>,
-Chapters 13-14.</li>
-<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second
-edition, Chapters 11-13.</li>
+<li>Kuhn, Max and Julia Silge, 2021, <em>Tidy Modeling with R</em>, Chapters 13-14.</li>
+<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second edition, Chapters 11-13.</li>
 </ul>
 <h3 id="week-11">Week 11</h3>
 <p>Tasks:</p>
@@ -2235,10 +2162,8 @@ edition, Chapters 11-13.</li>
 </ul>
 <p>Readings:</p>
 <ul>
-<li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters
-13-16.</li>
-<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second
-edition, Chapters 14-16.</li>
+<li>Wickham, Hadley, 2020, <em>Mastering Shiny</em>, Chapters 13-16.</li>
+<li>McElreath, Richard, 2020, <em>Statistical Rethinking</em>, Second edition, Chapters 14-16.</li>
 </ul>
 <h3 id="week-12">Week 12</h3>
 <p>Finalise all apsects.</p>
@@ -2248,41 +2173,26 @@ edition, Chapters 14-16.</li>
 </ul>
 <h2 id="assessment">Assessment</h2>
 <h3 id="learning-diary">Learning diary</h3>
-<p>Task: Each week you will read relevant papers and books, engaging
-with them by writing notes and completing exercises. You will use GitHub
-to manage these notes and exercises and email a link to me at the end of
-each week. Additionally, reflect on what went well, what has room for
-improvement, and consider ‘lessons learned’ during the week.</p>
-<p>Date: At the end of the week please send me a link to the GitHub repo
-that contains this diary.</p>
+<p>Task: Each week you will read relevant papers and books, engaging with them by writing notes and completing exercises. You will use GitHub to manage these notes and exercises and email a link to me at the end of each week. Additionally, reflect on what went well, what has room for improvement, and consider ‘lessons learned’ during the week.</p>
+<p>Date: At the end of the week please send me a link to the GitHub repo that contains this diary.</p>
 <p>Weight: 15 per cent.</p>
 <h3 id="presentation-i">Presentation I</h3>
-<p>Task: 10-15-minute presentation on what you’ve learned about the
-literature and plans.</p>
-<p>Date: Roughly end of Week 4 (exact date determined by lab
-presentation cycle— the last Friday of the month).</p>
+<p>Task: 10-15-minute presentation on what you’ve learned about the literature and plans.</p>
+<p>Date: Roughly end of Week 4 (exact date determined by lab presentation cycle— the last Friday of the month).</p>
 <p>Weight: 15 per cent.</p>
 <h3 id="presentation-ii">Presentation II</h3>
-<p>Task: 10-15-minute presentation on what you’ve learned about the
-data.</p>
-<p>Date: Roughly end of Week 8 (exact date determined by lab
-presentation cycle— the last Friday of the month).</p>
+<p>Task: 10-15-minute presentation on what you’ve learned about the data.</p>
+<p>Date: Roughly end of Week 8 (exact date determined by lab presentation cycle— the last Friday of the month).</p>
 <p>Weight: 15 per cent.</p>
 <h3 id="presentation-iii">Presentation III</h3>
-<p>Task: 10-15-minute presentation on what you’ve learned about the
-model.</p>
-<p>Date: Roughly end of Week 12 (exact date determined by lab
-presentation cycle— the last Friday of the month).</p>
+<p>Task: 10-15-minute presentation on what you’ve learned about the model.</p>
+<p>Date: Roughly end of Week 12 (exact date determined by lab presentation cycle— the last Friday of the month).</p>
 <p>Weight: 15 per cent.</p>
 <h3 id="final-paper">Final Paper</h3>
-<p>Task: A fully reproducible paper and associated Shiny app or R
-Package. Toward the mid-term break we will have a meeting to discuss the
-topic of your final paper. It will be due on the last day of the exam
-period. This will be marked by me and reviewed by another professor.</p>
+<p>Task: A fully reproducible paper and associated Shiny app or R Package. Toward the mid-term break we will have a meeting to discuss the topic of your final paper. It will be due on the last day of the exam period. This will be marked by me and reviewed by another professor.</p>
 <p>Date: Second last day of exam period.</p>
 <p>Weight: 40 per cent.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

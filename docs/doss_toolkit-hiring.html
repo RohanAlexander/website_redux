@@ -528,6 +528,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1600,15 +1601,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1807,7 +1814,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1937,57 +1944,21 @@ Other
 
 
 <div class="d-article">
-<p><strong>U of T students - please search the job id - 171201 Research
-Assistant - under oncampus jobs and associated <a
-href="pdfs/RA-DoSS-toolkit_Posting_14OCT2020.pdf">job posting</a>. For
-their support of this call we thank: the PIE Fund, and especially
-Bethany White and Radu Craiu from the Department of Statistical Sciences
-(DoSS).</strong></p>
+<p><strong>U of T students - please search the job id - 171201 Research Assistant - under oncampus jobs and associated <a href="pdfs/RA-DoSS-toolkit_Posting_14OCT2020.pdf">job posting</a>. For their support of this call we thank: the PIE Fund, and especially Bethany White and Radu Craiu from the Department of Statistical Sciences (DoSS).</strong></p>
 <h1 id="call-for-applications">Call for applications</h1>
 <p><em>10 October 2020</em></p>
-<p>Are you an undergraduate or graduate student at the Univeristy of
-Toronto? Would you like to work with Sam-Jo Caetano and Rohan Alexander
-to help put together a toolkit for applied statistics? It’s focused on R
-essentials such as ggplot, tidyverse, GitHub, and all their friends.</p>
-<p>If so, please send an email to <a
-href="mailto:rohan.alexander@utoronto.ca"
-class="email">rohan.alexander@utoronto.ca</a> with the subject line
-‘DoSS toolkit application’. Please attach one PDF that contains both a
-cover letter and a CV. As part of your cover letter, please include a
-link to a GitHub repo showing off some code that you’ve written, or if
-you don’t have that, a blogpost you’ve written that is of a
-statistical/quantitative/technical nature.</p>
-<p>Applications will be reviewed on a rolling basis, but the final
-deadline to apply is the end of Wednesday, 21 October 2020.</p>
+<p>Are you an undergraduate or graduate student at the Univeristy of Toronto? Would you like to work with Sam-Jo Caetano and Rohan Alexander to help put together a toolkit for applied statistics? It’s focused on R essentials such as ggplot, tidyverse, GitHub, and all their friends.</p>
+<p>If so, please send an email to <a href="mailto:rohan.alexander@utoronto.ca" class="email">rohan.alexander@utoronto.ca</a> with the subject line ‘DoSS toolkit application’. Please attach one PDF that contains both a cover letter and a CV. As part of your cover letter, please include a link to a GitHub repo showing off some code that you’ve written, or if you don’t have that, a blogpost you’ve written that is of a statistical/quantitative/technical nature.</p>
+<p>Applications will be reviewed on a rolling basis, but the final deadline to apply is the end of Wednesday, 21 October 2020.</p>
 <p>The normal RA hourly rate and conditions will apply.</p>
-<p>Applications from people that have been under-represented in
-statistical sciences are particularly encouraged.</p>
-<p>By way of background, we are looking to employ a small team of
-undergraduate and graduate students to help build a set of instructional
-material about R that will be used across DoSS starting in Winter (and
-hopefully soon after that, the broader university and community). This
-will build on work already done by a bunch of DoSS folks including
-Bethany White and Nathan Taback, and of course build on and complement
-the first-year courses.</p>
-<p>You will help put together written material, videos, and assessment.
-You will be credited as a contributor to what will be a public-facing
-resource. You will have a chance to develop your R, teaching, and
-communication skills, as well as gain experience working in a small
-team.</p>
-<p>We expect you to have some familiarity with R (i.e. have used it for
-a course or two), but you do NOT need to be an R expert. Indeed some
-successful applications may be in their first term with R.</p>
-<p>The majority of the work will occur in early/mid November, but your
-appointment will run from November through to January to help deal with
-any lingering minor issues. The total time commitment would vary from 20
-to 60 hours, depending on your circumstances and availability. The work
-is flexible and can be done at a time that suits you. Given we are in a
-pandemic, the work will be conducted remotely. Most day-to-day
-management will occur through Slack and GitHub.</p>
+<p>Applications from people that have been under-represented in statistical sciences are particularly encouraged.</p>
+<p>By way of background, we are looking to employ a small team of undergraduate and graduate students to help build a set of instructional material about R that will be used across DoSS starting in Winter (and hopefully soon after that, the broader university and community). This will build on work already done by a bunch of DoSS folks including Bethany White and Nathan Taback, and of course build on and complement the first-year courses.</p>
+<p>You will help put together written material, videos, and assessment. You will be credited as a contributor to what will be a public-facing resource. You will have a chance to develop your R, teaching, and communication skills, as well as gain experience working in a small team.</p>
+<p>We expect you to have some familiarity with R (i.e. have used it for a course or two), but you do NOT need to be an R expert. Indeed some successful applications may be in their first term with R.</p>
+<p>The majority of the work will occur in early/mid November, but your appointment will run from November through to January to help deal with any lingering minor issues. The total time commitment would vary from 20 to 60 hours, depending on your circumstances and availability. The work is flexible and can be done at a time that suits you. Given we are in a pandemic, the work will be conducted remotely. Most day-to-day management will occur through Slack and GitHub.</p>
 <p>We hope you apply!</p>
 <p>Rohan and Sam</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

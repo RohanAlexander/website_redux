@@ -528,6 +528,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1600,15 +1601,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -1807,7 +1814,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -1937,78 +1944,17 @@ Other
 
 
 <div class="d-article">
-<p>Rohan Alexander is an assistant professor at the University of
-Toronto, Canada, jointly appointed in <a
-href="https://ischool.utoronto.ca/profile/rohan-alexander/">Information</a>
-and <a
-href="https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander">Statistical
-Sciences</a>. He is also a faculty affiliate at the <a
-href="https://sr-institute.utoronto.ca/">Schwartz Reisman Institute for
-Technology and Society</a>. He holds a PhD in Economics from the
-Australian National University where he was supervised by <a
-href="https://sites.google.com/view/john-tang/home">John Tang</a>
-(chair), <a
-href="https://researchers.anu.edu.au/researchers/mariotti-m">Martine
-Mariotti</a>, <a
-href="https://researchers.anu.edu.au/researchers/hatton-tj">Tim
-Hatton</a>, and <a href="https://sites.google.com/site/zachaward/">Zach
-Ward</a>.</p>
-<p>He is interested in using statistical models to try to understand the
-world. And particularly how we get the data that go into those models;
-whose data are systematically missing; how we clean, prepare, and tidy
-data before they are modelled; the effects of all this on the
-implications of our models; and how we can reproducibly share the
-totality of this process. This research interest has a few different
-applications. One of those is natural language processing (NLP), where
-he is interested in understanding the effects of bringing together
-large, biased datasets and enormous models, and how this can be
-improved. Another is Multilevel Regression with Post-stratification
-(MRP), where he examines the effects of trying to establish a
-correspondence between two datasets.</p>
-<p>He tries to develop students in his <a
-href="https://rohanalexander.com/group.html">research group</a> that are
-skilled not only in using statistical methods across various
-disciplines, but also appreciate their limitations, and think deeply
-about their broader contexts of their work.</p>
-<p>Examples of his recent <a
-href="https://rohanalexander.com/academic.html">academic work</a>
-include: <a
-href="https://rohanalexander.github.io/heapsofpapers/">‘heapsofpapers’</a>,
-<a href="https://arxiv.org/abs/2103.12407">‘Detecting Hate Speech with
-GPT-3’</a>, and <a href="https://arxiv.org/abs/2101.05225">‘On
-consistency scores in text data with an implementation in R’</a>.</p>
-<p>His teaching notes are available: <a
-href="https://www.tellingstorieswithdata.com/">Telling Stories With
-Data</a>. He enjoys <a
-href="https://rohanalexander.com/teaching.html">teaching</a> and aims to
-help students from a wide range of backgrounds learn how to use data to
-tell convincing stories. In Information he has taught <a
-href="https://rohanalexander.com/inf2178.html">‘Experimental Design’</a>
-and lead reading courses in <a
-href="https://rohanalexander.com/reading_course-ethics.html">‘Ethics and
-Data Science’</a>, ‘Information Management in Interdisciplinary
-Research’ and ‘Reproducible Data Science’. In Statistical Sciences he
-has taught <a href="https://rohanalexander.com/sta304.html">‘Surveys,
-Sampling, and Observational Data’</a> and lead a reading course in <a
-href="https://rohanalexander.com/reading_course-nlp.html">‘Natural
-Language Processing’</a>. He is a <a
-href="https://education.rstudio.com/trainers">RStudio Certified
-Tidyverse Trainer</a>.</p>
-<p>He co-organizes the weekly <a
-href="https://rohanalexander.com/toronto_data_workshop.html">Toronto
-Data Workshop</a>, which is more fun than it sounds. All welcome! Sign
-up <a href="https://forms.gle/sXbEixoa1iJR4Q7A8">here</a>.</p>
+<p>Rohan Alexander is an assistant professor at the University of Toronto, Canada, jointly appointed in <a href="https://ischool.utoronto.ca/profile/rohan-alexander/">Information</a> and <a href="https://www.statistics.utoronto.ca/people/directories/all-faculty/rohan-alexander">Statistical Sciences</a>. He is also a faculty affiliate at the <a href="https://sr-institute.utoronto.ca/">Schwartz Reisman Institute for Technology and Society</a>. He holds a PhD in Economics from the Australian National University where he was supervised by <a href="https://sites.google.com/view/john-tang/home">John Tang</a> (chair), <a href="https://researchers.anu.edu.au/researchers/mariotti-m">Martine Mariotti</a>, <a href="https://researchers.anu.edu.au/researchers/hatton-tj">Tim Hatton</a>, and <a href="https://sites.google.com/site/zachaward/">Zach Ward</a>.</p>
+<p>He is interested in using statistical models to try to understand the world. And particularly how we get the data that go into those models; whose data are systematically missing; how we clean, prepare, and tidy data before they are modelled; the effects of all this on the implications of our models; and how we can reproducibly share the totality of this process. This research interest has a few different applications. One of those is natural language processing (NLP), where he is interested in understanding the effects of bringing together large, biased datasets and enormous models, and how this can be improved. Another is Multilevel Regression with Post-stratification (MRP), where he examines the effects of trying to establish a correspondence between two datasets.</p>
+<p>He tries to develop students in his <a href="https://rohanalexander.com/group.html">research group</a> that are skilled not only in using statistical methods across various disciplines, but also appreciate their limitations, and think deeply about their broader contexts of their work.</p>
+<p>Examples of his recent <a href="https://rohanalexander.com/academic.html">academic work</a> include: <a href="https://rohanalexander.github.io/heapsofpapers/">‘heapsofpapers’</a>, <a href="https://arxiv.org/abs/2103.12407">‘Detecting Hate Speech with GPT-3’</a>, and <a href="https://arxiv.org/abs/2101.05225">‘On consistency scores in text data with an implementation in R’</a>.</p>
+<p>His teaching notes are available: <a href="https://www.tellingstorieswithdata.com/">Telling Stories With Data</a>. He enjoys <a href="https://rohanalexander.com/teaching.html">teaching</a> and aims to help students from a wide range of backgrounds learn how to use data to tell convincing stories. In Information he has taught <a href="https://rohanalexander.com/inf2178.html">‘Experimental Design’</a> and lead reading courses in <a href="https://rohanalexander.com/reading_course-ethics.html">‘Ethics and Data Science’</a>, ‘Information Management in Interdisciplinary Research’ and ‘Reproducible Data Science’. In Statistical Sciences he has taught <a href="https://rohanalexander.com/sta304.html">‘Surveys, Sampling, and Observational Data’</a> and lead a reading course in <a href="https://rohanalexander.com/reading_course-nlp.html">‘Natural Language Processing’</a>. He is a <a href="https://education.rstudio.com/trainers">RStudio Certified Tidyverse Trainer</a>.</p>
+<p>He co-organizes the weekly <a href="https://rohanalexander.com/toronto_data_workshop.html">Toronto Data Workshop</a>, which is more fun than it sounds. All welcome! Sign up <a href="https://forms.gle/sXbEixoa1iJR4Q7A8">here</a>.</p>
 <!-- I am organizing a conference on reproducibility in applied statistics that will be held via Zoom on Thursday and Friday 25-26 February 2021. You can learn more [here](https://rohanalexander.com/reproducibility.html).  -->
 <!-- With [Lauren Kennedy](https://jazzystats.com/) at Monash University, I co-organize a weekly MRP Reading Group. Please [get in touch](mailto:rohan.alexander@utoronto.ca) if you'd like to attend. -->
 <!-- Based on my academic research I run a political poll in Australia: [Petit Poll](https://petitpoll.com). This combines non-representative polling data that we gather ourselves with a hierarchical Bayesian model to cheaply deliver meaningful Australian political polling. -->
-<p>He is married to <a href="https://www.monicaalexander.com">Monica
-Alexander</a> and they have a 2-year-old. He probably spends too much
-money on books, and certainly too much time at libraries (in a pre-COVID
-world). You can see some of the books that he recommends <a
-href="https://rohanalexander.com/bookshelf.html">here</a>. If you have
-any book recommendations of your own, then he’d love to hear them.</p>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>He is married to <a href="https://www.monicaalexander.com">Monica Alexander</a> and they have a 2-year-old. He probably spends too much money on books, and certainly too much time at libraries (in a pre-COVID world). You can see some of the books that he recommends <a href="https://rohanalexander.com/bookshelf.html">here</a>. If you have any book recommendations of your own, then he’d love to hear them.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
