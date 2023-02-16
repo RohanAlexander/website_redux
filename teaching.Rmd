@@ -10,7 +10,7 @@ output:
 
 # Course material 
 
-I have designed and taught the following courses:
+I have designed and taught:
 
 - [Worlds Become Data](worlds.html)
 - [Surveys, Sampling and Observational Data](sta304.html)
